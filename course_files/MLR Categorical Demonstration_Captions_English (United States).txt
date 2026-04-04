@@ -1,0 +1,1625 @@
+1
+00:00:01,131 --> 00:00:07,101
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Students, let's jump into multiple linear regression when there are categorical variables present in the question.
+
+2
+00:00:07,371 --> 00:00:14,181
+Here's a question how do researcher identity, autonomy, competence, and relatedness predict method's mastery?
+
+3
+00:00:14,451 --> 00:00:21,321
+You'll recall from our multiple linear regression demonstration that autonomy, competence and relatedness were the variables.
+
+4
+00:00:21,321 --> 00:00:24,470
+These are continuous but researcher identity.
+
+5
+00:00:24,471 --> 00:00:28,941
+That's categorical. Let's go look at our data at the variables.
+
+6
+00:00:29,331 --> 00:00:32,481
+We've got autonomy competence and relatedness.
+
+7
+00:00:32,901 --> 00:00:36,440
+But researcher identity is here.
+
+8
+00:00:36,441 --> 00:00:44,721
+Number nine um and it is indicated as a nominal variable um in the string form.
+
+9
+00:00:44,721 --> 00:00:47,450
+So it's text the primary researcher identity.
+
+10
+00:00:47,451 --> 00:00:56,421
+If we toggle over there then we'll see uh that there's educational researcher practitioner scholar clinical educator.
+
+11
+00:00:56,421 --> 00:01:03,740
+And I think that's probably it. Let's do a quick, um, what would we call it, frequency table on those things.
+
+12
+00:01:03,741 --> 00:01:05,881
+Just to, um, primary researcher identity, is that correct?
+
+13
+00:01:06,186 --> 00:01:11,255
+Primary researcher identity. And we'll just press okay and get our frequency table.
+
+14
+00:01:11,256 --> 00:01:20,706
+So we know all three of those are there. All right. Good to go. Um, so that is why this question qualifies for this this question.
+
+15
+00:01:20,706 --> 00:01:24,966
+That's why this variable qualifies for this question. Because this is the categorical variable.
+
+16
+00:01:25,236 --> 00:01:32,646
+We could also have phrased the question like this is mastery associated with researcher identity controlling for the um,
+
+17
+00:01:32,826 --> 00:01:36,666
+PSD, uh, the student development theory variables.
+
+18
+00:01:36,966 --> 00:01:42,456
+Um, and that's the same thing because PSD might be uh,
+
+19
+00:01:42,456 --> 00:01:53,376
+like you might have established elsewhere or you might say here operationalized by autonomy, competence and relatedness.
+
+20
+00:01:53,676 --> 00:01:58,116
+Right. So um, again, the wording isn't something to get hung up on.
+
+21
+00:01:58,116 --> 00:02:01,746
+You have to work over and over and over again until you find the right wording.
+
+22
+00:02:01,866 --> 00:02:06,185
+But these are kind of two different questions, even though they're all the same variables here.
+
+23
+00:02:06,186 --> 00:02:12,006
+I'm framing my results very much so, kind of evenly amongst the predictors.
+
+24
+00:02:12,216 --> 00:02:18,366
+Whereas in the second question I'm framing my results very much so on researcher identity.
+
+25
+00:02:18,666 --> 00:02:22,626
+These things I'm just controlling for these things. We'll talk about them.
+
+26
+00:02:22,626 --> 00:02:24,336
+But I'm just going to control for them.
+
+27
+00:02:24,606 --> 00:02:33,636
+And now that we already know the autonomy, competence and relatedness do predict, it's probably this is the better of the two phrasings.
+
+28
+00:02:34,176 --> 00:02:40,086
+Again both of them are fine. So let's move on. Same question, same variables, different framing.
+
+29
+00:02:40,206 --> 00:02:45,456
+This is where that, uh, scholar practitioner stuff comes in. We've got our, uh, null, which is nothing.
+
+30
+00:02:45,456 --> 00:02:47,736
+Nothing to see here. And we've got our alternative.
+
+31
+00:02:47,976 --> 00:02:53,706
+Uh, researcher identity significantly predicts higher mastery scores among, um, education scholars.
+
+32
+00:02:53,706 --> 00:02:58,476
+I probably didn't know what the what the what to call it, so we'll say education researcher.
+
+33
+00:02:58,536 --> 00:03:00,360
+Okay, so I got it close. All right.
+
+34
+00:03:00,676 --> 00:03:04,906
+We could have other, uh uh uh uh, alternatives like h sub one.
+
+35
+00:03:05,206 --> 00:03:09,496
+H sub, A1, A2, A3, etc. if we wanted to predict other things.
+
+36
+00:03:09,766 --> 00:03:11,446
+I'm just keeping it simple for now.
+
+37
+00:03:21,493 --> 00:03:28,333
+The, um, whether there are not categorical variables, the only difference is, is we got to remember to prepare.
+
+38
+00:03:28,363 --> 00:03:31,513
+Oops, I clicked the wrong thing. Prepare our dummy variables.
+
+39
+00:03:31,663 --> 00:03:38,653
+So once we've prepped our data set, literally the steps are the same and we might interpret them slightly differently.
+
+40
+00:03:38,653 --> 00:03:42,853
+But there we go. We now need to probably prep our data set.
+
+41
+00:03:44,263 --> 00:03:51,553
+So our, um, variables are. Uh, education researcher practitioner, scholar and clinician.
+
+42
+00:03:52,093 --> 00:04:00,223
+Let's slow that down a little bit. So remember when we're dummy coding it's um k minus one.
+
+43
+00:04:00,643 --> 00:04:05,413
+So k being the number of groups um minus one.
+
+44
+00:04:05,563 --> 00:04:09,823
+And that equals two. So we're going to need two dummy variables.
+
+45
+00:04:10,153 --> 00:04:15,792
+And if I were you I would do this on a word document or a piece of paper or something like that.
+
+46
+00:04:15,793 --> 00:04:19,273
+You always want to sketch it out. Um, I think that's more than enough.
+
+47
+00:04:19,543 --> 00:04:23,113
+All right. So, uh, we had what did we have?
+
+48
+00:04:23,593 --> 00:04:26,893
+Um, educator something.
+
+49
+00:04:26,893 --> 00:04:31,992
+Practitioner write something. And I think clinical something.
+
+50
+00:04:31,993 --> 00:04:32,398
+Right? Man, I can't type and talk, can't I? So we'll just double check that.
+
+51
+00:04:32,435 --> 00:04:43,305
+Now, in our hypothesis, we've said. Um, you know, the, uh, education researcher ones like this seems to be the most important.
+
+52
+00:04:43,515 --> 00:04:48,825
+So maybe we can make that our reference variable. So we actually don't need this in the table at all.
+
+53
+00:04:49,215 --> 00:04:55,005
+Um, but if we did have it in the table, the reference variable is always going to get a zero.
+
+54
+00:04:55,335 --> 00:04:59,145
+So then our first dummy variable will make for practitioners.
+
+55
+00:04:59,355 --> 00:05:07,455
+We'll give that a one. And then that means diagonally down to the side we can make our second dummy variable for uh clinical.
+
+56
+00:05:07,605 --> 00:05:12,855
+So D1 is going to be uh practitioners versus educators.
+
+57
+00:05:13,245 --> 00:05:17,715
+And D2 is going to be clinical versus educators.
+
+58
+00:05:17,955 --> 00:05:22,331
+Because remember the reference group is always going to be uh, the zero, um, where it's it's not included at all.
+
+59
+00:05:25,348 --> 00:05:32,848
+Um, we know we have to create two dummy variables so that we can control for these three identities.
+
+60
+00:05:33,058 --> 00:05:38,188
+And we're always going to compare everybody to the educator. We're never comparing practitioner to clinical.
+
+61
+00:05:38,578 --> 00:05:45,208
+Uh, we're only comparing the two here educated or practical and then also clinical to educator.
+
+62
+00:05:49,323 --> 00:05:54,273
+We go to transform and then we say recode into different variable.
+
+63
+00:05:56,073 --> 00:05:59,462
+We ask, what are you trying to code exactly?
+
+64
+00:05:59,463 --> 00:06:03,213
+And we tell it where we're trying to code. Primary research variable.
+
+65
+00:06:03,483 --> 00:06:06,573
+It's already called the researcher identity orientation.
+
+66
+00:06:06,903 --> 00:06:10,473
+Um, so now let's, uh, name it.
+
+67
+00:06:10,803 --> 00:06:17,053
+Um. What do we want to, uh, call it, where we're making our dummy variables.
+
+68
+00:06:17,533 --> 00:06:23,623
+Um, so we'll say, uh, practitioner identity.
+
+69
+00:06:24,933 --> 00:06:30,333
+And we can make that our label as well and click change and then go to old and new values.
+
+70
+00:06:30,363 --> 00:06:39,153
+This is where we define what it needs to be. So if the value is whatever it is we'll type that in here.
+
+71
+00:06:39,243 --> 00:06:46,163
+Make it a new value. So I'm going to do this two different ways. And I'm going to um you know maybe go a long way first.
+
+72
+00:06:46,173 --> 00:06:57,993
+All right. So if the edge if the value is education underscore researcher then give it a value of zero okay.
+
+73
+00:06:58,473 --> 00:07:03,388
+And if the value is practitioner underscore scholar I need to make sure I spelt that right because that will mess it up.
+
+74
+00:07:06,444 --> 00:07:10,134
+Because remember this is our first dummy variable where all the practitioners are.
+
+75
+00:07:10,644 --> 00:07:20,274
+And then the clinical educators that clinician underscore educator is going to get also a zero.
+
+76
+00:07:20,964 --> 00:07:23,994
+So everybody gets a zero except for the practitioners.
+
+77
+00:07:24,634 --> 00:07:31,684
+All right. So we can press continue. And then if there are special cases press if and then we can paste it.
+
+78
+00:07:32,014 --> 00:07:36,754
+Now if we had lots of ones to recode we could go ahead and do that there in the syntax.
+
+79
+00:07:37,164 --> 00:07:41,584
+Um we do have one more to recode, but, uh, I want to go back to the dialog box.
+
+80
+00:07:41,734 --> 00:07:48,604
+Nothing comes in the output, but we can always double check our work by going to the data set practitioner identity.
+
+81
+00:07:48,964 --> 00:07:52,443
+So here education should be a zero. Practitioner should be a one.
+
+82
+00:07:52,444 --> 00:07:57,273
+And let's go down and find a clinical person on row 11 also a zero.
+
+83
+00:07:57,274 --> 00:08:07,744
+So we're good. It seems to have worked without error. Let's now do our second dummy variable transform recode into different variable.
+
+84
+00:08:07,924 --> 00:08:13,204
+We can reset that. Uh the variable we are recoding is primary research identity.
+
+85
+00:08:13,564 --> 00:08:18,854
+We are looking at our. Um, our clinical folks.
+
+86
+00:08:18,854 --> 00:08:22,184
+Right. So the clinical identity.
+
+87
+00:08:23,534 --> 00:08:27,794
+You can call this what you want. Sometimes people like to put D1, D2 in front of it.
+
+88
+00:08:28,394 --> 00:08:31,724
+Um, so this might be a little bit of a shorter way.
+
+89
+00:08:31,724 --> 00:08:35,714
+I will just tell it what I want and then I'll tell it everything I don't want.
+
+90
+00:08:35,864 --> 00:08:45,484
+So what I do want is that if it is a clinician educator c l I n I c I n underscore educator, I get that correct.
+
+91
+00:08:45,494 --> 00:08:50,264
+I want it to be a one. And then if it's anything else, I want it to be a zero.
+
+92
+00:08:50,714 --> 00:08:54,314
+All right. So I just saved myself one step there. Press continue.
+
+93
+00:08:54,704 --> 00:08:58,684
+And then we can press paste. So we can take a look at that syntax.
+
+94
+00:08:58,694 --> 00:09:03,884
+See how it looks a little bit different. See it uses the word else instead.
+
+95
+00:09:04,424 --> 00:09:09,884
+And we run it. Nothing happens on the output. But we can verify that it worked by looking at our data set.
+
+96
+00:09:10,154 --> 00:09:14,054
+So again someone with an educator is going to be zero in both of these.
+
+97
+00:09:14,294 --> 00:09:17,623
+But uh, the clinician is going to be a one.
+
+98
+00:09:17,624 --> 00:09:19,274
+And that is correct. So that seemed to have worked just fine.
+
+99
+00:09:19,366 --> 00:09:26,766
+So that worked just fine. If you really are doing some heavier analysis or lots of analysis, you might get tired of doing this manually.
+
+100
+00:09:26,776 --> 00:09:32,026
+You can do transform create dummy variables and then it gives you this dialog box.
+
+101
+00:09:32,506 --> 00:09:38,055
+But um, I sometimes get confused about what goes where, so I just didn't do it.
+
+102
+00:09:38,056 --> 00:09:41,506
+But you can do it. You can YouTube that if you want. All right.
+
+103
+00:09:41,506 --> 00:09:45,016
+So now we have done our first step, have we not. Let's see.
+
+104
+00:09:45,646 --> 00:09:49,305
+Um, pull this up. We've prepared our dummy variables.
+
+105
+00:09:49,306 --> 00:09:52,965
+Are our categorical variables levels all accounted for?
+
+106
+00:09:52,966 --> 00:09:56,865
+Yes. There were three levels. Three minus one is two. We have two dummy variables.
+
+107
+00:09:56,866 --> 00:10:00,226
+We're good to go. All right. Now we can do the power calculation.
+
+108
+00:10:00,766 --> 00:10:11,326
+Let's pull that up. The multiple linear regression actually uses the same power calculation whether it's, you know, categorical or not.
+
+109
+00:10:11,686 --> 00:10:20,416
+The only tricky part is you might think that there's four predictors because we've added one in that the identity is one.
+
+110
+00:10:20,626 --> 00:10:26,536
+But actually there's five predictors because it's really asking you how many coefficients are you putting into that model.
+
+111
+00:10:26,926 --> 00:10:33,586
+And this dummy variable. Both of these have to go in. So this is one practitioner identity two clinical identity.
+
+112
+00:10:33,886 --> 00:10:37,996
+And then three four and five are autonomy competence and relatedness.
+
+113
+00:10:38,326 --> 00:10:44,055
+So we have five predictors. And um we had adjusted all of this before.
+
+114
+00:10:44,056 --> 00:10:47,265
+So let's see if taking it down to the this works.
+
+115
+00:10:47,266 --> 00:10:53,386
+And it did okay. So um we are still looking at some very small effects that we have enough strength for.
+
+116
+00:10:53,566 --> 00:11:01,185
+We've got our beta set at point A zero or a power rather set there and then uh, five predictors so we can write that up.
+
+117
+00:11:01,186 --> 00:11:06,796
+Uh, we can state with confidence that we have sufficient power after we've calculated our power.
+
+118
+00:11:06,796 --> 00:11:09,020
+It's time to do assumptions testing. Now, some of these things change just because they are categorical.
+
+119
+00:11:15,000 --> 00:11:18,840
+So I'm going to press paste and I'm going to go put that into the syntax.
+
+120
+00:11:18,840 --> 00:11:22,800
+And um, we're gonna do that at the same time.
+
+121
+00:11:24,030 --> 00:11:28,710
+Now you only need to do a graph for your, um, what would you call it?
+
+122
+00:11:29,710 --> 00:11:39,010
+Um, continuous variables. You don't need to do a graft for your, uh, um, categorical variable because it won't make any sense.
+
+123
+00:11:39,130 --> 00:11:42,690
+And we'll pull it up and you'll see relatedness won't even.
+
+124
+00:11:42,700 --> 00:11:46,450
+I don't even know if it'll work. I don't even know if it'll function.
+
+125
+00:11:46,810 --> 00:11:54,980
+So what was it called? Um. Identity researcher identity or primary researcher identity orientation.
+
+126
+00:11:54,980 --> 00:11:58,500
+Could that have been it? Let's find out. And a copy.
+
+127
+00:11:58,500 --> 00:12:06,930
+One too many, didn't I? And we'll run those. Now, you remember from a previous video that this looks linear enough to me.
+
+128
+00:12:06,930 --> 00:12:11,759
+I don't see an obvious you or loop or squiggle, so I'm good to go.
+
+129
+00:12:11,760 --> 00:12:15,690
+But if I was concerned about it, I could double click into it.
+
+130
+00:12:15,900 --> 00:12:16,686
+Um. And I could put my line of best fit on it.
+
+131
+00:12:21,639 --> 00:12:25,079
+I could do that. All right. Now I got an error on my second graph.
+
+132
+00:12:25,089 --> 00:12:28,658
+I probably didn't type the name right. And then here's our third graph.
+
+133
+00:12:28,659 --> 00:12:33,549
+And then our third fourth graph definitely can't be run because it's a string variable.
+
+134
+00:12:33,549 --> 00:12:38,859
+So we got everything that we expected with the exception of that typo that I must have made here.
+
+135
+00:12:39,182 --> 00:12:43,532
+If you do something wrong and you don't like it, you just come in here and you can actually delete that whole thing out.
+
+136
+00:12:43,742 --> 00:12:47,702
+So now it's not in your way anymore. So that's that's a fun little trick.
+
+137
+00:12:48,032 --> 00:12:52,822
+Just delete things you don't like. We've got our linear relationships.
+
+138
+00:12:52,832 --> 00:13:01,231
+They are now established. And then everything else gets tested either while we run the regression itself or afterwards.
+
+139
+00:13:01,232 --> 00:13:08,042
+So now it's just running the regression. Analyze regression linear right.
+
+140
+00:13:08,042 --> 00:13:12,692
+Remembers what I did last time. So we've got research methods as our dependent variable.
+
+141
+00:13:13,202 --> 00:13:16,472
+Um we've got uh autonomy competence and relatedness.
+
+142
+00:13:17,372 --> 00:13:22,682
+But we don't yet have our dummy variables in there. We need to add them both in practitioner and clinical.
+
+143
+00:13:23,222 --> 00:13:27,362
+If you accidentally only add one dummy variable,
+
+144
+00:13:27,602 --> 00:13:35,762
+your whole model will be messed up because it will be erroneously combining identities as part of the reference group.
+
+145
+00:13:36,002 --> 00:13:39,932
+Because you had two dummy variables, you must have them both in the model,
+
+146
+00:13:39,932 --> 00:13:44,402
+or else that whole concept of the reference group being zeroed out doesn't work.
+
+147
+00:13:44,942 --> 00:13:50,882
+So we can run back through our statistics in our plots just to make sure we have everything that we want.
+
+148
+00:13:51,422 --> 00:13:55,112
+Um, everything looks fine there.
+
+149
+00:13:55,532 --> 00:13:59,071
+Uh, our plots. Uh, yet we still want to do this.
+
+150
+00:13:59,072 --> 00:14:02,372
+Even though now this is only checking what we've already checked.
+
+151
+00:14:02,372 --> 00:14:07,292
+But let's go ahead and check it again. Um, do we want to save anything?
+
+152
+00:14:07,502 --> 00:14:13,772
+Yeah. Um, it's going to save the same residuals and the same cooks, so that's not going to change.
+
+153
+00:14:13,772 --> 00:14:17,222
+So we can ask it to save it again. Or we could delete it. Doesn't matter.
+
+154
+00:14:17,792 --> 00:14:24,392
+Um, for our options. Let's see here. Doesn't look like anything is important there.
+
+155
+00:14:24,572 --> 00:14:27,842
+And then style doesn't necessarily matter. And then bootstrap.
+
+156
+00:14:27,842 --> 00:14:32,552
+That's just for some fancy stuff. So let's press paste and let's get on with the show.
+
+157
+00:14:35,142 --> 00:14:44,462
+So we're going to run that. Now let's go in order our correlations just like last time with our numeric variables only.
+
+158
+00:14:44,922 --> 00:14:50,402
+Um, we can see that none of them are in that .7.8 high range where we're getting a little nervous.
+
+159
+00:14:50,642 --> 00:14:55,932
+So we can move on from there. Um, we can look at our Durbin Watson.
+
+160
+00:14:55,952 --> 00:15:00,362
+It is exactly the same as before because I did not resort to the data.
+
+161
+00:15:00,812 --> 00:15:04,562
+And, uh, this is between 0 and 4. Two is a great score.
+
+162
+00:15:05,102 --> 00:15:11,072
+Um, so we can also come down and look at our, um, our, um, scatter plots.
+
+163
+00:15:11,492 --> 00:15:15,662
+Uh, let's see here. Um, relatively scattered about.
+
+164
+00:15:16,142 --> 00:15:19,402
+Um, this is looking fine. This is looking fine.
+
+165
+00:15:19,412 --> 00:15:24,212
+So all of the same diagnostics were in play.
+
+166
+00:15:24,662 --> 00:15:36,262
+Um, occasionally you will see maybe, um, a scatter plot look a little bit different just because, uh, if you had done it by category.
+
+167
+00:15:36,272 --> 00:15:41,612
+So it seems to be a little more gapped, but we tend to just kind of ignore that because we know that.
+
+168
+00:15:41,612 --> 00:15:44,572
+Right? That's kind of why we're asking about these levels in the first place.
+
+169
+00:15:44,582 --> 00:15:50,042
+We expect some gaps between um, the clusters because we want to see groups mattering.
+
+170
+00:15:50,402 --> 00:15:53,742
+Um, so our assumptions are, uh, in place there.
+
+171
+00:15:53,762 --> 00:15:57,482
+Let's see. We can check Cook's distance. Still the same value there.
+
+172
+00:15:57,842 --> 00:16:05,152
+And we can check our variance inflation factors. Now, these will have changed, uh, because we've added two elements to the model.
+
+173
+00:16:05,172 --> 00:16:08,372
+We've added our two predictor variables, um, and the dummies.
+
+174
+00:16:08,672 --> 00:16:13,622
+Um, and so you can see the values changed, but ever so slightly our tolerance is still very high.
+
+175
+00:16:13,862 --> 00:16:18,542
+And our variance inflation is still very low. So all of that is good stuff.
+
+176
+00:16:18,844 --> 00:16:24,484
+All right. So let's let's start here. I have my placeholders but I might just do something okay.
+
+177
+00:16:24,484 --> 00:16:32,074
+So we've got a multiple linear regression to see whether identity was associated with mastery including these other things in the model.
+
+178
+00:16:32,824 --> 00:16:38,034
+Um, researcher identity was dummy coded with education researcher serving as the reference group.
+
+179
+00:16:38,044 --> 00:16:41,943
+Okay, good. Um, then we did our assumptions testing.
+
+180
+00:16:41,944 --> 00:16:45,364
+Oh, and we also calculated our power. So, uh, let's write that up.
+
+181
+00:16:45,364 --> 00:16:48,244
+We've got power. Um, and we've got assumptions.
+
+182
+00:16:52,103 --> 00:16:57,443
+I have actually just copied and pasted the write up from before, because I think it's easier to modify it.
+
+183
+00:16:58,053 --> 00:17:02,873
+Um, so prior to analysis, we, um, conducted, uh, a power analysis.
+
+184
+00:17:02,963 --> 00:17:09,053
+I don't remember the exact numbers, but let's check them out. Alpha 0.05 beta is 0.80.
+
+185
+00:17:09,743 --> 00:17:17,033
+And, uh, the effect size is 0.05, indicating 263 cases where required.
+
+186
+00:17:18,083 --> 00:17:22,793
+So there we go. All right. Next we checked the, um, scatter plots.
+
+187
+00:17:24,273 --> 00:17:33,783
+Um, with the methods and they were approximately linear. Remember we put the line on there and, um, we did look at the residual plots.
+
+188
+00:17:33,783 --> 00:17:44,733
+Remember, they were the same as last time and uh, the examination uh, now, we haven't done this yet, so let's, let's put this in red text.
+
+189
+00:17:44,733 --> 00:17:50,823
+We'll do this here in a little bit. Um, the Durbin Watson was I think it was the exact same.
+
+190
+00:17:50,823 --> 00:17:53,952
+Let's double check. Durbin.
+
+191
+00:17:53,953 --> 00:18:00,342
+Watson. Yep. To A35. I guess we could round up to 204, but, uh, we're fine.
+
+192
+00:18:00,343 --> 00:18:04,123
+And, uh, then we did our multicollinearity.
+
+193
+00:18:04,123 --> 00:18:11,623
+Uh, there were no high correlations. The values um, for tolerance and vif are probably changed, but maybe ever so slightly.
+
+194
+00:18:11,623 --> 00:18:16,093
+So let's pull that in here to. There's our output.
+
+195
+00:18:17,733 --> 00:18:22,262
+Let's see on our um, coefficients table.
+
+196
+00:18:22,263 --> 00:18:26,233
+Let me make this a little smaller. Right here.
+
+197
+00:18:27,493 --> 00:18:35,743
+Autonomy is nine, eight, eight and that would round to nine nine competencies nine nine, six.
+
+198
+00:18:35,743 --> 00:18:41,143
+So that would round to one. Um relatedness is 992.
+
+199
+00:18:41,173 --> 00:18:46,212
+So that's nine nine. Um practitioner is .803.
+
+200
+00:18:46,213 --> 00:18:51,163
+So that would round to eight zero. And um clinical is 0.813.
+
+201
+00:18:51,163 --> 00:18:57,853
+So that would round to eight one. So tolerance values ranged from I think .80 was the lowest one right.
+
+202
+00:18:58,363 --> 00:19:02,833
+Yep. It was. And um we still did have one that went all the way up.
+
+203
+00:19:03,133 --> 00:19:08,443
+So all greater than the .10. Uh, or close to zero threshold that we're trying to avoid.
+
+204
+00:19:08,743 --> 00:19:12,583
+And the variance inflation factors were uh, let's see here.
+
+205
+00:19:12,583 --> 00:19:16,092
+Remember, they were all pretty much the same, uh, last time.
+
+206
+00:19:16,093 --> 00:19:20,833
+So I said, you know, that was a silly way to write it up, but maybe now I'll get to add some variation.
+
+207
+00:19:20,833 --> 00:19:23,863
+So autonomy is 101. Yeah.
+
+208
+00:19:24,193 --> 00:19:27,213
+And then competence is still 100.
+
+209
+00:19:27,823 --> 00:19:30,943
+And uh, relatedness is 101.
+
+210
+00:19:31,063 --> 00:19:35,892
+Look at us get into change numbers. Uh.
+
+211
+00:19:35,893 --> 00:19:40,573
+Practitioner identity. Dummy variable.
+
+212
+00:19:43,523 --> 00:19:49,313
+And clinical identity dummy variable.
+
+213
+00:19:50,153 --> 00:19:55,312
+All right. So what was it for the practitioner. It was 1.245.
+
+214
+00:19:55,313 --> 00:20:03,083
+So I'm going to round that up to 1.25. Um, for practitioner.
+
+215
+00:20:03,563 --> 00:20:06,803
+And what is it for? Um.
+
+216
+00:20:08,733 --> 00:20:20,463
+Clinical. It's 1.231. So that's going to be 1.23 and 11.23 for clinical identity dummy variable.
+
+217
+00:20:21,213 --> 00:20:28,883
+And all of those are below the um look I spelt it so badly it doesn't even recognize bankrupt tissue.
+
+218
+00:20:28,893 --> 00:20:33,813
+Um, they're suggesting acceptable levels and Cook's distance.
+
+219
+00:20:33,813 --> 00:20:39,333
+We know that didn't change. We can see that down here. Cook's distance because that's only valued off of the numeric value.
+
+220
+00:20:39,393 --> 00:20:44,493
+Um continuous variables. And we didn't change any of those. So that's why I was able to copy and paste so much from before.
+
+221
+00:20:44,823 --> 00:20:48,843
+Uh, this would be a lot harder to write up if I hadn't. So there we go.
+
+222
+00:20:49,083 --> 00:20:53,883
+Now our assumptions are satisfied, and we can now, uh, check.
+
+223
+00:20:54,243 --> 00:20:58,322
+Um, with the exception of the normality, uh, check our overall model.
+
+224
+00:20:58,323 --> 00:20:59,915
+Let's go ahead and check normality. This should be the same because it's just about the normal, um, the residuals.
+
+225
+00:21:03,939 --> 00:21:10,209
+And, uh, I take this standardized residuals out because we want this one I think they're the same but.
+
+226
+00:21:11,779 --> 00:21:17,749
+Better just double check right when we're doing anything with SPSS four eight for.
+
+227
+00:21:18,769 --> 00:21:21,949
+It did. It is different. I wonder why. Let's go take a look.
+
+228
+00:21:22,209 --> 00:21:27,679
+Probably because I've got additional variables in the model, huh? All right, let's go take a look at our data.
+
+229
+00:21:28,069 --> 00:21:32,599
+Here's our residuals this time. Yep. You can see they're just slightly different.
+
+230
+00:21:32,719 --> 00:21:36,859
+One five is 12926 is 103.
+
+231
+00:21:36,889 --> 00:21:44,809
+So because that identity is there it changed how you know, it was in terms of its closeness to the predicted value.
+
+232
+00:21:45,079 --> 00:21:51,349
+So of course it changed slightly. I should have known that. And now that I say it out loud, I, I do know that.
+
+233
+00:21:51,649 --> 00:21:55,399
+All right. Explanation, data. Um, let's take a look at these.
+
+234
+00:21:56,479 --> 00:22:03,519
+The wiggle is close enough to the line for me. Maybe some outlying here, but close enough to the line for me.
+
+235
+00:22:03,529 --> 00:22:06,529
+Everything is looking good on the q-q plots.
+
+236
+00:22:06,769 --> 00:22:13,469
+And then the Shapiro Wilk value specifically, is 300 for the degrees of freedom 995.
+
+237
+00:22:13,489 --> 00:22:19,579
+So one is is around up and significance is 0.484 instead of 808.
+
+238
+00:22:22,609 --> 00:22:28,009
+So now I can put this back in the black text, because we have now achieved all of our assumptions testing.
+
+239
+00:22:28,219 --> 00:22:34,939
+Now it's time to go forward and interpret our model. So we'll go back up to our regression.
+
+240
+00:22:37,479 --> 00:22:42,719
+And we've, uh, interpreted our, our, um, assumptions and gifts.
+
+241
+00:22:42,729 --> 00:22:46,899
+And now we're going to the model. The overall model is statistically significant.
+
+242
+00:22:47,469 --> 00:22:53,079
+Um, we've got an f value of 35817 with a significance of less than 001.
+
+243
+00:22:53,889 --> 00:22:59,739
+We have an R-squared of 3.79. So that's 37.9% of the data.
+
+244
+00:23:00,879 --> 00:23:05,469
+And our adjusted R squared is really very close to our R squared, so I don't feel the need to report it.
+
+245
+00:23:05,499 --> 00:23:10,509
+We don't have a lot of junk in this model. We didn't, you know throw everything in the kitchen sink at it.
+
+246
+00:23:11,889 --> 00:23:16,119
+I think this was like kind of close to our former. So it would be interesting.
+
+247
+00:23:16,129 --> 00:23:21,339
+I uh I should have asked for r squared change, but that's another video.
+
+248
+00:23:21,369 --> 00:23:25,389
+Okay, so here we go. And then we can write all of that up.
+
+249
+00:23:25,389 --> 00:23:30,789
+And then we can also look at our coefficients table. So autonomy is significant.
+
+250
+00:23:31,149 --> 00:23:34,868
+Perceived competence is significant. Relatedness is not significant.
+
+251
+00:23:34,869 --> 00:23:38,439
+It got more significant. Remember it was 0.100 in a former video.
+
+252
+00:23:38,589 --> 00:23:42,339
+Now it's 0.061. So it was approaching significance just wasn't there.
+
+253
+00:23:42,489 --> 00:23:49,499
+So still nothing about relatedness. Practitioner identity is statistically significant as is clinical identity.
+
+254
+00:23:49,509 --> 00:23:54,279
+So once again got a lot of stuff happening in our model that we're going to have to write up.
+
+255
+00:24:00,012 --> 00:24:03,792
+So that's going to be 35.82. So let's write that in.
+
+256
+00:24:04,702 --> 00:24:13,252
+35.82. You'll notice that, um, the, uh, degrees of freedom will change because our calculation has changed.
+
+257
+00:24:13,252 --> 00:24:20,272
+Instead of three predictors, we now have five. Um, and, uh, remember it's n minus k minus one.
+
+258
+00:24:20,272 --> 00:24:24,831
+So that's why this one also goes down. So it's 294.
+
+259
+00:24:24,832 --> 00:24:28,612
+And I'm pulling that right from here. Regression and residuals.
+
+260
+00:24:28,612 --> 00:24:32,092
+So five comma space 294.
+
+261
+00:24:32,242 --> 00:24:36,422
+And that's what you see here. All right.
+
+262
+00:24:36,512 --> 00:24:43,592
+P is less than 0.001. That's still true. Indicating the set of predictors reliably explained method's mastery.
+
+263
+00:24:44,012 --> 00:24:47,552
+The model accounted for approximately 37.9.
+
+264
+00:24:47,852 --> 00:24:59,402
+How do I know that? Because the r squared is 0.379, and I'm converting that into a percentage just by doing some simple, um, decimal moving.
+
+265
+00:24:59,702 --> 00:25:06,842
+Um, so we don't need our adjusted R squared. I'm not going to be nice this time and we are good to go on that.
+
+266
+00:25:06,842 --> 00:25:10,892
+So there we are. Now it's time to interpret our coefficients.
+
+267
+00:25:12,712 --> 00:25:14,002
+Should we start with competence?
+
+268
+00:25:14,012 --> 00:25:23,481
+Should we start with our, uh, continuous variables, or should we start with our categorical variables, since that was more our, um, research question.
+
+269
+00:25:23,482 --> 00:25:28,432
+Yeah, let's do it. Let's do that way because that, you know, let's mix it up a little bit.
+
+270
+00:25:28,822 --> 00:25:33,412
+All right. So, uh, I'm going to start with, uh, remember our research question.
+
+271
+00:25:35,232 --> 00:25:39,552
+Is mastery associated with research identity after controlling for these things?
+
+272
+00:25:39,852 --> 00:25:43,202
+Yes. Yes it is. All right. So.
+
+273
+00:25:44,982 --> 00:25:49,782
+Um, educator, uh, um, identity was the reference.
+
+274
+00:25:49,782 --> 00:25:54,162
+So that means we're always going to compare our coefficients with the reference.
+
+275
+00:25:54,552 --> 00:25:59,772
+Um, let's take a moment and figure out what we're saying before we start typing it.
+
+276
+00:26:01,022 --> 00:26:07,642
+Practitioner identity. Compared to educator is negative.
+
+277
+00:26:07,972 --> 00:26:13,462
+So that means the average of practitioner is lower than the average of education identity.
+
+278
+00:26:15,412 --> 00:26:22,432
+When we're doing categorical variables, we can't say for every one unit of change because you can't like you know,
+
+279
+00:26:22,432 --> 00:26:26,032
+it's not practitioner unit changed into an educator unit.
+
+280
+00:26:26,032 --> 00:26:29,421
+They're not equal distance like points are.
+
+281
+00:26:29,422 --> 00:26:36,951
+And you know, autonomy and competence and relatedness. So for the continuous variables we're going to interpret it the same way.
+
+282
+00:26:36,952 --> 00:26:43,432
+But for the categorical variables we're going to make a statement more about their relatedness to the reference variable.
+
+283
+00:26:43,762 --> 00:26:55,701
+So um uh practitioner um identified um are these students I think they're students.
+
+284
+00:26:55,702 --> 00:26:59,272
+Right. Can I make that up? Practitioner identified. Uh, students.
+
+285
+00:26:59,662 --> 00:27:04,882
+Uh. Performed um for.
+
+286
+00:27:07,022 --> 00:27:13,502
+All are predicted, or I should say work, because we've already done it where predicted to perform.
+
+287
+00:27:14,222 --> 00:27:19,262
+Uh, 2.38 uh points.
+
+288
+00:27:20,252 --> 00:27:24,272
+Worse. Or you could say lower. Um.
+
+289
+00:27:24,422 --> 00:27:27,842
+On mastery. I think it's method's mastery score.
+
+290
+00:27:29,102 --> 00:27:34,051
+And then I want to add in my, um, my, my values here.
+
+291
+00:27:34,052 --> 00:27:40,282
+Right. So a beta equals -2.38.
+
+292
+00:27:40,292 --> 00:27:46,142
+So where's that coming from. On the table right here under the Unstandardized beta 2.38.
+
+293
+00:27:46,142 --> 00:27:49,711
+And I'm rounding it to do decimals. Um let's see here.
+
+294
+00:27:49,712 --> 00:27:53,342
+We want to keep going for the t test. Right.
+
+295
+00:27:53,342 --> 00:27:58,322
+And uh we can say T with the degrees of freedom is 294.
+
+296
+00:27:58,442 --> 00:28:04,312
+Remember that from the residual table. And that equals negative fo.
+
+297
+00:28:04,332 --> 00:28:08,762
+So suppose I read naught one. Yeah. Negative three 167. So that's going to be negative three one seven.
+
+298
+00:28:09,212 --> 00:28:15,392
+And we'll just type that in. And uh that is statistically significant isn't it.
+
+299
+00:28:15,392 --> 00:28:23,882
+Yet P equals 0.002. Um and so then we also want to report our 95% confidence interval.
+
+300
+00:28:24,812 --> 00:28:28,432
+Um. I have to go take that other one off.
+
+301
+00:28:28,672 --> 00:28:33,201
+So the identity here is negative nine zero three.
+
+302
+00:28:33,202 --> 00:28:38,082
+So -0.90. And now I'm missing my lines here.
+
+303
+00:28:38,092 --> 00:28:41,512
+Lower bound -3.865.
+
+304
+00:28:41,522 --> 00:28:45,471
+So we'll say -3.87 and negative nine zero.
+
+305
+00:28:45,472 --> 00:28:57,322
+So -3.87 and negative point I should have a zero because it could be going higher than one -0.9.
+
+306
+00:28:58,812 --> 00:29:07,092
+Zero. Yes. My good. There. All right, let's clean up this reporting a little bit.
+
+307
+00:29:07,602 --> 00:29:13,222
+Our beta, our t test. I can't get it to grab.
+
+308
+00:29:13,242 --> 00:29:17,892
+There we go. Our. You. Checking my line.
+
+309
+00:29:18,522 --> 00:29:22,032
+238. Uh, 294.
+
+310
+00:29:23,452 --> 00:29:27,622
+31678317002.
+
+311
+00:29:28,832 --> 00:29:33,992
+Three, eight, six five, two three, eight seven and nine zero.
+
+312
+00:29:34,112 --> 00:29:37,562
+Yes. All right. Good. There we are. Reported.
+
+313
+00:29:38,042 --> 00:29:41,492
+Um. Likewise.
+
+314
+00:29:42,002 --> 00:29:49,912
+Let's see here. Compared to educator identified students.
+
+315
+00:29:49,922 --> 00:29:53,391
+Oh, I was important. Uh, almost forgot a very important part. Got a name?
+
+316
+00:29:53,392 --> 00:29:55,150
+That reference group, don't we? Um.
+
+317
+00:29:55,434 --> 00:29:58,974
+Do we need to grease the wheels? Likewise. Similarly, maybe. Maybe not.
+
+318
+00:29:58,974 --> 00:30:07,194
+But we'll go on into our, um, clinical identified students.
+
+319
+00:30:08,124 --> 00:30:13,284
+Um. Also performed.
+
+320
+00:30:15,934 --> 00:30:20,224
+Worse than educator identified students.
+
+321
+00:30:25,074 --> 00:30:29,094
+Um, changing by. Wow. Let's see here. Let's go to our clinical identity.
+
+322
+00:30:29,364 --> 00:30:34,734
+-4.097. So we could round that up to 4.10.
+
+323
+00:30:35,270 --> 00:30:43,190
+All right, now we can add this in. We've got -4.10 which is rounded from negative four 097.
+
+324
+00:30:43,640 --> 00:30:49,130
+Uh, we've got our, uh, t value. And we know our degrees of freedom already.
+
+325
+00:30:49,520 --> 00:30:53,510
+And that equals negative four seven seven.
+
+326
+00:30:56,000 --> 00:30:59,510
+And our p value is less than 0.01.
+
+327
+00:30:59,810 --> 00:31:05,200
+And our confidence interval is um negative five 787.
+
+328
+00:31:05,210 --> 00:31:10,340
+So we're going to round that up to negative five seven nine right.
+
+329
+00:31:12,290 --> 00:31:16,820
+I don't think I got my decimal in there. And then the lower bound is negative two 407.
+
+330
+00:31:16,820 --> 00:31:22,910
+So we're going to round that to -2.41. All right.
+
+331
+00:31:22,930 --> 00:31:29,830
+Let's clean this up. Clinical identify students also performed worse than education identified.
+
+332
+00:31:30,920 --> 00:31:43,579
+Uh students, um, indicating uh 4.10 decrease on mastery score with our beta, our T and italics, our P and italics less than 001.
+
+333
+00:31:43,580 --> 00:31:47,390
+Yes. 95 I know I missed this decimal, so I'm going to add that in there.
+
+334
+00:31:47,780 --> 00:31:52,820
+And now our two, uh, categorical variables are reported.
+
+335
+00:31:54,200 --> 00:31:57,860
+We still have our, uh, continuous variables to go though.
+
+336
+00:31:58,040 --> 00:32:01,320
+So, um. Here.
+
+337
+00:32:01,350 --> 00:32:04,650
+The way that our research question is phrased, I'm probably going to do a little summary,
+
+338
+00:32:05,250 --> 00:32:12,450
+because now for sure I have enough information to kind of wrap that up for my readers.
+
+339
+00:32:13,000 --> 00:32:18,780
+Now what what did we say our alternative was? Um, yeah.
+
+340
+00:32:18,780 --> 00:32:21,881
+So the null hypothesis is rejected. Alternative hypothesis.
+
+341
+00:32:25,745 --> 00:32:28,835
+Predicting. Um. Educator.
+
+342
+00:32:28,835 --> 00:32:32,645
+Identifying. Students would.
+
+343
+00:32:34,665 --> 00:32:38,925
+Uh. What? Um, have higher mastery scores.
+
+344
+00:32:39,285 --> 00:32:45,555
+Controlling for autonomy, competence and relatedness.
+
+345
+00:32:46,275 --> 00:32:52,144
+I almost got through that without a typo. All right. So you can see I chose to put that there.
+
+346
+00:32:52,145 --> 00:32:56,045
+Maybe you would rather put this here, but I think it makes more sense here.
+
+347
+00:32:56,525 --> 00:33:02,015
+Um, not with the overall model, because we really didn't know yet until we interpreted those coefficients.
+
+348
+00:33:02,525 --> 00:33:10,595
+Now, these coefficients aren't as super relevant to that second research question, but they are in the model, so they must be reported.
+
+349
+00:33:10,955 --> 00:33:18,095
+So let's go ahead and just clean these up. So competence was 387 um 3837.
+
+350
+00:33:18,095 --> 00:33:24,814
+So that's going to be 384. And the T is the uh 294 for the T value.
+
+351
+00:33:24,815 --> 00:33:28,445
+And the T itself is 10.571.
+
+352
+00:33:28,775 --> 00:33:35,044
+So 10.57. And the p value for competence is still less than.
+
+353
+00:33:35,045 --> 00:33:39,185
+All right. And the um confidence is 3.12.
+
+354
+00:33:39,485 --> 00:33:44,255
+That stays the same. And 455. So this went down just a bit.
+
+355
+00:33:44,675 --> 00:33:51,525
+All right. So for every one unit increase in competence, mastery scores are predicted to increase by how much?
+
+356
+00:33:51,825 --> 00:33:54,135
+3.84 points.
+
+357
+00:33:56,385 --> 00:34:03,645
+Um, holding found a typo from before holding all variables constant autonomous for it was also statistically significant positive predictor.
+
+358
+00:34:04,365 --> 00:34:07,575
+The autonomy is here 2.287.
+
+359
+00:34:07,575 --> 00:34:12,435
+So we're going to round that to 2.292.29.
+
+360
+00:34:12,945 --> 00:34:19,784
+The T score we know has a different um residual number for the degrees of freedom as indicated on this table.
+
+361
+00:34:19,785 --> 00:34:24,315
+The Anova table and the T value for autonomy is here 6.50.
+
+362
+00:34:25,755 --> 00:34:29,995
+Interesting. And then the p value is still less than 001.
+
+363
+00:34:30,015 --> 00:34:33,755
+The confidence interval ranges now from 1595.
+
+364
+00:34:33,765 --> 00:34:36,825
+So that could be 160 reported after rounding.
+
+365
+00:34:37,515 --> 00:34:40,625
+And it goes to 2979.
+
+366
+00:34:40,725 --> 00:34:46,335
+Also fun to round up. Um 2978.
+
+367
+00:34:46,545 --> 00:34:52,175
+Right now 298 is what I'm trying to say. All right.
+
+368
+00:34:52,185 --> 00:34:59,655
+And so that means for every one unit increase in autonomy mastery scores is predicted to go up 2.29 points.
+
+369
+00:35:00,015 --> 00:35:04,395
+Let's finish that out. And then finally I think relatedness was still not significant.
+
+370
+00:35:04,755 --> 00:35:16,275
+Relatedness not significant. So relatedness was not a statistically significant predictor of method's mastery P equals what does it equal point zero.
+
+371
+00:35:16,395 --> 00:35:19,725
+I don't need that one extra .061.
+
+372
+00:35:20,415 --> 00:35:24,405
+And we're taking that directly from the table on the relatedness line here.
+
+373
+00:35:25,705 --> 00:35:28,825
+Although the coefficient was negative, it did not reach statistical significance.
+
+374
+00:35:28,825 --> 00:35:32,635
+Let's see. Is it still negative? Yes, it is still negative because there is that negative indicator.
+
+375
+00:35:32,935 --> 00:35:37,914
+All right. So now that is like fully written up. What else if anything do I need to say about this.
+
+376
+00:35:37,915 --> 00:35:40,838
+Multiple linear regression with categorical variables. Oh my God.
+
+377
+00:35:40,889 --> 00:35:44,878
+All right, so I just wanted to, um, check that I had done my interpretations.
+
+378
+00:35:44,879 --> 00:35:50,159
+Right. I mean, if you're curious what I was just doing, I was looking at my values.
+
+379
+00:35:50,159 --> 00:35:54,359
+I just ran a quick statistic to see what was method's mastery average by group.
+
+380
+00:35:54,359 --> 00:36:01,529
+That said, the clinicians got 80, the educators got 8384, and the practitioners got 82.
+
+381
+00:36:02,009 --> 00:36:06,628
+And I wanted to make sure that I was interpreting my directions correctly, which I was.
+
+382
+00:36:06,629 --> 00:36:10,799
+Um, but that's just an example of what you can do in your SPSS using your descriptive
+
+383
+00:36:10,799 --> 00:36:14,039
+statistics to help you better understand your inferential statistics.
+
+384
+00:36:14,489 --> 00:36:17,519
+Um, so I just wanted to make sure that I had done everything correctly.
+
+385
+00:36:17,609 --> 00:36:21,749
+We've got our research question and our variables. And then we walked through the dummy coding.
+
+386
+00:36:22,109 --> 00:36:28,618
+Uh, we introduced the model and the power. We talked all about our assumptions, um, reporting those carefully.
+
+387
+00:36:28,619 --> 00:36:33,419
+And, uh, we didn't spend a lot of time of that because these were the same as the prior video.
+
+388
+00:36:34,439 --> 00:36:42,958
+We, uh, walked through how to interpret the categorical variable by not talking about unit units of change,
+
+389
+00:36:42,959 --> 00:36:45,599
+but rather talking about like group differences. Right.
+
+390
+00:36:45,599 --> 00:36:58,299
+So on average, um, the clinicians, did, you know, like four points worse and the practitioners did two points worse than the the, uh,
+
+391
+00:36:58,319 --> 00:37:04,708
+mastery score, maybe like a little side note is just and the reason why I had to pause and check myself, I was like, wait a minute.
+
+392
+00:37:04,709 --> 00:37:10,799
+If it's negative, they did do worse, right? Yes, they did worse, but only because a high score is desirable.
+
+393
+00:37:11,039 --> 00:37:15,989
+If a high score had been undesirable, say it was like an anxiety score.
+
+394
+00:37:16,229 --> 00:37:22,319
+And, um, you know, you if you had 100 on your anxiety score, you were super anxious.
+
+395
+00:37:22,769 --> 00:37:26,038
+Um, well, then, you know, doing worse is actually better, isn't it?
+
+396
+00:37:26,039 --> 00:37:33,329
+So on the if this had been anxiety, we would say clinicians had less anxiety on average by comparison to,
+
+397
+00:37:33,359 --> 00:37:39,119
+um, the educators after controlling for um, autonomy, relatedness and competence.
+
+398
+00:37:39,449 --> 00:37:44,278
+Uh, so I just kind of wanted to make sure that I was interpreting that correctly theoretically.
+
+399
+00:37:44,279 --> 00:37:47,789
+And I think it was because mastery sounds like we want to be higher on that score.
+
+400
+00:37:47,789 --> 00:37:54,509
+Right. Um, I have my null hypothesis statement. And then I also continued to interpret the numeric coefficients.
+
+401
+00:37:54,749 --> 00:37:58,109
+Uh, then I did just add one more thing, which is to transition to the discussion.
+
+402
+00:37:58,319 --> 00:38:01,949
+Uh, so all of this is, is about understanding the results, just the facts.
+
+403
+00:38:02,129 --> 00:38:05,729
+But then put the facts in context. What does this mean?
+
+404
+00:38:05,999 --> 00:38:14,759
+It means that both motivational factors and identity factors can contribute to methods mastery, um, at least within this study.
+
+405
+00:38:15,299 --> 00:38:17,878
+All right. I hope you find that this demonstration was helpful.
+
+406
+00:38:17,879 --> 00:38:22,829
+And, uh, best wishes, as you do your own multiple linear regression with categorical variables.
+

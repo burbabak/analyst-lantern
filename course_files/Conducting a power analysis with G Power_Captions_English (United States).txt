@@ -1,0 +1,657 @@
+1
+00:00:00,720 --> 00:00:04,920
+[Auto-generated transcript. Edits may have been applied for clarity.]
+In this PowerPoint, I'm going to talk about how to do a power analysis.
+
+2
+00:00:06,850 --> 00:00:14,980
+So a power analysis is a statistical method that we use to determine a sample, the sample size that's needed for a particular study.
+
+3
+00:00:16,590 --> 00:00:21,210
+It ensures that the studies capable of detecting a real effect if there is one.
+
+4
+00:00:21,780 --> 00:00:27,390
+Power is essentially the probability of not missing a true effect, meaning that we avoid a tie.
+
+5
+00:00:27,420 --> 00:00:34,590
+Type two error. There are several factors that influence power, including the size of the effect that we expect,
+
+6
+00:00:35,010 --> 00:00:41,400
+how many participants we include, the alpha level that we set, and the statistical test that we plan to use.
+
+7
+00:00:44,120 --> 00:00:51,110
+So why do we need one? Power analysis is essential because it helps us strike the right balance in sample size.
+
+8
+00:00:51,590 --> 00:00:56,180
+If a study is underpowered, we've risk failing to detect a meaningful effect.
+
+9
+00:00:56,540 --> 00:01:00,680
+If it's overpowered, we may waste time, money, and participant effort.
+
+10
+00:01:01,130 --> 00:01:06,170
+From an ethical standpoint, we want to ensure that participants time is used effectively.
+
+11
+00:01:06,590 --> 00:01:14,150
+Many funding agencies and IRBs require power analysis, and it strengthens the overall rigor and credibility of the research design.
+
+12
+00:01:15,720 --> 00:01:21,390
+So here's a graphic that I find easier to remember than just the words type one error and type two error.
+
+13
+00:01:21,990 --> 00:01:29,070
+Type one error is a false positive. So seeing a man being told that he's pregnant, we can say that is a false positive.
+
+14
+00:01:29,220 --> 00:01:36,180
+Type two is a false negative. It's a woman who is visibly pregnant being told that she's not pregnant.
+
+15
+00:01:36,780 --> 00:01:41,910
+So I showed this prior to this graph because I think that is easier to remember.
+
+16
+00:01:42,600 --> 00:01:49,110
+So type one and type two errors. The type one is the mistake of rejecting a true null.
+
+17
+00:01:49,110 --> 00:01:53,309
+So the null is true, but we reject it. We use alpha to represent this.
+
+18
+00:01:53,310 --> 00:02:01,260
+So alpha is the probability of making a type one error which is the same thing as a false positive okay.
+
+19
+00:02:01,560 --> 00:02:08,120
+And that's here in this quadrant. A type two error is the mistake of failing to reject a false null.
+
+20
+00:02:08,720 --> 00:02:12,709
+We use beta. That's a Greek letter B beta to represent this.
+
+21
+00:02:12,710 --> 00:02:17,210
+The beta is a probability of making a type two error or a false negative.
+
+22
+00:02:18,550 --> 00:02:21,040
+So how can you minimize the chances of an error?
+
+23
+00:02:21,160 --> 00:02:26,830
+He said the probability of a type one error that you're willing to tolerate in an experiment in advance.
+
+24
+00:02:27,250 --> 00:02:34,480
+And it's called the alpha level. This is decided a priori, which means before we start the experiment.
+
+25
+00:02:35,080 --> 00:02:44,650
+Alpha is the probability of a type one error. The convention to typically is to set the alpha level to be no more than 5%, or alpha is equal to 0.05.
+
+26
+00:02:45,010 --> 00:02:51,729
+What does that mean? It means that the chances are less than 5% that you have some oddball sample.
+
+27
+00:02:51,730 --> 00:02:56,530
+False false positive result. You could still have an oddball sample.
+
+28
+00:02:56,560 --> 00:03:00,940
+Your chances would be 5%. It would happen one time out of 20.
+
+29
+00:03:01,510 --> 00:03:06,729
+What you're saying is that you will not regard any result as significant, statistically significant,
+
+30
+00:03:06,730 --> 00:03:12,100
+unless it is one that would occur less than one time out of 20 simply by chance.
+
+31
+00:03:13,070 --> 00:03:18,770
+In other words, you accept it only if it's at least 95% certain that it wasn't just a fluke.
+
+32
+00:03:20,520 --> 00:03:26,489
+Okay, so then what's beta? Remember that the mistake of failing to reject a false null.
+
+33
+00:03:26,490 --> 00:03:29,550
+So the null is false, but we don't reject it.
+
+34
+00:03:31,160 --> 00:03:34,310
+We are making a type two error which is called beta.
+
+35
+00:03:34,610 --> 00:03:40,340
+So beta is the probability of a type two error or the probability of making a false negative.
+
+36
+00:03:40,880 --> 00:03:46,400
+In order to minimize this. We can calculate the power of an experiment needed to minimize theta.
+
+37
+00:03:48,280 --> 00:03:54,460
+Okay, so power is one minus beta. It measures how powerful the experiment is.
+
+38
+00:03:55,000 --> 00:03:59,620
+It gets at how small an effect the experimental microscope will distinguish.
+
+39
+00:04:00,130 --> 00:04:03,360
+You want beta error typically to be less than 20%.
+
+40
+00:04:03,370 --> 00:04:07,960
+So you want a power the one minus beta of about 80%.
+
+41
+00:04:08,500 --> 00:04:12,790
+Then you have an 80% chance of finding an effect if there is an effect defined.
+
+42
+00:04:13,360 --> 00:04:19,120
+So the beta error is 20%. The power is 80%, at one -20 is 80.
+
+43
+00:04:19,900 --> 00:04:25,210
+So if or 0.8. So if the effect is there, you have an 80% chance of detecting it.
+
+44
+00:04:25,450 --> 00:04:31,990
+The reason you don't go for more is that you do reach a point of diminishing returns at 0.8 or 80%.
+
+45
+00:04:32,470 --> 00:04:36,070
+You have to get bigger and bigger samples, and that cost too much time and money.
+
+46
+00:04:36,370 --> 00:04:44,230
+So typically you'll set the Alpha 8.05 and the power of 0.8 or 80%, or a beta of 0.2 or 20%.
+
+47
+00:04:45,400 --> 00:04:50,770
+The reason you use the word power is that it measures the power to distinguish and effect.
+
+48
+00:04:52,790 --> 00:05:00,650
+Okay, so how do we calculate it? Power can be established for experiments by calculating how large the sample needs to be to achieve power.
+
+49
+00:05:00,680 --> 00:05:05,390
+Usually set. Usually sufficient power, like I just said, is set at 80%.
+
+50
+00:05:05,690 --> 00:05:09,800
+And we're looking at this quadrant. So type one error type two error.
+
+51
+00:05:10,130 --> 00:05:16,940
+And then this is power. So in order to do that you're going to have to install the free software onto your computer.
+
+52
+00:05:16,940 --> 00:05:25,580
+But it is a safe download. You go to this is a German website and download G power for the type of the computer that you have.
+
+53
+00:05:27,340 --> 00:05:32,079
+So let's do a chi square example. Maria, a recent statistics student,
+
+54
+00:05:32,080 --> 00:05:37,209
+noticed that her laboratory had changed procedures regarding plasma and wanted to determine
+
+55
+00:05:37,210 --> 00:05:44,110
+if the amount of wastage of plasma in 2025 was greater than the amount of wastage in 2024.
+
+56
+00:05:44,740 --> 00:05:52,120
+She decided to compare the frequencies of plasma wasted to plasma not wasted, recorded in her lab during those two years.
+
+57
+00:05:52,660 --> 00:05:57,190
+If the plasma was completely used, she quoted it as not wasted,
+
+58
+00:05:57,610 --> 00:06:02,740
+and if it had to be thrown out because it had past its expiration date, it was coded as wasted.
+
+59
+00:06:03,220 --> 00:06:08,980
+Her research question was, is there an association between the number of plasma units wasted and year?
+
+60
+00:06:09,460 --> 00:06:13,650
+So we go in and we would have to create our data set.
+
+61
+00:06:13,660 --> 00:06:17,330
+So this is when you're given a contingency table like this.
+
+62
+00:06:17,350 --> 00:06:21,640
+How to load it into SPSS I will do another video to show you how to do that.
+
+63
+00:06:22,360 --> 00:06:28,210
+So then we do Crosstabs. We bring a cross year to our row and wastage to our column.
+
+64
+00:06:28,540 --> 00:06:37,809
+We can display the clustered bar charts. We're going to click on statistics and click Chi Square and ask for the fee.
+
+65
+00:06:37,810 --> 00:06:44,440
+And Cramer's V okay. So taking a look at our output we can see we have the contingency table already here.
+
+66
+00:06:45,280 --> 00:06:51,969
+We see we have the chi square value and the significance level which is less than 0.05.
+
+67
+00:06:51,970 --> 00:06:55,420
+So we have significance. And we can see that we have a fee.
+
+68
+00:06:55,420 --> 00:07:02,290
+And Cramer's V of 0.34, to which when it's a two by two contingency table, we have the same value for that.
+
+69
+00:07:02,980 --> 00:07:07,180
+So we were reporting this out. We would say Maria ran a chi square test,
+
+70
+00:07:07,180 --> 00:07:13,150
+chi square analysis test of independence and found that there was a significant relationship between wastage and year.
+
+71
+00:07:13,630 --> 00:07:16,900
+We reported out as chi square with one degree of freedom.
+
+72
+00:07:16,900 --> 00:07:26,350
+Sample size of 36 is equal to 4.208, P is less is equal to 0.04, and the fee is equal to 0.342.
+
+73
+00:07:26,920 --> 00:07:31,780
+We're now going to use g power to calculate the power both post hoc and a priori.
+
+74
+00:07:32,080 --> 00:07:37,600
+Post hoc is when the analysis has already been run or the data are already known as in the example above,
+
+75
+00:07:37,600 --> 00:07:45,970
+to see what our power is and in a priori is to see how big a sample size we would need in order to achieve a power of 0.8.
+
+76
+00:07:46,240 --> 00:07:51,399
+And then I have a question here in a priori, how does changing the effect size change the sample size.
+
+77
+00:07:51,400 --> 00:07:55,420
+So we'll take a look at that. So how do we conduct a power analysis in G power.
+
+78
+00:07:55,420 --> 00:08:00,610
+First we'll select test family. So t test Anova correlation whatever our test is.
+
+79
+00:08:01,060 --> 00:08:05,050
+Then we choose the statistical test based on the research question.
+
+80
+00:08:05,770 --> 00:08:11,170
+Then we select our type of power analysis. It's usually a priori but it could be post hoc.
+
+81
+00:08:11,920 --> 00:08:20,469
+And then we input our key parameters the effect size, the alpha level, the power that we want and click calculate to determine our sample size.
+
+82
+00:08:20,470 --> 00:08:27,340
+So what does it look like. It's a little bit busy but I'm going to show you um the post-hoc and the a priori.
+
+83
+00:08:28,000 --> 00:08:31,720
+So open your g power and select Chi square test which is here.
+
+84
+00:08:32,560 --> 00:08:35,860
+Then select Goodness of Fit contingency tables here.
+
+85
+00:08:36,220 --> 00:08:42,340
+This is a test of independence, not a goodness of fit test. But the power is calculated the same for both post-hoc.
+
+86
+00:08:42,340 --> 00:08:45,520
+You can see we've entered our 0.342.
+
+87
+00:08:45,520 --> 00:08:48,760
+It just rounds to the nearest 10th place.
+
+88
+00:08:48,970 --> 00:08:54,670
+So we just put in point three. We have to tell it we want an alpha of 0.05.
+
+89
+00:08:54,850 --> 00:08:59,260
+We start with the data the sample size that we have and our degrees of freedom is one.
+
+90
+00:08:59,740 --> 00:09:07,660
+Then we click calculate and. We can see that we had power of 0.44, essentially.
+
+91
+00:09:08,110 --> 00:09:16,810
+And then coming over here, we can see in order to do an a priori we would click here and call and select a priori put in our parameters.
+
+92
+00:09:17,170 --> 00:09:20,310
+We want 0.8 power with one degree of freedom.
+
+93
+00:09:20,320 --> 00:09:23,420
+We can see compared to what we had before we had 36.
+
+94
+00:09:23,440 --> 00:09:28,240
+Now we had need to have 88 in order to get a power of 0.8.
+
+95
+00:09:28,690 --> 00:09:35,110
+So our sample size had to get more than double that what we had in order to achieve a 80% power.
+
+96
+00:09:35,740 --> 00:09:44,170
+So G power asks for Cohen's w. SPSS provides fee for two by two tables and Cramer's V for larger tables.
+
+97
+00:09:44,770 --> 00:09:48,849
+For a two by two tables, fee is equivalent to W, so it can be entered directly.
+
+98
+00:09:48,850 --> 00:09:52,570
+For larger tables, V is commonly used as an approximation.
+
+99
+00:09:52,990 --> 00:09:56,470
+Here you can see that the effect size greatly influences power.
+
+100
+00:09:56,920 --> 00:10:05,020
+So I'm starting with a 0.1 power. And we're just going to do it with the goodness of fit contingency table like we were doing before.
+
+101
+00:10:05,470 --> 00:10:09,550
+So I put 0.1 N 0.05. This is an a priori.
+
+102
+00:10:10,420 --> 00:10:18,190
+0.8 for power, one degree of freedom. And you could see that with that low effect size, we need 785 in order to make a power of 80.
+
+103
+00:10:19,090 --> 00:10:25,600
+Now, if I raise my effect size up to 0.5, which is a fairly large effect size, you can see it goes down to 32.
+
+104
+00:10:25,630 --> 00:10:28,830
+So that's a substantial difference. Okay.
+
+105
+00:10:28,830 --> 00:10:32,640
+So let's right up the previous power analysis in APA.
+
+106
+00:10:33,300 --> 00:10:42,570
+A chi square test of independence was conducted to examine the association between year 24 versus 2025, and whether plasma was wasted.
+
+107
+00:10:43,080 --> 00:10:46,440
+The association was statistically significant. And you report that out.
+
+108
+00:10:46,980 --> 00:10:52,560
+The effect size as measured by Phi was 0.34, indicating a meeting medium effect.
+
+109
+00:10:53,010 --> 00:11:00,120
+A post hoc power analysis indicated that the study had power of 0.57 to detect this effect,
+
+110
+00:11:00,120 --> 00:11:04,499
+suggesting that the study may have been underpowered and a priori.
+
+111
+00:11:04,500 --> 00:11:12,060
+Power analysis indicated that a sample size of 88 would be required to achieve power of 0.8, or 80%.
+
+112
+00:11:13,140 --> 00:11:16,170
+Okay, let's do another one with an independent samples t test.
+
+113
+00:11:17,070 --> 00:11:22,950
+A clinical dietitian wants to compare two different diets, A and B for diabetic patients.
+
+114
+00:11:23,370 --> 00:11:31,170
+She hypothesizes that diet A for group one will be better than diet B for group two in terms of lower blood glucose.
+
+115
+00:11:31,710 --> 00:11:37,860
+She plans to solicit a random sample of diabetic patients and randomly assign them to one of the two diets.
+
+116
+00:11:38,400 --> 00:11:45,510
+At the end of the experiment, which last six weeks of fasting blood glucose glucose test will be conducted on each patient.
+
+117
+00:11:45,900 --> 00:11:54,030
+She also expects that the average difference in blood glucose measure between the two groups will be about ten milligrams per deciliter.
+
+118
+00:11:54,450 --> 00:12:06,690
+Furthermore, she also assumes the standard deviation of blood glucose distribution for diet A to be 15 and the standard deviation for diet B to be 17.
+
+119
+00:12:07,080 --> 00:12:11,180
+Now a note on this. This comes from the literature of similar studies.
+
+120
+00:12:11,190 --> 00:12:18,090
+We're doing our best guess here. The dietitian wants to know the number of subjects needed in each group.
+
+121
+00:12:18,120 --> 00:12:22,080
+Assuming equal sized groups, we have to talk a little bit about assumptions.
+
+122
+00:12:22,410 --> 00:12:27,480
+Notice the assumptions that the dietitian has made in order to perform the power analysis.
+
+123
+00:12:27,990 --> 00:12:32,010
+The following information must be known or reasonably estimated.
+
+124
+00:12:32,790 --> 00:12:37,469
+The first one is that the expected difference in mean blood glucose between the two groups.
+
+125
+00:12:37,470 --> 00:12:45,200
+In this case, she said it at ten. The second one is the standard deviation of blood glucose for group one and group two.
+
+126
+00:12:45,220 --> 00:12:48,340
+In this case there's a 15 and 17, respectively.
+
+127
+00:12:48,910 --> 00:12:51,910
+She sets the alpha level at 0.05.
+
+128
+00:12:51,940 --> 00:12:56,830
+That's pretty standard. And she sets her power at point eight, which is also pretty standard.
+
+129
+00:12:57,670 --> 00:13:02,740
+Notice that the dietitian didn't specify the mean for each group, only the difference of the means.
+
+130
+00:13:03,400 --> 00:13:09,340
+This is because power analysis depends on the magnitude of the difference relative to variability.
+
+131
+00:13:09,340 --> 00:13:12,520
+The effect size, not the absolute values of the group needs.
+
+132
+00:13:12,970 --> 00:13:16,240
+All right so let's look at the g power.
+
+133
+00:13:16,660 --> 00:13:20,190
+First we go to test family. We pick t tests. Then we fit.
+
+134
+00:13:20,200 --> 00:13:27,070
+We select means. And we're looking at the difference between two independent means which is an independent samples t test.
+
+135
+00:13:27,910 --> 00:13:32,620
+Then I have these label. First we'll do this box then two then three then four.
+
+136
+00:13:32,650 --> 00:13:36,130
+I'll walk you through it. So these boxes will be filled in by default.
+
+137
+00:13:36,310 --> 00:13:46,040
+We need to fill in our effect size and power. Equal size sample groups are assumed, meaning the allocation ratio of in one to into is one.
+
+138
+00:13:46,060 --> 00:13:50,710
+What does that mean? So if we have two groups in there each 20.
+
+139
+00:13:51,720 --> 00:13:59,130
+20 divided by 20 is one. So we're basically telling G-power that our sample sizes, regardless of size, are the same.
+
+140
+00:14:00,030 --> 00:14:05,910
+We're going to pick two tailed test just because we can pick 1 or 2 tailed test.
+
+141
+00:14:06,120 --> 00:14:07,950
+For this example we'll pick two.
+
+142
+00:14:09,010 --> 00:14:17,800
+Then we go in and we need to click this determine because we want to know what our effect size is assuming these items.
+
+143
+00:14:18,160 --> 00:14:22,240
+So we're going to click determine which will then pop this little box out.
+
+144
+00:14:22,720 --> 00:14:25,950
+Then we need to fill in and click calculate to get the effect size.
+
+145
+00:14:25,960 --> 00:14:29,030
+And then we'll go back and input the effect size in the main window.
+
+146
+00:14:29,050 --> 00:14:33,190
+I'll show you what that looks like. So the mean of group one is zero.
+
+147
+00:14:33,190 --> 00:14:38,590
+And the mean of group two is ten. What that means is the difference in the group.
+
+148
+00:14:38,680 --> 00:14:44,710
+In the group means is ten. We don't have to know the absolute value of the groups for the means for each group.
+
+149
+00:14:45,460 --> 00:14:52,180
+Then, based on research or literature, we, um, select our standard deviation for group one was 15.
+
+150
+00:14:52,180 --> 00:14:57,130
+And for group two two is 17. Then we click calculate and we get this long effect size.
+
+151
+00:14:57,460 --> 00:15:02,050
+We can just copy paste it over here and then click calculate.
+
+152
+00:15:02,440 --> 00:15:09,250
+And we can see that in order to achieve 80% power we will need two groups of at least 42.
+
+153
+00:15:09,580 --> 00:15:15,430
+So sample size of group one is 42. Sample size of group two is 42.
+
+154
+00:15:15,760 --> 00:15:21,610
+Our total sample size will be 84 for an actual power of 0.81.
+
+155
+00:15:21,760 --> 00:15:29,229
+So let's write that up in APA. And a priori power analysis was conducted using g power to determine the required
+
+156
+00:15:29,230 --> 00:15:34,840
+sample size for an independent samples t test comparing two dietary interventions,
+
+157
+00:15:35,440 --> 00:15:44,589
+assuming an expected mean difference of ten milligrams per deciliter between groups, standard deviations of 15 and 17 based on prior literature,
+
+158
+00:15:44,590 --> 00:15:51,220
+and you would want to put a citation there, an alpha level of 0.05 and decide power of 0.8.
+
+159
+00:15:51,670 --> 00:15:55,870
+The estimated effect size was Cohen's d of 0.62.
+
+160
+00:15:56,500 --> 00:16:03,880
+The analysis indicated that a total sample size of 84 participants in a 42 per group would be required.
+
+161
+00:16:04,150 --> 00:16:09,970
+So interpreting results in Tips for this output provides total sample size required.
+
+162
+00:16:10,450 --> 00:16:18,939
+You always want to justify the effect size source using literature or pilot data, and you want to consider attrition from your study.
+
+163
+00:16:18,940 --> 00:16:23,170
+So you might want to include to pad your sample size to account for attrition.
+
+164
+00:16:23,560 --> 00:16:27,850
+And then you would report your methods. Report your power analysis in the method section.
+

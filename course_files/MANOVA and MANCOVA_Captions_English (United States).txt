@@ -1,0 +1,641 @@
+1
+00:00:00,690 --> 00:00:04,740
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Okay. We're going to talk about manova multivariate analysis of variance.
+
+2
+00:00:04,890 --> 00:00:09,930
+So what is multivariate. There are three categories of analysis to be aware of.
+
+3
+00:00:10,350 --> 00:00:13,860
+Univariate analysis which looks at one just one variable.
+
+4
+00:00:14,280 --> 00:00:17,280
+Bivariate analysis which analyzes two variables.
+
+5
+00:00:17,730 --> 00:00:21,630
+And then multivariate analysis which looks at more than two variables.
+
+6
+00:00:22,500 --> 00:00:29,640
+Multivariate analysis encompasses all statistical techniques that are used to analyze more than two variables at once.
+
+7
+00:00:30,150 --> 00:00:36,720
+The aim is to find patterns and correlations between several variables simultaneously, allowing for a much deeper,
+
+8
+00:00:37,140 --> 00:00:41,940
+more complex understanding of a given scenario than you'll get with bivariate analysis.
+
+9
+00:00:43,080 --> 00:00:48,810
+So Manova allows us to look for differences across several dependent variables at the same time.
+
+10
+00:00:50,400 --> 00:00:57,270
+You need to look at the linear combination of two or more dependent variables to see if there are differences across your independent variables.
+
+11
+00:00:58,140 --> 00:01:01,560
+There are, as with all of our statistics, some assumptions.
+
+12
+00:01:01,950 --> 00:01:06,120
+The first is that two or more dependent variables are measured at scale level,
+
+13
+00:01:06,120 --> 00:01:13,110
+meaning their interval or ratio at least one independent variable that must have two or more categorical groups.
+
+14
+00:01:13,830 --> 00:01:18,059
+Observations need to be independent and you need to have an adequate sample size.
+
+15
+00:01:18,060 --> 00:01:21,110
+You can use g power to determine adequate sample size.
+
+16
+00:01:21,120 --> 00:01:25,260
+Here's a little snip. You go to the F-test and you could start with the global effects.
+
+17
+00:01:27,030 --> 00:01:30,750
+Um, manova assume multivariate normality.
+
+18
+00:01:31,200 --> 00:01:32,790
+They're sensitive to outliers.
+
+19
+00:01:33,150 --> 00:01:40,440
+There needs to be a linear relationship between each pair of dependent variables across each level of the independent variables.
+
+20
+00:01:40,920 --> 00:01:44,160
+You need to have homogeneity of covariance matrices,
+
+21
+00:01:44,580 --> 00:01:50,370
+and the dependent variables cannot be multi collinear, which means two highly correlated with each other.
+
+22
+00:01:51,120 --> 00:01:58,679
+So here's a scenario. The CEO of a major hospital system wanted to know whether there were differences in inpatient satisfaction
+
+23
+00:01:58,680 --> 00:02:04,980
+ratings and their perceptions of affordable service among patients at three large urban hospitals.
+
+24
+00:02:06,120 --> 00:02:13,800
+As such, she randomly selected 20 patient ratings from hospital, a 20 ratings from hospital B, and 20 from hospital C,
+
+25
+00:02:14,130 --> 00:02:20,400
+and measured their inpatient satisfaction ratings and the perceptions of affordable service as assessed by a survey.
+
+26
+00:02:21,120 --> 00:02:27,210
+These two score served as dependent variables and were labeled Satisfaction Score and Affordable score, respectively.
+
+27
+00:02:27,690 --> 00:02:32,760
+The independent variable was the hospital where the patients were surveyed and that was labeled hospital.
+
+28
+00:02:32,910 --> 00:02:36,989
+So let's test the first assumption. First we'll check for multivariate outliers.
+
+29
+00:02:36,990 --> 00:02:40,680
+And we need to use linear regression to test each independent variable separately.
+
+30
+00:02:41,100 --> 00:02:50,159
+So we go to analyze linear regression and move subject ID to the dependent variable and the DVS to the independent variable box and click save.
+
+31
+00:02:50,160 --> 00:02:58,050
+So we'll print subject ID over the dependent variable. Bring satisfaction score an affordable score over to the independent variable and click save.
+
+32
+00:02:58,470 --> 00:03:03,750
+All we want to check is this Mahalanobis distance. And click that click continue.
+
+33
+00:03:03,750 --> 00:03:09,890
+And okay. So you need to look at the maximum allowable value of Mahalanobis distance.
+
+34
+00:03:09,900 --> 00:03:17,250
+It depends on the number of dependent variables you have. And here we have two DB's and our max here is 5.3.
+
+35
+00:03:17,640 --> 00:03:25,140
+So what's the cut point. I have two predictors independent variables being used as independent variables in the regression.
+
+36
+00:03:25,140 --> 00:03:29,640
+So I have two numbers of degrees. So my critical value is 13.82.
+
+37
+00:03:30,150 --> 00:03:37,290
+This is less than that. So we do not exceed it and say that there are no outliers okay.
+
+38
+00:03:37,290 --> 00:03:43,229
+So now we're going to make scatter plots. We need to test the linear relationship among variables.
+
+39
+00:03:43,230 --> 00:03:49,260
+The easiest way to do this is to go to graphs legacy dialogs matrix scatter.
+
+40
+00:03:49,470 --> 00:03:54,840
+Move the independent variable over here to rows and the dependent variable to the matrix variable.
+
+41
+00:03:54,840 --> 00:04:01,280
+So up here click options right here and click Exclude cases variable by variable.
+
+42
+00:04:01,320 --> 00:04:05,790
+Click continue and then click okay. That's just in case you have missing data.
+
+43
+00:04:05,790 --> 00:04:10,500
+We don't. But I want to show you that okay. So you are looking for a linear relationship.
+
+44
+00:04:10,560 --> 00:04:12,870
+This is subjective. But we're going to call this linear.
+
+45
+00:04:13,980 --> 00:04:19,260
+Mostly this one this one this one maybe not so much in these here, but we're going to go for it.
+
+46
+00:04:20,220 --> 00:04:23,520
+So then we want to check the normality of the dependent variables.
+
+47
+00:04:23,520 --> 00:04:29,100
+So this is not the same as multivariate normality. But we'll check the normality of the independent variables.
+
+48
+00:04:29,400 --> 00:04:35,690
+So you move over your variables, analyze Descriptives explore normality plots with tests.
+
+49
+00:04:35,760 --> 00:04:38,610
+Click okay. We've done this before. Uncheck the stem and leaf.
+
+50
+00:04:39,360 --> 00:04:47,580
+And then we see that we have uh, all normal uh, distributed among the hospitals in each level of the dependent variable.
+
+51
+00:04:48,900 --> 00:04:51,930
+Okay. Now we want to check for multicollinearity.
+
+52
+00:04:51,930 --> 00:04:57,570
+This is when you have strong correlation between the dependent variables. Anything over point nine is considered problematic.
+
+53
+00:04:58,020 --> 00:05:02,159
+We checked by running bivariate. Correlations among the dependent variables here.
+
+54
+00:05:02,160 --> 00:05:05,309
+We're okay. We don't have a large correlation when we have 0.39.
+
+55
+00:05:05,310 --> 00:05:10,139
+Ah, now we're ready for the actual manova. So we're going to analyze general linear and model.
+
+56
+00:05:10,140 --> 00:05:13,320
+And now we're using the multivariate time.
+
+57
+00:05:13,380 --> 00:05:18,450
+So we move over our variables. We have fixed factors hospital satisfaction and affordable score.
+
+58
+00:05:18,450 --> 00:05:24,749
+And we're going to click post-hoc. Since our independent variables three levels we need post-hoc test or contrast.
+
+59
+00:05:24,750 --> 00:05:28,829
+We will use post-hoc tests. Click continue and then click options.
+
+60
+00:05:28,830 --> 00:05:35,879
+So we click Bonferroni and continue um select the following options and then continue.
+
+61
+00:05:35,880 --> 00:05:41,010
+And then okay. So we want descriptives estimates of effect size and homogeneity test okay.
+
+62
+00:05:41,010 --> 00:05:44,430
+So the important row in table below is the sig row here.
+
+63
+00:05:44,640 --> 00:05:50,550
+That's in the red rectangle which represents the significance level the p value of the test.
+
+64
+00:05:50,640 --> 00:05:55,860
+For this test the recommended alpha level is p is less than 0.001.
+
+65
+00:05:56,310 --> 00:06:05,040
+So if this test is statistically significant less than 0.001, you violated the assumption of homogeneity of variance covariance matrices.
+
+66
+00:06:05,550 --> 00:06:10,560
+If the test is not statistically significant, i.e. it's over 0.001,
+
+67
+00:06:10,560 --> 00:06:16,860
+you have a homogeneity of those variance covariance matrices and you haven't violated the assumption.
+
+68
+00:06:17,280 --> 00:06:20,399
+In this example, the sig is greater than 0.001.
+
+69
+00:06:20,400 --> 00:06:25,880
+It is here 0.003, which indicates that we've met this assumption here.
+
+70
+00:06:25,890 --> 00:06:27,719
+We're going to just go look at the Levene's test.
+
+71
+00:06:27,720 --> 00:06:32,780
+And we see that we have equal variances for both scores across each level of the independent variable.
+
+72
+00:06:32,780 --> 00:06:35,999
+And we have we get close here and we get close here. But they're not significant.
+
+73
+00:06:36,000 --> 00:06:40,870
+So we say equal variances. And then we want to evaluate the output.
+
+74
+00:06:40,900 --> 00:06:42,400
+So examining the descriptives,
+
+75
+00:06:42,400 --> 00:06:50,830
+we see that hospital A has higher scores in both satisfaction and affordability than hospitals B and then hospital C, so it's consistently higher.
+
+76
+00:06:51,370 --> 00:06:56,260
+If all the assumptions have been met. We'd select the Wilks Lambda and use that p value.
+
+77
+00:06:56,740 --> 00:06:58,840
+Although Wilks Lambda is usually recommended,
+
+78
+00:06:58,840 --> 00:07:08,830
+Police Trace is more robust and is recommended when you have unequal sample sizes and also have a statistically significant box's M test result.
+
+79
+00:07:09,520 --> 00:07:17,070
+We see that our p value is less than 0.001. So we're going to use Wilks where we see that we have 0.001.
+
+80
+00:07:17,080 --> 00:07:23,080
+And so we report there was a statistically significant difference between the hospitals on the combined independent variables.
+
+81
+00:07:23,080 --> 00:07:31,390
+And we reported out this is a upsidedown vs lambda and Greek partial ada squared which we've asked for is 0.387.
+
+82
+00:07:31,690 --> 00:07:36,909
+And then we can look at these test of between subjects effects which is univariate.
+
+83
+00:07:36,910 --> 00:07:43,210
+One way Anova is to determine which dependent variable would appear to be contributing to the statistically significant Manova.
+
+84
+00:07:43,690 --> 00:07:49,810
+We can see that the satisfaction score was significant and the affordable score was significant for hospitals.
+
+85
+00:07:50,200 --> 00:07:55,389
+So then we look at our post-hoc test, and I just highlighted all of the significant comparisons.
+
+86
+00:07:55,390 --> 00:08:00,879
+But only a few of these are needed. So we're looking first inside the satisfaction score.
+
+87
+00:08:00,880 --> 00:08:06,490
+And we see that hospital A and B are different. Hospital A and C are different.
+
+88
+00:08:06,490 --> 00:08:09,850
+And then we want to know is hospital B and C different.
+
+89
+00:08:09,850 --> 00:08:13,719
+And we see that they're not. All right. So then we look at the affordable score.
+
+90
+00:08:13,720 --> 00:08:21,010
+And we see that hospital A and B are not different. Hospital A and C are different hospital BNA.
+
+91
+00:08:21,010 --> 00:08:24,100
+We've already looked at that one. Hospital B and C are different.
+
+92
+00:08:24,580 --> 00:08:34,330
+And then hospital A and C are different than both. So multivariate analysis of covariance or Manitoba is just like ancova,
+
+93
+00:08:34,570 --> 00:08:40,330
+but with two dependent variables on the one way and multivariate analysis of covariance,
+
+94
+00:08:40,330 --> 00:08:46,150
+one way Manqoba can be thought of as an extension of the one way Anova to incorporate a continuous covariate,
+
+95
+00:08:46,600 --> 00:08:51,460
+or an extension of the one way ancova to incorporate multiple dependent variables.
+
+96
+00:08:52,030 --> 00:08:56,740
+This covariate is linear, linearly related to the dependent variables,
+
+97
+00:08:57,370 --> 00:09:04,450
+and its inclusion into the analysis can increase the ability to detect differences between groups of a categorical independent variable.
+
+98
+00:09:05,050 --> 00:09:10,060
+A one way men Cova is used to determine whether there are any statistically
+
+99
+00:09:10,060 --> 00:09:14,709
+significant differences between the adjusted means of two or more independent,
+
+100
+00:09:14,710 --> 00:09:19,000
+unrelated groups having controlled for a continuous covariate.
+
+101
+00:09:20,200 --> 00:09:27,460
+You need a reason to use Manqoba. Do you have some empirical or theoretical reason why the dependent variable should be treated together?
+
+102
+00:09:28,540 --> 00:09:34,540
+Just clumping together many variables because they were all measured is generally not considered a good idea.
+
+103
+00:09:35,550 --> 00:09:40,750
+Are you interested in the effect of each dependent variable for only their effect as a whole?
+
+104
+00:09:40,770 --> 00:09:49,200
+For example, you've measured a number of types of motivation, for example extrinsic motivation, intrinsic motivation, etc.,
+
+105
+00:09:49,620 --> 00:09:55,919
+but are only concerned with overall motivation if you're only interested in the effect of the dependent variables as a whole,
+
+106
+00:09:55,920 --> 00:10:01,300
+you might consider the dependent variables jointly. Okay, like with everything, we have some assumptions.
+
+107
+00:10:01,320 --> 00:10:05,050
+The first is that two or more dependent variables are measured at scale level.
+
+108
+00:10:05,070 --> 00:10:11,450
+So that's interval or ratio. At least one independent variable that must have two or more categorical groups.
+
+109
+00:10:11,460 --> 00:10:17,940
+One covariate that's continuous observations need to be independent and you need to have adequate sample size.
+
+110
+00:10:19,080 --> 00:10:23,430
+Makeovers assume multivariate normality. It's sensitive to outliers.
+
+111
+00:10:23,790 --> 00:10:29,190
+There needs to be a linear relationship between each pair of the dependent variables across each level of the independent variables.
+
+112
+00:10:29,640 --> 00:10:35,190
+You need to have homogeneity of regression slopes, and the dependent variables cannot be multicollinearity.
+
+113
+00:10:35,880 --> 00:10:43,740
+A researcher wanted to determine whether cardiovascular health was better for normal weight individuals with higher levels of physical activity,
+
+114
+00:10:44,010 --> 00:10:48,510
+as opposed to more overweight individuals with lower physical activity levels.
+
+115
+00:10:48,990 --> 00:10:53,850
+As such, the researcher recruited 120 participants who were subsequently divided into one
+
+116
+00:10:53,850 --> 00:10:57,240
+of three groups depending on the amount of physical activity they performed.
+
+117
+00:10:57,810 --> 00:11:01,440
+A group who were classified as engaging in a low amount of physical activity.
+
+118
+00:11:01,770 --> 00:11:05,460
+A group who were classified as engaging in a moderate amount of physical activity,
+
+119
+00:11:05,790 --> 00:11:09,450
+and a group who were classified as engaging in a high amount of physical activity.
+
+120
+00:11:10,500 --> 00:11:12,420
+There were 40 participants in each group.
+
+121
+00:11:12,570 --> 00:11:19,610
+In order to measure cardiovascular health, the researcher took three measurements from participants cholesterol concentrations,
+
+122
+00:11:19,620 --> 00:11:23,100
+C-reactive protein, and systolic blood pressure.
+
+123
+00:11:23,250 --> 00:11:30,809
+The researcher expected that increased levels of physical activity would have an overall beneficial effect on cardiovascular health,
+
+124
+00:11:30,810 --> 00:11:35,910
+as measured by cholesterol concentration, C-reactive protein, and systolic blood pressure.
+
+125
+00:11:36,210 --> 00:11:41,700
+However, the researcher understood that body weight would also affect these three measures of cardiovascular health.
+
+126
+00:11:42,210 --> 00:11:46,200
+As such, the researcher wanted to control for differences in body weight of participants.
+
+127
+00:11:46,590 --> 00:11:52,020
+Therefore, the researcher ran a one way manqoba with cholesterol concentration,
+
+128
+00:11:52,350 --> 00:11:56,130
+C-reactive protein, and systolic blood pressure as the dependent variables.
+
+129
+00:11:56,520 --> 00:12:04,950
+Body weight is the continuous covariate weight and three physical activity groups low, moderate, and high as groups of the independent variable.
+
+130
+00:12:05,070 --> 00:12:10,320
+Okay. So here we have the data. We have group. We have cholesterol CRP, SBP.
+
+131
+00:12:10,320 --> 00:12:15,390
+And then weight is our covariate and our independent variables low medium and high.
+
+132
+00:12:15,750 --> 00:12:18,900
+So the first thing we want to check is homogeneity for regression slope.
+
+133
+00:12:18,910 --> 00:12:22,680
+So we put our dependent variables in the dependent variable box.
+
+134
+00:12:22,680 --> 00:12:27,840
+After we've selected analyze general linear model multivariate.
+
+135
+00:12:28,710 --> 00:12:34,470
+And we put in the cholesterol CRP SBP. And we have our fixed factors.
+
+136
+00:12:34,470 --> 00:12:40,890
+The grouping variable and weight is our covariate. We come over here we click model and we click build terms.
+
+137
+00:12:40,890 --> 00:12:43,080
+We bring group over then weight over.
+
+138
+00:12:43,080 --> 00:12:49,290
+Then hold down shift and have the interaction click it and we see that group times weight is the interaction term.
+
+139
+00:12:49,830 --> 00:12:56,610
+Click continue. We can see here that in the group times weight interaction term none of these are significant.
+
+140
+00:12:56,610 --> 00:13:04,320
+So therefore we have homogeneity of regression slopes. So to save time and effort here I'll just report the output of the main comma.
+
+141
+00:13:04,350 --> 00:13:08,550
+The steps are the same as manova described above but with the addition of the covariate.
+
+142
+00:13:09,180 --> 00:13:12,840
+So we look at the Mahalanobis distance. I'd have to run that using linear regression.
+
+143
+00:13:13,200 --> 00:13:16,650
+And I can see that my my maximum is 11.4.
+
+144
+00:13:16,680 --> 00:13:21,450
+When you have three dependent variables, the maximum you can have the cut point is 16.2.
+
+145
+00:13:21,480 --> 00:13:26,190
+So we don't exceed that. Therefore we have no outliers here.
+
+146
+00:13:26,190 --> 00:13:30,450
+We can see the descriptive statistics. And we don't have significance for box's test here.
+
+147
+00:13:30,450 --> 00:13:35,159
+So we have equal covariance matrices. So we go to our multivariate test.
+
+148
+00:13:35,160 --> 00:13:39,530
+And we can see looking at Wilks lambda that we have significant differences for the group.
+
+149
+00:13:39,540 --> 00:13:42,899
+There was a statistically significant difference between the physical activity
+
+150
+00:13:42,900 --> 00:13:46,260
+groups when they combined dependent variables after controlling for weight.
+
+151
+00:13:46,860 --> 00:13:52,919
+And we report out the Wilks, we look at the univariate test and we see that for the cholesterol across the
+
+152
+00:13:52,920 --> 00:13:57,840
+groups C-reactive protein and systolic they were significant differences.
+
+153
+00:13:58,200 --> 00:14:05,909
+So if the one way manqoba is statistically significant, this suggests that there is a statistically significant adjusted mean difference between
+
+154
+00:14:05,910 --> 00:14:09,900
+the groups of the independent variable in terms of the combined dependent variable,
+
+155
+00:14:10,230 --> 00:14:17,310
+i.e., after adjusting for the continuous covariate follow up, univariate one way and cobas were performed.
+
+156
+00:14:17,700 --> 00:14:24,089
+There were statistically significant differences. Differences in adjusted means for cholesterol concentration in our report out this
+
+157
+00:14:24,090 --> 00:14:29,520
+f-statistic C-reactive protein and this F statistic and systolic blood pressure,
+
+158
+00:14:29,610 --> 00:14:33,599
+you can look at the pairwise comparisons I have highlighted the ones here.
+
+159
+00:14:33,600 --> 00:14:40,159
+You can see what. Different. And then I'm not going to read this all, but copy this and paste it into your own study.
+
+160
+00:14:40,160 --> 00:14:45,890
+If you are going to use a makeover and you can change the variables to fit your own reporting.
+

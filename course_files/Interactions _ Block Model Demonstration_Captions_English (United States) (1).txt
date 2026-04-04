@@ -1,0 +1,2585 @@
+1
+00:00:00,201 --> 00:00:01,661
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Hi, I'm Research methods students.
+
+2
+00:00:01,671 --> 00:00:08,361
+We are going to do a demonstration of a multiple linear regression with an interaction and Anova with an interaction in some block modeling.
+
+3
+00:00:08,571 --> 00:00:15,471
+So please use the left panel in your video to jump ahead to the different sections that apply to what it is you're interested in.
+
+4
+00:00:15,711 --> 00:00:21,530
+Um, as this demonstration may be a little lengthy, uh, we always need a research question to guide our efforts.
+
+5
+00:00:21,531 --> 00:00:26,811
+So here we're saying does the relationship between competence perception and methods mastery depend on autonomy?
+
+6
+00:00:27,231 --> 00:00:35,021
+Um. It's not maybe necessarily clear, but competence perception is the, uh.
+
+7
+00:00:35,121 --> 00:00:41,451
+Uh, what we call it predict there and then methods mastery is the, um, outcome variable.
+
+8
+00:00:41,481 --> 00:00:45,981
+And then autonomy is that, uh, moderating variable.
+
+9
+00:00:46,101 --> 00:00:49,521
+So we have three different variables doing three different jobs.
+
+10
+00:00:50,121 --> 00:00:54,171
+Um, here we have our null hypothesis. Nothing to see here.
+
+11
+00:00:54,171 --> 00:00:58,101
+And our alternative hypothesis with both magnitude and direction.
+
+12
+00:00:58,311 --> 00:01:02,571
+Usually with an interaction model you're going to have at least two hypotheses.
+
+13
+00:01:02,571 --> 00:01:06,111
+One for the main effects and one for uh, the interaction effect.
+
+14
+00:01:06,121 --> 00:01:09,261
+So we typically lead with the interaction. And then with the main.
+
+15
+00:01:09,471 --> 00:01:13,100
+So again interaction and then main effects. Um,
+
+16
+00:01:13,101 --> 00:01:16,761
+you'll be glad to know that running a multiple linear regression with an
+
+17
+00:01:16,761 --> 00:01:21,440
+interaction is almost just like running a multiple linear regression on its own,
+
+18
+00:01:21,441 --> 00:01:26,031
+it does require just a little bit more setup and maybe a little more cautious interpretation.
+
+19
+00:01:26,451 --> 00:01:31,701
+Uh, but regardless, the first thing we're going to do is our, uh, power calculation.
+
+20
+00:01:31,701 --> 00:01:36,591
+And, um, as you can see on the screen, I've already started to write in some placeholders for us.
+
+21
+00:01:36,591 --> 00:01:39,921
+So our power calculation is already on the screen.
+
+22
+00:01:40,221 --> 00:01:40,755
+Um, you would pick F-test with multiple linear regression.
+
+23
+00:01:40,885 --> 00:01:45,685
+So our F test is here, and we have, uh, picked the multiple linear regression.
+
+24
+00:01:46,015 --> 00:01:51,835
+Um, we've got alpha at zero five, beta at 0.8, and our effect size is 0.15.
+
+25
+00:01:51,835 --> 00:01:55,195
+So we're looking for, uh, that kind of, uh, small effect.
+
+26
+00:01:55,375 --> 00:02:01,285
+The number of predictors is two. How did we get that. Well competence is kind of that main effect predictor.
+
+27
+00:02:01,405 --> 00:02:07,135
+But then we're looking at the moderator autonomy. So we're going to be looking at the interaction of competence and autonomy.
+
+28
+00:02:07,495 --> 00:02:17,185
+Um it doesn't matter if a predictor is um if a predictor is is the main or the interaction kind of element of interest, you have to count it.
+
+29
+00:02:17,425 --> 00:02:28,914
+Uh, so imagine we said, um, does relation, uh, what does does relational support and competence perception in um impact methods.
+
+30
+00:02:28,915 --> 00:02:36,925
+Mastery scores. Um, and you know, if so how is that different by uh, the autonomy support they receive.
+
+31
+00:02:37,225 --> 00:02:42,204
+So, um, just by adding another variable, I am, you know, increasing the numbers there.
+
+32
+00:02:42,205 --> 00:02:47,215
+So we have to always count our interaction variable. We can press calculate and and that gives us 68.
+
+33
+00:02:47,515 --> 00:02:50,935
+Uh, so I've written that up here. Um you've seen that a few times.
+
+34
+00:02:51,205 --> 00:02:54,565
+So now it's time to do our linear regression.
+
+35
+00:02:54,565 --> 00:02:57,685
+And I actually went ahead and ran a regression.
+
+36
+00:02:58,075 --> 00:03:01,645
+But this is just a normal regression okay. We don't have any interaction yet.
+
+37
+00:03:01,885 --> 00:03:08,514
+My curiosity was, uh. Well, you know, do these two things have any business even being in the same model together?
+
+38
+00:03:08,515 --> 00:03:16,165
+Like is this is even close question. Um, so when I ran the linear regression, I found that our, uh, multicollinearity statistics were fine.
+
+39
+00:03:16,315 --> 00:03:21,385
+The Durbin Watson is fine. The overall model significance is significant.
+
+40
+00:03:21,655 --> 00:03:26,815
+It predicts or, um, explains rather 32% of the variation.
+
+41
+00:03:27,055 --> 00:03:31,585
+And then if we look at our coefficients, both of the coefficients are significant,
+
+42
+00:03:31,915 --> 00:03:37,525
+meaning that for every one point increase in competence, mastery improves by 3.8.
+
+43
+00:03:37,855 --> 00:03:45,325
+And then for every one point increase in autonomy. Because remember these were like scaled items um competence improved 2.2.
+
+44
+00:03:45,865 --> 00:03:50,815
+So these do have business going together and they do both explain some variance.
+
+45
+00:03:50,965 --> 00:03:54,145
+But how much are these two things related.
+
+46
+00:03:54,145 --> 00:03:59,935
+You know how much of the influence of competence kind of overlaps with the influence of autonomy?
+
+47
+00:04:00,145 --> 00:04:03,475
+That's the question that this interaction is going to be able to answer.
+
+48
+00:04:04,785 --> 00:04:08,505
+And now we're ready to really jump into this interaction of linear regression.
+
+49
+00:04:08,505 --> 00:04:11,324
+And and the first thing we need to do is center the variable.
+
+50
+00:04:11,325 --> 00:04:20,505
+And the reason we need to center the variable is because when things are very far from this, the the mean or the central point of that variable,
+
+51
+00:04:20,775 --> 00:04:26,415
+they become even more extreme, um, due to the fact that things are getting ready to become multiplied.
+
+52
+00:04:26,835 --> 00:04:32,925
+And so, uh, multiplication kind of like makes smaller things seem smaller and bigger things seem bigger.
+
+53
+00:04:33,285 --> 00:04:37,155
+And we need to kind of fix that in mathematically through the model.
+
+54
+00:04:37,845 --> 00:04:42,464
+The first thing we actually have to do, though, is something that probably I should have done from the beginning,
+
+55
+00:04:42,465 --> 00:04:47,505
+which is just have my, um, my descriptives ready to go.
+
+56
+00:04:47,595 --> 00:04:53,025
+So we're going to center all of our coefficients that we're using as predictor variables,
+
+57
+00:04:53,025 --> 00:04:57,075
+whether they're the main or the interaction, uh, of interest.
+
+58
+00:04:57,195 --> 00:05:02,925
+So we need to add in, uh, competence and uh, not research methods because that's the outcome variable.
+
+59
+00:05:03,235 --> 00:05:06,735
+Uh, um, I'm looking for, uh, autonomy.
+
+60
+00:05:06,735 --> 00:05:09,975
+Right. Isn't that what I'm looking for? If I've forgotten myself here?
+
+61
+00:05:10,245 --> 00:05:16,365
+Yes. Autonomy. So competence and autonomy. Let's go back, um, and find autonomy.
+
+62
+00:05:16,905 --> 00:05:20,894
+And we need to get the the mean. So that's already checked here.
+
+63
+00:05:20,895 --> 00:05:23,565
+Uh, you know, we could ask for other things if we need.
+
+64
+00:05:23,565 --> 00:05:31,155
+We don't really need, but let's go ahead and, uh, run those descriptive statistics because we're going to use that numeric average.
+
+65
+00:05:31,425 --> 00:05:37,275
+So here's our descriptive statistic. The mean of competence is 5.0854.
+
+66
+00:05:37,275 --> 00:05:40,635
+And the mean of autonomy is 4.9567.
+
+67
+00:05:41,445 --> 00:05:47,834
+So now that we know that, uh, we are going to create centered variables, um, and as I mentioned,
+
+68
+00:05:47,835 --> 00:05:51,945
+this is an important step for anytime we're working with continuous, uh, variables.
+
+69
+00:05:51,945 --> 00:05:58,125
+And there's an interaction. So I'm going to label it centered um competence.
+
+70
+00:05:58,425 --> 00:06:04,244
+And the way we figure out what centered competence is, we just take any given measure of competence.
+
+71
+00:06:04,245 --> 00:06:08,445
+So that's here. Move that variable over and then we subtract the mean.
+
+72
+00:06:08,715 --> 00:06:13,725
+Um, and so I'm literally typing in 5.0854.
+
+73
+00:06:14,115 --> 00:06:18,705
+You might want around I don't know I don't know if you should round or not.
+
+74
+00:06:18,915 --> 00:06:27,134
+Let's paste and um put that over here and uh, let's just copy and paste that so we can do our,
+
+75
+00:06:27,135 --> 00:06:33,555
+um, next one, which was autonomy, uh, um, if I remember correctly.
+
+76
+00:06:33,735 --> 00:06:39,255
+And so we have to change. We don't need the competence variable, but we do need the autonomy variable.
+
+77
+00:06:39,855 --> 00:06:48,315
+And there is. And the mean for autonomy is, uh, let's hear 4.9567.
+
+78
+00:06:48,885 --> 00:06:52,035
+All right. Looks good there. What I've forgotten.
+
+79
+00:06:52,215 --> 00:06:57,105
+See? Execute isn't lit up. What have I forgotten? I have forgotten the period that ends the line.
+
+80
+00:06:57,105 --> 00:07:01,035
+There. Now it's lit up and it's ready to go. So we can run that.
+
+81
+00:07:01,335 --> 00:07:05,294
+And nothing happens on the output. Because all we've done is computed two new variables.
+
+82
+00:07:05,295 --> 00:07:09,555
+But they have arrived here. Let's go take a quick look at it and just explore.
+
+83
+00:07:10,035 --> 00:07:14,864
+Um, so, uh, I wish these were a little bit closer, but I can't be bothered to do it.
+
+84
+00:07:14,865 --> 00:07:22,635
+So we'll just do a little scrolling here. So competence here is 777 and then 689686.
+
+85
+00:07:22,905 --> 00:07:28,155
+As we scroll over we can see um the mean was something like five right.
+
+86
+00:07:28,155 --> 00:07:33,795
+So seven minus five is about two. And that's what you see here 1.9, 1.9, 1.9.
+
+87
+00:07:33,805 --> 00:07:38,525
+These three match because they had the same competent score. And uh we move on from there.
+
+88
+00:07:38,535 --> 00:07:42,075
+So we can see that the math is, uh, done accurately.
+
+89
+00:07:42,075 --> 00:07:48,795
+And that's, you know, never a bad thing to double check. Uh, so now that we have created our centered variables.
+
+90
+00:07:49,040 --> 00:07:55,130
+We do one last, uh, calculation, and that is to create our interaction term.
+
+91
+00:07:55,370 --> 00:08:01,850
+Um, so some people like to name this like competency times autonomy.
+
+92
+00:08:02,090 --> 00:08:05,930
+Um, but I in this case, I just think it's easier to call it the interaction.
+
+93
+00:08:05,930 --> 00:08:09,710
+We know what we're doing or well, is sometimes we know what we're doing.
+
+94
+00:08:10,070 --> 00:08:13,520
+And so when we create the interaction, this is critical.
+
+95
+00:08:13,520 --> 00:08:18,380
+We must multiply, um, the centered variables.
+
+96
+00:08:18,380 --> 00:08:23,090
+If you use the wrong variables, then everything else is broken.
+
+97
+00:08:23,360 --> 00:08:34,399
+So centered um, competency as our predictor and then multiplied by centered autonomy as the, uh, moderator that we were interested in finding out.
+
+98
+00:08:34,400 --> 00:08:41,210
+Like what was the relationship between these two things? And, um, this interaction term is what's going to help account for that?
+
+99
+00:08:41,540 --> 00:08:47,870
+Uh, so we could paste that over and, uh, run it and, uh, could have done that right then and there.
+
+100
+00:08:47,960 --> 00:08:55,070
+But we wanted to go through the steps. And so now, um, we'll see that, that, um, that now is present.
+
+101
+00:08:55,190 --> 00:09:01,460
+So we could do some math, right? Like, okay, 1.91 times 0.65 must be 1.25.
+
+102
+00:09:01,760 --> 00:09:05,030
+Um, here is a good example. Uh, they had high competency.
+
+103
+00:09:05,030 --> 00:09:09,770
+1.91. They were above average, um, competency, but low average on autonomy.
+
+104
+00:09:09,950 --> 00:09:13,729
+Uh, that's why they've got a negative here. So a negative times negative is a positive.
+
+105
+00:09:13,730 --> 00:09:20,600
+And look how much bigger that number is. Right. So that is a good illustrator of why we've had to do the centering.
+
+106
+00:09:20,780 --> 00:09:23,900
+Um, and why then we create the um interaction term.
+
+107
+00:09:24,140 --> 00:09:34,999
+So now you're going to be so relieved. All we do is we rerun the regression, but, um, we rerun it with our centered variables.
+
+108
+00:09:35,000 --> 00:09:39,950
+So I have had those, uh, standard variables in there for curiosity,
+
+109
+00:09:40,100 --> 00:09:47,630
+but now we want to put all three terms into the model the centered competence, the autonomy competence.
+
+110
+00:09:47,990 --> 00:09:53,630
+Oh my goodness, the centered competence and the centered autonomy and the interaction term.
+
+111
+00:09:53,630 --> 00:10:01,429
+We have to make sure that they're all in there. And we do have to run through those, um, um, assumptions.
+
+112
+00:10:01,430 --> 00:10:04,820
+And so I had already checked these, but I wasn't very careful.
+
+113
+00:10:05,390 --> 00:10:11,480
+So I am going to go in and check those, like I, I would want my confidence intervals there.
+
+114
+00:10:11,810 --> 00:10:16,370
+Um, and then that's, I think all I need through here, um, I,
+
+115
+00:10:17,150 --> 00:10:22,370
+I think that I put this in the right spot when I did it the first time, but I always want to double check.
+
+116
+00:10:22,370 --> 00:10:26,179
+So the z pred. Yes. Okay. I feel like I usually do that.
+
+117
+00:10:26,180 --> 00:10:32,000
+Right, but you never know. Um, so we'll, uh, we can cancel that.
+
+118
+00:10:32,060 --> 00:10:37,070
+Um, or we'll just press continue because we need that. And then I know that I had asked for cooks already.
+
+119
+00:10:37,400 --> 00:10:40,430
+Um, and I did not ask for the standardized residuals,
+
+120
+00:10:40,430 --> 00:10:46,760
+but I do sometimes like to do that because we want to maybe run some normal, normal, um, assumptions testing on that.
+
+121
+00:10:47,270 --> 00:10:50,450
+And is there anything else through here? No. And then options.
+
+122
+00:10:50,450 --> 00:10:53,159
+I don't think there's anything. Uh, right.
+
+123
+00:10:53,160 --> 00:10:58,729
+So that's closed out and style is for APA, so we don't usually mess with that because it doesn't really work anyway.
+
+124
+00:10:58,730 --> 00:11:03,770
+Although sometimes it might. And then bootstrapping we don't mess with that in this class.
+
+125
+00:11:04,010 --> 00:11:07,790
+Um, in this module at least. All right. There is our regression.
+
+126
+00:11:07,790 --> 00:11:11,270
+Let's run it okay. So now this is our regression.
+
+127
+00:11:12,720 --> 00:11:18,339
+With interaction. So we could just move top to bottom here.
+
+128
+00:11:18,340 --> 00:11:21,460
+Um. Right. Because we're in the right section. Yes we are. Okay.
+
+129
+00:11:21,460 --> 00:11:25,239
+So first let's check our, uh, variance inflation and tolerance.
+
+130
+00:11:25,240 --> 00:11:28,510
+Our tolerance is, uh, close to one, which is good.
+
+131
+00:11:28,510 --> 00:11:33,339
+It's higher. And our variance inflation is closer to one, meaning it's lower than five.
+
+132
+00:11:33,340 --> 00:11:37,360
+So that's a good thing. No worries about, um, autocorrelation here.
+
+133
+00:11:38,320 --> 00:11:42,310
+Durbin. Watson. Uh, anything from 1 to 4 is usually what you'll see.
+
+134
+00:11:42,310 --> 00:11:45,999
+But two is the best score and ours is 2.175.
+
+135
+00:11:46,000 --> 00:11:47,410
+So that is also good.
+
+136
+00:11:47,740 --> 00:11:56,170
+And, um, if you ever get a Durbin Watson that seems wrong, then you are encouraged to sort your data with a different variable and rerun your test.
+
+137
+00:11:56,350 --> 00:12:00,190
+Because Durbin Watson is sensitive to analysis order.
+
+138
+00:12:00,760 --> 00:12:08,950
+Um, our model is overall significant. Uh, the less than 001 um level and it explains 32%.
+
+139
+00:12:09,130 --> 00:12:14,320
+Now, this is interesting and maybe I should save this for later, but I'm just going to pop back up here.
+
+140
+00:12:15,280 --> 00:12:20,319
+Oh, when we only had the two models. Um, or when we only had the two variables.
+
+141
+00:12:20,320 --> 00:12:25,600
+Right. It was 32.1%. And now that we have the third variable, the interaction variable.
+
+142
+00:12:26,170 --> 00:12:31,870
+Um. Oh, and you know what I just realized? I didn't count the right in my power analysis.
+
+143
+00:12:32,140 --> 00:12:36,969
+It's explaining 32.2. So it really didn't give us much of anything.
+
+144
+00:12:36,970 --> 00:12:44,769
+So it wasn't all that valuable. I'm going to rewind history and just pretend I did this right from the beginning.
+
+145
+00:12:44,770 --> 00:12:48,489
+So we needed 77. Okay. Why did I just change the number of predictors?
+
+146
+00:12:48,490 --> 00:12:56,260
+Because as I was talking out loud, I just realized I have three predictors competence, autonomy and the interaction between the two.
+
+147
+00:12:56,290 --> 00:12:59,290
+So while I was lecturing you on don't forget to count the interaction.
+
+148
+00:12:59,290 --> 00:13:05,560
+It's an easy mistake to make. I literally made the mistake. Maybe you already knew I had done that and you were like, finally she's realized it.
+
+149
+00:13:05,930 --> 00:13:11,830
+Uh, but now I really realized it. All right, so I'll update the, uh, write up when we get there.
+
+150
+00:13:12,550 --> 00:13:18,400
+Going through our assumptions. Uh, we should probably scroll down and check out cooks.
+
+151
+00:13:18,700 --> 00:13:25,290
+We can see all of this is very low, so I'm, you know, feeling fine about about that, uh, linearity.
+
+152
+00:13:25,300 --> 00:13:29,529
+We can see those are pretty tightly clustered to the line, and these are pretty little scattered.
+
+153
+00:13:29,530 --> 00:13:33,160
+There don't seem to be any, you know, major clumps or patterns.
+
+154
+00:13:33,430 --> 00:13:41,710
+Um, so I'm thinking that our assumptions are intact and that it's fair to believe that this model is significant for real.
+
+155
+00:13:41,710 --> 00:13:52,540
+And the coefficients. Um, so now we have, um, our coefficients table where competency and autonomy on their own are statistically significant.
+
+156
+00:13:52,840 --> 00:13:57,650
+The interaction itself is not statistically significant. What does this mean in the big picture?
+
+157
+00:13:57,670 --> 00:14:05,290
+We had asked, you know, how would autonomy kind of change the impact that competency had on mastery.
+
+158
+00:14:05,290 --> 00:14:11,950
+And we're finding that it's like it's not at all big. These two things seem to very much so be doing two separate jobs,
+
+159
+00:14:12,130 --> 00:14:17,769
+because when you account for maybe their interaction with one another, there's nothing special there.
+
+160
+00:14:17,770 --> 00:14:21,339
+There's there's nothing to see. It's non-significant. Um.
+
+161
+00:14:21,340 --> 00:14:28,510
+All right. Another notable thing before we get into right up is look at these numbers 38492222.
+
+162
+00:14:28,930 --> 00:14:32,110
+Uh, those were obviously very close to these numbers.
+
+163
+00:14:32,110 --> 00:14:34,960
+Three, eight. Um, six and two, two, two, one.
+
+164
+00:14:35,080 --> 00:14:41,980
+You might wonder well if if it wasn't significant in the interaction model, why did anything change at all?
+
+165
+00:14:42,100 --> 00:14:48,340
+And the reason why is because ML multiple linear regression holds everything else constant.
+
+166
+00:14:48,580 --> 00:15:02,200
+So while we hold the interaction constant and autonomy constant, then you know, the competence um, increase leads to a 3.849 change on mastery.
+
+167
+00:15:02,800 --> 00:15:06,759
+Earlier we hadn't held the interaction constant. It was not in the model.
+
+168
+00:15:06,760 --> 00:15:11,530
+We had only held autonomy constant. And so that's why we can see that slight change.
+
+169
+00:15:11,710 --> 00:15:16,210
+You might be wondering too, well, why did this change if interaction wasn't significant, why did this change?
+
+170
+00:15:16,540 --> 00:15:20,770
+Three 32.1% before now it's 32.2%.
+
+171
+00:15:20,920 --> 00:15:26,530
+Well, literally with multiple linear regression, you can never lose explanatory power.
+
+172
+00:15:26,560 --> 00:15:30,519
+So even if I threw in, you know, whether or not people were, um, you know,
+
+173
+00:15:30,520 --> 00:15:35,510
+left handed or how many, how tall they were in inches or how many pounds they carried.
+
+174
+00:15:35,530 --> 00:15:42,909
+You know, always I'm going to gain more explanatory power is just kind of useless power and more, you know.
+
+175
+00:15:42,910 --> 00:15:50,440
+So here, just like with this interaction, didn't really help us gain anything, but it did, uh, theoretically contribute to the explanatory power.
+
+176
+00:15:51,460 --> 00:15:55,599
+All right. So that's that's all there is to it. You guys. That would be a very quick and easy demonstration.
+
+177
+00:15:55,600 --> 00:16:02,020
+Except for now I've got to write all that up. So I'm going to pause the video and then we'll go through and find out where I got all of these numbers.
+
+178
+00:16:04,836 --> 00:16:08,616
+Um, I have written all of this up, and let's talk about where we get these numbers.
+
+179
+00:16:08,616 --> 00:16:11,945
+So I, uh, conducted my assumption. Testing.
+
+180
+00:16:11,946 --> 00:16:15,815
+Everything was linear. The Durbin Watson was good to go.
+
+181
+00:16:15,816 --> 00:16:20,045
+We can find that reported here 2.175 under the model summary.
+
+182
+00:16:20,046 --> 00:16:23,226
+Durbin Watson section. We round that to 2.18.
+
+183
+00:16:23,226 --> 00:16:27,516
+So I'm going to consistently round up Homoscedasticity.
+
+184
+00:16:27,516 --> 00:16:31,536
+Is that visual inspection which we conducted down here.
+
+185
+00:16:31,536 --> 00:16:36,486
+And we can see things are pretty linear and scattered about uh which is what we wanted to see.
+
+186
+00:16:37,046 --> 00:16:44,166
+I realized as I was writing this up that I, uh, had not, uh, fully run the, um, normality test.
+
+187
+00:16:44,166 --> 00:16:50,346
+So, you know, the visual inspection obviously was good, but I did go ahead and run, remember how to do that?
+
+188
+00:16:50,346 --> 00:16:53,375
+Do analyze Descriptives explore.
+
+189
+00:16:53,376 --> 00:16:57,336
+And then when you do, uh, you put in the standardized residuals.
+
+190
+00:16:57,336 --> 00:17:00,606
+So remember I had saved those. So those are down in through here somewhere.
+
+191
+00:17:01,146 --> 00:17:09,546
+Um, and then uh, after you run the Shapiro Wilk, um, test, you can get the results from the test of normality box.
+
+192
+00:17:09,786 --> 00:17:13,656
+So this Shapiro Wilk statistic is 997. So that's going to round up to one.
+
+193
+00:17:13,836 --> 00:17:17,946
+The degrees of freedom were 300. And the p value is 0.864.
+
+194
+00:17:17,946 --> 00:17:23,645
+Because 0.864 is higher than 0.05. Um nothing significant about the Shapiro Wilk test.
+
+195
+00:17:23,646 --> 00:17:27,246
+And that's a good thing because when it comes to our assumptions, we do not want to be special.
+
+196
+00:17:27,726 --> 00:17:36,336
+Uh, so where was that? All of that was all that work for this one sentence right here, uh, reported as W 301 and then eight, six, four.
+
+197
+00:17:37,296 --> 00:17:41,616
+Um, then we looked at the multicollinearity, which is of course in the model itself.
+
+198
+00:17:41,616 --> 00:17:51,846
+So let's scroll back up there. Um, our tolerance is uh, 0.998, which would round up normally, but I guess I wanted to write something up.
+
+199
+00:17:52,026 --> 00:17:55,236
+Uh, so I did, and then the VIF was one.
+
+200
+00:17:55,596 --> 00:17:59,526
+Um, no matter how you rounded that one, you weren't going to get anything other than one.
+
+201
+00:17:59,796 --> 00:18:06,546
+Um, so indicating no concerns for multicollinearity in the real world, it's very rare to have numbers like this.
+
+202
+00:18:06,546 --> 00:18:11,166
+So, um, probably I should have just been more consistent and said it was all one.
+
+203
+00:18:11,376 --> 00:18:14,586
+Uh, because technically 0.998 is rounding up to one.
+
+204
+00:18:15,036 --> 00:18:17,675
+Um, we did look at our influential cases.
+
+205
+00:18:17,676 --> 00:18:26,255
+Uh, I used the traditional threshold of 0.5, and, um, or I could have used the four over n right, and, um, sorted it that way.
+
+206
+00:18:26,256 --> 00:18:34,446
+So it's not one or the other. It's just what you do. You decide. And, um, I don't know why, uh, I did that, so there we go.
+
+207
+00:18:34,656 --> 00:18:39,936
+Um, I got this mean off of the table, didn't I? Cook's distance growing over from minimum.
+
+208
+00:18:39,936 --> 00:18:49,595
+Maximum. And then mean is just there. Uh, let's see here then, um, all of our assumptions are intact, so we can get to our model results,
+
+209
+00:18:49,596 --> 00:18:58,836
+and we can simply explain what we did and then explain that the overall model is, uh, um, is statistically significant.
+
+210
+00:18:59,316 --> 00:19:09,726
+Um, we see that here in our Anova table. So f is the Anova outcome, 46.966 is rounding up to am I looking at the right thing.
+
+211
+00:19:09,945 --> 00:19:13,905
+Yeah. I don't know where I got this number from. Maybe I'll come across it later when I'm typing.
+
+212
+00:19:14,225 --> 00:19:20,804
+Uh, temporary moment of insanity, I suppose so. Anova table was 46.966, which would be.
+
+213
+00:19:20,805 --> 00:19:28,725
+Oh, that is right. I just missed my four. I was really worried about myself for a second, 46.97 because 966 rounds up to nine seven.
+
+214
+00:19:29,235 --> 00:19:35,175
+Um, all right. The alpha is less than 001 and we see that here.
+
+215
+00:19:35,175 --> 00:19:52,725
+And then r squared is 0.322. Um, we maybe we could add something like, uh, the model explains 32.2% of the variance in mastery scores.
+
+216
+00:19:53,235 --> 00:19:59,085
+Um, so we put that into the regular people's terms. Um, then we go on to interpret the coefficient.
+
+217
+00:19:59,085 --> 00:20:03,435
+And I personally tend to report kind of from top to bottom.
+
+218
+00:20:03,705 --> 00:20:07,845
+I report my main effects and then I report my interaction effect.
+
+219
+00:20:08,295 --> 00:20:14,295
+When I do a discussion I do it in the exact opposite because the interaction is what takes precedent.
+
+220
+00:20:14,505 --> 00:20:20,865
+So, um, how it makes sense, um, matters more based on the interaction,
+
+221
+00:20:20,865 --> 00:20:25,485
+but from a results standpoint, um, I'm cleanly kind of just following the model.
+
+222
+00:20:26,445 --> 00:20:33,165
+So, uh, the competence is here, and it's the centered variable, which we had already explained that.
+
+223
+00:20:33,375 --> 00:20:39,405
+So I'm simply reporting my numbers across a beta is three, eight, five as rounded from 3849.
+
+224
+00:20:39,765 --> 00:20:43,635
+And then uh, we get to our T score which is ten 196.
+
+225
+00:20:43,635 --> 00:20:46,785
+So that should be ten. Um, two zero.
+
+226
+00:20:47,295 --> 00:20:51,725
+Um, my degrees of freedom for the T that comes from remember, it's, uh.
+
+227
+00:20:51,735 --> 00:20:56,745
+What is it? Um, n minus k minus one k being the number of predictors.
+
+228
+00:20:56,955 --> 00:21:00,555
+So 300 minus three minus one is 296.
+
+229
+00:21:00,795 --> 00:21:05,895
+But the easiest way to get that is to just use the residual degrees of freedom from the Anova table.
+
+230
+00:21:06,435 --> 00:21:09,435
+Uh the p value is less than 001.
+
+231
+00:21:09,435 --> 00:21:17,085
+And then the confidence interval was 3.106 which was 311 and 4592 rounding out of 4 or 5 nine.
+
+232
+00:21:17,295 --> 00:21:19,185
+So that's where those numbers come from.
+
+233
+00:21:19,335 --> 00:21:24,404
+And then I put it into regular terms, holding other variables constant for every one point increase in competence,
+
+234
+00:21:24,405 --> 00:21:27,945
+a gain of 3.50 points and mastery was explained.
+
+235
+00:21:28,275 --> 00:21:31,305
+And, um, I don't know why I said 3.50.
+
+236
+00:21:31,305 --> 00:21:37,515
+That should be 3.85. So good thing we read these things out loud, right?
+
+237
+00:21:38,565 --> 00:21:42,525
+Autonomy. Support. Same thing. Autonomy 222.
+
+238
+00:21:42,765 --> 00:21:47,775
+And then um, the t value is 610P less than 001.
+
+239
+00:21:47,775 --> 00:21:52,484
+Confidence is 151 and two. Um nine four.
+
+240
+00:21:52,485 --> 00:22:02,925
+Yes 938 goes to nine four. So every one point increase in autonomy uh, mastery increased by 2.22 points.
+
+241
+00:22:02,925 --> 00:22:09,254
+That's correct. This time holding other variables constant. Now, um, I report the interaction effect.
+
+242
+00:22:09,255 --> 00:22:13,755
+And in this case it was non-significant. But I'm still reporting all of the values.
+
+243
+00:22:14,025 --> 00:22:21,915
+Um, so uh, again, I'm just reading the line three, three, five rounds to three, six and then the T score is here 0.810.
+
+244
+00:22:22,785 --> 00:22:28,125
+It's the same, um, degrees of freedom. And then the p value is 0.419.
+
+245
+00:22:28,425 --> 00:22:36,285
+Just there. Now in this case, I could probably just kind of like stop and go on and just explain.
+
+246
+00:22:36,285 --> 00:22:39,885
+Well you know, interaction wasn't important.
+
+247
+00:22:39,885 --> 00:22:46,425
+So that just shows you, you know, how important these other two variables are, kind of independently of one another, not on their own.
+
+248
+00:22:46,755 --> 00:22:56,355
+And then I'm going to fall, I'm going to finish with some type of statement where, uh, the null hypothesis for the main effect was, uh, rejected.
+
+249
+00:22:56,355 --> 00:23:03,675
+Right. Um, whereas for the interaction failed to reject because that interaction term was not statistically significant.
+
+250
+00:23:04,275 --> 00:23:10,904
+So because it's not a significant interaction, I don't really need to do plots because there's nothing for me to like, understand?
+
+251
+00:23:10,905 --> 00:23:12,255
+There's nothing there to look at.
+
+252
+00:23:12,495 --> 00:23:19,965
+But I don't like doing stopping the video here because you need to know how to do plots, and I don't have a significant interaction in mind.
+
+253
+00:23:20,145 --> 00:23:25,034
+So I'm going to go ahead and do the plots and, um, just, you know,
+
+254
+00:23:25,035 --> 00:23:31,425
+it's up to you to figure out the fact that probably the distinction is not really going to be visible on our plots.
+
+255
+00:23:31,725 --> 00:23:43,185
+Uh, but at least you get to see how it's done. Uh, so to do plots, what you want to do is, um, basically group your moderating variable.
+
+256
+00:23:43,395 --> 00:23:47,804
+Your moderating variable is the one, uh, that is autonomy.
+
+257
+00:23:47,805 --> 00:23:54,435
+In this case, it's the one that we thought might make competence change or like depend upon.
+
+258
+00:23:54,735 --> 00:23:59,355
+So, um, we have to group that and we want to group that by standard deviation.
+
+259
+00:23:59,355 --> 00:24:01,815
+Remember autonomy has this normal distribution.
+
+260
+00:24:02,055 --> 00:24:09,494
+And so anything that's kind of low would be you know, at least one standard deviation away from the threshold.
+
+261
+00:24:09,495 --> 00:24:13,935
+And so one is the typical because one captures 68% of the data under the normal curve.
+
+262
+00:24:14,175 --> 00:24:17,205
+One is the standard, uh, thing that we are going to use there.
+
+263
+00:24:17,415 --> 00:24:24,195
+So this requires just a little bit of transformation. And we are going to recode into a different variable.
+
+264
+00:24:26,255 --> 00:24:30,275
+So let's follow along here. We are doing autonomy, right.
+
+265
+00:24:30,305 --> 00:24:39,575
+We're going to do our centered autonomy. In um in in this in this way to kind of chunk it together.
+
+266
+00:24:40,955 --> 00:24:46,745
+So we need to name it. Um, we'll say bende autonomy.
+
+267
+00:24:46,895 --> 00:24:52,505
+Uh, Benning is like, uh, autonomy is basically grouping, right?
+
+268
+00:24:52,985 --> 00:25:01,145
+And then we need to define our old and new values. So in order to been by the standard deviation, we need to know what the standard deviation is.
+
+269
+00:25:01,145 --> 00:25:06,004
+And I don't remember if we've got it up here. So let's click on these descriptives up.
+
+270
+00:25:06,005 --> 00:25:09,635
+So won't let me while I'm doing this. Let me again. Yes okay.
+
+271
+00:25:09,845 --> 00:25:13,174
+So our descriptives are autonomy standard deviation.
+
+272
+00:25:13,175 --> 00:25:17,285
+Is that here. No I don't see it. But I know we got it up here.
+
+273
+00:25:18,555 --> 00:25:27,794
+Um. So the standard deviation for autonomy is 0.93768.
+
+274
+00:25:27,795 --> 00:25:31,605
+But that's the regular autonomy. That's not the centered autonomy.
+
+275
+00:25:31,635 --> 00:25:35,865
+So now I need to go and get that descriptive statistics don't I.
+
+276
+00:25:36,135 --> 00:25:39,435
+All right Descriptives. And we'll take both of these out.
+
+277
+00:25:39,975 --> 00:25:45,795
+And we will put in the centered um versions and press paste.
+
+278
+00:25:48,955 --> 00:25:52,315
+And then we'll have our answers for the descriptives.
+
+279
+00:25:52,735 --> 00:26:03,175
+So, um, the centered standard deviation was 90519 for competence and 93768 for autonomy.
+
+280
+00:26:04,037 --> 00:26:07,907
+Well, would you look at that? It's the same standard deviation.
+
+281
+00:26:08,417 --> 00:26:14,087
+Imagine. All right, so now we're ready to find them.
+
+282
+00:26:14,987 --> 00:26:19,697
+Here we go. It makes sense that it's the same. I guess I just didn't think ahead about that.
+
+283
+00:26:20,417 --> 00:26:24,047
+So we have to do a little bit of like three way math here.
+
+284
+00:26:24,227 --> 00:26:28,000
+And we're using the range. So first we want to say um.
+
+285
+00:26:28,354 --> 00:26:33,304
+Anything that's lower than one negative standard deviation.
+
+286
+00:26:33,304 --> 00:26:43,144
+So we would say um -0.93768.
+
+287
+00:26:43,384 --> 00:26:45,604
+I'm gonna copy that. So I don't have to type it in again.
+
+288
+00:26:45,904 --> 00:26:57,393
+So what we're doing is saying anything that is lower than this number and up to where this number is, um, we're going to give it a value.
+
+289
+00:26:57,394 --> 00:27:03,574
+And I feel like, um, I don't know if it should be one as being high or three is being high.
+
+290
+00:27:03,874 --> 00:27:08,374
+Let's make it. One is being low. Okay. So we'll say that's a low.
+
+291
+00:27:08,974 --> 00:27:19,704
+And then, um, we can, uh, do the same thing so we can say, uh, from that threshold to the positive side of that.
+
+292
+00:27:19,714 --> 00:27:22,854
+So this is, this is the one standard deviation.
+
+293
+00:27:22,864 --> 00:27:26,013
+So this would be like the medium or average.
+
+294
+00:27:26,014 --> 00:27:34,504
+So we'll call that two. And then uh, now anything that's higher than the positive version of the standard deviation, we're gonna say that's high.
+
+295
+00:27:34,864 --> 00:27:42,093
+Uh, let's call that three. Um, and I wonder if I could have just used I could have just maybe said one, two and three.
+
+296
+00:27:42,094 --> 00:27:43,644
+Error. Low, medium and high.
+
+297
+00:27:43,654 --> 00:27:51,213
+I don't know that I needed to go through all of the, um, all of that, uh, numeric stuff that I did, but I did have to bend them.
+
+298
+00:27:51,214 --> 00:27:57,334
+And so I did. And now, because I bend them with numbers, I am going to go back and label them just in case.
+
+299
+00:27:57,334 --> 00:28:01,504
+I don't want to forget. So it was one, two and three.
+
+300
+00:28:01,834 --> 00:28:07,714
+And that was low um medium and high.
+
+301
+00:28:08,914 --> 00:28:12,334
+All right. So always good to take some notes for yourself.
+
+302
+00:28:16,546 --> 00:28:20,776
+We will go to graphs and we will do a scatter dot.
+
+303
+00:28:21,646 --> 00:28:25,096
+And, um, let me see if it's simple.
+
+304
+00:28:25,336 --> 00:28:27,766
+Let's just see. Yep. This looks right.
+
+305
+00:28:28,366 --> 00:28:37,366
+Although I am thinking that maybe I didn't do one thing, which normally I think I would want to have saved predicted values for my mastery.
+
+306
+00:28:37,996 --> 00:28:41,385
+Um, remember when we ran the regression?
+
+307
+00:28:41,386 --> 00:28:50,086
+And you can save the residuals, which I did, so that I could check my normality right near there, there is a check the box for predicted values.
+
+308
+00:28:50,386 --> 00:28:54,226
+And I kind of wish I would have done that because I would have used then the y axis.
+
+309
+00:28:54,226 --> 00:29:02,146
+But since I didn't change or excuse me, save the predicted values, I'll just use the um, the measured values as they are the.
+
+310
+00:29:02,236 --> 00:29:08,386
+So that goes on. The Y is the outcome variable and or the predicted versions of the outcome variable.
+
+311
+00:29:08,686 --> 00:29:12,976
+And so then the x axis is the uh predictor.
+
+312
+00:29:13,006 --> 00:29:16,455
+Uh, that isn't the one that you binned.
+
+313
+00:29:16,456 --> 00:29:19,546
+That isn't the one that you grouped. So that was competence.
+
+314
+00:29:19,756 --> 00:29:24,966
+And we're going to set markers by um binned autonomy.
+
+315
+00:29:24,976 --> 00:29:29,356
+So there we go. And then uh, I think that's kind of it.
+
+316
+00:29:29,356 --> 00:29:32,746
+Uh, I don't think maybe I could do color. No. Maybe that's going to come in the end.
+
+317
+00:29:32,956 --> 00:29:37,936
+So let's just paste that and run it and, uh, see what we get.
+
+318
+00:29:39,376 --> 00:29:48,706
+Remembering that there's nothing significant here. So it may be difficult to see, but you can kind of see, you know, the low people have these, um.
+
+319
+00:29:49,306 --> 00:29:52,516
+Um, blue and then more of a green for the high.
+
+320
+00:29:52,936 --> 00:29:57,285
+And they are you can see they're all over the place, you know, medium is everywhere.
+
+321
+00:29:57,286 --> 00:30:04,306
+So with low so as high. So it makes sense that, um, there was nothing significant because there's no clusters, there's no groups.
+
+322
+00:30:04,602 --> 00:30:12,372
+So actually you can just click this button where if you just wanted one regression line, but if you wanted to, it's add fit line at subgroups.
+
+323
+00:30:12,552 --> 00:30:18,881
+So you click that and then it gives you your fit line. And we can see once again clearly no interaction.
+
+324
+00:30:18,882 --> 00:30:23,082
+There's nothing special happening here. They're not crossing over. They don't have weird patterns.
+
+325
+00:30:23,082 --> 00:30:28,241
+They all are relatively standard. Um we can though see the relationship.
+
+326
+00:30:28,242 --> 00:30:38,381
+Right. So where, um, those with the, uh, high autonomy also, um, scored high, um, uh, on, um, mastery,
+
+327
+00:30:38,382 --> 00:30:42,252
+uh, as it's going up and to the right and on competence as it's going up into the right.
+
+328
+00:30:42,492 --> 00:30:49,572
+So we can see kind of the reflection of those groups here in, um, but there's no interaction here.
+
+329
+00:30:50,052 --> 00:30:57,341
+Uh, so we can just close that out. So, um, that last step was not necessary because we did not have an interaction that was, uh, significant.
+
+330
+00:30:57,342 --> 00:31:06,012
+But I did it just to show you that you would want to, uh, first group or been your moderator by standard deviation,
+
+331
+00:31:06,012 --> 00:31:14,292
+low, medium and high, and then graph it with, um, the, uh, kind of groups, uh, made obvious to you.
+
+332
+00:31:14,292 --> 00:31:17,292
+So that will help with the, um, explanation.
+
+333
+00:31:17,545 --> 00:31:24,265
+So last but not least, we want to discuss it. And I just kind of summarize things here that, uh, competence and autonomy,
+
+334
+00:31:24,265 --> 00:31:29,725
+they do their internal and independent contributions to mastery and they don't appear to interact.
+
+335
+00:31:30,145 --> 00:31:33,595
+So now I'm going to scroll down because we're going to do the same thing.
+
+336
+00:31:33,595 --> 00:31:37,375
+But this time we're going to do it with an unknowable question.
+
+337
+00:31:37,675 --> 00:31:41,454
+Now you don't have to do an Anova with interactions in your lab.
+
+338
+00:31:41,455 --> 00:31:44,965
+You only are invited to do a multiple linear regression for credit.
+
+339
+00:31:45,175 --> 00:31:48,865
+But there are two questions that if you want to do, you can do.
+
+340
+00:31:48,865 --> 00:31:55,765
+And it's um, you know, the following demonstration. So if you're curious about it, then, you know, hang in there and let's let's check it out.
+
+341
+00:31:56,305 --> 00:31:59,545
+Um, so I'm going to run through this just like I did the MLR.
+
+342
+00:31:59,785 --> 00:32:07,225
+Uh, does the effect of instructional structure on methods master differ by identity orientation?
+
+343
+00:32:07,585 --> 00:32:11,544
+Uh, so we're asking, um, does the structure score.
+
+344
+00:32:11,545 --> 00:32:16,855
+And let's go to our SPSS. Uh, we have structure somewhere and through here.
+
+345
+00:32:16,855 --> 00:32:19,945
+Yep. It's um a string variable.
+
+346
+00:32:20,275 --> 00:32:24,954
+Um, and then we have identity right somewhere in through here.
+
+347
+00:32:24,955 --> 00:32:35,155
+Researcher identity orientation. So um, are these things impacting the, um, uh, the math or methods mastery score?
+
+348
+00:32:35,905 --> 00:32:41,124
+Let's find out. So we've got no interaction and some interaction.
+
+349
+00:32:41,125 --> 00:32:43,095
+Right. So we can do that. And then our, uh, power would be calculated the same thing.
+
+350
+00:32:43,301 --> 00:32:46,691
+So the first thing we have is our power statement. Let's pull up our power.
+
+351
+00:32:47,111 --> 00:32:50,260
+Um, we have to change. We are in the F-test family.
+
+352
+00:32:50,261 --> 00:32:53,590
+We need to go to a nova with fixed effects.
+
+353
+00:32:53,591 --> 00:32:58,361
+And then we're looking for something, uh, special main effects and interaction and tells us what it says.
+
+354
+00:32:58,811 --> 00:33:03,500
+Um, let's keep all of this the same and change our beta to, um, 0.80.
+
+355
+00:33:03,501 --> 00:33:08,681
+Um, and then, um, in this case, we have, uh, how many groups do we have?
+
+356
+00:33:08,711 --> 00:33:13,301
+Well, we have three instructional groups and then three identity groups.
+
+357
+00:33:13,721 --> 00:33:18,251
+Um, perhaps I should run a quick analysis just to make sure that's true.
+
+358
+00:33:19,001 --> 00:33:23,921
+Um, we had instruction and identity.
+
+359
+00:33:24,341 --> 00:33:30,611
+C I feel like I was looking at participation at some point earlier and just want to make sure I've got the right thing here.
+
+360
+00:33:30,611 --> 00:33:34,751
+Yep. So instruction is flexible high structure and moderate structure.
+
+361
+00:33:34,991 --> 00:33:38,771
+And then identity is clinician educator and practitioner.
+
+362
+00:33:39,881 --> 00:33:43,030
+Um so with three groups three times three is nine.
+
+363
+00:33:43,031 --> 00:33:48,041
+And um that's we have um nine uh number of groups.
+
+364
+00:33:48,041 --> 00:33:52,241
+So that's what we, that's what we're going to have. Um, and then um.
+
+365
+00:33:52,652 --> 00:33:58,082
+Now the numerator for the degrees of freedom. Um, and we don't talk about this in the lecture.
+
+366
+00:33:58,082 --> 00:34:04,742
+And that's okay because you can Google things as you go. But, um, I always Google this because I never remember which is which.
+
+367
+00:34:04,982 --> 00:34:13,742
+But, um, for the for the interaction, it's basically um, k minus one for each of the variables that you're doing.
+
+368
+00:34:14,072 --> 00:34:19,172
+Um, so in this case, uh, each of these variables is k minus one three minus one is two.
+
+369
+00:34:19,172 --> 00:34:26,581
+And then you multiply that. So that's two times two equals four. So in our case we are prioritizing the interaction.
+
+370
+00:34:26,582 --> 00:34:30,802
+Right. Our research question is really asking us about this interaction.
+
+371
+00:34:30,812 --> 00:34:33,722
+So our numerator degrees of freedom is going to be four.
+
+372
+00:34:33,992 --> 00:34:41,042
+Um if the interaction was just there for funsies then maybe the numerator would just be three minus one which is two.
+
+373
+00:34:41,402 --> 00:34:46,742
+Uh, but because we are doing this for the interaction, we want to kind of calculate that for each of the variables.
+
+374
+00:34:47,012 --> 00:34:50,072
+Um, and I had already done that. So press calculate.
+
+375
+00:34:50,102 --> 00:34:56,132
+We need 196 people and we have 300. So let's see here I think I wrote most of that up.
+
+376
+00:34:56,132 --> 00:35:00,062
+Um, and uh I can just kind of type that in here.
+
+377
+00:35:00,422 --> 00:35:06,512
+So our F is two nine total groups. Um the minimum sample size is 196.
+
+378
+00:35:06,812 --> 00:35:15,362
+And uh, that's fine because we've got 300. Um, so now that we've done our power calculation, we are ready to test our Anova.
+
+379
+00:35:15,722 --> 00:35:19,172
+And, uh, we kind of do that just like we would do any other Anova.
+
+380
+00:35:19,445 --> 00:35:22,594
+Independence of observations. Okay, we are fine there.
+
+381
+00:35:22,595 --> 00:35:34,475
+And then we want to, um, check the, um, the normal distribution of the dependent variable by the, um, uh, categorical variables.
+
+382
+00:35:34,475 --> 00:35:39,965
+Right. So let's do that. We need to pick up this.
+
+383
+00:35:40,385 --> 00:35:45,545
+Let's see here. Get rid of my folder. We're done with this. We can go from here.
+
+384
+00:35:45,965 --> 00:35:51,694
+Uh we are going to analyze descriptive statistics explore and pull that over.
+
+385
+00:35:51,695 --> 00:35:57,335
+That's left over from MLR. So now we're doing, uh, the methods mastery score.
+
+386
+00:35:57,811 --> 00:36:01,021
+And the factor will be, um.
+
+387
+00:36:01,531 --> 00:36:04,681
+Oh, I don't know where I'm going. The level, of course.
+
+388
+00:36:04,951 --> 00:36:09,051
+And we can also run it by level of participation.
+
+389
+00:36:09,051 --> 00:36:12,541
+No research identity. See? There we go. And then our statistics.
+
+390
+00:36:12,931 --> 00:36:16,110
+Um, we have asked for descriptives and for our plots.
+
+391
+00:36:16,111 --> 00:36:19,741
+I like to do a histogram. I don't like doing a stem and leaf, but you can do what you want.
+
+392
+00:36:20,221 --> 00:36:25,321
+Um, but I do have to ask for those numerous plots, and then I can press okay and paste and.
+
+393
+00:36:25,321 --> 00:36:30,001
+Okay, really could have run it all right there because I already had a sample explorer, but.
+
+394
+00:36:31,821 --> 00:36:40,611
+Maybe going the long way helps you. All right. So let's check out our normal distribution which is right here.
+
+395
+00:36:41,391 --> 00:36:45,081
+All right. So something didn't run. Let's see what that warning was.
+
+396
+00:36:46,671 --> 00:36:50,061
+Oh, my words are too long. Okay, that's what it's telling me.
+
+397
+00:36:51,321 --> 00:36:57,261
+All right, so for the normal distribution by structure, we can see that they're all above 0.05.
+
+398
+00:36:57,891 --> 00:37:01,161
+And, um, we can see our histograms.
+
+399
+00:37:01,161 --> 00:37:04,191
+Look, you know, relatively normal, as do our plots.
+
+400
+00:37:04,761 --> 00:37:11,601
+Um, then we get into normal distribution by identity, and we can see those are all above 0.05.
+
+401
+00:37:12,171 --> 00:37:15,561
+Um, again, the histogram, you can see it's a little left leaning there.
+
+402
+00:37:15,571 --> 00:37:21,131
+Um, but still, um, not the end of the world potentially.
+
+403
+00:37:21,141 --> 00:37:25,581
+So we're going to call that a day and rely on our Shapiro.
+
+404
+00:37:25,581 --> 00:37:34,341
+Wilk. So here I would just say, you know, I could type them all out, or I could say that they're all, uh, greater than 0.05.
+
+405
+00:37:34,701 --> 00:37:41,331
+Um, and normality is intact. So I'm going to rely on you to fill this in, in a more APA appropriate way.
+
+406
+00:37:42,351 --> 00:37:48,011
+Okay. Now we need to run our Anova, and, uh, we are going to do that.
+
+407
+00:37:48,021 --> 00:37:54,051
+Um, and then we're going to be able to interpret our last, uh, assumption, which is levene's test of equality of variance.
+
+408
+00:37:54,231 --> 00:37:59,636
+Assuming that's intact, we'll be able to then, um, you know, go on to, uh, interpret these results.
+
+409
+00:37:59,706 --> 00:38:03,755
+You might be pleased to find out that when you do an interaction in Anova,
+
+410
+00:38:03,756 --> 00:38:10,686
+you don't typically need to do any centering or creating of dummy variables, unless maybe there is something else special going on.
+
+411
+00:38:10,686 --> 00:38:14,345
+Like that's pretty straightforward. So we're just going to go to analyze.
+
+412
+00:38:14,346 --> 00:38:20,076
+And then we go to general linear models and uh click uh univariate.
+
+413
+00:38:20,076 --> 00:38:26,375
+Oops I've gone a little too far. And um, we enter our models into where they belong.
+
+414
+00:38:26,376 --> 00:38:31,716
+So we know dependent variable is the mastery. So let's find the, uh, the mastery score.
+
+415
+00:38:32,752 --> 00:38:35,111
+Is that right? And then. Yep.
+
+416
+00:38:35,112 --> 00:38:45,672
+And then, uh, we would put our two predictor variables into the fixed factors section so that, um, instructional structure and researcher identity.
+
+417
+00:38:46,302 --> 00:38:48,664
+So we can drop those in. And you might be thinking, well, wait a minute.
+
+418
+00:38:50,740 --> 00:38:56,320
+This is just like doing a regular Anova. And yes, it is. There's only, I think, maybe 1 or 2 extra little buttons to pick.
+
+419
+00:39:02,592 --> 00:39:08,052
+Um, so in model, there's nothing to change. In contrast, there is nothing to change.
+
+420
+00:39:08,533 --> 00:39:14,823
+Um, here is where we're creating the um, interaction component for um, SPSS.
+
+421
+00:39:14,843 --> 00:39:23,843
+And like already kind of does it. So um, what we're going to do in the end means table is put the interaction variable there.
+
+422
+00:39:24,173 --> 00:39:27,533
+Now, uh, if I hadn't selected my post hoc I could just ask for it.
+
+423
+00:39:28,163 --> 00:39:33,593
+Um, right here again, it's like basically the same thing. So it means it's estimated marginal means.
+
+424
+00:39:33,593 --> 00:39:38,123
+And it's basically saying, um, it's like the post hoc for an interaction variable.
+
+425
+00:39:38,393 --> 00:39:49,133
+So, um, we, you know, basically choose if we want to, um, have um, uh, simple main effects or just main effects.
+
+426
+00:39:49,493 --> 00:39:57,523
+And if we are going to do simple main effects, which one of these would you, um, would you pick and go on, uh, for save?
+
+427
+00:39:57,533 --> 00:40:05,573
+Uh, we don't really need any of these. And then for options, let's see here, um, we can estimate our effect size.
+
+428
+00:40:05,573 --> 00:40:11,243
+And we can, of course, ask for homogeneity, because that's kind of what we came here for to begin with.
+
+429
+00:40:11,723 --> 00:40:15,653
+And, um, that can be that.
+
+430
+00:40:15,991 --> 00:40:20,351
+And then I'm just realizing no in plots. I needed to ask for a plot.
+
+431
+00:40:20,371 --> 00:40:24,381
+I knew I needed to do something. So what we do this is going to help with our interpretation.
+
+432
+00:40:24,391 --> 00:40:31,021
+Put, uh, one variable on one axis and the other on, um, the separate lines axis.
+
+433
+00:40:31,231 --> 00:40:34,260
+So, uh, then we click add. So it goes in.
+
+434
+00:40:34,261 --> 00:40:38,671
+And that now has created that interaction. See that multiplication symbol?
+
+435
+00:40:39,241 --> 00:40:43,560
+Um, do we want a line chart or a bar chart. I don't know, like a bar chart.
+
+436
+00:40:43,561 --> 00:40:47,701
+I think we'll see if I chose the right thing and continue.
+
+437
+00:40:48,211 --> 00:40:57,181
+So now we I think, are ready to run our model and, uh, I've pasted it so we can go in and press run.
+
+438
+00:40:58,631 --> 00:41:06,431
+And so there's probably a lot to explore here. Let's collapse all this other old stuff from the linear, um, regression that we did.
+
+439
+00:41:08,111 --> 00:41:11,591
+All right. So now we're just looking at the, um, a nova.
+
+440
+00:41:12,941 --> 00:41:19,361
+Lots of information. Uh, got our counts by groupings and our means by groupings.
+
+441
+00:41:19,834 --> 00:41:23,434
+So we've got our first little wrinkle here. Levene's is violated.
+
+442
+00:41:23,434 --> 00:41:26,763
+Um, it's 0.02 and that's lower than 0.05.
+
+443
+00:41:26,764 --> 00:41:32,253
+So this tells us that our homogeneity of variance assumption is not intact.
+
+444
+00:41:32,254 --> 00:41:40,954
+It has been violated if in simpler models like a t-test, you can just see, you know, equal variance is not assumed and it gives you a line.
+
+445
+00:41:40,954 --> 00:41:49,684
+But that's not the case in Anova. So, um, probably what we will do is proceed because Anova can be robust to a violation,
+
+446
+00:41:49,954 --> 00:41:54,244
+especially when the sample size is relatively large and 300 is pretty big.
+
+447
+00:41:54,634 --> 00:42:01,234
+Um, and then also you can look at your group sizes, um, to see if they're relatively balanced.
+
+448
+00:42:01,234 --> 00:42:07,384
+And here 8484 uh 134 I mean, that's relatively balanced with like two versus one.
+
+449
+00:42:07,504 --> 00:42:11,314
+Same thing here on identity 70 and then 116 and 114.
+
+450
+00:42:11,524 --> 00:42:14,733
+So that so, you know, that's part of potentially why.
+
+451
+00:42:14,734 --> 00:42:17,944
+But they're relatively balanced is not very, very lopsided.
+
+452
+00:42:17,944 --> 00:42:24,184
+It's only just a little bit lopsided. So I'm probably going to say let's proceed with a citation that supports my decision.
+
+453
+00:42:24,664 --> 00:42:29,464
+And that also suits my agenda for making this video, because now I can go on and interpret the model.
+
+454
+00:42:29,854 --> 00:42:37,983
+So, uh, we've got our corrected model at intercept point. We can ignore those and we can go to instructional structure on its own is not significant.
+
+455
+00:42:37,984 --> 00:42:41,044
+0.074 is higher than 0.05.
+
+456
+00:42:41,764 --> 00:42:47,163
+So that's not significantly related to mastery. Identity however, is significant.
+
+457
+00:42:47,164 --> 00:42:50,164
+That point um or less than 001.
+
+458
+00:42:50,464 --> 00:42:59,014
+And so that is significant. And we don't necessarily know how we don't know which identity has the better methods scores.
+
+459
+00:42:59,404 --> 00:43:07,114
+But we do know that it matters. And then finally the interaction we can see that's here instructional structure times researcher identity.
+
+460
+00:43:07,684 --> 00:43:11,403
+Remember in multiple linear regression we kind of had like mathematically create that.
+
+461
+00:43:11,404 --> 00:43:15,424
+Well in Anova it's just it uses the same function. It just creates it itself.
+
+462
+00:43:15,874 --> 00:43:23,614
+And uh because we told it to when we did the plots and when we did the m means um, and we can see that is also significant.
+
+463
+00:43:23,614 --> 00:43:28,353
+0.015 is is lower than 0.05.
+
+464
+00:43:28,354 --> 00:43:37,354
+So we have a significant interaction, a significant main effect for identity and a nonsignificant main effect for structure.
+
+465
+00:43:38,314 --> 00:43:45,124
+So, uh, I think now maybe we can report that, but we also may want to spend some time talking about what does this mean?
+
+466
+00:43:45,544 --> 00:43:54,034
+Um, how how do we make sense out of this? And I asked for so much so, um, that we were just reading this test between subject,
+
+467
+00:43:54,034 --> 00:43:58,054
+and then here's the M means that's going to help us understand the interaction.
+
+468
+00:43:58,534 --> 00:44:01,863
+Um, and we can also understand the main effects from there.
+
+469
+00:44:01,864 --> 00:44:05,674
+But the post-hoc that's going to help us understand the main effect only.
+
+470
+00:44:06,124 --> 00:44:11,794
+Um, so let's go look at the post-hoc for identity, because that was the one that mattered.
+
+471
+00:44:12,544 --> 00:44:24,184
+And uh, what we can see is that when clinicians compare themselves to educators, um, they're significantly more likely to, um, have lower scores.
+
+472
+00:44:24,844 --> 00:44:28,983
+Um, and they're also significantly more likely to have lower scores than practitioners.
+
+473
+00:44:28,984 --> 00:44:32,794
+So educators always are getting the lower scores. Um.
+
+474
+00:44:34,034 --> 00:44:37,814
+Again. Educator to clinician, but educator to practitioner.
+
+475
+00:44:38,174 --> 00:44:39,006
+Um. Clinician to educator was significant.
+
+476
+00:44:41,226 --> 00:44:44,886
+Clinician to practitioner was also significant, and both of them are lower.
+
+477
+00:44:45,216 --> 00:44:51,966
+Um so I minus j resulting in a negative means that I is lower than J.
+
+478
+00:44:52,146 --> 00:44:59,346
+So what this is telling us is that the clinicians tend to have lower scores significantly than the other two groups educators,
+
+479
+00:44:59,676 --> 00:45:05,736
+um, minus clinicians, they had uh, higher scores significantly and then practitioners.
+
+480
+00:45:06,066 --> 00:45:09,066
+But it was nonsignificant even though it was slightly higher.
+
+481
+00:45:09,066 --> 00:45:16,086
+And then practitioners, we see kind of those same outcomes, but in the uh, direction reversal with the same significance.
+
+482
+00:45:16,296 --> 00:45:19,626
+We can see that grouped here, clinicians tend to stand on their own,
+
+483
+00:45:19,776 --> 00:45:25,086
+whereas practitioners and educators, they tend to, uh, group together in their own little subset.
+
+484
+00:45:25,606 --> 00:45:28,866
+Um, so if we were just doing the regular Anova, that's what we would stop.
+
+485
+00:45:28,866 --> 00:45:33,696
+But we're doing an interaction. And what we need to find out now is, um.
+
+486
+00:45:35,796 --> 00:45:42,606
+Something is going on where? Depending on the identity, the structure is relevant.
+
+487
+00:45:42,636 --> 00:45:46,626
+Structure on its own is not relevant from a significant standpoint.
+
+488
+00:45:46,866 --> 00:45:51,666
+But when you account for structure within identity, it is relevant.
+
+489
+00:45:51,816 --> 00:45:56,256
+So that's why we need our M means tables to help us understand.
+
+490
+00:45:56,734 --> 00:45:59,974
+So all this chart is, is something that takes time to read.
+
+491
+00:46:00,274 --> 00:46:05,914
+Um, it's almost like, uh, uh, another post hoc table, but on an extra layer.
+
+492
+00:46:06,244 --> 00:46:13,744
+So when the course instructional format is flexible, then you compare the various identities.
+
+493
+00:46:13,954 --> 00:46:22,684
+What you find is that, say, flexible leads to clinician education being different but clinician practitioner not being different,
+
+494
+00:46:23,074 --> 00:46:27,484
+whereas highly structured clinician education is not different anymore.
+
+495
+00:46:27,604 --> 00:46:31,384
+And moderately structured clinician education is different.
+
+496
+00:46:31,744 --> 00:46:38,434
+So um, where that structure came into play there is that when structure was in place,
+
+497
+00:46:38,944 --> 00:46:42,814
+the clinicians didn't score any differently than the educators did.
+
+498
+00:46:43,024 --> 00:46:49,804
+But when there wasn't enough structure, the clinicians were scoring lower than the educator, um, identity group.
+
+499
+00:46:50,194 --> 00:46:54,814
+And so that was just kind of one line. Now I have to kind of go through that and do that for everyone.
+
+500
+00:46:55,084 --> 00:47:01,293
+So, um, for flexible clinician to practitioner is not a significant, uh,
+
+501
+00:47:01,294 --> 00:47:05,674
+difference for our highly structured clinician to practitioner is not significant
+
+502
+00:47:05,794 --> 00:47:09,664
+for moderately structured connection to practitioner is not significant.
+
+503
+00:47:09,844 --> 00:47:15,364
+So I'm just reading left to right. And in my own practice what I'm doing is I kind of have a little grid like a little matrix.
+
+504
+00:47:15,364 --> 00:47:18,484
+And I'm like significant non-significant check x.
+
+505
+00:47:18,844 --> 00:47:24,184
+And that way it's going to help me with my narrative, because there's going to be a lot of moving parts that I'm going to have to keep track of here.
+
+506
+00:47:24,604 --> 00:47:25,864
+So now I can compare.
+
+507
+00:47:25,864 --> 00:47:35,524
+I've already compared clinicians to educators, to practitioners, uh, educators, practitioners, uh, so flexible, um, educators versus practitioners.
+
+508
+00:47:36,544 --> 00:47:43,474
+Is significant, highly structured education um versus practitioners not significant.
+
+509
+00:47:43,864 --> 00:47:50,584
+And um in a moderate structure educator versus practitioner is um yes, it is significant.
+
+510
+00:47:51,994 --> 00:48:00,303
+Um, so I think I've compared everything all around, but maybe not, uh, want to go through that a little bit closer and, uh, then call it a day.
+
+511
+00:48:00,304 --> 00:48:03,484
+Now profile clients remember I was like, oh, no, um, let's pick bar.
+
+512
+00:48:03,484 --> 00:48:06,813
+That was wrong. I should not have done that. I should have picked a line graph.
+
+513
+00:48:06,814 --> 00:48:13,564
+And I knew it. And you might have known it too. And you might have been yelling at me like Dora the Explorer pick line graph,
+
+514
+00:48:13,564 --> 00:48:18,004
+because I was should have been looking for lines that crossed over the interactive, but I just spaced out.
+
+515
+00:48:18,184 --> 00:48:26,944
+So then, um, I realized that as I was going through my results and I reran the same Anova, but this time I picked my line graph and there we are.
+
+516
+00:48:27,154 --> 00:48:31,414
+So this is really that thing, that plot. This is like all that matters.
+
+517
+00:48:31,414 --> 00:48:37,234
+This is how this tells us everything. The numbers are coming from these tables, but this is what helps us understand.
+
+518
+00:48:37,564 --> 00:48:42,094
+Um, you can see that there is an interaction here and here.
+
+519
+00:48:42,454 --> 00:48:46,744
+Um, and we might want to check the table for that, uh, seeing how close they are.
+
+520
+00:48:46,744 --> 00:48:55,804
+But this is where the interaction is happening. Mostly, um, structure seems to matter most to educator researchers.
+
+521
+00:48:55,984 --> 00:48:57,724
+That's what it's showing you. This, um, uh, um, structure based on identity.
+
+522
+00:48:57,977 --> 00:49:05,567
+So we can see that, um, like, just in general, you know, the education folks, uh, when they're flexible, they are really thriving.
+
+523
+00:49:05,837 --> 00:49:11,687
+Uh, by comparison to the other folks. But once you put them in a super structure environment, the educators don't like it.
+
+524
+00:49:12,017 --> 00:49:19,817
+But if you give them a moderate structure, they can tolerate it, apparently because their scores do go back up but never as high as entirely flexible.
+
+525
+00:49:20,057 --> 00:49:23,937
+Whereas maybe, um, and I don't know the significant. I need to go back up and look at the number.
+
+526
+00:49:23,957 --> 00:49:32,507
+But, uh, the practitioners, they don't care if it's super flexible or if it's super structured, but they do care maybe a little bit.
+
+527
+00:49:32,507 --> 00:49:39,226
+If it's moderately structured, they start to suffer. And then, um, the, uh, clinicians there always suffer.
+
+528
+00:49:39,227 --> 00:49:41,296
+And no matter what, you know, it didn't matter.
+
+529
+00:49:41,297 --> 00:49:48,047
+Their average, uh, mastery score was relatively static, no matter what, um, uh, structure you had them in.
+
+530
+00:49:48,047 --> 00:49:52,187
+And that's obviously because they're sleep deprived. So. So that explains that.
+
+531
+00:49:52,577 --> 00:49:58,547
+Um, so now I think I've run a whole Anova, um, with an interaction, and I need to now write it up.
+
+532
+00:49:58,847 --> 00:50:01,967
+I can at least go through the placeholders.
+
+533
+00:50:02,358 --> 00:50:06,798
+All right. So I've written up these, um, Anova results reminding readers what I did.
+
+534
+00:50:07,128 --> 00:50:14,598
+Um, and then we start reporting with the interaction effect. So I'm just literally reading that line from the test of between subjects.
+
+535
+00:50:14,598 --> 00:50:21,768
+Um, so let's see if I can get that if I go over here, um, where the, um, interaction, uh, was significant.
+
+536
+00:50:21,768 --> 00:50:27,197
+The degrees of freedom is four and 291, and the value is three one, three one.
+
+537
+00:50:27,198 --> 00:50:32,928
+So that's rounded. And then the p was 015. Um and then the partial Ada was 0.04.
+
+538
+00:50:33,348 --> 00:50:40,787
+Um, so this indicates that the um, you know, the structure and the identity both mattered.
+
+539
+00:50:40,788 --> 00:50:46,458
+Um, or like the identity mattered differently on different levels of structure.
+
+540
+00:50:47,208 --> 00:50:52,068
+Um, and then I will report the main effects, uh, those are straight off of the table as well.
+
+541
+00:50:52,068 --> 00:50:55,967
+They become less important, particularly when the interaction is is present.
+
+542
+00:50:55,968 --> 00:51:03,018
+We don't have to go on and report, um, other things because the interaction report is going to take the primary,
+
+543
+00:51:03,288 --> 00:51:05,088
+uh, when you're writing a dissertation,
+
+544
+00:51:05,088 --> 00:51:10,608
+you kind of write everything up, but, but in a journal, you've just got to kind of skip straight to what the point is.
+
+545
+00:51:10,908 --> 00:51:15,768
+Uh, but with the main effects we did have, uh, let's see here, um, uh,
+
+546
+00:51:15,798 --> 00:51:24,138
+instructional structure was degrees of freedom two and 291, the F being two, six, three, and then the P being 074.
+
+547
+00:51:24,528 --> 00:51:36,618
+Um, and then the main effect of identity was, uh, degrees of freedom two and 291, with the F being 9.23 and the uh, less than 001 and partial 8.06.
+
+548
+00:51:36,798 --> 00:51:40,638
+Why didn't I report partial ETA for the main effect of instructional structure?
+
+549
+00:51:40,638 --> 00:51:46,608
+Because it was not significant. A journal standard or dissertation chair may disagree, and you should just do what they want.
+
+550
+00:51:47,268 --> 00:51:51,557
+Um, now that we've reported kind of the main effects now the postdoc comparison,
+
+551
+00:51:51,558 --> 00:51:57,078
+that's really where, you know, the gold is um, and this is important to help everybody understand.
+
+552
+00:51:57,078 --> 00:52:01,428
+And I ran through that relatively quickly. We talked about the M means table here, remember.
+
+553
+00:52:01,428 --> 00:52:07,128
+And I was talking through like where the differences were. But the other table you can look at, it's the same thing.
+
+554
+00:52:07,308 --> 00:52:09,108
+It's just organized differently.
+
+555
+00:52:09,318 --> 00:52:17,148
+Um, so if we go look at, uh, this pairwise comparison versus this pairwise comparison, you can see all it's done is put um,
+
+556
+00:52:17,298 --> 00:52:22,908
+um structure on the far left, whereas this pairwise comparison puts identity on the far left.
+
+557
+00:52:23,958 --> 00:52:27,288
+Both of these tables are fair to report from.
+
+558
+00:52:27,528 --> 00:52:34,578
+But um, depending on what your research question was, you may want to use one table over the other.
+
+559
+00:52:34,578 --> 00:52:37,728
+Like it may be more valuable from a research question point of view.
+
+560
+00:52:37,998 --> 00:52:44,028
+So let's what was our research question. Does the affect of instructional structure on methods matter by identity.
+
+561
+00:52:44,148 --> 00:52:49,278
+So by identity seems to be our main focus. And that's why I chose to report that way.
+
+562
+00:52:49,728 --> 00:52:58,578
+So using this table since it starts with them on the far left, I can then for my clinicians how did structure play out.
+
+563
+00:52:58,878 --> 00:53:02,448
+And you can see there's no significant differences ever.
+
+564
+00:53:02,658 --> 00:53:09,948
+So that's basically what I wrote up there. Again in a dissertation I might do like literally line for line, I might include a table.
+
+565
+00:53:10,038 --> 00:53:12,468
+But this is the main point, right.
+
+566
+00:53:13,308 --> 00:53:21,918
+For my educators looking at how structure matters, what we can see is that there are significant differences everywhere.
+
+567
+00:53:22,098 --> 00:53:28,697
+So no matter what structure they were in, it mattered to educators.
+
+568
+00:53:28,698 --> 00:53:37,188
+And we can see that their scores were positive and flexible, negative in high and mixed in moderate.
+
+569
+00:53:37,398 --> 00:53:44,568
+So that shows us, um, that flexible was the preferred um structure type.
+
+570
+00:53:45,018 --> 00:53:49,487
+Um, now, I wouldn't use bullet points for APA, but I was getting tired and I just did copy and paste.
+
+571
+00:53:49,488 --> 00:53:52,548
+And so that line is like literally from here.
+
+572
+00:53:53,808 --> 00:54:01,428
+Um, and I'm reporting all the lines. Right. And then finally, for my practitioners, how did structure matter looking at the significance?
+
+573
+00:54:01,878 --> 00:54:06,078
+Nothing significant there. So the educators are the only ones where structure mattered.
+
+574
+00:54:06,318 --> 00:54:11,088
+So, uh, let's see here the null hypothesis of no interaction was rejected.
+
+575
+00:54:11,448 --> 00:54:16,098
+And the findings indicate that structure on methods matters by identity.
+
+576
+00:54:16,338 --> 00:54:23,717
+And then, you know, taking this together, you want to kind of consider all of this as the person who's designing this course,
+
+577
+00:54:23,718 --> 00:54:30,918
+if you want them to score high on their methods. Mastery. Um, and I kind of had previewed that here in my post-hoc comparisons.
+
+578
+00:54:30,918 --> 00:54:41,118
+I reminded the reader what I did, but then I said, um, you know, bottom line up front, you know, um, it mattered more for educating researchers.
+
+579
+00:54:41,448 --> 00:54:43,685
+So that's how I'm reporting this thing. And that's how you would do an Anova with an interaction.
+
+580
+00:54:46,606 --> 00:54:49,726
+And so the last demonstration I'm going to do is a block model.
+
+581
+00:54:50,166 --> 00:54:54,555
+Um remember this is not really functionally different. So I'm going to fly through this demonstration.
+
+582
+00:54:54,556 --> 00:55:03,356
+It's really more theoretically different. Um, does autonomy support explain additional variance in methods mastery beyond competence perception.
+
+583
+00:55:03,406 --> 00:55:10,756
+So this is the same question as the multiple linear regression. You already know the answer to this because we kind of did this backwards.
+
+584
+00:55:10,766 --> 00:55:14,325
+Remember it was 32.1 and 32.2%.
+
+585
+00:55:14,326 --> 00:55:18,496
+So does it add additional variance. Not really nothing important there.
+
+586
+00:55:18,886 --> 00:55:26,956
+But imagine you didn't know that you wanted to actually do this on your, um, um, you would want to set this up through block modeling.
+
+587
+00:55:26,956 --> 00:55:36,916
+So you can do this with Anova and with regression. Um, so we want to go to regression and linear and see how all of this stuff is still there.
+
+588
+00:55:38,336 --> 00:55:44,056
+And it's in block one of one. Um, in order to do block modeling, you simply.
+
+589
+00:55:44,236 --> 00:55:47,176
+Enter phases into different blocks by clicking next.
+
+590
+00:55:47,176 --> 00:55:55,246
+And then you look at the um, ah ah square change, or you look at the difference in explanatory power, uh, block one versus block two.
+
+591
+00:55:56,266 --> 00:56:03,286
+Um, so while I could, you know, set all of that up, really, my question was does adding an interaction term matter.
+
+592
+00:56:03,736 --> 00:56:06,736
+And so I'm going to take it out, I'm going to click next.
+
+593
+00:56:06,736 --> 00:56:10,336
+And then I'm going to put it back in. And that's all I need to do differently.
+
+594
+00:56:10,336 --> 00:56:17,176
+Now had I not already been here running in MLR, I would have needed to go through all of my boxes, check all of those things.
+
+595
+00:56:17,386 --> 00:56:24,346
+But in this case, um, because the regression had already been ran, all I needed to do was put it into block two.
+
+596
+00:56:24,856 --> 00:56:34,006
+Um, and we'll paste that into syntax because you can see let's see if we can find it, see how it says method enter centered.
+
+597
+00:56:34,036 --> 00:56:37,246
+That's block one. And then method entered centered interaction.
+
+598
+00:56:37,456 --> 00:56:41,626
+Let's go up to that earlier regression where it says method enter.
+
+599
+00:56:41,626 --> 00:56:47,145
+And it just has one line. Um and then there was another regression that I ran with the interaction.
+
+600
+00:56:47,146 --> 00:56:51,856
+Everything's on one line. Whereas here it's on two different lines.
+
+601
+00:56:52,066 --> 00:56:56,385
+So it's just going to well do what we ask okay.
+
+602
+00:56:56,386 --> 00:57:05,356
+We can hide that Anova and look at this regression and um, uh, clicking on the regression title, it's moved to the top again.
+
+603
+00:57:05,356 --> 00:57:09,586
+Um, all of this is just about interpreting the output.
+
+604
+00:57:10,006 --> 00:57:17,386
+Uh, so where it says model one and model two, model one is block one that has the two variables that were um, present in the model.
+
+605
+00:57:17,656 --> 00:57:25,546
+Model two just has the interaction term. So the difference between model one and model two is only the interaction term.
+
+606
+00:57:25,696 --> 00:57:29,566
+And it's saying hey, if we have the interaction term guess what.
+
+607
+00:57:29,746 --> 00:57:36,016
+We can gain a whole .001 explanatory power.
+
+608
+00:57:36,196 --> 00:57:39,735
+So clearly that's not really mathematically valuable.
+
+609
+00:57:39,736 --> 00:57:44,805
+But maybe for the purposes of demonstration it is. And then all of the interpret is station is the same.
+
+610
+00:57:44,806 --> 00:57:50,176
+You can see that every table is just a little more complicated in that it has model one and model two for everything.
+
+611
+00:57:50,356 --> 00:57:53,776
+So both models were significant. Both models were here.
+
+612
+00:57:54,076 --> 00:57:59,296
+Um, you know, the uh, factors are significant in model one, like we knew they would be.
+
+613
+00:57:59,296 --> 00:58:05,055
+This matches the first regression output. And then like they we knew that it would be, but not for the interaction.
+
+614
+00:58:05,056 --> 00:58:07,156
+This matches that second regression we ran.
+
+615
+00:58:07,456 --> 00:58:15,226
+So with this block model demonstration all you're seeing mathematically is the same exact two regressions you saw earlier.
+
+616
+00:58:15,736 --> 00:58:25,906
+Had I, um, theorized from the beginning or had the priority of my research question from the beginning been about the value between,
+
+617
+00:58:26,446 --> 00:58:30,136
+uh, or the importance of adding that interaction term.
+
+618
+00:58:30,316 --> 00:58:33,346
+Then from the beginning, I would have done block one and black two.
+
+619
+00:58:34,426 --> 00:58:41,626
+Uh, so so that's kind of it. I don't, you know, feel the need to run through this any further because the math is still the same math.
+
+620
+00:58:41,896 --> 00:58:46,966
+I did have some placeholders where, um, you know, you would see how you would report it.
+
+621
+00:58:46,966 --> 00:58:53,746
+So, uh, the hypothesis is, you know, we're looking at additional valuable r squared change.
+
+622
+00:58:54,226 --> 00:58:59,446
+Um, and then, um, block one sometimes is referred to as block zero.
+
+623
+00:58:59,446 --> 00:59:04,066
+So just I put that in because I wasn't I, you know, wasn't really sure what it was going to be.
+
+624
+00:59:04,486 --> 00:59:09,946
+Um, in this case it is block one. But there are other softwares that would refer to it as block zero.
+
+625
+00:59:09,946 --> 00:59:12,496
+And for instance like logistic regression. Okay.
+
+626
+00:59:12,796 --> 00:59:17,956
+So uh, then you just fill in all the stuff from the table, just like we've been doing this whole video.
+
+627
+00:59:18,316 --> 00:59:27,676
+And then for block two, everything that you already know, but the emphasis will be and I'll highlight this on the r squared change and the f change.
+
+628
+00:59:27,856 --> 00:59:37,245
+So we really are emphasizing the difference. And then finally um we would say, you know whether or not it really mattered and it doesn't.
+
+629
+00:59:37,246 --> 00:59:42,766
+So we're we don't really need that. You know, what's funny is I've done all of this work.
+
+630
+00:59:42,766 --> 00:59:49,305
+And I just realized back in regression, I never wrote the full model.
+
+631
+00:59:49,306 --> 00:59:54,856
+I can't believe I did that, and I don't even remember if I did that for my other, uh, demonstration.
+
+632
+00:59:55,126 --> 01:00:00,766
+Huh. Um, well, if you're listening this far, maybe I'll go ahead and write that in.
+
+633
+01:00:01,343 --> 01:00:07,493
+All right. I've come back up to my regression results and, um, added in the final model here.
+
+634
+01:00:07,823 --> 01:00:13,103
+Um, and the final model is, remember, just the intercept plus, um, each of the coefficients.
+
+635
+01:00:13,413 --> 01:00:26,093
+Uh, so, um, in this case, the final model is, um, the intercept is the constant 82.22 plus 3.849, which would round up to 85 times competence,
+
+636
+01:00:26,513 --> 01:00:35,183
+um plus 2.22 times autonomy plus 0.36 times the interaction, which is competence times autonomy.
+
+637
+01:00:35,573 --> 01:00:41,962
+Now, it doesn't matter that this is non-significant. Uh, maybe if you were doing like a final recommendation of a model,
+
+638
+01:00:41,963 --> 01:00:45,713
+you would take this out because as a non-significant it doesn't necessarily matter.
+
+639
+01:00:45,953 --> 01:00:49,163
+But, um, in this regression we were running the interaction.
+
+640
+01:00:49,163 --> 01:00:56,363
+We want to report them all whether they're significant or not. Um, had any of these caused a negative, we would have said minus instead of plus.
+
+641
+01:00:56,633 --> 01:01:00,922
+Um, so we're simply taking the betas and then multiplying it by the name of the variable.
+
+642
+01:01:00,923 --> 01:01:03,591
+And that's how we're reporting the final regression model. Okay, well, you guys, that's a doozy of a demonstration.
+
+643
+01:01:06,155 --> 01:01:11,375
+And then it probably didn't help that I forgot to report the final model and had to go all the way to the end to do that.
+
+644
+01:01:11,375 --> 01:01:15,424
+But I'm glad that we did. And I hope that you can find this video helpful.
+
+645
+01:01:15,425 --> 01:01:22,055
+Um, for running through the various ways you can conduct an interaction variable with either a multiple linear regression or an Anova,
+
+646
+01:01:22,235 --> 01:01:30,035
+and how theorizing modeling, um, changes the emphasis from, um, just the outcome to more so the change in outcome.
+

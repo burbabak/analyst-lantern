@@ -1,0 +1,1349 @@
+1
+00:00:07,077 --> 00:00:13,257
+[Auto-generated transcript. Edits may have been applied for clarity.]
+you should be able to understand the Anova family. Recognize when to use a one way between subjects Anova.
+
+2
+00:00:13,557 --> 00:00:17,337
+Check your Anova assumptions and report Anova results in APA.
+
+3
+00:00:18,207 --> 00:00:21,837
+Let's begin with that Anova family thing you'll recall.
+
+4
+00:00:22,109 --> 00:00:30,089
+You'll recall that the measurement type for the dependent and independent variables is what determines the statistical test that ends up getting used.
+
+5
+00:00:30,479 --> 00:00:35,519
+These are mostly parametric tests, and each of these has a nonparametric equivalent.
+
+6
+00:00:35,879 --> 00:00:41,429
+But we are ready to take this chart a little bit deeper to discover some of the variations among these tests.
+
+7
+00:00:41,609 --> 00:00:47,579
+Specifically, in this lecture we're covering the Anova. Anova can feel a little bit like alphabet soup.
+
+8
+00:00:47,669 --> 00:00:51,119
+What's an Anova? What's an ancova? What's the M for?
+
+9
+00:00:51,449 --> 00:00:58,409
+Start by thinking about who is being measured. Are we comparing different groups of people or the same people more than once?
+
+10
+00:00:58,739 --> 00:01:04,949
+If each person appears only once in the data set, then you're using a between subjects design.
+
+11
+00:01:05,219 --> 00:01:09,869
+We call it between because the comparison is between the different groups.
+
+12
+00:01:10,259 --> 00:01:16,379
+If the same person is measured multiple times, say like a before and after, or a pre and post,
+
+13
+00:01:16,559 --> 00:01:22,829
+then you're using a within subjects design because you're looking within the same group over time.
+
+14
+00:01:23,749 --> 00:01:30,439
+So every a number requires at least one categorical independent and one continuous dependent variable.
+
+15
+00:01:30,769 --> 00:01:36,379
+A one way Anova has one independent variable, just like the research question you see on the screen.
+
+16
+00:01:36,469 --> 00:01:38,499
+What impact does level of degree.
+
+17
+00:01:38,509 --> 00:01:47,449
+So this could be say uh associate's degree, uh undergraduate bachelor's degree, master's degree, doctoral degree have on salary.
+
+18
+00:01:47,449 --> 00:01:50,749
+So we might be measuring salary in terms of US dollars.
+
+19
+00:01:51,349 --> 00:01:56,659
+A two way Anova is also called a factorial Anova or an n way Anova.
+
+20
+00:01:56,929 --> 00:02:00,169
+And it has two or more independent variables.
+
+21
+00:02:00,349 --> 00:02:06,829
+So a two way Anova has two variables. A three way Anova has three independent variables, a four way, and so on.
+
+22
+00:02:07,039 --> 00:02:12,799
+So that's why when we see n way, we're just meaning the number of independent variables that is had within the research question.
+
+23
+00:02:13,489 --> 00:02:18,289
+These terms describe the number of factors or independent variables that are in the design,
+
+24
+00:02:18,499 --> 00:02:22,669
+not how many groups or levels or conditions there are per factor.
+
+25
+00:02:22,969 --> 00:02:29,299
+So you can take a look at this research question. What impact does level of degree and region of employment have on salary?
+
+26
+00:02:29,449 --> 00:02:36,439
+These are two separate independent variables, which is why this is a two way Anova or a factorial Anova.
+
+27
+00:02:36,657 --> 00:02:39,897
+The C and Ancova stands for covariant.
+
+28
+00:02:40,047 --> 00:02:43,607
+So it's a regular Anova plus adding a little something extra.
+
+29
+00:02:43,617 --> 00:02:51,717
+This covariate, which is basically a variable that you might think affects your dependent variable, but it isn't necessarily the focus of the study.
+
+30
+00:02:51,957 --> 00:03:00,477
+So it may be something that you want to control. For instance, what level of degree um, has Ellen salary after accounting for hours worked?
+
+31
+00:03:00,957 --> 00:03:07,557
+And as you'll see with all of the various Anova families, you can have it as one way as indicated in this research question.
+
+32
+00:03:07,827 --> 00:03:09,837
+Or you can have it as a two way.
+
+33
+00:03:09,957 --> 00:03:17,276
+What impact does level of degree and region of employment have on salary after accounting for hours worked where hours worked?
+
+34
+00:03:17,277 --> 00:03:24,437
+Is that covariate? So including it allows you to control for its influence, just like borrowing a trick from regression.
+
+35
+00:03:24,447 --> 00:03:25,787
+And you can do this. Manova or multivariate analysis of variance.
+
+36
+00:03:29,854 --> 00:03:35,644
+Um includes that M and the M stands for the multiple dependent variables.
+
+37
+00:03:35,914 --> 00:03:41,764
+If you have more than one continuous dependent variable, then you've added in that M.
+
+38
+00:03:41,914 --> 00:03:49,414
+As you can see illustrated, this is a one way manova because it has one independent variable level of degree,
+
+39
+00:03:49,414 --> 00:03:55,024
+and it has two dependent variables that are continuous salary and career satisfaction.
+
+40
+00:03:55,384 --> 00:03:59,824
+But we can just as easily make this a two way by adding in that second variable.
+
+41
+00:03:59,824 --> 00:03:59,901
+So now we have that two way factorial manova are that fact.
+
+42
+00:04:04,121 --> 00:04:09,491
+And finally, we can throw everything but the kitchen sink at it and combine all of these letters together.
+
+43
+00:04:09,521 --> 00:04:16,571
+What we get is a um, independent variable with multiple dependent variables, maybe a covariate tossed in there.
+
+44
+00:04:16,631 --> 00:04:21,551
+And that's why we have the M and the C in the Manqoba, um, acronym.
+
+45
+00:04:21,701 --> 00:04:28,001
+So what impact does level of degree have on salary and career satisfaction after accounting for hours worked?
+
+46
+00:04:28,361 --> 00:04:34,481
+And or what impact does two independent variables have on two dependent variables plus the covariate?
+
+47
+00:04:34,631 --> 00:04:42,941
+That's going to be the factorial manqoba. So the rest of this lecture is going to be focused on the one way between subjects Anova.
+
+48
+00:04:43,121 --> 00:04:49,331
+But I hope that this chart gives you a sense of how the Anova is the basis for many other tests.
+
+49
+00:04:49,511 --> 00:04:54,011
+So understanding some of the fundamental concepts now will certainly come in handy later.
+
+50
+00:04:55,361 --> 00:05:04,931
+A one way Anova is used when there is one independent variable, and that categorical variable has generally three levels or more.
+
+51
+00:05:05,291 --> 00:05:07,631
+The dependent variable must be continuous,
+
+52
+00:05:07,901 --> 00:05:14,651
+and we typically would expect that participants are only in one group because we are looking at that between subjects.
+
+53
+00:05:14,651 --> 00:05:21,061
+Design. And I don't want you to, um, have your eyes glaze over when you take a look at this.
+
+54
+00:05:21,271 --> 00:05:25,321
+But I want to walk through how the Anova is calculated just a little bit.
+
+55
+00:05:25,591 --> 00:05:29,881
+Here we're focusing on the concepts, not necessarily the formulas.
+
+56
+00:05:30,301 --> 00:05:35,401
+When you take a step back and it looks like all these curves and arrows we're going to make this make sense.
+
+57
+00:05:35,401 --> 00:05:41,341
+Just hang in there for a second. In the top right corner are the formulas that we use to calculate the Anova.
+
+58
+00:05:41,521 --> 00:05:49,081
+Now your software is going to do this for you. But a little bit of basic awareness can go a long way in helping you make a sound interpretation.
+
+59
+00:05:49,381 --> 00:05:54,541
+Plus, this formula is kind of laid out how your SPSS output will look.
+
+60
+00:05:54,811 --> 00:06:00,781
+And so understanding where these things are coming from maybe can help you interpret those outputs a little bit better.
+
+61
+00:06:01,261 --> 00:06:04,560
+Now in the center you can visualize what the Anova is doing.
+
+62
+00:06:04,561 --> 00:06:13,351
+Remember we run an Anova when we're asking do the differences between groups matter more than the differences that are within each group.
+
+63
+00:06:13,831 --> 00:06:17,731
+And so we can see that we're looking at like test scores.
+
+64
+00:06:17,971 --> 00:06:25,081
+And there are three different teaching methods. The first thing the Anova is going to do is try to find the average for each of these groups.
+
+65
+00:06:25,081 --> 00:06:33,360
+Um, so the teaching approach for um x bar one, the teaching approach for x bar two, and the teaching approach for x bar three.
+
+66
+00:06:33,361 --> 00:06:39,781
+So we're looking for that mean of group one two and three. And we're doing that by finding the sum of squares.
+
+67
+00:06:40,821 --> 00:06:44,511
+Then we're going to determine the degrees of freedom.
+
+68
+00:06:44,511 --> 00:06:49,731
+And this is just basically how many pieces of information are free to vary.
+
+69
+00:06:50,031 --> 00:06:56,301
+Uh, for the between subjects affect the number is based on the number of groups, uh, minus one.
+
+70
+00:06:56,301 --> 00:07:01,581
+So in this case we have three groups minus one. That's going to be two for our degrees of freedom.
+
+71
+00:07:01,941 --> 00:07:09,501
+Um, for the within subjects line of that formula, it is the number of total measurements that we have minus one.
+
+72
+00:07:09,741 --> 00:07:15,951
+Uh, so if our sample size is 100 minus one, then our degrees of freedom would be 99 at that point.
+
+73
+00:07:16,341 --> 00:07:18,560
+Again, you're not having to calculate these.
+
+74
+00:07:18,561 --> 00:07:26,811
+But the degrees of freedom is very important to understand because it ultimately is going to be useful in that next step of the Anova calculation.
+
+75
+00:07:33,313 --> 00:07:38,173
+These are these small arrows within and underneath each of my group curves.
+
+76
+00:07:38,383 --> 00:07:41,443
+And it basically explains what's the spread of this group.
+
+77
+00:07:41,623 --> 00:07:45,793
+We know that each group is a little bit different. We expect that everyone's a little bit different.
+
+78
+00:07:45,943 --> 00:07:49,753
+But you know, are these groups at least similar enough to compare?
+
+79
+00:07:50,143 --> 00:07:54,583
+And once we know that within group noise or that within group variation,
+
+80
+00:07:54,793 --> 00:08:03,522
+then we can see what's happening between the groups and that between group is represented by those kind of bigger arrows at the top.
+
+81
+00:08:03,523 --> 00:08:07,003
+And then at the bottom of the curve we've got the total variance.
+
+82
+00:08:07,423 --> 00:08:10,902
+So once the Anova knows if the groups are similar or not,
+
+83
+00:08:10,903 --> 00:08:19,603
+and if the averages of each group were either near to one another or far away from one another, it can produce what is known as an f-statistic.
+
+84
+00:08:19,723 --> 00:08:24,733
+So that f-statistic is the final ratio. It's essence, the number that answers.
+
+85
+00:08:24,733 --> 00:08:29,643
+You know how much bigger is the variance between these groups compared to the variance within these groups?
+
+86
+00:08:29,653 --> 00:08:35,833
+And that's it. This is what the Anova is doing. And you don't have to solve this formula by hand and you don't need to memorize it.
+
+87
+00:08:36,013 --> 00:08:43,543
+But when we visualize the logic of what the Anova is doing, I think it can help us, particularly when we're ready to layer on some advanced knowledge.
+
+88
+00:08:43,723 --> 00:08:48,883
+We're asking are the means or the averages of these groups statistically different?
+
+89
+00:08:49,273 --> 00:08:55,656
+And Anova gives us a way to test that question by comparing two different types of variation.
+
+90
+00:09:08,303 --> 00:09:13,063
+Since we don't have to hand calculate it, the first thing we're going to do is do a power calculation.
+
+91
+00:09:13,073 --> 00:09:20,573
+Then we're going to check our assumptions. We're going to execute what's called the omnibus test and calculate the effect size if needed.
+
+92
+00:09:20,813 --> 00:09:24,503
+And finally we'll conduct the post-hoc comparisons if needed.
+
+93
+00:09:24,863 --> 00:09:28,073
+This lecture is going to cover steps one through three.
+
+94
+00:09:29,453 --> 00:09:32,543
+Here on the screen you can see a power calculation for the Anova,
+
+95
+00:09:32,573 --> 00:09:39,413
+which is what helps you determine how many participants you need in each group so that you can detect a meaningful difference between those groups.
+
+96
+00:09:39,863 --> 00:09:45,137
+That is, only if one really exists. You want to make sure that there's enough statistical power to accurately predict them.
+
+97
+00:09:45,243 --> 00:09:52,773
+To accurately make a decision about the hypothesis. Um, a power calculation helps you, you know, protect yourself from wasting time.
+
+98
+00:09:52,773 --> 00:09:56,583
+Like to few participants. Means that you might make a type two error.
+
+99
+00:09:56,613 --> 00:10:00,903
+You might miss a true effect because there isn't enough variation within that data set to detect it.
+
+100
+00:10:01,323 --> 00:10:09,273
+Or too many participants can mean you wasted resources recruiting people that you didn't necessarily need from a mathematical standpoint.
+
+101
+00:10:09,753 --> 00:10:15,003
+So just like with all power calculations, you have an alpha that's typically set at 0.05.
+
+102
+00:10:15,363 --> 00:10:21,753
+You have power or that's one minus beta. And that's typically set at 0.80 or higher.
+
+103
+00:10:22,173 --> 00:10:26,443
+The minimum effect size is what we would like to be able to detect.
+
+104
+00:10:26,463 --> 00:10:29,703
+So the lower the effect size usually the more participants we need.
+
+105
+00:10:29,913 --> 00:10:37,443
+When we're doing an a priori power calculation, and then the number of categories we have in our independent variable.
+
+106
+00:10:37,803 --> 00:10:42,663
+So on the screen you can see each one of those things have been selected in my G power calculator.
+
+107
+00:10:42,783 --> 00:10:45,813
+Moving kind of from the center of the screen left to right.
+
+108
+00:10:45,993 --> 00:10:51,393
+I've selected the F-test family, the Anova for the fixed effect one way.
+
+109
+00:10:51,813 --> 00:10:57,212
+I've set the effect size as 0.10, which is small, and the alpha at .05,
+
+110
+00:10:57,213 --> 00:11:03,993
+with the beta at 0.80, and the number of groups is three in my independent variable.
+
+111
+00:11:03,993 --> 00:11:13,212
+So this might be say high, medium or low. Our sample size is going to be 969 people, which is huge, especially in education research.
+
+112
+00:11:13,213 --> 00:11:16,543
+We do not often see groups of this size.
+
+113
+00:11:16,753 --> 00:11:23,703
+So if you take a look at the screenshot on the right, I set everything else as the same except for the effect size.
+
+114
+00:11:23,713 --> 00:11:28,693
+I changed that to 0.25, which is consider um medium.
+
+115
+00:11:28,850 --> 00:11:32,300
+As opposed to the .10 we had earlier, which is considered small.
+
+116
+00:11:32,690 --> 00:11:37,000
+And so I'm basically saying, you know what? I don't need to be able to detect a small effect size.
+
+117
+00:11:37,010 --> 00:11:40,100
+I can live with detecting only a medium effect size. That'll be fine.
+
+118
+00:11:40,460 --> 00:11:45,860
+And uh, for that I only need 159 participants, which is still very big.
+
+119
+00:11:46,130 --> 00:11:52,880
+So the first thing we have to do is, of course, so, uh, do our power calculation to make sure we have a sufficient number of samples.
+
+120
+00:11:53,090 --> 00:11:58,190
+And if we don't, then we need to be able to justify or explain, uh, what we do and how we handle that.
+
+121
+00:11:59,100 --> 00:12:02,669
+The next thing we do in our Anova is we check our assumptions.
+
+122
+00:12:02,670 --> 00:12:06,150
+And there are actually three assumptions in the Anova.
+
+123
+00:12:12,107 --> 00:12:15,517
+And this is more as a design factor than it is anything else.
+
+124
+00:12:15,527 --> 00:12:20,927
+We do not test mathematically the independence of observations in a between subjects one way Anova,
+
+125
+00:12:21,377 --> 00:12:27,227
+but because of the design you have, you should be able to verify that the observations are independent.
+
+126
+00:12:28,217 --> 00:12:33,977
+The next assumption is the normal distribution of errors, and this is one that we do test mathematically.
+
+127
+00:12:34,547 --> 00:12:37,767
+Um, as you might recall from your introduction to statistics course.
+
+128
+00:12:37,787 --> 00:12:45,527
+The normal normal curve is the basis for decision making in a lot of inferential statistics, particularly the parametric.
+
+129
+00:12:45,887 --> 00:12:55,667
+So if our um, dependent variable or the distance from which our dependent variable measures are from the average, if that isn't normally distributed,
+
+130
+00:12:55,877 --> 00:13:05,657
+then um, this may not be the best test by which we base our decisions, because the Anova is based on this normal curve, um, method of thinking.
+
+131
+00:13:06,107 --> 00:13:13,277
+And so, um, we aren't just looking at the dependent variable overall, but we are looking at the dependent variable by each level.
+
+132
+00:13:13,667 --> 00:13:17,057
+In order to do this, we're going to use the Shapiro Wilk test.
+
+133
+00:13:17,297 --> 00:13:21,017
+And um that's typically in education research what you will see.
+
+134
+00:13:21,107 --> 00:13:24,406
+However, every once in a while we have a particularly large data sets.
+
+135
+00:13:24,407 --> 00:13:31,697
+You may see the common core of Smirnoff's test. In our assumptions testing we are looking for non-significant p values.
+
+136
+00:13:31,907 --> 00:13:37,157
+Uh, this is a test of normal distribution, so we don't want it to be significant.
+
+137
+00:13:37,157 --> 00:13:43,396
+We want it to be boring. Nothing to see here. We don't want to reject the null hypothesis.
+
+138
+00:13:43,397 --> 00:13:47,867
+We want, in fact, the null hypothesis of normal distribution to be intact.
+
+139
+00:13:48,287 --> 00:13:54,977
+Um, and so once we've run our math and we've found that the p values hopefully are above 0.05,
+
+140
+00:13:55,187 --> 00:14:01,996
+then we can see that that assumption is intact if it's close or if we're not sure and or if we just like to be thorough,
+
+141
+00:14:01,997 --> 00:14:07,187
+we can also, particularly with normal distribution of errors, confirm this by looking at a histogram,
+
+142
+00:14:07,187 --> 00:14:11,177
+a q-q plot, or looking at the descriptive statistics of skewness and kurtosis.
+
+143
+00:14:11,837 --> 00:14:16,457
+Um, if it is intact, you'll go on and test the next assumption mathematically.
+
+144
+00:14:16,607 --> 00:14:27,317
+But if it is violated, what you have to do as the researcher is choose a path forward, explain and justify that by using cited literature.
+
+145
+00:14:28,097 --> 00:14:35,537
+So, um, Anova can, uh, generally proceed, uh, when there are violations of the normal distribution of errors.
+
+146
+00:14:35,867 --> 00:14:43,667
+And that is true mostly when there are either equal group sizes or there are really large sample sizes.
+
+147
+00:14:43,907 --> 00:14:47,717
+But again, you want to be able to have a citation to support that decision.
+
+148
+00:14:47,867 --> 00:14:50,807
+Most Anova textbooks are going to be sufficient for that.
+
+149
+00:14:51,437 --> 00:14:59,747
+Um, you also could use a different type of test, like a Wallis, um, test, which is a nonparametric equivalent to the one way Anova.
+
+150
+00:15:00,287 --> 00:15:02,807
+You could also transform the dependent variable.
+
+151
+00:15:02,987 --> 00:15:09,137
+There are benefits and and challenges with transforming variables though, and it's not always appropriate.
+
+152
+00:15:09,317 --> 00:15:13,247
+What method of transformation you use may be dependent on the context.
+
+153
+00:15:13,577 --> 00:15:16,877
+It also makes interpreting the results a little bit trickier.
+
+154
+00:15:17,327 --> 00:15:23,207
+Uh, so we want to transform the dependent variable with caution. And only after some reading and training and with guidance.
+
+155
+00:15:23,687 --> 00:15:28,397
+Uh, the other option is to perform a different type of Anova, which is the waltz Anova.
+
+156
+00:15:29,787 --> 00:15:34,537
+Here are some screenshots that you'll see. This is when you're running your Inova NPS.
+
+157
+00:15:34,557 --> 00:15:37,797
+What you'll find on the output when you're doing your assumptions.
+
+158
+00:15:37,797 --> 00:15:42,027
+Testing for the distribution of errors. Making sure that it is normal.
+
+159
+00:15:42,617 --> 00:15:47,037
+Up at the top, we can see that there are three groups beginner, intermediate, and advanced.
+
+160
+00:15:47,337 --> 00:15:51,867
+Um, in the center we see the coma Gaurav Smirnoff test of normality.
+
+161
+00:15:52,047 --> 00:15:57,567
+But that is not necessary to interpret because we do not have 2000 people in this data set.
+
+162
+00:15:58,047 --> 00:16:01,556
+Over to the right you can see the section that's relevant to the Shapiro Wilk test.
+
+163
+00:16:01,557 --> 00:16:10,347
+And that is what we are going to use. We can see both the statistic for each of the three levels the degrees of freedom and the significant values.
+
+164
+00:16:10,527 --> 00:16:17,307
+Here the significant values range from 0.827 up 2.882.
+
+165
+00:16:17,637 --> 00:16:20,967
+All of these are above that .05 threshold.
+
+166
+00:16:21,237 --> 00:16:28,197
+So because 0.827 is greater than 0.0805, uh, it's not significant.
+
+167
+00:16:28,197 --> 00:16:31,137
+And that's a good thing when we are doing our assumptions testing.
+
+168
+00:16:31,497 --> 00:16:39,056
+Beneath that screenshot, you can see a Shapiro Wilk test was conducted to check the normality of errors within each group and was met for all groups,
+
+169
+00:16:39,057 --> 00:16:47,067
+with the p value being above 0.05. So let me just highlight where some of these numbers are coming from off of these screenshots.
+
+170
+00:16:47,577 --> 00:16:54,056
+Looking at the screenshot below a similar chart, um, we see that there are three levels the one underscore two,
+
+171
+00:16:54,057 --> 00:16:57,417
+one underscore three, and two underscore three naming conventions.
+
+172
+00:16:57,417 --> 00:17:03,687
+I'm not even sure what that means. Uh, we do have here, though, a violation of the normal distribution.
+
+173
+00:17:03,837 --> 00:17:07,377
+Only one of these three groups is not normally distributed.
+
+174
+00:17:07,377 --> 00:17:21,357
+We can see, uh, group one three and two three. Those have significance values above 0.05 .136 is higher than 0.05.078 is higher than 0.05.
+
+175
+00:17:21,657 --> 00:17:28,257
+So these don't violate normal distribution. And that's great. As far as assumptions go, those two groups are intact.
+
+176
+00:17:28,257 --> 00:17:30,326
+But that third group isn't. So what would we do?
+
+177
+00:17:30,327 --> 00:17:37,377
+We would write that up transparently and report it to our readers, reporting the actual values from the output from the table.
+
+178
+00:17:37,647 --> 00:17:44,367
+And then we would explain our procedure using a uh, source to cite, um, support a rationale.
+
+179
+00:17:45,567 --> 00:17:51,417
+The second mathematically tested assumption of the Anova is the homogeneity of variance.
+
+180
+00:17:51,537 --> 00:17:54,717
+These two assumptions are the same that are done for a T test.
+
+181
+00:17:55,017 --> 00:17:58,187
+So, um, just like T for two, we've got to know about um.
+
+182
+00:17:58,535 --> 00:18:04,205
+The next and final assumption that we test mathematically with Anova is homogeneity of variance.
+
+183
+00:18:04,865 --> 00:18:08,645
+Homogeneity of variance can sometimes be called homoscedasticity,
+
+184
+00:18:09,035 --> 00:18:17,525
+and it is an assumption that the Anova makes M to determine the spread or the variance of the scores within each group,
+
+185
+00:18:17,555 --> 00:18:22,925
+so that we can make sure that these groups that we are comparing are roughly equal.
+
+186
+00:18:23,045 --> 00:18:29,015
+So it's looking at that within group variance. And it's hoping that the within group variance is relatively equal.
+
+187
+00:18:29,225 --> 00:18:36,485
+We want to be comparing apples to apples. We don't want to be comparing apples to bananas when we're doing our Anova test.
+
+188
+00:18:36,935 --> 00:18:42,125
+In order to conduct our Anova we're typically going to use Levene's test.
+
+189
+00:18:42,605 --> 00:18:45,695
+There may be times when we use the brown for psych test.
+
+190
+00:18:46,025 --> 00:18:50,434
+If our, um, if our normal distribution was violated,
+
+191
+00:18:50,435 --> 00:19:01,235
+then potentially the brown forsyth is the better fit because the normal distribution relies on mean as that middle point right of central tendency,
+
+192
+00:19:01,445 --> 00:19:07,415
+whereas, uh, the median is the middle point for the nonparametric statistics.
+
+193
+00:19:08,495 --> 00:19:15,715
+When we're testing the homogeneity of variance assumption, we're also hoping that the p values are above 0.05.
+
+194
+00:19:15,725 --> 00:19:22,265
+We don't want them to be statistically significant. We want to retain that null hypothesis of similarity.
+
+195
+00:19:22,865 --> 00:19:29,435
+So after you've tested this assumption, if the assumption is intact, then you proceed to the omnibus test.
+
+196
+00:19:29,945 --> 00:19:37,085
+If the assumption is violated, however, then you can produce the Welch's Anova, which adjusts for unequal groups.
+
+197
+00:19:37,325 --> 00:19:44,615
+Or again, you can select the non-parametric alternative, the critical Wallace equivalent to the Anova.
+
+198
+00:19:45,765 --> 00:19:53,405
+Here are some screenshots of an Anova output where, um, focusing in on the, uh, test of homogeneity.
+
+199
+00:19:53,415 --> 00:19:59,525
+So the Levene's test, um, section of that output, um, up in the top, you can see, uh,
+
+200
+00:19:59,535 --> 00:20:05,115
+that Levene's test indicated the assumption of homogeneity of variances within groups was not violated.
+
+201
+00:20:05,415 --> 00:20:11,625
+And then, um, reporting the F and, uh, italics, the degrees of freedom, uh, that's degrees of freedom.
+
+202
+00:20:11,625 --> 00:20:17,325
+One and two. This is the number of groups minus one, as well as the number of participants minus one.
+
+203
+00:20:17,865 --> 00:20:23,415
+Um, I'm reporting the actual levene's statistic and the actual p value.
+
+204
+00:20:24,525 --> 00:20:29,565
+It can be confusing because the Levene's test is an F test, just like the Anova is an F test.
+
+205
+00:20:29,655 --> 00:20:34,935
+These are different F's, but they are the same letter. When we're reporting Levene's, we want to be specific.
+
+206
+00:20:35,535 --> 00:20:39,315
+I've also illustrated an example when Levene's is violated.
+
+207
+00:20:39,315 --> 00:20:48,344
+So in the bottom section of the screen you can see a Levene's test was significant with the degrees of freedom before and 166,
+
+208
+00:20:48,345 --> 00:20:51,885
+and the calculated statistic was 2.75.
+
+209
+00:20:52,065 --> 00:20:53,565
+Notice the rounding there.
+
+210
+00:20:53,565 --> 00:21:03,075
+We're producing um, two decimal places for almost all statistics, with the exception of the p statistic which is reported to three decimals always.
+
+211
+00:21:03,495 --> 00:21:07,545
+And then that's actual specific uh p calculated value.
+
+212
+00:21:08,235 --> 00:21:11,655
+So this is suggesting a violation of the assumption of homogeneity.
+
+213
+00:21:11,655 --> 00:21:15,795
+So not only am I giving the actual results, but I'm also telling the reader what it means.
+
+214
+00:21:16,155 --> 00:21:23,234
+And then I'm explaining what next steps I took and citing my, uh, rationale to address this violation.
+
+215
+00:21:23,235 --> 00:21:28,575
+Welch's Anova, which does not assume equal variances, was used in place of the standard Anova.
+
+216
+00:21:28,695 --> 00:21:31,185
+And that's a perfectly legitimate choice to have made.
+
+217
+00:21:31,722 --> 00:21:37,421
+Assuming our normal distribution of errors and homogeneity is intact, that those assumptions are in place,
+
+218
+00:21:37,422 --> 00:21:45,432
+we would now proceed to proceed to the Anova test that is sometimes referred to as the omnibus test or the F test.
+
+219
+00:21:46,212 --> 00:21:52,752
+The Anova, as we've already established, indicates if any group means are cities drastically different from one another.
+
+220
+00:21:53,142 --> 00:21:56,862
+However, it does not tell you which ones are different.
+
+221
+00:21:56,952 --> 00:22:03,672
+So it's basically like saying there is something different here, but I can't tell you where those differences are.
+
+222
+00:22:03,882 --> 00:22:07,122
+That's actually done later with post hoc tests.
+
+223
+00:22:07,482 --> 00:22:12,642
+So if we have an Anova that we've calculated and it is statistically significant,
+
+224
+00:22:12,882 --> 00:22:19,302
+then we will calculate the effect size and we will conduct multiple comparisons or post hoc tests.
+
+225
+00:22:19,842 --> 00:22:28,872
+If our omnibus Anova is not statistically significant, then we are going to report that outcome and our procedures can conclude at that point.
+
+226
+00:22:30,002 --> 00:22:35,192
+Here you can see a few screenshots of the SPSS output for the Anova.
+
+227
+00:22:35,702 --> 00:22:41,792
+Notice how it looks very similar to that formula table way back on some of our earlier slides.
+
+228
+00:22:41,882 --> 00:22:46,112
+It goes between groups within groups and total sum of squares degrees of freedom.
+
+229
+00:22:46,352 --> 00:22:52,292
+And then um the mean square is using those two values to calculate something, nothing else.
+
+230
+00:22:52,562 --> 00:23:01,022
+And then it ends with an f um statistic or that f ratio, um, and a uh significance that is pulled from uh,
+
+231
+00:23:01,082 --> 00:23:04,892
+the critical values chart, just like if you were looking at it in a statistic book,
+
+232
+00:23:05,012 --> 00:23:13,112
+you would use your degrees of freedom and your F statistic to determine if this value was higher than or lower than the critical value threshold.
+
+233
+00:23:13,742 --> 00:23:18,182
+So, um, I can highlight where some of these numbers are coming from in terms of the report.
+
+234
+00:23:18,512 --> 00:23:25,952
+Um, a one way between subjects Anova demonstrated a non-significant effect of fertilizer type on growth in centimeters.
+
+235
+00:23:25,952 --> 00:23:30,392
+I might have needed to make up some of these variables based on, uh, what was in the Anova.
+
+236
+00:23:30,392 --> 00:23:34,021
+Um, screenshot, you can see that the between group, uh,
+
+237
+00:23:34,022 --> 00:23:39,601
+degrees of freedom is reported first with a comma space and the within group degrees of freedom.
+
+238
+00:23:39,602 --> 00:23:49,052
+141 the uh, calculated f was 2.098, and I've written it as 2.10 because I've rounded to do decimals.
+
+239
+00:23:49,322 --> 00:23:55,762
+And then the actual p value p equals 0.126.126 is higher than 0.05.
+
+240
+00:23:55,772 --> 00:23:58,832
+And that's why this is not statistically significant.
+
+241
+00:23:59,822 --> 00:24:03,182
+Down below we have an example of a statistically significant test.
+
+242
+00:24:03,662 --> 00:24:11,812
+The results show a medium group effect of fertilizer type with that italicized F no space parentheses.
+
+243
+00:24:11,822 --> 00:24:19,652
+Degrees of freedom between groups. Degrees of freedom within groups and the rounded f statistic and the specific p value.
+
+244
+00:24:20,182 --> 00:24:23,442
+Um, then you'll see that there's an eta squared with a .08.
+
+245
+00:24:23,462 --> 00:24:25,292
+We're going to talk about that on the next screen.
+
+246
+00:24:25,412 --> 00:24:31,892
+That number is why I was able to say with medium effect, because I have a statistically significant Anova result.
+
+247
+00:24:31,892 --> 00:24:37,572
+Not only am I reporting these values directly from that output, I'm also explaining those next steps.
+
+248
+00:24:37,682 --> 00:24:44,552
+Post-hoc comparisons were conducted to examine pairwise group differences, and we will explore what that means in a next lecture.
+
+249
+00:24:45,602 --> 00:24:51,692
+When you do have a statistically significant omnibus test, you have to report the effect size.
+
+250
+00:24:51,902 --> 00:24:55,712
+Remember, p values on their own are not that meaningful.
+
+251
+00:24:55,712 --> 00:25:01,501
+It just means that there is a difference here, and there are lots of things that can inflate p values.
+
+252
+00:25:01,502 --> 00:25:05,522
+But what we really care about is the practical significance.
+
+253
+00:25:05,762 --> 00:25:08,012
+And that is what the effect size tells us.
+
+254
+00:25:08,252 --> 00:25:14,702
+It quantifies the strength or the magnitude of the relationships of the variables that are within our questions.
+
+255
+00:25:15,602 --> 00:25:19,932
+Usually in an Anova you are reporting eta squared or omega squared.
+
+256
+00:25:19,952 --> 00:25:25,582
+Those are the two most common. But eta squared has been around for so long.
+
+257
+00:25:25,592 --> 00:25:32,222
+There are lots of people who get that confused with a similarly named, uh, statistic, which is the partial A2 squared.
+
+258
+00:25:32,522 --> 00:25:36,452
+And you can see those symbolized here on the screen. But these are not the same tests.
+
+259
+00:25:36,452 --> 00:25:40,591
+They are calculated slightly differently. Sometimes you'll report both.
+
+260
+00:25:40,592 --> 00:25:41,762
+And that's okay.
+
+261
+00:25:42,182 --> 00:25:53,012
+Regardless of which effect size you're using, you should be using some guideline that is cited in order to characteristically qualify the values.
+
+262
+00:25:53,282 --> 00:25:59,012
+Uh, for instance, you might say small effect. Well, how do you know a .01 is smaller?
+
+263
+00:25:59,162 --> 00:26:03,962
+Why isn't a 0.05 small? Why is a 0.25 medium?
+
+264
+00:26:04,172 --> 00:26:07,262
+And so Cohen, um, has provided some guidelines.
+
+265
+00:26:07,262 --> 00:26:13,501
+These are the most common guidelines. Uh, but then the Encyclopedia of Research, um, by Salkind.
+
+266
+00:26:13,502 --> 00:26:18,392
+Um, and then this section by fanboys about the Anova, they also provide some guidelines.
+
+267
+00:26:18,452 --> 00:26:21,962
+You'll see that those guidelines are actually different. And that's okay.
+
+268
+00:26:22,112 --> 00:26:24,841
+Statisticians do not agree on everything.
+
+269
+00:26:24,842 --> 00:26:32,312
+You will be surprised, regardless of, uh, the guidance that you're using or the, uh, whether it's the Ada squared or the omega squared.
+
+270
+00:26:32,462 --> 00:26:37,591
+It requires verification of calculation in SPSS, because over the years,
+
+271
+00:26:37,592 --> 00:26:44,162
+SPSS specifically has not always labeled its test correctly when it comes to Ada squared.
+
+272
+00:26:44,582 --> 00:26:51,992
+Um, I'll show you an example of this on the next screen. So when we have a significant omnibus test we want to report our effect size.
+
+273
+00:26:52,442 --> 00:26:57,572
+If we do not have a statistically significant, um, F-test or omnibus test,
+
+274
+00:26:57,782 --> 00:27:06,032
+then we are not reporting the effect size unless we are asked to do so by our supervisor or by the journal we've submitted our work to.
+
+275
+00:27:07,202 --> 00:27:12,632
+Here you can see a screenshot and let's focus up on the top section of the screen first.
+
+276
+00:27:13,592 --> 00:27:16,592
+This is an Anova output from SPSS.
+
+277
+00:27:16,592 --> 00:27:24,302
+And in the first sentence kind of in the top right of the screen I've written the same results that you saw two slides ago.
+
+278
+00:27:24,452 --> 00:27:30,481
+Results of the Anova showed significant medium group effect of fertilizer type with the two and the
+
+279
+00:27:30,482 --> 00:27:38,132
+eight seven and the 374 rounding from the 3743 on the screen with the specific p value of 0.028.
+
+280
+00:27:38,132 --> 00:27:44,822
+That's a significant value, because 0.02 is less than 0.05, and then ada squared 0.08.
+
+281
+00:27:44,832 --> 00:27:52,832
+Where did that come from? Well, um, just under that screenshot you can see ada squared equals ss between divided by ss.
+
+282
+00:27:52,832 --> 00:27:55,952
+Total SS is simply the sum of squares.
+
+283
+00:27:55,952 --> 00:28:00,452
+And you might recognize that because we've been talking about that just a little bit from the beginning.
+
+284
+00:28:00,632 --> 00:28:04,441
+That is the first column in our Anova table.
+
+285
+00:28:04,442 --> 00:28:08,162
+It's the basis from which RF ratio is calculated.
+
+286
+00:28:08,582 --> 00:28:13,202
+So to hand calculate the Ada squared it's simple division.
+
+287
+00:28:13,412 --> 00:28:19,802
+We have to only just take the and find the sum of squares between and the sum of squares total.
+
+288
+00:28:20,192 --> 00:28:29,342
+And we can see that on the table. And then if we divide 502 by 6347 we get 0.08.
+
+289
+00:28:29,612 --> 00:28:31,442
+And that is our Ada squared.
+
+290
+00:28:31,772 --> 00:28:41,042
+So even when we're pulling it from SPSS we want to double check the math simply because SPSS doesn't always label its thing correctly,
+
+291
+00:28:41,252 --> 00:28:49,502
+especially in some of the older versions. So depending on which version of SPSS you're using um the partial Ada squared,
+
+292
+00:28:49,502 --> 00:28:55,892
+if it says partial Ada squared in your output, definitely do not be reporting that thinking that it is the Ada squared.
+
+293
+00:28:56,192 --> 00:28:59,521
+If you want to report partially the squared that may be fine.
+
+294
+00:28:59,522 --> 00:29:03,782
+But in the Anova we're looking for Ada squared not partial Ada squared.
+
+295
+00:29:04,352 --> 00:29:11,672
+And if your Anova output has a table that calculates the effect size for you and some of them do,
+
+296
+00:29:11,972 --> 00:29:17,761
+then it will often give you multiple effect size as the ada squared, the epsilon squared, the omega squared.
+
+297
+00:29:17,762 --> 00:29:23,522
+As we discussed earlier, you would choose one of those and then report that value.
+
+298
+00:29:23,762 --> 00:29:26,882
+If you're choosing Ada squared hand calculate it.
+
+299
+00:29:26,882 --> 00:29:38,012
+Double check that. In fact 0.393 is the correct value, uh, based on the between groups sum of squares divided by the total sum of squares.
+
+300
+00:29:38,762 --> 00:29:44,882
+And then report that in two decimals. So here I would have said ada squared equals 0.39.
+
+301
+00:29:46,522 --> 00:29:52,972
+Let's bring this all together, because although I did include some AP reporting as we went through our procedural steps of
+
+302
+00:29:53,272 --> 00:29:58,522
+of of checking our assumptions and running our omnibus test and calculating our effect size,
+
+303
+00:29:58,732 --> 00:30:02,182
+there are more than one way to write up these results.
+
+304
+00:30:02,332 --> 00:30:07,312
+So I've offered you a model here, but this is by no means the only way to do it.
+
+305
+00:30:07,642 --> 00:30:11,662
+And writing results takes a little bit of style here.
+
+306
+00:30:11,692 --> 00:30:20,482
+I think, though, the focus is on preparing the reader to understand what test was done and what the outcomes were,
+
+307
+00:30:20,722 --> 00:30:25,411
+as well as conveying confidence and process. The one way between subjects.
+
+308
+00:30:25,412 --> 00:30:30,422
+Anova was conducted to examine the effect of the independent variable on the dependent variable.
+
+309
+00:30:30,782 --> 00:30:34,052
+Prior to analysis, the assumptions of Anova were evaluated.
+
+310
+00:30:34,352 --> 00:30:38,602
+The Shapiro Wilk test suggested that residuals or errors, um,
+
+311
+00:30:38,612 --> 00:30:43,952
+that's another word that can be used interchangeably, were approximately normally distributed within each group.
+
+312
+00:30:44,072 --> 00:30:48,932
+There were no severe deviations observed, so the p values were all greater than 0.05.
+
+313
+00:30:48,932 --> 00:30:55,542
+For my Shapiro Wilk Levene's test of homogeneity of variance was not statistically significant.
+
+314
+00:30:55,562 --> 00:31:00,362
+That's a good thing, right? We want our assumptions to be intact by being greater than 0.05.
+
+315
+00:31:00,572 --> 00:31:05,822
+So we have that um, italicized F with no space parentheses.
+
+316
+00:31:05,822 --> 00:31:17,642
+And then the degrees of freedom between them within the actual, uh levene's statistic calculated as 1.82 with the actual p value of p equals 0.179.
+
+317
+00:31:18,062 --> 00:31:20,882
+Uh, this indicates the assumption of equal variances was met.
+
+318
+00:31:21,332 --> 00:31:28,112
+The Anova revealed a statistically significant difference in the dependent variable across the three groups of the independent variable.
+
+319
+00:31:28,442 --> 00:31:35,512
+And I'm again reporting that actual omnibus number from the SPSS output with the degrees of freedom,
+
+320
+00:31:35,522 --> 00:31:42,782
+the um calculated f ratio, the actual p value and the hand calculated eta squared.
+
+321
+00:31:43,232 --> 00:31:48,872
+These results indicate that the levels of the independent variable had significant effect on the dependent variable.
+
+322
+00:31:49,052 --> 00:31:53,882
+Therefore, the null hypothesis was rejected. So I am ending my statement.
+
+323
+00:31:54,032 --> 00:32:00,001
+Or um, somewhere in my write up I am qualifying the fact of that I have rejected the
+
+324
+00:32:00,002 --> 00:32:04,832
+null hypothesis because I did have a statistically significant omnibus test.
+
+325
+00:32:05,282 --> 00:32:09,332
+Here is another sample. Right? Um, it's similar, but different.
+
+326
+00:32:09,602 --> 00:32:16,292
+Um, you'll see just a little bit of difference in cadence. In this example we have a slight violation of, uh, normal distribution.
+
+327
+00:32:16,652 --> 00:32:21,422
+Um, but I have, you know, gone on to just kind of rephrase it only a little bit.
+
+328
+00:32:21,422 --> 00:32:26,312
+All of the same things are, um, all of the same meaning is still present.
+
+329
+00:32:26,582 --> 00:32:31,782
+Uh, but the flow is just a little different. So that's how you calculate an Anova.
+
+330
+00:32:31,962 --> 00:32:39,482
+Understanding that an Anova is one family within a big family of tests that you have to, um, uh,
+
+331
+00:32:39,582 --> 00:32:45,102
+check your assumptions before you're calculating anything to make sure that you're using the correct basis for decision making,
+
+332
+00:32:45,612 --> 00:32:52,452
+and that no matter what you find, whether you find that assumptions are violated or not, there are choices you can make as a researcher.
+
+333
+00:32:52,462 --> 00:32:57,792
+There's choices simply need to be transparent, communicated and cited or supported with literature.
+
+334
+00:32:58,182 --> 00:33:03,792
+When we're reporting our results, we want to follow the APA format and we want to convey with confidence,
+
+335
+00:33:04,032 --> 00:33:08,111
+um, all of the outcomes, whether they were or were not statistically significant,
+
+336
+00:33:08,112 --> 00:33:12,042
+so that readers have a full understanding of the calculations that we've conducted when
+
+337
+00:33:12,042 --> 00:33:15,972
+we're comparing these groups to see if there were meaningful differences among them.
+

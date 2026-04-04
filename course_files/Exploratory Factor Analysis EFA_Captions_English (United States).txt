@@ -1,0 +1,793 @@
+1
+00:00:00,630 --> 00:00:04,740
+[Auto-generated transcript. Edits may have been applied for clarity.]
+So today we're going to talk about exploratory factor analysis or EFA.
+
+2
+00:00:05,580 --> 00:00:11,129
+We're going to look at extraction methods rotation decisions factor retention and interpretation.
+
+3
+00:00:11,130 --> 00:00:14,400
+And then we're going to walk through an SPSS example with screenshots.
+
+4
+00:00:15,000 --> 00:00:20,340
+After this lecture video you will be able to do an EFA with a different data set for practice.
+
+5
+00:00:20,820 --> 00:00:23,969
+The goal is for you to feel confident running and eventually teaching.
+
+6
+00:00:23,970 --> 00:00:31,340
+EFA. EFA is a method used to uncover the latent constructs that explain relationships among observed variables.
+
+7
+00:00:31,350 --> 00:00:37,260
+We don't specify the structure in advance. Instead, EFA helps us figure out what that structure is.
+
+8
+00:00:37,740 --> 00:00:44,550
+You'll see EFA at scale development, survey, validation, psychological constructs, and education research.
+
+9
+00:00:44,970 --> 00:00:50,010
+It helps reduce items into a smaller set of meaningful dimensions.
+
+10
+00:00:50,790 --> 00:00:55,860
+So what are some of the assumptions in preparatory checks? First, let's talk about sample size.
+
+11
+00:00:56,280 --> 00:01:03,090
+A rule of thumb is that anything over 200 in your sample is considered good, and anything over 500 is excellent.
+
+12
+00:01:04,050 --> 00:01:11,400
+Large simulation studies have shown that fact a recovery improves sharply after 200, so the more you have, the better stuff.
+
+13
+00:01:11,400 --> 00:01:15,330
+Others say that at least 5 to 10, uh, participants per item.
+
+14
+00:01:15,330 --> 00:01:20,700
+So for example, if you have a 20 item scale, you would need to have 100 to 200.
+
+15
+00:01:21,420 --> 00:01:29,280
+If your commonalities are high over point six and loadings are strong, EFA is stable even within equals 100.
+
+16
+00:01:29,280 --> 00:01:36,299
+So if commonalities are low, you would need around 3 to 500 which is best practice this commonality.
+
+17
+00:01:36,300 --> 00:01:40,650
+So approach and there's a citation for you factor ability.
+
+18
+00:01:40,650 --> 00:01:46,229
+So the K m.o or the Kaiser Meyer Okin test measures the sampling adequacy.
+
+19
+00:01:46,230 --> 00:01:52,379
+And we want to see a value of greater than 0.6 the Bartlett's test.
+
+20
+00:01:52,380 --> 00:01:59,490
+We want to see it be significant. This measures if the correlation matrix is an identity matrix meaning there are no significant
+
+21
+00:01:59,490 --> 00:02:07,200
+correlations between the variables and it's factorable if you have extreme multicollinearity,
+
+22
+00:02:07,350 --> 00:02:11,459
+you probably won't be able to do a factor analysis. So that's when you look at the correlations.
+
+23
+00:02:11,460 --> 00:02:20,010
+If they're higher than 0.9, you won't likely get a significant Bartlett's test, and you most likely won't be able to do a factor analysis.
+
+24
+00:02:20,010 --> 00:02:26,219
+There are different factor extraction methods. This is where SPSS default can mislead beginners.
+
+25
+00:02:26,220 --> 00:02:35,250
+So when you pull up the factor extraction and I'll show you that later in the video PCA will be selected automatically.
+
+26
+00:02:35,250 --> 00:02:40,079
+But that's not necessarily the best one we want. PCA is not EFA.
+
+27
+00:02:40,080 --> 00:02:47,069
+It's descriptive and it doesn't look at latent structures. Principal axis factoring is preferred for latent constructs.
+
+28
+00:02:47,070 --> 00:02:54,330
+And that's what we'll use. And you can also look at maximum likelihood which allows statistical tests of model fit.
+
+29
+00:02:54,330 --> 00:02:56,880
+So what is a component and what is a factor.
+
+30
+00:02:56,910 --> 00:03:04,770
+Components which are from principal component analysis or mathematical combinations of items that are created to reduce data.
+
+31
+00:03:05,190 --> 00:03:13,830
+They use all the variance in the items shared plus unique plus error, and they don't assume any underlying underlying psychological meaning.
+
+32
+00:03:14,400 --> 00:03:22,830
+They're simply statistical summaries. Constructs from EFA are latent variables that explain why items correlate.
+
+33
+00:03:23,430 --> 00:03:29,430
+They use only the shared variance among the items, and they assume an underlying theoretical trait or dimension.
+
+34
+00:03:29,760 --> 00:03:35,940
+They reflect something real we believe exists something like motivation, anxiety, engagement, or whatever.
+
+35
+00:03:36,420 --> 00:03:42,510
+So in short, components are statistical artifacts, constructs, or theoretical latent traits.
+
+36
+00:03:43,050 --> 00:03:45,840
+So looking at this we can see that items one,
+
+37
+00:03:45,840 --> 00:03:53,129
+two and three load on to this particular component where the arrows go from the variables to the component,
+
+38
+00:03:53,130 --> 00:04:01,620
+meaning the component is a weighted combination of the observed items, whereas factor it goes from here to the items and it incorporates error.
+
+39
+00:04:02,610 --> 00:04:09,630
+Or the arrows go from the factors to the variables, meaning that the factor is the underlying cause of the shared variance among items.
+
+40
+00:04:09,870 --> 00:04:14,790
+So this is a statistical remnant. This is a measure of some underlying factor.
+
+41
+00:04:14,790 --> 00:04:20,010
+We have different options. Orthogonal is is very max.
+
+42
+00:04:20,340 --> 00:04:23,459
+These are factors that are assumed to be independent of each other.
+
+43
+00:04:23,460 --> 00:04:26,490
+Oblique. These options are Promax or direct.
+
+44
+00:04:26,490 --> 00:04:30,240
+Oberman. In SPSS these factors are allowed to correlate.
+
+45
+00:04:30,810 --> 00:04:34,020
+Oblique is usually preferred in social and behavioral sciences.
+
+46
+00:04:34,020 --> 00:04:35,819
+And that's what we'll use in our example.
+
+47
+00:04:35,820 --> 00:04:45,360
+Promax is faster, computationally simple, simpler method that involves an initial orthogonal rotation like Vmax followed by an oblique adjustment.
+
+48
+00:04:45,900 --> 00:04:52,290
+While direct Oberman is an iterative process that directly calculates the oblique solution.
+
+49
+00:04:52,590 --> 00:04:57,150
+We're going to use a direct argument. So then once you've done it, how how many factors do you retain?
+
+50
+00:04:57,390 --> 00:05:02,250
+Most people talk about the eigenvalues and it's called the Keizer criterion.
+
+51
+00:05:02,700 --> 00:05:06,749
+When you look at eigenvalues that are over one it usually represents a factor.
+
+52
+00:05:06,750 --> 00:05:11,459
+But this often overestimates. Another way of doing it is to identify the elbow.
+
+53
+00:05:11,460 --> 00:05:17,850
+In the scree plot. You look at the point of inflection and you look at the number of points before that inflection,
+
+54
+00:05:17,850 --> 00:05:21,720
+and that's the number of factors that you will retain.
+
+55
+00:05:22,230 --> 00:05:28,620
+Parallel analysis is most accurate when your data aren't very clear with eigenvalues are scree plots.
+
+56
+00:05:28,620 --> 00:05:32,580
+And I'll show you how to do that. But SPSS you have to use syntax in order to do that.
+
+57
+00:05:33,150 --> 00:05:36,540
+But ultimately theory should guide your final decision.
+
+58
+00:05:36,600 --> 00:05:39,870
+So let's look at an example. We have a data set of 11 variables.
+
+59
+00:05:39,870 --> 00:05:43,590
+We're trying to figure out how many latent constructs there are.
+
+60
+00:05:44,010 --> 00:05:50,760
+So how do we do one here. The workflow for SPSS go to analyze come down to dimension reduction and factor.
+
+61
+00:05:50,760 --> 00:05:56,400
+We'll take our variables and move them into the variable box and click Descriptives.
+
+62
+00:05:56,880 --> 00:06:02,940
+Then this initial solution will be checked. We're going to click check Coefficients if not already checked.
+
+63
+00:06:02,940 --> 00:06:09,160
+And. More on Bartlett's test of Spirit City. We'll click continue and then go to extraction.
+
+64
+00:06:09,820 --> 00:06:16,150
+It will choose principal components for us, but we're going to scroll down and pick Principal Axis Factoring.
+
+65
+00:06:16,810 --> 00:06:21,550
+And then I couldn't fit it all on the slide. But you'll come over here and make sure you check scree plot.
+
+66
+00:06:21,760 --> 00:06:24,880
+Then we'll click continue. And then we'll come back to rotation.
+
+67
+00:06:24,910 --> 00:06:28,480
+We're going to select Direct Oberman and leave it at that.
+
+68
+00:06:28,510 --> 00:06:34,570
+Click continue. Then we'll skip scores. We'll go to options and we want sorted by size.
+
+69
+00:06:34,600 --> 00:06:39,190
+Click continue and then okay. All right. Now we can evaluate the correlations.
+
+70
+00:06:39,190 --> 00:06:44,560
+You can see a big giant correlation matrix with variables one through 11 with variables one through 11.
+
+71
+00:06:44,590 --> 00:06:48,190
+I've highlighted the ones of note. These are pretty strong correlations.
+
+72
+00:06:48,190 --> 00:06:52,090
+And it's a variable one with two and one with three and two with three.
+
+73
+00:06:52,660 --> 00:06:59,920
+Then we have four with five, five with six and four with six and so forth.
+
+74
+00:07:00,190 --> 00:07:04,300
+You can see the variables ten and 11. We have some weird stuff going on here.
+
+75
+00:07:04,330 --> 00:07:07,629
+We want to check our assumptions. We look at the combo and Bartlett's test.
+
+76
+00:07:07,630 --> 00:07:10,870
+And of course this is test data. So everything behaves beautifully.
+
+77
+00:07:10,900 --> 00:07:15,580
+We have 0.831 in the combo which is greater than 0.6.
+
+78
+00:07:15,580 --> 00:07:21,790
+And it's almost approaching excellent. And our Bartlett's test is significant which is what we want.
+
+79
+00:07:22,510 --> 00:07:29,110
+So we can continue on. Then we look at commonalities which that's the abbreviation for commonalities or commonalities
+
+80
+00:07:29,110 --> 00:07:33,760
+is the proportion of an item's variance that is explained by the common factors.
+
+81
+00:07:34,270 --> 00:07:37,990
+It represents variance in the items explained by the fair factors.
+
+82
+00:07:38,320 --> 00:07:42,030
+Higher values indicate that items fit well with the factor structure.
+
+83
+00:07:42,040 --> 00:07:45,279
+You can see all of these are fairly high total variance explained.
+
+84
+00:07:45,280 --> 00:07:49,689
+So then we move to the next table which shows how much overall variance the retained
+
+85
+00:07:49,690 --> 00:07:54,429
+factors account for helping determine how strong and meaningful the factor selection is.
+
+86
+00:07:54,430 --> 00:08:00,610
+So right now you can see that we have 1 to 3 factors that are greater than one after the fact.
+
+87
+00:08:00,610 --> 00:08:05,499
+Between factor three and four, we go from 2.3 down to 0.30.
+
+88
+00:08:05,500 --> 00:08:09,640
+So it looks like these data represent three strong factors.
+
+89
+00:08:10,120 --> 00:08:14,170
+Yeah. The percent of the variance of the cumulative percent of the variance.
+
+90
+00:08:14,860 --> 00:08:21,280
+When we get down to our third factor we have explained 84% of the total variance.
+
+91
+00:08:22,370 --> 00:08:23,780
+All right. Let's look at the scree plot.
+
+92
+00:08:24,200 --> 00:08:31,130
+So it displays the eigenvalues and helps identify the point where the curve levels off and indicating how many factors should be retained.
+
+93
+00:08:31,280 --> 00:08:35,839
+In all honesty, they are never this clean. Now it looks like you go, oh, here's the elbow.
+
+94
+00:08:35,840 --> 00:08:42,709
+It should be four. But if you notice, the eigenvalue here cuts off between 3 and 4.
+
+95
+00:08:42,710 --> 00:08:47,360
+So that's why we keep one, two and three. We only have really three factors.
+
+96
+00:08:48,170 --> 00:08:50,750
+It breaks off here and here. So the elbow is.
+
+97
+00:08:51,750 --> 00:08:59,100
+So the vector matrix shows the under rotated factor loadings, but they're often hard to interpret and usually not used for final decisions.
+
+98
+00:08:59,100 --> 00:09:00,210
+So we're just going to skip it.
+
+99
+00:09:01,290 --> 00:09:08,610
+And then we go to the pattern matrix, which shows the unique contribution of each factor to each item after it's been rotated.
+
+100
+00:09:08,640 --> 00:09:12,150
+This is the key tool for interpreting oblique solutions.
+
+101
+00:09:12,630 --> 00:09:17,400
+We want to keep the ones are the ones greater than 0.4 are considered meaningful.
+
+102
+00:09:17,400 --> 00:09:20,910
+So you can see in factor one we've got four, five and six.
+
+103
+00:09:21,900 --> 00:09:30,030
+In factor two we've got variables one, two and three. And then in factor three we've got eight nine and seven or rather seven, eight, nine.
+
+104
+00:09:30,030 --> 00:09:33,719
+And then we have 11 which is kind of hanging out there. And it's got some cross loading.
+
+105
+00:09:33,720 --> 00:09:39,120
+So cross loadings. It's when an item loads on greater than 0.2 or more factors.
+
+106
+00:09:39,120 --> 00:09:45,510
+And we want to consider dropping those. We also want to draw up items with low commonalities, which are less than 0.3.
+
+107
+00:09:46,050 --> 00:09:51,000
+And we'll name our factors based on some conceptual meaning, which we'll get to in just a minute.
+
+108
+00:09:52,550 --> 00:09:58,190
+The structure matrix shows the correlation between the items and the factors, including shared variance.
+
+109
+00:09:58,430 --> 00:10:02,570
+Use it cautiously because it can inflate loadings, but we're not going to use it.
+
+110
+00:10:02,600 --> 00:10:08,210
+We will just go to the pattern matrix. And then finally you'll be given this factor correlation matrix.
+
+111
+00:10:08,410 --> 00:10:12,410
+Correlations close to zero. The factor measures distinct independent construct.
+
+112
+00:10:12,770 --> 00:10:21,860
+Moderate correlations point to 2.5. They uh share some common variance, but still represent separate dimensions and then high correlations.
+
+113
+00:10:22,400 --> 00:10:26,690
+Factors may not be meaningfully different to different. Consider what to collapse.
+
+114
+00:10:27,590 --> 00:10:31,549
+Um so we have low correlation so close to zero.
+
+115
+00:10:31,550 --> 00:10:37,550
+These ones here right point these are them factor with them are correlated with themselves.
+
+116
+00:10:37,550 --> 00:10:45,290
+So they're a full one. We just ignore those. But these are close to zero negative two 1.0.128.
+
+117
+00:10:45,650 --> 00:10:51,830
+And so we we can say that each of these factors are distinct and independent construct.
+
+118
+00:10:52,930 --> 00:10:57,190
+So what are our factors? Look at the items that load strongly on that factor.
+
+119
+00:10:57,280 --> 00:11:02,380
+Focus on the items with loadings greater than 0.4. Ignore items with cross loadings.
+
+120
+00:11:02,740 --> 00:11:05,950
+Read the items as if they were sentences and describe a theme.
+
+121
+00:11:05,980 --> 00:11:09,790
+Ask what items? What did these items seem to have in common?
+
+122
+00:11:10,150 --> 00:11:15,100
+Well, we have these four, five, six, 123 and 789.
+
+123
+00:11:16,020 --> 00:11:20,429
+Okay. Well, I don't know anything about this data set. All I gave you was a variable.
+
+124
+00:11:20,430 --> 00:11:29,280
+Number one, two, three, all the way down to 11. But what if I were to tell you that these were called engage motive or motivation and support?
+
+125
+00:11:29,580 --> 00:11:33,330
+And then these two are mixed based on theory, I would say.
+
+126
+00:11:33,780 --> 00:11:39,419
+Okay. So these items that were loosely about engagement correlated together,
+
+127
+00:11:39,420 --> 00:11:46,320
+and therefore I should keep those in one factor which they showed numerically in one factor.
+
+128
+00:11:47,430 --> 00:11:51,540
+And call it engagement. Same with motivation and same with support.
+
+129
+00:11:51,990 --> 00:11:55,620
+This is where the statistics supports theory.
+
+130
+00:11:56,040 --> 00:12:01,600
+But you don't just go in without any kind of idea of what your items are measuring.
+
+131
+00:12:01,620 --> 00:12:07,110
+You intentionally create items to measure what you think you will be finding.
+
+132
+00:12:07,620 --> 00:12:13,049
+And then when you do your exploratory factor analysis, the statistics will back it up or not,
+
+133
+00:12:13,050 --> 00:12:16,980
+depending on how well you operationalized that particular course.
+
+134
+00:12:17,010 --> 00:12:26,610
+So back to parallel analysis. We use parallel analysis in exploratory factor analysis when we want to determine the number of factors to retain,
+
+135
+00:12:26,610 --> 00:12:33,600
+especially when other methods like the Kaiser criterion when we use the eigenvalue greater than one criterion, may be inaccurate.
+
+136
+00:12:33,660 --> 00:12:37,500
+Parallel analysis is most important when the factor structure is unknown.
+
+137
+00:12:37,920 --> 00:12:45,690
+When we don't know the number of factors, it's not obvious when our items are messy, or if we have cross loadings, or if they're weak.
+
+138
+00:12:46,260 --> 00:12:50,700
+If the scree plot is we're looking or ambiguous, or if we're building a new scale.
+
+139
+00:12:50,700 --> 00:12:55,440
+When you're conducting a parallel analysis, you need to use SPSS syntax.
+
+140
+00:12:55,500 --> 00:13:02,850
+Um, here in this slide I'm showing you a link down below, which is from the text where he walks through an entire example.
+
+141
+00:13:03,210 --> 00:13:12,140
+I will show you with the demo data that I've used in this PowerPoint, uh, from start to finish and include parallel analysis as well.
+
+142
+00:13:12,150 --> 00:13:15,690
+Some things of note, you need to make sure that the relevant data set is open.
+
+143
+00:13:15,690 --> 00:13:21,899
+You need to specify your variables. You need to run the program and evaluate if the means are greater than the percentiles.
+
+144
+00:13:21,900 --> 00:13:23,160
+You retain that factor,
+
+145
+00:13:23,520 --> 00:13:30,959
+and then you go back and you would run the exploratory factor analysis and specify the number of factors you found in the parallel analysis.
+
+146
+00:13:30,960 --> 00:13:34,950
+And I'll show you what that looks like. So this is syntax.
+
+147
+00:13:35,070 --> 00:13:41,040
+When I say specify the variables from your data set. Here you can see we have mrf w v VPI.
+
+148
+00:13:41,040 --> 00:13:50,550
+These are from the video that I linked to before. We will go in and type in variable one, variable two, etc. all the way to variable 11.
+
+149
+00:13:51,090 --> 00:13:57,090
+Here you can compute uh the 50th percentile or you can choose the 95th percentile.
+
+150
+00:13:57,090 --> 00:14:03,270
+We will just choose the 95th percentile to check which factors to select.
+
+151
+00:14:03,600 --> 00:14:10,259
+And then here you have to pick either 1 or 2. One is for PCA which we've already said is principal components analysis.
+
+152
+00:14:10,260 --> 00:14:17,370
+We're not going to use that. We're going to specify two. Then you would go up to run and then it'll show you this run.
+
+153
+00:14:17,370 --> 00:14:22,320
+You click all or you can just highlight and then use this little green arrow.
+
+154
+00:14:22,800 --> 00:14:27,390
+But we're going to go run all and then evaluate the output. This is what it's going to look like.
+
+155
+00:14:27,900 --> 00:14:32,610
+We've used principal axis factoring. We did 95th percentile.
+
+156
+00:14:32,610 --> 00:14:37,020
+You can see it looks very similar. But here we have the raw data is greater than the percentile.
+
+157
+00:14:37,500 --> 00:14:41,459
+This raw data is greater than the percentile. This one is greater than that one.
+
+158
+00:14:41,460 --> 00:14:45,810
+And then here is where it's less than 0.02 is less than 0.24.
+
+159
+00:14:46,140 --> 00:14:51,330
+So we still see we have three factors. All these raw data are greater than the percentile.
+
+160
+00:14:51,330 --> 00:14:54,960
+So we retain them. There are three factors. This isn't technically a scree plot.
+
+161
+00:14:55,200 --> 00:14:59,370
+And it's better to evaluate these eigenvalues up here.
+
+162
+00:15:00,370 --> 00:15:08,769
+But when the raw data, which is this light blue line, crosses the percentile on the means, that is when you you cut it off.
+
+163
+00:15:08,770 --> 00:15:13,030
+And it's kind of hard to say, but it's right before the four. So we have three factors.
+
+164
+00:15:13,270 --> 00:15:20,220
+And so why did we do that. Once you've run the parallel analysis then you can rerun the EFA where you tell the computer how many factors to look for.
+
+165
+00:15:20,230 --> 00:15:23,350
+So you go back to that principal axis factoring.
+
+166
+00:15:23,350 --> 00:15:27,100
+Make sure you check this scree plot. And here you would plug in okay.
+
+167
+00:15:27,100 --> 00:15:33,009
+We found three in our parallel analysis. So I'm going to tell it to extract exactly three.
+
+168
+00:15:33,010 --> 00:15:36,610
+And I will show you that in the example video.
+
+169
+00:15:37,300 --> 00:15:41,080
+So some common pitfall also is when you use PCA instead of EFA.
+
+170
+00:15:41,680 --> 00:15:44,799
+PCA is like I said before, a data reduction method.
+
+171
+00:15:44,800 --> 00:15:53,380
+EFA is a latent factor method. We want to do exploratory factor analysis when we're creating a survey over factoring from eigenvalue,
+
+172
+00:15:53,830 --> 00:15:59,710
+um, greater than one rule, ignoring theoretical interpretability and keeping items with cross loadings.
+
+173
+00:16:00,490 --> 00:16:08,260
+So here's an example of our APA reporting and exploratory factor analysis was conducted on 11 items using principal
+
+174
+00:16:08,260 --> 00:16:15,729
+axis factoring with direct Oberman rotation to identify the underlying latent structure prior to extraction,
+
+175
+00:16:15,730 --> 00:16:21,969
+sampling adequacy was evaluated. The Kmo measure verified the suitability of the data for factor analysis.
+
+176
+00:16:21,970 --> 00:16:29,230
+It was at 0.831, and Bartlett's test of scarcity was significant at P less than 0.001,
+
+177
+00:16:29,470 --> 00:16:34,150
+indicating that the correlations among items were sufficient to proceed with factor extraction.
+
+178
+00:16:34,840 --> 00:16:42,309
+Initial eigenvalues and visual inspection of the screen plot supported a three factor solution with a marked drop in eigenvalues.
+
+179
+00:16:42,310 --> 00:16:50,740
+After the third factor, the first three factors that eigenvalues are above 1.012 collectively accounted for approximately 85% of the total variance.
+
+180
+00:16:51,190 --> 00:16:56,290
+Based on these results, three factors were retained for further interpretation.
+
+181
+00:16:56,680 --> 00:17:03,820
+After applying direct Oberman rotation, the pattern matrix revealed that items one through three loaded strongly in factor one.
+
+182
+00:17:04,180 --> 00:17:08,680
+All loadings greater than 0.6. Items four, three, six loaded on factor two.
+
+183
+00:17:09,070 --> 00:17:12,070
+Items seven two non loaded on factor three.
+
+184
+00:17:12,400 --> 00:17:23,830
+Items 11, ten and 11 showed cross loadings across multiple factors and exhibited comparatively lower commonalities between 0.3 and 0.35,
+
+185
+00:17:24,070 --> 00:17:28,180
+suggesting that they did not uniquely represent a single latent construct.
+
+186
+00:17:28,900 --> 00:17:33,580
+Each factor was conceptually interpretable based on the content pattern of its loadings.
+
+187
+00:17:33,580 --> 00:17:40,000
+Factor one appeared to represent engagement, factor two reflected motivation, and factor three corresponded to support.
+
+188
+00:17:40,000 --> 00:17:44,170
+Items ten and 11 were flagged as problematic due to their diffuse loading patterns,
+
+189
+00:17:44,170 --> 00:17:48,280
+and were considered for potential removal for and follow up analysis.
+
+190
+00:17:48,280 --> 00:17:53,589
+Overall, the results supported a three factor structure representing three distinct the latent constructs,
+
+191
+00:17:53,590 --> 00:17:58,540
+with nine items loading cleanly and two items demonstrating weaker measurement properties.
+
+192
+00:17:59,260 --> 00:18:06,430
+Okay, one final note EFA is used when you do not yet know the underlying structure of your survey or construct.
+
+193
+00:18:07,030 --> 00:18:13,710
+It shows how items naturally grouped together. It helps you identify potential factors without imposing any prior assumptions.
+
+194
+00:18:13,720 --> 00:18:18,250
+Confirmatory factor analysis, which is denoted CFA,
+
+195
+00:18:18,790 --> 00:18:24,400
+is used when you already have a proposed factor structure and want to test how well the data fit that model.
+
+196
+00:18:24,820 --> 00:18:29,500
+EFA discovers the structure, CFA confirms and evaluates it.
+
+197
+00:18:29,620 --> 00:18:32,589
+CFA is not available in regular SPSS.
+
+198
+00:18:32,590 --> 00:18:43,930
+You need to use something like SPSS Amos or using the log on pack package Jamboree using the ACM package or SAS or some other software package.
+

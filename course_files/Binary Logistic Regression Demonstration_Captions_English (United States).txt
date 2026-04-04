@@ -1,0 +1,1981 @@
+1
+00:00:00,170 --> 00:00:07,010
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Hey, there are advanced research methods. Students, let's take a look at how you would run a binary logistic regression in SPSS.
+
+2
+00:00:07,610 --> 00:00:09,920
+I'm going to use the same data set that I have been using.
+
+3
+00:00:10,070 --> 00:00:18,080
+And as the researcher I'm going to ask the question do competence and scholarly participation predict project completion.
+
+4
+00:00:18,320 --> 00:00:25,489
+So let's take a look at that data set really quickly. Toggling over to the variable view we have confidence perception.
+
+5
+00:00:25,490 --> 00:00:28,610
+That's a numeric scale based uh predictor.
+
+6
+00:00:28,940 --> 00:00:34,700
+Um and we're wondering, you know, maybe if someone did higher on their competence, maybe they're more likely to complete it or vice versa.
+
+7
+00:00:35,030 --> 00:00:38,989
+And then we also had participation. So we have this variable in two formats.
+
+8
+00:00:38,990 --> 00:00:42,050
+The first is the string format. And that's in an ordinal way.
+
+9
+00:00:42,380 --> 00:00:46,280
+Um, and then we recoded it so that we could use it numerically if we needed to.
+
+10
+00:00:46,550 --> 00:00:49,400
+Uh, so let's maybe take a closer look at that on the other screen.
+
+11
+00:00:49,400 --> 00:00:56,779
+But before we leave here, um, these two things, competence and participation, they are predicting completion.
+
+12
+00:00:56,780 --> 00:01:04,009
+So project completion is just there. It is, um, you know, either complete or incomplete and, uh, there we have it.
+
+13
+00:01:04,010 --> 00:01:07,550
+So let's go over to the participation and take a closer look.
+
+14
+00:01:08,030 --> 00:01:14,900
+Um, it should be in through here. Yeah. So if you're participating, you might be participating at the lowest level.
+
+15
+00:01:14,900 --> 00:01:23,000
+That's peripheral. Um, the challenging word for a Southerner to say, um, uh, the second level would be emerging.
+
+16
+00:01:23,270 --> 00:01:28,670
+Um, let's see here. We can scroll down for some threes that would be active and then four would be central.
+
+17
+00:01:28,850 --> 00:01:37,280
+So there is um, an interesting question right up front as uh, this data uh, this data point is an ordinal data point.
+
+18
+00:01:37,580 --> 00:01:42,020
+Um, so are we going to treat that variable as either continuous or as categorical?
+
+19
+00:01:42,380 --> 00:01:49,759
+Um, and the decision for that is ultimately going to be based on, um, what exactly our focus is of the question.
+
+20
+00:01:49,760 --> 00:01:54,260
+So let's talk through that. Let's go back to our question. That's what brought us to the data set in the first place.
+
+21
+00:01:54,950 --> 00:01:59,930
+So does competence and participation predict completion.
+
+22
+00:02:00,800 --> 00:02:06,320
+That question is basically like saying these variables, you know, are relatively equally weighted.
+
+23
+00:02:06,320 --> 00:02:10,339
+And we think it's going to predict completion in this question wording.
+
+24
+00:02:10,340 --> 00:02:16,070
+It does not seem to indicate anything about the fact that if you are one type of participation,
+
+25
+00:02:16,070 --> 00:02:21,560
+say, um, emerging, uh, that that would make you more or less likely to complete.
+
+26
+00:02:21,770 --> 00:02:29,900
+So since we're not really focused on just one of the participation types, um, we can, uh,
+
+27
+00:02:29,930 --> 00:02:37,430
+continue to kind of treat them as relatively equal to one another and use that ordinal variable in a continuous way.
+
+28
+00:02:37,730 --> 00:02:44,719
+If, however, we had really wanted to isolate the effects of completion based on a profile, say,
+
+29
+00:02:44,720 --> 00:02:52,790
+if someone was active or, um, emerging, then, um, we would want to treat that, um, ordinal variable as categorical.
+
+30
+00:02:52,940 --> 00:02:59,570
+So a lot of it comes down to researcher choice as based in the just the logic of the project itself.
+
+31
+00:02:59,570 --> 00:03:04,129
+The research question drives, uh, quite a bit. So here's our research question.
+
+32
+00:03:04,130 --> 00:03:09,170
+And uh, we've taken a look at our two predictors and then our completion as the outcome variable.
+
+33
+00:03:09,470 --> 00:03:14,180
+Um, our null hypothesis. Nothing to see here. Completion does not depend on those things.
+
+34
+00:03:14,450 --> 00:03:22,730
+And then our alternative hypothesis states that higher level of competence and, um, higher levels of scholarly participation.
+
+35
+00:03:22,730 --> 00:03:29,629
+So that would be the level four instead of the level one will be associated with higher levels of project completion.
+
+36
+00:03:29,630 --> 00:03:31,660
+I think that's a relatively logical conclusion.
+
+37
+00:03:31,670 --> 00:03:41,570
+So um, if we get a significant result, uh, potentially we'll be able to reject this null hypothesis, um, in favor of the alternative hypothesis.
+
+38
+00:03:41,570 --> 00:03:45,320
+We'll also want to check out not just the fact that it's significant, but also the direction.
+
+39
+00:03:46,400 --> 00:03:50,570
+Um, so we have a sense of what our, uh, question is.
+
+40
+00:03:50,570 --> 00:03:54,049
+Let's go over to our PowerPoint. Here are the steps, right.
+
+41
+00:03:54,050 --> 00:03:57,380
+The procedures. Um, first we're going to do a power calculation.
+
+42
+00:03:57,420 --> 00:04:02,120
+That's something that we need to do for everything. We might do a power calculation up front like we are right now.
+
+43
+00:04:02,120 --> 00:04:10,040
+The a priori we might do it after the fact that a posteriori, um, and lots of times you'll do it both ways.
+
+44
+00:04:10,040 --> 00:04:14,990
+You'll do it beforehand, then you'll recruit your participants based on however many people you get.
+
+45
+00:04:15,170 --> 00:04:21,710
+You'll recalculate power to confirm. Um, so we'll calculate our power, and then we'll test our assumptions.
+
+46
+00:04:21,710 --> 00:04:25,820
+There are a few assumptions, so I actually wrote them down on the other piece of paper so I could remember them.
+
+47
+00:04:26,060 --> 00:04:28,670
+Uh, because I can be quite forgetful when I'm in the middle of doing a task.
+
+48
+00:04:28,880 --> 00:04:35,210
+Once our assumptions are tested and assuming there aren't any violations, will execute the regression and then interpret the coefficients if needed.
+
+49
+00:04:35,360 --> 00:04:40,730
+So in other words, will interpret the predictors if the overall test is significant.
+
+50
+00:04:41,720 --> 00:04:48,379
+All right. Now um, I've already started writing the results section, just letting my readers know what's happening here.
+
+51
+00:04:48,380 --> 00:04:54,680
+We're doing a binary logistic regression. Um, and in amongst these things, repeating that research question in essence.
+
+52
+00:04:55,040 --> 00:04:58,849
+And then now, um, I've already written out the section where we're doing the power calculation.
+
+53
+00:04:58,850 --> 00:05:00,496
+Let me tell you how I. Got to that. Let's see.
+
+54
+00:05:00,711 --> 00:05:08,631
+You might recall from the PowerPoint lecture that the G power um, test family for logistic regression is the Z test.
+
+55
+00:05:08,901 --> 00:05:12,141
+So once we picked our test family, then we can pick our specific test.
+
+56
+00:05:12,171 --> 00:05:18,411
+Here we're picking logistic regression. If we just leave everything as defaulted that's probably fine.
+
+57
+00:05:18,441 --> 00:05:24,951
+The only thing I am going to change though are the tails. I do want to do a two tailed test because I am looking for both.
+
+58
+00:05:24,981 --> 00:05:28,401
+Like it could also decrease completion for all I know.
+
+59
+00:05:28,401 --> 00:05:31,431
+So I am looking on both sides and let's press calculate.
+
+60
+00:05:31,701 --> 00:05:34,771
+Oh wow. Sample size 1188.
+
+61
+00:05:34,791 --> 00:05:39,560
+Well you guys we only have 300 I think in our, um sample data set.
+
+62
+00:05:39,561 --> 00:05:42,761
+So that's not going to work. What do we do in advance?
+
+63
+00:05:42,771 --> 00:05:49,461
+We can just say let's adjust some things. The first thing that's easy to adjust is the, um, is the one minus beta.
+
+64
+00:05:49,641 --> 00:05:55,741
+And this we can change to 0.80 because that is, uh, a very common standard.
+
+65
+00:05:55,761 --> 00:05:59,691
+You know, we're basically taking that 20% risk of making the type two error.
+
+66
+00:05:59,991 --> 00:06:05,031
+That in and of itself brought us down to 721 better, but not good enough.
+
+67
+00:06:05,451 --> 00:06:09,471
+Um, another thing that I can do is change the, um.
+
+68
+00:06:09,771 --> 00:06:12,771
+Okay, what else can I change? Well, um, I can do two things.
+
+69
+00:06:12,771 --> 00:06:21,291
+I can change either the odds ratio or the null. Uh, so this this null is like saying, um, you know, I'm really strict on this.
+
+70
+00:06:21,291 --> 00:06:26,661
+Null. Normally you will see 0.2 or 0.3. And here. Because if you had point five would be basically like saying half and half.
+
+71
+00:06:26,901 --> 00:06:34,611
+And that's nothing wrong with that necessarily. It's just means that maybe, uh, you don't have enough, you know, information to be more confident.
+
+72
+00:06:34,881 --> 00:06:38,451
+So maybe let's change this to a 0.3 and see what we can get away with.
+
+73
+00:06:38,901 --> 00:06:42,261
+Well, that brought it to five, five, seven, so we're moving in the right direction.
+
+74
+00:06:42,261 --> 00:06:46,071
+What if I did a point four. How would we feel about that? 4.91 okay.
+
+75
+00:06:46,431 --> 00:06:50,750
+Now I could change this to point five, but I can keep it as it is. Instead I'm going to change the odds ratio.
+
+76
+00:06:50,751 --> 00:06:53,511
+And I if I remember correctly, if I go up, it'll be better.
+
+77
+00:06:53,751 --> 00:07:02,751
+Um, so what this is saying is listen, if there is a difference, let's say, for example, significantly, um, more likely to complete.
+
+78
+00:07:03,141 --> 00:07:08,511
+If it's just like 1% more likely or 10% more likely, I'm not really interested in that.
+
+79
+00:07:08,781 --> 00:07:17,211
+With this number being 1.3, it's basically saying I'm really only interested in changes that are like 30% more likely or better.
+
+80
+00:07:17,481 --> 00:07:25,550
+So maybe I can change this. I'll just change it to 1.4 and we'll, um, maybe if we're less worried about picking, um,
+
+81
+00:07:25,551 --> 00:07:29,871
+or less worried about being able to predict smaller changes, then we'll probably need fewer people.
+
+82
+00:07:30,201 --> 00:07:35,360
+Calculate 305. Oh my goodness, I love that. Okay, so, um, I have to update this.
+
+83
+00:07:35,361 --> 00:07:38,631
+Oh, fiddlesticks. It doesn't. All right. I have to remember my numbers.
+
+84
+00:07:38,661 --> 00:07:47,990
+Oh that's tough. Okay, so N is going to be 305 80 is for power odds ratio 1.4 instead of 1.3.
+
+85
+00:07:47,991 --> 00:07:52,161
+Alpha is oh five. Yes okay.
+
+86
+00:07:52,161 --> 00:07:55,331
+That's that's fine. Okay. So what did I say 305 and 1.4.
+
+87
+00:07:55,341 --> 00:07:58,671
+That's really all that has to change here. All right.
+
+88
+00:07:58,881 --> 00:08:04,041
+So we've calculated our power which means it's time to move on to our assumptions testing.
+
+89
+00:08:04,551 --> 00:08:07,941
+There are a handful of assumptions for a binary logistic regression.
+
+90
+00:08:07,941 --> 00:08:11,240
+And the first one is that the what is it called?
+
+91
+00:08:11,241 --> 00:08:14,511
+Um dependent variable needs to be dichotomous.
+
+92
+00:08:14,511 --> 00:08:17,751
+So it's a two option output.
+
+93
+00:08:17,931 --> 00:08:24,441
+Now we know this is true because we've designed this project. But we can of course verify it just with a quit frequency.
+
+94
+00:08:24,891 --> 00:08:30,681
+Um, and I've got it there already. I don't think I need any stats because I'm just counting at this point.
+
+95
+00:08:36,895 --> 00:08:41,665
+So we can confirm the outcome variable is in fact dichotomous.
+
+96
+00:08:48,693 --> 00:08:53,973
+So there we are. The second um, um, assumption and I might have reported this first.
+
+97
+00:08:53,973 --> 00:08:56,253
+So, so these might could go in a different order.
+
+98
+00:08:56,253 --> 00:09:04,412
+But you would generally have these first, um, and then these last, um, independent observation that is a design element.
+
+99
+00:09:04,413 --> 00:09:12,093
+Can we affirm that our individuals in this data set, they're in there once and only once that they're not dependent on any other thing?
+
+100
+00:09:12,093 --> 00:09:20,673
+Like, um, it's not a pretest post-test situation. Um, they're not in groups or clusters where there are somehow subsets of these data sets.
+
+101
+00:09:20,973 --> 00:09:24,243
+Um, and by design, our data set is independent.
+
+102
+00:09:24,243 --> 00:09:25,688
+So we're just going to write that up. All right.
+
+103
+00:09:26,222 --> 00:09:27,271
+The internet wins again.
+
+104
+00:09:27,272 --> 00:09:32,972
+Independence of observations was assumed based on the study design, as each participant contributed a single independent response.
+
+105
+00:09:32,972 --> 00:09:38,191
+It's as easy as that. Now I've put it in its own section, because maybe you want to do something like, you know,
+
+106
+00:09:38,192 --> 00:09:42,782
+explain what independence of observations is or, um, talk through some comparisons.
+
+107
+00:09:42,782 --> 00:09:48,152
+But, you know, if it's a one sentence section, potentially you would join these things together without subheadings.
+
+108
+00:09:48,152 --> 00:09:53,311
+The subheadings are just helping me in the demonstration. Uh, we're moving on to sample size and cell counts.
+
+109
+00:09:53,312 --> 00:09:57,952
+Um, this is something that you would definitely do with categorical data.
+
+110
+00:09:57,962 --> 00:10:03,212
+We're not using any categorical data. We have two predictors that are treated as continuous.
+
+111
+00:10:03,542 --> 00:10:06,962
+But I will demonstrate just briefly how to do this.
+
+112
+00:10:06,962 --> 00:10:08,822
+If you had a categorical variable.
+
+113
+00:10:09,062 --> 00:10:15,512
+And so only for the purposes of demonstration I'm going to temporarily treat our participation variable as categorical.
+
+114
+00:10:15,902 --> 00:10:24,512
+Um, but usually if everything is numeric I'm skipping this step because, uh, it's just it's not necessary.
+
+115
+00:10:24,812 --> 00:10:29,950
+All right. So I'm going to analyze and then I'm going to descriptives and then I'm going to Crosstabs.
+
+116
+00:10:30,152 --> 00:10:37,922
+Now, what we're trying to do is just find out. If you were to intersect all of your categorical variables with your outcome variable.
+
+117
+00:10:38,312 --> 00:10:42,392
+Would there be a sufficient number within each cell?
+
+118
+00:10:42,422 --> 00:10:51,152
+So this is about cell counts. So in my rows or in my columns I can put my outcome variable I it doesn't matter which way it's going to go.
+
+119
+00:10:51,182 --> 00:10:54,572
+Um I'm just looking for it. I've got a few too many variables in here.
+
+120
+00:10:54,902 --> 00:11:03,792
+So completion will go into rows. And then, um, four columns we will put in the uh participation variable.
+
+121
+00:11:03,942 --> 00:11:08,472
+Again, just doing this for demonstration. We really are using the numeric version.
+
+122
+00:11:08,472 --> 00:11:13,992
+We're not using the categorical version. Now I can go through and ask for other statistics but I do not need them.
+
+123
+00:11:14,112 --> 00:11:21,462
+So I'm just going to press paste. And we're going to run our syntax uh from here and see what the output says.
+
+124
+00:11:22,002 --> 00:11:27,242
+So we can see that based on completed and not completed on the left column and on the centers,
+
+125
+00:11:27,312 --> 00:11:33,732
+there's um, active, central, emerging and peripheral, um, there are no counts that are below ten.
+
+126
+00:11:34,812 --> 00:11:37,841
+Ten is probably one of those just general rules.
+
+127
+00:11:37,842 --> 00:11:42,282
+And I think the actual rule really probably depends on how many some categories you have.
+
+128
+00:11:42,552 --> 00:11:53,951
+But it would be a red flag if, say, not completed, had 1 or 2 inactive and 2 or 3 and central,
+
+129
+00:11:53,952 --> 00:12:01,422
+and then something like 80 in emerging, you know, and 50 and peripheral because that is so lopsided that,
+
+130
+00:12:01,422 --> 00:12:12,131
+uh, potentially there's not enough, um, variation within, uh, the, the predictor variable to kind of reliably tell me something about the outcome.
+
+131
+00:12:12,132 --> 00:12:15,432
+It's already so lopsided, you don't really need the test. In other words.
+
+132
+00:12:15,672 --> 00:12:20,381
+Um, so that's why we do something like Cell counts. Um, now, did I have to do that?
+
+133
+00:12:20,382 --> 00:12:24,882
+No, I did not. Because again, we're treating that, that that variable as numeric.
+
+134
+00:12:24,882 --> 00:12:28,112
+But, um. I did do it.
+
+135
+00:12:28,132 --> 00:12:35,782
+So I need to write it up. All right. Frequencies and cross tabulations indicated that both outcome categories were represented within.
+
+136
+00:12:36,232 --> 00:12:41,362
+Um, let's see here. Uh, I didn't write down the numbers, did I?
+
+137
+00:12:42,852 --> 00:12:47,112
+159 not completed and 141 completed.
+
+138
+00:12:48,452 --> 00:12:50,170
+Did you notice where I got that? Just showing you again here.
+
+139
+00:12:52,526 --> 00:12:56,305
+We've got not completed going all the way to the right.
+
+140
+00:12:56,306 --> 00:12:59,846
+159 and completed going all the way to the right.
+
+141
+00:12:59,846 --> 00:13:02,380
+141 so 149 and 141. And then.
+
+142
+00:13:02,855 --> 00:13:05,915
+Maybe you have to kind of explain some distribution.
+
+143
+00:13:06,275 --> 00:13:12,605
+Um, because, see, these 20s were a little bit low but not staggeringly low.
+
+144
+00:13:12,635 --> 00:13:16,985
+Like one of the red flags I had said. So, um, did I write this backwards, though?
+
+145
+00:13:16,985 --> 00:13:20,465
+I think, um, lower levels? Yes.
+
+146
+00:13:22,605 --> 00:13:27,945
+All right. There we go. Now we can check our multicollinearity and our influential cases.
+
+147
+00:13:27,945 --> 00:13:31,634
+That would be the cook's distance. And then the linearity of the logit. That's the box.
+
+148
+00:13:31,635 --> 00:13:41,235
+Tidwell. Um, binary logistic regression does not give you a chance to ask for tolerance and variance inflation factor.
+
+149
+00:13:41,235 --> 00:13:47,505
+So you have to do a workaround in SPSS. And that workaround is as follows.
+
+150
+00:13:48,585 --> 00:13:54,725
+You just run a regular multi linear regression and you can use any variable as your dependent variable.
+
+151
+00:13:54,735 --> 00:13:57,273
+So let's go to regression linear. Um, so for the dependent variable, I can literally use any thing in here that's numeric.
+
+152
+00:14:03,587 --> 00:14:10,787
+And um, I'm just going to use a standardized residual. So that's something that we had saved from a random test in some other demonstration video.
+
+153
+00:14:10,997 --> 00:14:15,886
+It's irrelevant because the tolerance and the variance inflation factors are looking at collinearity.
+
+154
+00:14:15,887 --> 00:14:20,807
+In other words, how much do these two things go together. It doesn't have anything to do with the dependent variable.
+
+155
+00:14:20,807 --> 00:14:22,877
+So that's why it doesn't matter what you pick.
+
+156
+00:14:23,927 --> 00:14:32,057
+What we do have to put into our dependent variable, though, are the two predictors that we're using perceived competence and participation.
+
+157
+00:14:32,267 --> 00:14:39,827
+And I'm using the numeric version because again we're treating this value this variable as a continuous value.
+
+158
+00:14:40,527 --> 00:14:46,217
+Uh we have to make sure in our statistics we ask for collinearity diagnostics.
+
+159
+00:14:46,367 --> 00:14:56,347
+We probably do not need anything else. Um I'll maybe ask for like, just I feel like I'm a little bit going through the motions on my MLR.
+
+160
+00:14:56,357 --> 00:15:01,247
+I would probably ask for all kinds of things. I'm a little bit nervous about not asking for things.
+
+161
+00:15:01,637 --> 00:15:07,487
+I'll ask for cooks, although I know that there's another place to ask for cook, so maybe that's not necessary to.
+
+162
+00:15:07,487 --> 00:15:10,726
+All right, so I'm here for multicollinearity.
+
+163
+00:15:10,727 --> 00:15:15,107
+I'm not going to pick a bunch of other stuff. Now I'm pasting and I'm running.
+
+164
+00:15:16,667 --> 00:15:22,997
+I'm trying to stay focused there. All right. So the regression we're going just to the coefficients table.
+
+165
+00:15:23,357 --> 00:15:31,846
+And we're really ignoring everything. It doesn't matter if the overall model was significant or if there was any, um, you know, value in the r-square,
+
+166
+00:15:31,847 --> 00:15:40,577
+which there wasn't, that, um, we are only interested in the collinearity statistics and perceived competence and participation.
+
+167
+00:15:41,147 --> 00:15:45,737
+No collinearity. Our tolerance is close to one which is great.
+
+168
+00:15:46,067 --> 00:15:52,667
+And our belief is, uh, close to one which is, um, which is good.
+
+169
+00:15:52,667 --> 00:15:56,417
+You know, we want this to be lower and we want tolerance to be higher.
+
+170
+00:15:56,597 --> 00:16:05,147
+So, uh, in this case, we're doing pretty well. Now, let me maybe if I can, just with this to the side and then get my word document.
+
+171
+00:16:05,147 --> 00:16:09,377
+Yeah. All right. So multicollinearity what are we going to say. Let's think about this for a second.
+
+172
+00:16:09,793 --> 00:16:17,262
+Okay, that just took me a minute here. Writing this up, multicollinearity was assessed using, uh, preliminary linear regression analysis.
+
+173
+00:16:17,263 --> 00:16:21,133
+So I'm just saying, like, I ran a regression so I can get my tolerance and variance inflation.
+
+174
+00:16:21,493 --> 00:16:26,383
+And if I look at that here, it's 0.992, which rounds down to 0.99.
+
+175
+00:16:26,683 --> 00:16:32,233
+And that's the same as that number for the other one. And then the variance inflation is 1.009.
+
+176
+00:16:32,473 --> 00:16:36,702
+And if I could get that yellow box go away. That's also the same number there which is interesting.
+
+177
+00:16:36,703 --> 00:16:41,352
+That's coincidence. There's nothing mathematical about that. It's just good dumb luck.
+
+178
+00:16:41,353 --> 00:16:45,553
+So this is this might be like 1.01 after we round.
+
+179
+00:16:45,553 --> 00:16:52,002
+And, um, that's what I've written. The very the values were 0.99 and 101 for both predictors indicating.
+
+180
+00:16:52,003 --> 00:16:55,753
+And here's the important part. No problematic multicollinearity.
+
+181
+00:16:56,353 --> 00:16:59,803
+All right. Now we can, um, check our influential cases.
+
+182
+00:16:59,803 --> 00:17:04,483
+Now I had already asked for cooks. So I think I can go ahead and do this now.
+
+183
+00:17:04,663 --> 00:17:07,513
+But I feel like there is a place for me to ask for cooks later.
+
+184
+00:17:07,513 --> 00:17:11,293
+Uh, we'll we'll check that out, but let's let's do it now, since I know I can do it now.
+
+185
+00:17:11,833 --> 00:17:18,162
+Um, here, we had just saved Cook's distance. Um, you remember that there are a few ways we can check for cooks.
+
+186
+00:17:18,163 --> 00:17:22,123
+We could just say as long as the average is below 0.5, you're safe.
+
+187
+00:17:22,393 --> 00:17:27,402
+Well, we know that this is below 0.5 because we've used this in other videos.
+
+188
+00:17:27,403 --> 00:17:32,503
+Um, for instance, in the multi linear regression, um, video, our cook's distance was fine.
+
+189
+00:17:32,503 --> 00:17:37,332
+These are the same thing. So this is going to be the same outcome. Um let's test it the other way.
+
+190
+00:17:37,333 --> 00:17:42,253
+You might recall that there was a specific formula. And if I remember correctly it's four divided by n.
+
+191
+00:17:42,253 --> 00:17:48,313
+So however many you have in your case um set and that's what your, uh, thresholds should be under.
+
+192
+00:17:48,703 --> 00:17:52,033
+Um, so do we have our calculator or. No. Let's get our calculator.
+
+193
+00:17:52,433 --> 00:18:01,613
+And, uh, for I don't know what I said if it was said minus earlier or not, but it's actually four divided by 18, which is 300 in this case.
+
+194
+00:18:02,003 --> 00:18:12,673
+Um, that equals 0.013. And now what we want to see is okay, are Cook's distances below the 0.013 threshold by and large.
+
+195
+00:18:12,683 --> 00:18:15,683
+Now let's imagine we had 1 or 2 that went beyond it.
+
+196
+00:18:15,833 --> 00:18:17,212
+Maybe we could report that.
+
+197
+00:18:17,213 --> 00:18:28,533
+But that's certainly not probably um, a sufficient number of cases to bias the model, especially if it's maybe .014.015 because it's relatively close.
+
+198
+00:18:28,583 --> 00:18:33,413
+Now, if it was no point nine, maybe I would be a little more worried about that one value.
+
+199
+00:18:33,803 --> 00:18:38,933
+Uh, so the easiest way would just be to sort this either ascending or descending.
+
+200
+00:18:38,933 --> 00:18:42,383
+Which way? Oh no, not ascending then the descending. All right.
+
+201
+00:18:42,423 --> 00:18:47,513
+.029.029.0250.
+
+202
+00:18:47,513 --> 00:18:52,133
+These are a little bit higher than I like, but it only takes me about 16 cases.
+
+203
+00:18:52,433 --> 00:19:01,613
+Uh, before I get to the, um, you know, to, like, be acceptable or not even it only takes me about 13 cases before I get to the acceptable threshold.
+
+204
+00:19:01,793 --> 00:19:04,853
+I don't like the way that SPSS is jumping over there when I click it.
+
+205
+00:19:05,453 --> 00:19:14,183
+Um, so only these handful of cases are quote unquote beyond Cook's threshold, and even then they're not all that far beyond it.
+
+206
+00:19:15,053 --> 00:19:18,983
+So I'm going to say that this is probably fine. Let me, um, write that up.
+
+207
+00:19:21,106 --> 00:19:25,846
+I've written that Cook's distance values were examined to assess the influence of individual observations.
+
+208
+00:19:26,116 --> 00:19:31,276
+The threshold of four over ten was used to determine values which exerted undue influence.
+
+209
+00:19:31,636 --> 00:19:39,886
+And, uh, Cook's d that's, um, the way that you would abbreviate this in APA, uh equal 0.013.
+
+210
+00:19:39,886 --> 00:19:42,766
+So I've had the lead zero because I guess it could be higher than one.
+
+211
+00:19:43,126 --> 00:19:48,106
+And I've reported it to three decimals, because if I do not there's an insufficient amount of information.
+
+212
+00:19:48,256 --> 00:19:53,176
+Typically you only report to two decimals, but I've got three because it's necessary.
+
+213
+00:19:53,596 --> 00:19:57,196
+Um, it's clearly necessary as you continue to read the paragraph.
+
+214
+00:19:57,676 --> 00:20:02,895
+Um, 13 cases exceeded the threshold representing 4% of the data set.
+
+215
+00:20:02,896 --> 00:20:11,746
+So not very many. And, uh, then I've said, you know, the highest distance was D equals uh, 0.023.
+
+216
+00:20:11,746 --> 00:20:13,336
+Um, I need to lead zero there, don't I?
+
+217
+00:20:13,846 --> 00:20:23,295
+Um, and you can see that here, that, uh, from where I sorted, uh, descending and uh, then the mean distance was 003.
+
+218
+00:20:23,296 --> 00:20:26,506
+Um, I got that from the linear regression output, and I'll show you that in just a minute.
+
+219
+00:20:26,686 --> 00:20:31,486
+So this indicates insufficient reason to suspect cases which biased the model.
+
+220
+00:20:31,756 --> 00:20:35,805
+Um, so in other words, hey, here's what I found. I'm not worried about it.
+
+221
+00:20:35,806 --> 00:20:39,795
+Let's proceed. Um, that's the way we handle assumptions.
+
+222
+00:20:39,796 --> 00:20:42,976
+We want to, as best as possible, stay within the parameters of the test.
+
+223
+00:20:43,246 --> 00:20:46,366
+I told you I would show you where I got it, and I will here.
+
+224
+00:20:46,366 --> 00:20:53,325
+When we ran our, um, multiple linear regression. Cook's distance line, the mean or the average is 0.003.
+
+225
+00:20:53,326 --> 00:20:56,886
+That's just here. Um. All right, there we go.
+
+226
+00:20:57,156 --> 00:21:00,246
+We are done with that. Now we have to test the linearity of the logic.
+
+227
+00:21:00,246 --> 00:21:09,126
+And actually I will do that after I run the binary logistic regression because I'm going to use some information, I think, from that regression.
+
+228
+00:21:09,576 --> 00:21:14,555
+So now that we've done all of these assumptions, we ultimately ask ourselves, should we proceed with the test?
+
+229
+00:21:14,556 --> 00:21:20,126
+And in this case, the answer is yes. So let's make this big and go for the logistic regression.
+
+230
+00:21:20,136 --> 00:21:25,026
+We go to analyze regression binary logistic.
+
+231
+00:21:25,497 --> 00:21:28,707
+Our dependent variable is completion. So we're going to stick that in there.
+
+232
+00:21:29,007 --> 00:21:35,157
+And then our predictors were perceived competence and uh participation the numeric version.
+
+233
+00:21:36,177 --> 00:21:40,767
+Um now we go through the right panel and just click through everything and pick what we need.
+
+234
+00:21:40,797 --> 00:21:45,957
+There are a few things that we need to pick. Um, this is one that we do not need to pick, but it's good for you to know.
+
+235
+00:21:46,377 --> 00:21:56,287
+If you are treating a variable as categorical, you must move it over here so that it can create, um, uh, a reference group.
+
+236
+00:21:56,307 --> 00:22:00,477
+So I'm just going to, for a moment, temporarily move one over just to show you.
+
+237
+00:22:00,777 --> 00:22:07,466
+So what it's going to do is it's going to take the categories, and whichever one it reads first is going to be the indicator.
+
+238
+00:22:07,467 --> 00:22:11,467
+And in other words, the reference group. You could change it to something else.
+
+239
+00:22:11,487 --> 00:22:16,947
+Okay. So um, with that in mind, you can kind of play around and read around with that.
+
+240
+00:22:16,947 --> 00:22:20,226
+But we don't have a categorical variable in here. But nearly just two questions.
+
+241
+00:22:20,227 --> 00:22:22,077
+So I'm not going to go down that little rabbit path.
+
+242
+00:22:22,467 --> 00:22:28,286
+Um, if we were treating this as categorical then yeah, I would just move it over and press continue.
+
+243
+00:22:28,287 --> 00:22:35,487
+I would leave the default. Um, there are cases though, like so for instance, this is first and last and and one was the lowest.
+
+244
+00:22:35,487 --> 00:22:39,507
+So kind of like the least in gauge where is for was the highest. That was the highest.
+
+245
+00:22:39,507 --> 00:22:44,667
+Engage the four would be the last. Maybe I would want to make them the, the um comparative group.
+
+246
+00:22:45,057 --> 00:22:51,206
+Um so sometimes that would change first and last. But in this case I'm not doing any of that because we don't have a categorical variables.
+
+247
+00:22:51,207 --> 00:22:55,527
+I'm canceling out there. Uh, let's check the next box. We've got probabilities.
+
+248
+00:22:55,527 --> 00:22:59,367
+Group membership. Hey, I knew there was a place for cooks. I'm going to check it again.
+
+249
+00:22:59,367 --> 00:23:02,997
+Let's see what we find. It's probably going to be conflicting. And then I'm going to not know what to do.
+
+250
+00:23:03,267 --> 00:23:07,997
+All right. Uh, we could save our unstandardized residuals if we wanted.
+
+251
+00:23:08,017 --> 00:23:11,187
+I don't think we really need to. Um, so.
+
+252
+00:23:11,187 --> 00:23:14,277
+Yeah, I think that's maybe the only thing I need in here.
+
+253
+00:23:14,307 --> 00:23:17,517
+Where's my horse? Marlene? Michelle. There it is. Under options.
+
+254
+00:23:18,957 --> 00:23:22,777
+Uh, this is the model fit. So that's what we need that for. And that's important.
+
+255
+00:23:22,797 --> 00:23:27,237
+You don't necessarily need these other things, but I do usually like to ask for confidence interval.
+
+256
+00:23:27,237 --> 00:23:34,976
+I think that's helpful. Sometimes if your outcome variable is very lopsided you might need to change some numbers in here.
+
+257
+00:23:34,977 --> 00:23:41,277
+Uh, for instance, I once did a project where you were we were predicting, um, acceptance in the medical school.
+
+258
+00:23:41,427 --> 00:23:44,246
+Well, the acceptance odds are already very low.
+
+259
+00:23:44,247 --> 00:23:50,247
+So using 0.5 wasn't really fair, because that's like saying you have half a chance of getting accepted, but you really don't.
+
+260
+00:23:50,487 --> 00:23:55,077
+You really have something like a 0.4 or 0.3 chance off the bat,
+
+261
+00:23:55,077 --> 00:23:59,577
+just because of the sheer numbers of applicants and the and the limited numbers of spaces.
+
+262
+00:23:59,877 --> 00:24:04,017
+So, um, in that case, I changed the cutoff value. But in this case, we don't need to change the color value.
+
+263
+00:24:04,017 --> 00:24:07,256
+We're keeping it at point five. Uh, style is for APA bootstrap.
+
+264
+00:24:07,257 --> 00:24:11,067
+We don't mess with that paste and let's run it.
+
+265
+00:24:14,277 --> 00:24:18,656
+So we run our regression and let's just read it top to bottom.
+
+266
+00:24:18,657 --> 00:24:23,157
+Okay. So here we are at the top. There were 300 cases in the file.
+
+267
+00:24:23,517 --> 00:24:29,726
+We had two outcomes completed and not completed. The beginning block is the null model.
+
+268
+00:24:29,727 --> 00:24:34,917
+So with no information just like random predictive ability what am I going to guess.
+
+269
+00:24:35,157 --> 00:24:39,987
+And um SPSS says it can guess 53% of the time.
+
+270
+00:24:40,437 --> 00:24:51,836
+So that's the null model. So then it says well what happens if we add some information in um so uh let's see here um takes you to block one.
+
+271
+00:24:51,837 --> 00:24:56,607
+And this is the kind of the model that we've run. It is the information and uh, block.
+
+272
+00:24:57,567 --> 00:25:06,057
+So our overall test is significant. That's the omnibus test model summary of the mountain model fit as is, hopefully, Michelle.
+
+273
+00:25:06,537 --> 00:25:10,677
+And then we have, um, a contingency table. We won't use the classification table.
+
+274
+00:25:10,917 --> 00:25:15,567
+And this helps us compare the null model to the um, executed model.
+
+275
+00:25:15,777 --> 00:25:20,127
+And then variables in the equation that helps us understand the behavior of each of the predictors.
+
+276
+00:25:20,727 --> 00:25:29,097
+Um, so we need to report this. Let's um, let's maybe start at the beginning with some of the big picture stuff that I would say.
+
+277
+00:25:29,097 --> 00:25:34,886
+And then we can fill in some of the small picture stuff. We do also need to run the linear of the logic.
+
+278
+00:25:34,887 --> 00:25:37,707
+But I'm going to do that last because I'm very focused on this output first.
+
+279
+00:25:38,157 --> 00:25:45,386
+Um, so I might be doing work that ends up getting deleted if the model if, if this is totally non, uh, linear.
+
+280
+00:25:45,387 --> 00:25:49,617
+So let's uh, skip that for now and do model fit and write some stuff up.
+
+281
+00:25:49,905 --> 00:25:51,015
+All right. I've written, um.
+
+282
+00:25:51,465 --> 00:25:56,715
+Uh, placeholder paragraph, but I need to put in some numbers, and I don't think I got everything, so let's do this together.
+
+283
+00:25:56,955 --> 00:26:00,405
+The overall model was statistically significant, indicating that the predictors reliably,
+
+284
+00:26:00,405 --> 00:26:03,555
+we distinguish between participants who completed the project and those who did not.
+
+285
+00:26:03,735 --> 00:26:07,215
+And then I'm reporting the omnibus statistic.
+
+286
+00:26:07,395 --> 00:26:10,544
+So that's out of the omnibus test. You see the x squared.
+
+287
+00:26:10,545 --> 00:26:14,775
+It's actually a chi squared symbol. So that's the chi square value.
+
+288
+00:26:14,775 --> 00:26:19,875
+It's 34.395. So I need to round it to 34.40.
+
+289
+00:26:20,295 --> 00:26:23,505
+Um so I'm going to write that in 34.40.
+
+290
+00:26:23,815 --> 00:26:27,165
+Um, I had a placeholder for my degrees of freedom, which are there.
+
+291
+00:26:27,435 --> 00:26:30,935
+And then the p value is less than 001.
+
+292
+00:26:30,975 --> 00:26:37,575
+So we're going to do less than 001. And uh, we're going to now just make the APA.
+
+293
+00:26:37,695 --> 00:26:42,645
+There we go. Um, the small initial goodness of fit was non-significant.
+
+294
+00:26:42,645 --> 00:26:46,544
+And that's a good thing. Remember, we don't want it. We want it to fit.
+
+295
+00:26:46,545 --> 00:26:51,435
+So if it falls smartly, Michelle is significant. It means like, something's weird about this model.
+
+296
+00:26:51,435 --> 00:26:56,145
+It's it stands out so non-significant with hot summer let me show is good.
+
+297
+00:26:56,355 --> 00:26:59,864
+So we're going to report that we've got a chi square of 5.705.
+
+298
+00:26:59,865 --> 00:27:07,005
+So we're going to round that to 571. And we've got a p value of 680.
+
+299
+00:27:07,005 --> 00:27:12,915
+So we're just going to report that, um, as it is. And my degrees of freedom were eight.
+
+300
+00:27:13,185 --> 00:27:22,094
+So uh, adding that in and uh making it API and then the pseudo r squared, you know, different journals do different things.
+
+301
+00:27:22,095 --> 00:27:28,305
+Where is that. Right through here. Model summary. Um, some people want Cox and stuff or some people want, you know, whatever.
+
+302
+00:27:28,335 --> 00:27:32,384
+I tend to see the naval Kirk, um, r squared.
+
+303
+00:27:32,385 --> 00:27:36,015
+So that's what I'm going with. And I think you do what you want.
+
+304
+00:27:36,045 --> 00:27:40,035
+Up until the time that you're told to do something different, and then you just go with the flow and do something different.
+
+305
+00:27:40,335 --> 00:27:45,345
+So it's, um, 0.145. So I just rounded it to 0.14.
+
+306
+00:27:45,825 --> 00:27:53,235
+Um, there are some other things that we might say through here though, because I don't feel like I've done an adequate job of describing the model.
+
+307
+00:27:53,625 --> 00:28:01,425
+So, uh, let's see here. Um, maybe I'll just say something like this about the null versus the, uh, alternative.
+
+308
+00:28:01,425 --> 00:28:08,107
+So stand by while I type this in. All right.
+
+309
+00:28:13,372 --> 00:28:16,552
+So I've just written about the null model overall percentage.
+
+310
+00:28:16,552 --> 00:28:24,262
+Where is that right here 53% compared with the uh alternative model overall.
+
+311
+00:28:24,832 --> 00:28:28,612
+Uh, which is right here, the classification table 65.7%.
+
+312
+00:28:28,912 --> 00:28:32,572
+And then I just did my own math. That's a 12.7% gain.
+
+313
+00:28:32,902 --> 00:28:39,201
+Um, maybe I can make this it's own paragraph, but I kind of like it right there because I don't have anything else to say.
+
+314
+00:28:39,202 --> 00:28:43,822
+I mean, I could get into, like, specificity or whatnot, but I'm feeling like I'm okay here.
+
+315
+00:28:43,822 --> 00:28:50,512
+I just like that there. So, uh, there we are. So we have an overall significant model and we reported that.
+
+316
+00:28:50,632 --> 00:28:54,232
+But how much did each of these predictors matter?
+
+317
+00:28:54,412 --> 00:28:59,152
+That's what we need to get into next when we start reporting the coefficients themselves.
+
+318
+00:28:59,542 --> 00:29:01,370
+Uh let's take a look at this. Okay.
+
+319
+00:29:01,557 --> 00:29:06,807
+So in our variables in the equation, the first thing we want to do is look at significance and everything is significant.
+
+320
+00:29:06,817 --> 00:29:11,127
+So that means we are going to interpret both of the um coefficients.
+
+321
+00:29:11,487 --> 00:29:16,377
+Uh, we've got our beta, uh, standard error, our Wald statistic, degree of freedom,
+
+322
+00:29:16,587 --> 00:29:20,037
+our odds ratio, and then our upper and lower bound confidence interval.
+
+323
+00:29:20,067 --> 00:29:24,477
+Now, in previous tests you would not want an zero in your confidence interval.
+
+324
+00:29:24,597 --> 00:29:29,157
+But in binary logistic regression you are hoping to avoid the number one.
+
+325
+00:29:29,547 --> 00:29:35,817
+Um, so this is interesting 1.2 up to 2.1 that does not include the number one.
+
+326
+00:29:36,087 --> 00:29:41,267
+Therefore um, in between like a 1.00. So uh, that would tell me that it is significant.
+
+327
+00:29:41,277 --> 00:29:44,187
+We already know that because it was less than the 001 threshold.
+
+328
+00:29:44,757 --> 00:30:00,447
+Um, so perceived competence here is showing that the odds of completing the project increase by 60.4%, holding, um, other, uh, participation constant.
+
+329
+00:30:00,784 --> 00:30:04,564
+And the reason I'm saying that is because we've got that odds ratio here.
+
+330
+00:30:04,714 --> 00:30:10,154
+So 1.604. That means one would be like equal.
+
+331
+00:30:10,174 --> 00:30:14,404
+You know there's nothing important about perceived competence.
+
+332
+00:30:14,584 --> 00:30:22,804
+But as soon as we add perceived competence holding everything else, uh, stable, we actually get a 0.604 bump up.
+
+333
+00:30:22,894 --> 00:30:26,794
+So that's like saying 60.4%.
+
+334
+00:30:27,244 --> 00:30:34,054
+Um, imagine this had gone to 2.00 and it would be like a 100% or 3.00.
+
+335
+00:30:34,144 --> 00:30:40,024
+You know, that would be 300%. Um, so this kind of could be like, um, what's the word that I'm looking for?
+
+336
+00:30:40,024 --> 00:30:45,393
+Infinity. Um, that's I don't know that I've ever seen in infinity, but sometimes I've seen some big numbers here.
+
+337
+00:30:45,394 --> 00:30:57,334
+And so you do want to think carefully about how you explain it. Um, and then the participation itself, uh, shows us that 64.3%, um, improvement there.
+
+338
+00:30:57,334 --> 00:31:04,234
+But let me think about how we interpret that. So basically like where one was the lower and four was the higher.
+
+339
+00:31:04,504 --> 00:31:15,064
+So every time you increase your scholarly participation, you also are increasing your odds of, of completion by 64.3%.
+
+340
+00:31:15,214 --> 00:31:20,554
+So that's kind of huge because if you were like, I don't know, teaching people and you wanted to,
+
+341
+00:31:21,034 --> 00:31:25,324
+uh, improve their project completion, it seems like the more involvement the better,
+
+342
+00:31:25,324 --> 00:31:30,963
+because, you know, you're not doubling, but you're like 64.3% almost, uh, you know,
+
+343
+00:31:30,964 --> 00:31:36,244
+getting them just by from one stage of, uh, involvement to the next, more involved stage.
+
+344
+00:31:36,464 --> 00:31:42,554
+Uh, so that's pretty powerful. Uh, so now we have to kind of like put that into APA terms.
+
+345
+00:31:42,554 --> 00:31:45,535
+So let's, uh, pause the video and let me write that up. Okay, so I've written a few things here, and let's just break it down one more time.
+
+346
+00:31:50,717 --> 00:31:54,487
+Um, both perceived competence and participation were significant predictors.
+
+347
+00:31:54,797 --> 00:31:58,837
+Um, higher perceived competence was associated with increased odds of completion.
+
+348
+00:31:58,847 --> 00:32:05,436
+So that's kind of the regular way to say it. And then I'm reporting all the statistics for the higher perceived competence line.
+
+349
+00:32:05,437 --> 00:32:09,987
+So beta is 0.473. And actually I don't need that value there.
+
+350
+00:32:09,997 --> 00:32:13,927
+Do I see the two numbers there. Um standard error is 142.
+
+351
+00:32:13,937 --> 00:32:19,567
+Um so I can take that out as well. My one statistic, Wald, is reported as a chi square.
+
+352
+00:32:19,567 --> 00:32:23,436
+Um, and uh, the degree of freedom is just next to it.
+
+353
+00:32:23,437 --> 00:32:28,777
+And that's one. So 11.14. All right. And then the p value was less than 001.
+
+354
+00:32:29,257 --> 00:32:33,307
+My exp b is 1.604.
+
+355
+00:32:33,727 --> 00:32:36,936
+Um I, I don't know what the journal will say.
+
+356
+00:32:36,937 --> 00:32:40,237
+I kind of don't even need that number because I report it here too.
+
+357
+00:32:40,567 --> 00:32:45,546
+But then also, should it be 1.60 or should I keep the four on there?
+
+358
+00:32:45,547 --> 00:32:47,856
+I feel like a need the four because of what I say later.
+
+359
+00:32:47,857 --> 00:32:55,297
+So these are where you just, um, do your best and figure out, you know what, the editor, uh, correct you if they feel strongly about it.
+
+360
+00:32:55,597 --> 00:32:59,616
+All right. And then my confidence interval 1.216. So that should be 1.22.
+
+361
+00:32:59,617 --> 00:33:02,977
+And it is and then 2.118. That's 219.
+
+362
+00:33:03,097 --> 00:33:10,557
+And it is. Um so now I want to kind of put this into the improvement terms for every one unit increase in perceived competence.
+
+363
+00:33:10,567 --> 00:33:16,597
+Now remember perceived competence was a scale. And if I remember correctly it was like 0 to 6.
+
+364
+00:33:16,597 --> 00:33:19,807
+I don't think it was very high. Let's just take a quick look.
+
+365
+00:33:20,317 --> 00:33:23,947
+Um, I don't think I ran any descriptive statistics this time.
+
+366
+00:33:24,277 --> 00:33:27,367
+Uh, so here let's just go look over here. Perceived competence.
+
+367
+00:33:27,367 --> 00:33:31,807
+Where is it? Uh, competence. Uh, and then that sort ascending.
+
+368
+00:33:32,017 --> 00:33:35,767
+So the lowest is two, five, eight and then the highest is seven.
+
+369
+00:33:36,127 --> 00:33:43,957
+So, um, you know, imagine someone's taking a survey and I say, hey, I think I'm about a three on the confidence, uh, competence level.
+
+370
+00:33:44,287 --> 00:33:47,347
+And then as a teacher, you do some things to intervene.
+
+371
+00:33:47,347 --> 00:33:52,536
+And, you know, later on you're like, yeah, actually, I think in the four or maybe even a five on the competence now,
+
+372
+00:33:52,537 --> 00:33:54,817
+because I've learned so much from that intervention.
+
+373
+00:33:54,967 --> 00:34:02,947
+Well, every time that unit went up, every time I went from a three to a four, um, I gained 60% chance of completion.
+
+374
+00:34:03,487 --> 00:34:07,087
+So, um, before, when I was lower competence,
+
+375
+00:34:07,087 --> 00:34:13,387
+I maybe wasn't completing the project as much as now that I'm higher competence, I am completing the project.
+
+376
+00:34:13,567 --> 00:34:18,847
+And then if I do it again, maybe I move from 4 to 5. That's another 60.4 gain.
+
+377
+00:34:18,847 --> 00:34:22,747
+And then if I move to six, that's another 60.4, uh, gain.
+
+378
+00:34:22,777 --> 00:34:27,697
+Um, in uh, completion. And always a key thing in all of the reporting.
+
+379
+00:34:27,697 --> 00:34:32,167
+And I don't always do a good job of demonstrating this, holding other, um, things constant.
+
+380
+00:34:32,167 --> 00:34:36,047
+Okay. Uh, now the second paragraph just goes through the second line.
+
+381
+00:34:36,057 --> 00:34:41,577
+Maybe you put these in one paragraph. I don't know. That's up to you. I'm doing it separately, though, because it makes it easier to read.
+
+382
+00:34:41,877 --> 00:34:45,206
+So, uh, let's see here. Same story for participation.
+
+383
+00:34:45,207 --> 00:34:51,927
+Higher odds are beta was 4.97. Um, so that would actually be we're going to round that to 0.50.
+
+384
+00:34:51,927 --> 00:34:56,727
+And our standard error is 0.11. Is that correct. And we've rounded it correctly.
+
+385
+00:34:56,967 --> 00:35:01,767
+Our world is 19 455. Um so I've rounded it to 1945.
+
+386
+00:35:02,127 --> 00:35:05,186
+And our uh what is that for.
+
+387
+00:35:05,187 --> 00:35:08,467
+This is column p value is less than 001.
+
+388
+00:35:08,487 --> 00:35:11,726
+Um our odds are 1.643.
+
+389
+00:35:11,727 --> 00:35:15,806
+And there we are. And then our confidence interval is 1318.
+
+390
+00:35:15,807 --> 00:35:19,047
+So that's going to be 132. And that's what it is.
+
+391
+00:35:19,407 --> 00:35:22,736
+And then 2.049. So that's going to be 2.05.
+
+392
+00:35:22,737 --> 00:35:30,026
+And that's what it is. So now I just put it back in um to that kind of um more of the understandable verbs
+
+393
+00:35:30,027 --> 00:35:34,757
+as opposed to the numbers for each one level increase in scholarly participation.
+
+394
+00:35:34,767 --> 00:35:40,707
+Remember one was the lower and then four was the higher. The odds of completion went up by 64.3%.
+
+395
+00:35:40,707 --> 00:35:44,577
+Controlling for, you know, all the other variables variables. In this case, it was just one.
+
+396
+00:35:45,147 --> 00:35:53,457
+Um, and now I can just kind of say like a summary of the overall model, just so my readers fully understand what it is that I'm saying.
+
+397
+00:35:53,727 --> 00:35:56,997
+Uh, all the assumptions were good except for linearity of logic.
+
+398
+00:35:56,997 --> 00:36:03,266
+I better go back and test that, um, model fit was good. Um, the overall model was, uh, statistically significant.
+
+399
+00:36:03,267 --> 00:36:05,217
+And here are what my coefficients are doing.
+
+400
+00:36:05,487 --> 00:36:10,677
+Um, so these findings indicate that both competence and participation are positively associated with the likelihood of project completion.
+
+401
+00:36:10,887 --> 00:36:14,487
+Each step up in participation increase the odds of completion by about 64.
+
+402
+00:36:14,487 --> 00:36:17,817
+And then, um, uh, of competence about 60%.
+
+403
+00:36:18,117 --> 00:36:21,717
+Um, and I need to make a hypothesis statement.
+
+404
+00:36:21,717 --> 00:36:30,357
+Right. So, um, the null hypothesis is rejected or maybe I would say was right because this would be past tense rejected.
+
+405
+00:36:30,567 --> 00:36:34,377
+All right, there we go. Don't forget to make your hypotheses statements.
+
+406
+00:36:35,697 --> 00:36:38,037
+Last but not least. Linearity of the logic.
+
+407
+00:36:38,067 --> 00:36:45,567
+Now I might, you know, I could have done linearity of the logic before I wrote all of this, but we already had all of this on the screen.
+
+408
+00:36:45,567 --> 00:36:48,597
+So I went, I got, you know, a little too far in front of my skis.
+
+409
+00:36:48,777 --> 00:36:52,797
+Let's talk about linearity of the logic. It actually takes a few steps to test.
+
+410
+00:36:54,027 --> 00:36:57,567
+So linearity, the logic is basically just um.
+
+411
+00:36:57,822 --> 00:37:01,562
+Are the predictors linear with the outcome variable.
+
+412
+00:37:01,572 --> 00:37:05,822
+But the outcome variable is a categorical thing. So that's weird right?
+
+413
+00:37:05,832 --> 00:37:09,252
+It's not like a just a class. Uh what would you get. It's not just a scatter plot.
+
+414
+00:37:14,971 --> 00:37:24,091
+So first let's compute the variable. Uh the first thing we need to do is turn any numeric predictor into its natural logarithm.
+
+415
+00:37:24,601 --> 00:37:31,531
+Don't freak out. We do not have to test the linearity of the logit when we are doing categorical variables.
+
+416
+00:37:31,741 --> 00:37:34,801
+Um, we only have to do it when we're doing continuous variables.
+
+417
+00:37:35,401 --> 00:37:40,110
+Um, it's natural. Logarithm is just basically going to make sure that all the numbers are positive.
+
+418
+00:37:40,111 --> 00:37:43,711
+That's kind of all it's doing. All right. So that's only the important thing that it's doing.
+
+419
+00:37:43,981 --> 00:37:49,440
+So what we're we're going to do here, we'll just say uh, the line of competence.
+
+420
+00:37:49,441 --> 00:37:57,090
+All right. And so, um, I can choose the I think it's over here if I just press the letter L, maybe it brings me down.
+
+421
+00:37:57,091 --> 00:38:01,231
+Yep. And I can just double click that, and then I'm going to put competence in there.
+
+422
+00:38:01,591 --> 00:38:05,941
+And now we have. So now I'm telling it in a new variable called ln competence.
+
+423
+00:38:06,121 --> 00:38:14,491
+Please do this math for me. The net the natural logarithm of each value for this uh variable.
+
+424
+00:38:14,911 --> 00:38:19,531
+And uh let's press paste because we can use the power of syntax.
+
+425
+00:38:19,921 --> 00:38:26,191
+Um, and we are going to copy and paste that because we need to do it for participation as well.
+
+426
+00:38:26,911 --> 00:38:30,991
+Uh, participation.
+
+427
+00:38:31,471 --> 00:38:36,061
+And uh, we can change this from competence to participation.
+
+428
+00:38:36,061 --> 00:38:40,471
+We want to use the numeric one. So that's the recoded one okay. So now let's just run these.
+
+429
+00:38:41,881 --> 00:38:47,940
+There's nothing in the output that tells us it's done. But if we go over to the variables um we'll see that it's done.
+
+430
+00:38:47,941 --> 00:38:56,041
+So those are right here. All right. Now that we have our natural logarithms, what we need to do is create interaction variables.
+
+431
+00:38:56,401 --> 00:39:01,590
+And with those interaction variables we are going to be able to run the box.
+
+432
+00:39:01,591 --> 00:39:09,541
+Tidwell. So might have been helpful if I had said that at the beginning, uh, that when we are doing linearity of, um, the log odds,
+
+433
+00:39:09,541 --> 00:39:15,661
+we are doing the box Tidwell procedure, um, that's certainly something that is maybe, like, more recognizable.
+
+434
+00:39:15,811 --> 00:39:21,221
+All right. So now what did I say we have to do? I'm drawing a blank.
+
+435
+00:39:21,231 --> 00:39:25,280
+What do we have to do? We did our natural logarithms. Now we have to make an interaction.
+
+436
+00:39:25,281 --> 00:39:29,241
+Okay, so, um, we'll just say we'll just call this competence.
+
+437
+00:39:29,241 --> 00:39:32,541
+And I like to put a T on the end because I know I'm going to use it for the box. Tidwell.
+
+438
+00:39:33,021 --> 00:39:37,760
+And all we're going to do is take itself and multiply it by its natural logarithm.
+
+439
+00:39:37,761 --> 00:39:42,021
+So competence. Right. Competence. I'm just naming the new variable.
+
+440
+00:39:42,261 --> 00:39:50,361
+I'm taking that same variable and putting it into the equation. And then I'm saying let's multiply it by its own natural logarithm.
+
+441
+00:39:50,571 --> 00:39:57,381
+So there it is. And we can paste that um, and just like we did on the previous one.
+
+442
+00:39:59,091 --> 00:40:09,041
+Uh, we can call this participation. And instead of competence perception, we obviously have our participation variable in there.
+
+443
+00:40:09,511 --> 00:40:11,801
+Uh, we're using the numeric version, the RC.
+
+444
+00:40:12,131 --> 00:40:19,521
+And then um, we need to multiply itself by its own natural logarithm which was ln participation something.
+
+445
+00:40:19,541 --> 00:40:24,671
+Yep. There we go. All right. So let's just run those two things.
+
+446
+00:40:26,281 --> 00:40:30,031
+Double checking that it worked and it did.
+
+447
+00:40:30,421 --> 00:40:37,141
+Now that we have the variables that we need, we're going to plug this back in to our logistic regression.
+
+448
+00:40:37,381 --> 00:40:44,250
+And what we're hoping is that there are non-significant results when there are non-significant results,
+
+449
+00:40:44,251 --> 00:40:51,661
+because, uh, the um natural logarithm rhythm of the continuous predictor variable is present in the model.
+
+450
+00:40:51,991 --> 00:40:57,301
+It means that there must be linearity. All right. So we're hoping for the absence of significance here.
+
+451
+00:40:57,661 --> 00:41:02,371
+Uh let's go into analyze and then regression and binary.
+
+452
+00:41:02,371 --> 00:41:07,860
+We just do regression and all we have to do is add in those other two variables.
+
+453
+00:41:07,861 --> 00:41:14,850
+So we keep everything else the same. We just add in our box Tidwell things that we had just calculated, uh, pasting it over.
+
+454
+00:41:14,851 --> 00:41:20,071
+So, you know, I probably didn't even need to go that box I could have copied and pasted from earlier from way up here.
+
+455
+00:41:20,581 --> 00:41:26,160
+And now we've run it, and all we're interested in is that block one model to see the omnibus test.
+
+456
+00:41:26,161 --> 00:41:30,691
+Um, or not the omnibus test strike that, uh, the, um, variables in the equations.
+
+457
+00:41:30,961 --> 00:41:38,341
+And we're only really interested in the ones that are called, but usually the other predictors are also going to change.
+
+458
+00:41:38,551 --> 00:41:43,530
+And in this case they did. They are no longer significant. Sometimes though they are still significant.
+
+459
+00:41:43,531 --> 00:41:48,360
+It's irrelevant. All we're interested in is the box Tidwell variables that we just did.
+
+460
+00:41:48,361 --> 00:41:51,781
+And those were non-significant. And that's a good thing.
+
+461
+00:41:51,931 --> 00:41:56,731
+That's what we were hoping for. Uh, so now I have enough information that I can write this up.
+
+462
+00:41:56,731 --> 00:41:59,740
+Um, as I should probably should have done quite a while ago. All right, I've written this up.
+
+463
+00:42:01,346 --> 00:42:07,376
+Um, just saying what we did. Linearity of the logit was assessed for continuous predictors and using the box.
+
+464
+00:42:07,556 --> 00:42:14,636
+Well, procedure interaction terms between each predictor and its natural logarithm were computed and entered into the model.
+
+465
+00:42:15,116 --> 00:42:22,376
+These interaction terms were non-significant p greater than 0.05, indicating that the assumption of linearity in the launch it was met.
+
+466
+00:42:22,616 --> 00:42:30,506
+Now I could, you know, like report them more specifically stating that the significance was, you know, 0.348 or 0.544.
+
+467
+00:42:30,806 --> 00:42:35,916
+I don't need to be that specific though. Um, that's going to be I'm just telling you that the assumption was met.
+
+468
+00:42:35,936 --> 00:42:39,866
+And then if I was doing a dissertation, maybe I would report the specific numbers. But here, definitely.
+
+469
+00:42:40,076 --> 00:42:43,206
+You're lucky to even sometimes see this in a journal. All right.
+
+470
+00:42:43,226 --> 00:42:49,616
+Now, last but not least, let's talk one quick thing about discussion, because discussion is.
+
+471
+00:42:50,756 --> 00:42:57,776
+If results are just the facts, right? This is just the numbers with very few kind of normal words.
+
+472
+00:42:58,076 --> 00:43:05,936
+Discussion is actually what helps us relate it back to the literature and the problem that we had and, um, help the readers know.
+
+473
+00:43:05,936 --> 00:43:08,066
+What does this mean in terms of practical terms?
+
+474
+00:43:08,306 --> 00:43:15,296
+Um, so I'm going to relate it to whatever kind of introduction I had, um, in my article or in my dissertation.
+
+475
+00:43:15,591 --> 00:43:18,951
+So probably the easiest thing is just going to be to say something like, you know,
+
+476
+00:43:18,951 --> 00:43:22,581
+the findings of this study are consistent with the theoretical expectations.
+
+477
+00:43:22,761 --> 00:43:25,851
+You know, whatever I had said in my introduction or my literature review.
+
+478
+00:43:26,241 --> 00:43:29,031
+Um, and then I'm probably going to include some citations.
+
+479
+00:43:29,211 --> 00:43:36,871
+Um, and through here I might also things like, um, uh, you know, uh, so, like, why does this matter?
+
+480
+00:43:36,921 --> 00:43:43,791
+Well. Um, if you are in a position of, say, like facilitating a project and you need people to complete it,
+
+481
+00:43:43,791 --> 00:43:49,581
+then maybe helping people become more involved and helping them to increase their own perceived competency.
+
+482
+00:43:49,671 --> 00:43:54,111
+Maybe that's worth your investment. So I might spend a paragraph or two talking about that.
+
+483
+00:43:54,561 --> 00:44:02,361
+Um, I might also, uh, you know, make connections to, um, things like maybe in the future people should test for the,
+
+484
+00:44:02,361 --> 00:44:07,491
+um, you know, the interaction of these two things, like they're present, but how much does one depend on the other?
+
+485
+00:44:07,911 --> 00:44:12,740
+Um, I probably want to be careful not to, uh, overextend my results.
+
+486
+00:44:12,741 --> 00:44:16,820
+So, um, this is not a causal relationship.
+
+487
+00:44:16,821 --> 00:44:23,691
+Unless I set this up by design to be a causal experiment where I'm comparing, um, an experimental with a control group.
+
+488
+00:44:24,051 --> 00:44:29,120
+I can't make causal claims. Uh, I can only, you know, use this as a mathematical prediction.
+
+489
+00:44:29,121 --> 00:44:34,941
+Not like an actual causal prediction. So I want to be careful in the way that I'm, um, phrasing everything.
+
+490
+00:44:35,451 --> 00:44:38,961
+And, um, you know, imagine there were nonsignificant variables.
+
+491
+00:44:38,961 --> 00:44:44,621
+I would want to talk about that. Um, talk about what's, you know, good for other researchers to do.
+
+492
+00:44:44,631 --> 00:44:46,791
+So all of those are the things that I'm going to put into the discussion.
+
+493
+00:44:47,091 --> 00:44:53,951
+So a little, uh, a little side note there, because all of this was meant to be about the binary, not just a regression, uh, which we did in full.
+
+494
+00:44:53,961 --> 00:44:59,660
+We've got our questions, our hypothesis, our power calculations, each one of our assumptions we went through and modeled it.
+
+495
+00:44:59,661 --> 00:45:08,811
+And then, of course, our overall fit with the full write up. So I wish you all the best as you, uh, complete your own binary logistic regressions.
+

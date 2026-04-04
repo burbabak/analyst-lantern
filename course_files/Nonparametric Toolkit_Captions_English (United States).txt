@@ -1,0 +1,677 @@
+1
+00:00:01,820 --> 00:00:06,290
+[Auto-generated transcript. Edits may have been applied for clarity.]
+All right. We're going to be talking about nonparametric toolkit when your data break the rules.
+
+2
+00:00:08,840 --> 00:00:16,670
+What are non-parametric statistics, their methods that don't rely on strict distributional assumptions like normality.
+
+3
+00:00:17,240 --> 00:00:23,860
+Instead of focusing on the means and standard deviations. Non-parametric stats often use ranks or medians.
+
+4
+00:00:23,870 --> 00:00:32,510
+These are methods that are especially useful when our data do not meet the assumptions required for traditional parametric tests.
+
+5
+00:00:33,890 --> 00:00:41,060
+So why do we use non-parametric methods that are particularly helpful with small samples, skewed distributions, or outliers?
+
+6
+00:00:41,060 --> 00:00:48,830
+They also allow us to analyze ordinal data, which is common in health sciences such as Likert type responses on surveys or questionnaires.
+
+7
+00:00:50,510 --> 00:00:55,340
+So we have parametric and non parametric tests. Here I highlight the key differences between them.
+
+8
+00:00:55,640 --> 00:01:01,460
+Parametric tests rely on assumptions like normality and equal variances, and focus on means using raw data.
+
+9
+00:01:01,820 --> 00:01:03,979
+When those assumptions are met, use them.
+
+10
+00:01:03,980 --> 00:01:10,070
+They have greater statistical power than non parametric tests, but when you violate those, you're not dead in the water.
+
+11
+00:01:10,730 --> 00:01:14,510
+Parametric tests do not require a specific distribution and instead a lot,
+
+12
+00:01:14,510 --> 00:01:19,190
+like I said, on ranks or medians, they're more robust when assumptions are violated,
+
+13
+00:01:19,190 --> 00:01:26,240
+making them especially useful in real world health sciences data where skewness, outliers or ordinal measures are common.
+
+14
+00:01:27,920 --> 00:01:32,120
+So here are some nonparametric tests and their equivalence independent samples.
+
+15
+00:01:32,120 --> 00:01:36,260
+T test is the non parametric equivalent would be the min Whitney U test.
+
+16
+00:01:37,160 --> 00:01:40,489
+You use this when you're looking at two independent groups and comparing.
+
+17
+00:01:40,490 --> 00:01:43,880
+If there are differences in these groups on some dependent variable.
+
+18
+00:01:44,420 --> 00:01:48,740
+The paired samples t test, you would use the Wilcoxon signed rank test.
+
+19
+00:01:49,100 --> 00:01:55,920
+When you're using two related or paired groups. The one way Anova you would use the Wallis test when you're using three,
+
+20
+00:01:55,940 --> 00:02:02,630
+when you're looking at the differences in the three or more independent groups independent, they're meaning they're not related.
+
+21
+00:02:03,260 --> 00:02:09,860
+Repeated measures Anova. You would use the Friedman test when you're looking at three or more related or paired groups.
+
+22
+00:02:10,340 --> 00:02:16,550
+And then the Pearson correlation, you would use Spearman rank correlation when you're looking at association between variables.
+
+23
+00:02:18,680 --> 00:02:23,200
+So we've identified non-parametric alternatives to common parametric tests.
+
+24
+00:02:23,210 --> 00:02:30,560
+Well, let's apply one to a real scenario. We're going to look at the Wilcoxon signed rank test, which is used when like I said,
+
+25
+00:02:30,560 --> 00:02:36,890
+when you're doing looking at the difference in paired measures or related measures.
+
+26
+00:02:37,250 --> 00:02:45,360
+So to scores across the same group, it's appropriate when data are not normally distributed or outcome is ordinal or skewed.
+
+27
+00:02:45,380 --> 00:02:52,110
+For example proposed change in a group. One thing to note about the Wilcoxon signed rank test for match pairs.
+
+28
+00:02:52,440 --> 00:02:59,130
+It's the nonparametric equivalent to paired samples t test. Like I said, it uses rank differences between paired observations.
+
+29
+00:02:59,520 --> 00:03:01,319
+You can use it in two situations.
+
+30
+00:03:01,320 --> 00:03:07,890
+Tests whether the immediate difference between paired observations is equal to zero, meaning there's no difference between the pre and the post.
+
+31
+00:03:08,280 --> 00:03:13,889
+Or you could test it. Looking at the median of a single sample, if it's equal to a specified value here,
+
+32
+00:03:13,890 --> 00:03:18,590
+it's kind of like a one sample t test if you use it in that application.
+
+33
+00:03:18,600 --> 00:03:22,260
+But in this example I'm going to be using the pre in the post.
+
+34
+00:03:23,540 --> 00:03:27,380
+So the dreaded freshman 15. Is it true?
+
+35
+00:03:27,680 --> 00:03:34,640
+So the freshman 15 is the idea that when a student goes off to college, they gain 15 pounds.
+
+36
+00:03:35,270 --> 00:03:42,830
+So we have a list of scores for in kilos of September weight for students and April weight.
+
+37
+00:03:43,130 --> 00:03:47,450
+Here we're interested in this difference score by the the difference.
+
+38
+00:03:47,450 --> 00:03:53,870
+And I'll show you how that looks in SPSS momentarily. One of the requirements is that data are simple random sample.
+
+39
+00:03:55,610 --> 00:03:57,290
+Observations are paired or matched.
+
+40
+00:03:57,800 --> 00:04:04,790
+The distribution of the differences is approximately symmetric and the data do not need to be normally distributed.
+
+41
+00:04:04,940 --> 00:04:12,050
+We're going to check that with a histogram of different scores. So I used some simulated data to make this point.
+
+42
+00:04:12,410 --> 00:04:18,440
+Notice that these aren't particularly exactly symmetric but they are some data to the right of the zero.
+
+43
+00:04:18,440 --> 00:04:25,160
+And there's data to the left of the zero. So we can say that that is what is meant by symmetry for the Wilcoxon signed right test.
+
+44
+00:04:26,000 --> 00:04:32,870
+Conversely, you can see in this simulated data set we have all of our data is stacked and zero is way over here.
+
+45
+00:04:33,080 --> 00:04:35,330
+So this is asymmetric.
+
+46
+00:04:35,930 --> 00:04:42,770
+And even though this is paired data, the Wilcoxon test assumption is violated because the differences are not centered and balanced.
+
+47
+00:04:43,370 --> 00:04:48,200
+This is a case where interpretation becomes more cautious and the test may not behave as intended.
+
+48
+00:04:48,800 --> 00:04:53,600
+Wilcoxon does it require normality? But it does require symmetry of the differences.
+
+49
+00:04:54,580 --> 00:04:58,510
+So let's keep going. What if I have a violation? Do I still run it?
+
+50
+00:04:59,600 --> 00:05:05,700
+Technically, you could still run the test, but now that we're outside of its assumptions, so the results are less trustworthy.
+
+51
+00:05:05,720 --> 00:05:11,209
+At that point, it becomes a judgment call. You either proceed with caution and clearly report the limitation,
+
+52
+00:05:11,210 --> 00:05:16,520
+or you pause and reconsider the analytic approach, rather than forcing a test that doesn't fit the data.
+
+53
+00:05:17,150 --> 00:05:20,990
+Nonparametric tests are robust, but they're not assumption free.
+
+54
+00:05:21,860 --> 00:05:23,330
+All right, let's go back to our example.
+
+55
+00:05:24,640 --> 00:05:30,700
+So our research question is, is there a statistically significant change in median weight from September to April?
+
+56
+00:05:31,210 --> 00:05:34,780
+The null hypothesis is that there is no difference in beginning and ending weeks.
+
+57
+00:05:34,780 --> 00:05:39,950
+And the alternate hypothesis is that there is a difference. So how do I do this in SPSS?
+
+58
+00:05:39,970 --> 00:05:44,500
+I would take the raw data and enter this first row into the September column.
+
+59
+00:05:45,160 --> 00:05:49,810
+Then I would take the April weight in the second row and enter it into the April column.
+
+60
+00:05:50,230 --> 00:05:53,890
+So it behaves very similarly to a paired samples t test.
+
+61
+00:05:54,160 --> 00:05:57,880
+So the first thing I need to do is check the difference score.
+
+62
+00:05:59,350 --> 00:06:02,780
+I go into. Transform.
+
+63
+00:06:03,770 --> 00:06:09,150
+And I label the difference for difference. I bring over September weight.
+
+64
+00:06:09,170 --> 00:06:14,239
+I click minus and then bring over April weight and then click okay.
+
+65
+00:06:14,240 --> 00:06:20,660
+And you can see that I've done that and created the different score which matches what's in the in the yellow box in the example.
+
+66
+00:06:22,070 --> 00:06:26,430
+Okay. Then I run a histogram and you can see that this is heavily skewed.
+
+67
+00:06:26,440 --> 00:06:30,590
+Here's zero. And we only have a little bit on the right side of zero. And all our data is negative.
+
+68
+00:06:31,250 --> 00:06:34,610
+Technically the assumption for the Wilcoxon signed rank test is violated.
+
+69
+00:06:34,640 --> 00:06:39,710
+However, for demonstration purposes, I'm going to continue with the test so you can see how it works.
+
+70
+00:06:40,130 --> 00:06:46,490
+But we would note this as a limitation. One thing to note that when there's cases with no difference the zeros,
+
+71
+00:06:46,490 --> 00:06:53,900
+they're removed from the analysis because they provide no information about direction and therefore reduces your sample size even more.
+
+72
+00:06:54,320 --> 00:06:58,340
+Just one thing to note. Okay. So we're going to go into analyze.
+
+73
+00:06:58,490 --> 00:07:01,580
+Come down to nonparametric. Go to related samples.
+
+74
+00:07:02,030 --> 00:07:06,410
+This box pops up. You first will collect click on fields.
+
+75
+00:07:07,070 --> 00:07:10,760
+This may come up if you see this. When you first open your dialog box.
+
+76
+00:07:10,760 --> 00:07:14,630
+Just scan the data here and let it do its thing.
+
+77
+00:07:15,790 --> 00:07:18,280
+Then you would bring over September weight and April weight,
+
+78
+00:07:18,520 --> 00:07:27,430
+and then click settings the yellow box up at the top and click Wilcoxon matched pair signed rank two samples, then click Rock.
+
+79
+00:07:28,550 --> 00:07:33,709
+Okay, so we get a lot of output. You can see the significance value is less than 0.05.
+
+80
+00:07:33,710 --> 00:07:39,200
+So 0.036 which indicates that we need to reject the null hypothesis.
+
+81
+00:07:39,230 --> 00:07:43,490
+Over here you can see our test statistic is 40.
+
+82
+00:07:44,270 --> 00:07:55,249
+And the standardized test statistic which is a Z-score which is what your report is 2.09, which because that is a fairly large Z-score.
+
+83
+00:07:55,250 --> 00:08:00,620
+That's why we are significant. These are histograms on the raw score.
+
+84
+00:08:00,620 --> 00:08:06,740
+So that's why we had to do the different scored okay. So we report a results out evaluating the output above.
+
+85
+00:08:06,770 --> 00:08:10,280
+There is a significant difference with the freshman showing moderate weight gain.
+
+86
+00:08:10,550 --> 00:08:16,070
+So our RPA report would be there was a statistically significant increase in weight gain from September to April.
+
+87
+00:08:16,550 --> 00:08:23,209
+The Z is equal to 2.09. P is equal to 0.036 okay Mann-whitney u.
+
+88
+00:08:23,210 --> 00:08:32,110
+Differences between mean ranks. This is the nonparametric equivalent of the independent samples t test.
+
+89
+00:08:32,680 --> 00:08:40,450
+The null is that two independent samples come from populations with equal medians, and the alternative hypothesis is that it can be one sided.
+
+90
+00:08:40,720 --> 00:08:47,670
+The median of one is greater than the median of two, but the median of one is less than the median of two,
+
+91
+00:08:47,680 --> 00:08:53,470
+or it can be non-directional, that the median of one is not equal to the median of group two.
+
+92
+00:08:53,770 --> 00:08:57,040
+So let's look at an example. Pulse rates of males and females.
+
+93
+00:08:57,070 --> 00:08:59,410
+This works like an independent samples t test.
+
+94
+00:08:59,770 --> 00:09:07,900
+We enter the data the same way where one column for scores and one for the categorical variable where male is equal to one and female is equal to two.
+
+95
+00:09:09,070 --> 00:09:16,870
+So you can see I've taken the male scores. The male scores here and the female scores here, and put them all in the column called pulse rate.
+
+96
+00:09:16,870 --> 00:09:21,490
+And I've added a gender column where one is equal to male into is equal to female.
+
+97
+00:09:22,420 --> 00:09:29,130
+You may see the scan data again. So then we go to analyze nonparametric test.
+
+98
+00:09:29,140 --> 00:09:36,390
+This is where they all fall. Uh, we click on fields. We'll bring just our continuous variable into the test field.
+
+99
+00:09:36,390 --> 00:09:43,710
+And then we have to specify our groups. We'll click on settings and click man Whitney you two samples and click run.
+
+100
+00:09:45,300 --> 00:09:53,760
+Okay. Evaluating the outputs. What we're looking at here is whether one group tends to be shift a higher or lower than the other.
+
+101
+00:09:53,760 --> 00:09:57,540
+If one side is consistently higher, that supports them in with a result.
+
+102
+00:09:58,020 --> 00:10:01,980
+Here they're fairly consistent which is why we don't have significant differences.
+
+103
+00:10:01,990 --> 00:10:09,660
+This is called a population pyramid. Looking at our output, we can see that we have a p value of greater than 0.05.
+
+104
+00:10:09,660 --> 00:10:14,790
+So we do not have significant difference. The pulse rates are the same across the gender.
+
+105
+00:10:15,510 --> 00:10:19,290
+Roscoe Wallace H test for three or more samples.
+
+106
+00:10:19,680 --> 00:10:22,800
+This is the nonparametric equivalent to one way Anova.
+
+107
+00:10:23,280 --> 00:10:29,130
+The steps are all the same just now. Our independent level independent variable has three categories.
+
+108
+00:10:29,700 --> 00:10:38,610
+So what we're looking at are IQ scores for children who have been exposed to low, medium or high levels of lead.
+
+109
+00:10:39,720 --> 00:10:45,209
+What I do is I take each of these scores, put them all in one column in SPSS,
+
+110
+00:10:45,210 --> 00:10:52,860
+and label the scores that associated with low levels, and one is equal to low, two is equal to medium and three is equal to high.
+
+111
+00:10:54,230 --> 00:10:58,150
+Okay. Same thing. I go into nonparametric tests.
+
+112
+00:10:58,160 --> 00:11:08,620
+I go into settings. And I specify first go Wallace one way Anova and I'm gonna ask for multiple comparisons all pairwise.
+
+113
+00:11:11,080 --> 00:11:19,960
+If we have significance this is like the least significant difference test or any other post-hoc test that you would do in an one way Anova,
+
+114
+00:11:20,170 --> 00:11:24,640
+like Tukey or Shippy or, uh, Bonferroni.
+
+115
+00:11:25,780 --> 00:11:31,899
+All right, let's evaluate our output. You can see that our P-value is not less than 0.05.
+
+116
+00:11:31,900 --> 00:11:35,200
+So we retain the null hypothesis. There is no difference.
+
+117
+00:11:35,200 --> 00:11:41,620
+And the IQ levels of these kids exposed to low, medium and high levels of blood.
+
+118
+00:11:43,700 --> 00:11:47,430
+We would report our APA statement as a Cross-code.
+
+119
+00:11:47,450 --> 00:11:48,230
+Wallis to.
+
+120
+00:11:48,260 --> 00:11:54,860
+Each test was run to determine if there were differences in IQ score between the three groups and children with differing exposures to lead.
+
+121
+00:11:55,220 --> 00:12:03,690
+Low, medium, and high distributions of IQ scores were similar for all groups as assessed by the visual inspection of a boxplot.
+
+122
+00:12:03,710 --> 00:12:07,010
+As you can see here, the medians are all very equal.
+
+123
+00:12:07,670 --> 00:12:11,210
+Median IQ scores were not significantly different between the groups.
+
+124
+00:12:11,690 --> 00:12:15,860
+H of two degrees of freedom is equal to 5.17.
+
+125
+00:12:15,860 --> 00:12:19,460
+As you can see here, P is equal to 0.77 to.
+
+126
+00:12:19,880 --> 00:12:26,480
+The h in this test is just the name of the statistic, like a t statistic or an f statistic.
+
+127
+00:12:26,600 --> 00:12:31,520
+Here we report h and the degrees of freedom the corresponding degrees of freedom.
+
+128
+00:12:32,540 --> 00:12:37,950
+Okay let's do one. That is significant. Null hypothesis.
+
+129
+00:12:37,960 --> 00:12:40,480
+We're looking at the levels of code nine and smokers,
+
+130
+00:12:40,480 --> 00:12:46,360
+non smokers and those non smokers who are exposed to smoke and see whether or not they're the same.
+
+131
+00:12:46,810 --> 00:12:50,260
+The alternative hypothesis is at least one level is different.
+
+132
+00:12:50,650 --> 00:12:54,969
+So we do the same thing same steps. Going to analyze non-parametric independent samples.
+
+133
+00:12:54,970 --> 00:13:01,000
+Choose the field and then click settings. We choose cross go Wallace again and we're looking at all pairwise.
+
+134
+00:13:01,630 --> 00:13:04,930
+Now we can see that we have results that are significant.
+
+135
+00:13:04,930 --> 00:13:09,999
+We reject the null hypothesis. We can see that our medians are very different.
+
+136
+00:13:10,000 --> 00:13:13,690
+We have some outliers. You can see that we reject the null.
+
+137
+00:13:13,780 --> 00:13:17,230
+There are significant differences in the level look outlined by contact.
+
+138
+00:13:17,590 --> 00:13:27,400
+Age of two. Degrees of freedom again is equal to 62.3, P is less than 0.01, and the pairwise comparisons between each group are significant.
+
+139
+00:13:27,730 --> 00:13:31,660
+The way this works is you just look at each spoke of the.
+
+140
+00:13:32,740 --> 00:13:36,130
+Triangle. You also will get the pairwise comparisons.
+
+141
+00:13:36,160 --> 00:13:40,120
+These work just like Bonferroni post-hoc tests.
+
+142
+00:13:40,570 --> 00:13:44,580
+You can see between no contact and contact. Significant difference.
+
+143
+00:13:44,590 --> 00:13:50,650
+So no contact and contact. Smoke. No contact and smoker and smoker and contact smoke.
+
+144
+00:13:51,040 --> 00:13:52,840
+All of which are significantly different.
+
+145
+00:13:54,300 --> 00:14:02,220
+Finally we're going to do Spearman's rank order correlation, often abbreviated to Spearman's correlation, which calculates a coefficient.
+
+146
+00:14:02,310 --> 00:14:08,070
+We say r of sub s, which is the r statistic for Spearman or.
+
+147
+00:14:08,400 --> 00:14:12,120
+This p looking thing is actually the Greek letter rho.
+
+148
+00:14:12,540 --> 00:14:19,079
+It's pronounced rho, which is a measure of the strength of direction of the association between either two continuous variables,
+
+149
+00:14:19,080 --> 00:14:22,890
+two ordinal variables, or one ordinal and one continuous variable.
+
+150
+00:14:23,640 --> 00:14:26,970
+Here you can see it's a nonlinear. There's a little bit of a curve here.
+
+151
+00:14:28,420 --> 00:14:34,000
+We're looking at time spent watching TV versus cholesterol for men aged 45 to 65.
+
+152
+00:14:34,960 --> 00:14:41,200
+So you go to your correlations. So like bivariate correlations you bring them both over.
+
+153
+00:14:41,200 --> 00:14:45,459
+This is probably the easiest test to run. This will be auto checked Pearson.
+
+154
+00:14:45,460 --> 00:14:52,870
+You just specify Spearman. Um and you click okay and you get your output.
+
+155
+00:14:54,280 --> 00:14:59,979
+Here I'm telling you to go to Graphs Legacy dialog. Do scatter dot and move those over to get this spirit.
+
+156
+00:14:59,980 --> 00:15:05,549
+This, uh. Scatterplot. Then we do the analyze correlation.
+
+157
+00:15:05,550 --> 00:15:08,790
+Bivariate to Spearman. Move everything over. Click okay.
+
+158
+00:15:08,790 --> 00:15:14,550
+And you can see that these are highly correlated. We have two stars which means the correlation is significant.
+
+159
+00:15:14,670 --> 00:15:21,510
+The 0.01 level and that association is 0.73.
+
+160
+00:15:22,170 --> 00:15:26,549
+There was a statistically significant strong positive correlation between daily time
+
+161
+00:15:26,550 --> 00:15:31,770
+spent watching TV and cholesterol concentration in males aged 45 to 65 years old.
+
+162
+00:15:31,770 --> 00:15:35,380
+Spearman. Correlation of 98. How do we do that?
+
+163
+00:15:35,400 --> 00:15:39,809
+That's the degrees of freedom. For a 100 sample you have to take away two for correlation.
+
+164
+00:15:39,810 --> 00:15:44,480
+So 100 minus two is 98. You don't get that given to you.
+
+165
+00:15:44,490 --> 00:15:52,410
+It is your you have to take it from your end. Um is equal to 0.72 £0.09 is less than 0.001.
+
+166
+00:15:53,310 --> 00:15:58,890
+Okay. So some key takeaways about nonparametric test. You use them when parametric assumptions are not met.
+
+167
+00:15:59,400 --> 00:16:05,330
+They're based on ranks, medians or order of data. They focus on distributions and medians.
+
+168
+00:16:05,340 --> 00:16:10,020
+That means they do have assumptions independence and symmetry.
+
+169
+00:16:10,440 --> 00:16:14,790
+And you report the results with appropriate statistics and interpretation.
+

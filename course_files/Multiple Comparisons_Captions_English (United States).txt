@@ -1,0 +1,905 @@
+1
+00:00:03,809 --> 00:00:12,389
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Once we have a significant Anova omnibus test in order to tell where those differences are by talking about multiple comparisons.
+
+2
+00:00:12,929 --> 00:00:17,609
+After this lecture, you should be able to distinguish between planned and unplanned comparisons.
+
+3
+00:00:17,909 --> 00:00:27,239
+Explain the concept of family wise error. Differentiate between pairwise and composite comparisons and justify an appropriate post hoc test selection.
+
+4
+00:00:33,534 --> 00:00:33,593
+So multiple. So multiple comparisons is an umbrella of families, specifically an Anova.
+
+5
+00:00:39,510 --> 00:00:42,720
+We typically say we run post hoc comparisons.
+
+6
+00:00:42,960 --> 00:00:46,950
+And post hoc literally means after this in Latin.
+
+7
+00:00:47,250 --> 00:00:50,180
+So that's your clue that it's happening.
+
+8
+00:00:50,190 --> 00:00:57,120
+Once we've done the omnibus test or that F-test and found a significant difference somewhere within the model.
+
+9
+00:00:57,600 --> 00:01:02,830
+It is the thing that allows us to compare the groups, usually pairwise,
+
+10
+00:01:02,850 --> 00:01:09,090
+so we can see if there's a difference between group one and two, two and 3 or 1 and three, and so on.
+
+11
+00:01:10,350 --> 00:01:17,789
+Let's take a look at how a post hoc report often will be written or shared, and then we'll work backwards here.
+
+12
+00:01:17,790 --> 00:01:24,140
+Um, saying that there are some design types that may have impacted the sense of community in the class and, um, the, uh, the post hoc.
+
+13
+00:01:30,822 --> 00:01:34,002
+The first sentence conveys the results of the omnibus test.
+
+14
+00:01:34,062 --> 00:01:43,062
+We can see that there is a statistically significant value of p less than 0.001, with a large effect size of 0.36.
+
+15
+00:01:43,482 --> 00:01:48,432
+The remaining sentences explain that omnibus test just a little bit more.
+
+16
+00:01:48,612 --> 00:01:52,002
+The omnibus test told us that there is a difference. It didn't tell us where.
+
+17
+00:01:52,362 --> 00:01:58,871
+So the post-hoc pairwise comparisons using Tukey's HSD indicated that service based
+
+18
+00:01:58,872 --> 00:02:05,772
+groups scored higher than problem based groups and higher than Socratic method groups.
+
+19
+00:02:06,102 --> 00:02:09,402
+The project based group did not differ significantly.
+
+20
+00:02:10,122 --> 00:02:14,202
+I've skipped the numbers there for the reading, but those numbers are important to report.
+
+21
+00:02:14,322 --> 00:02:22,102
+We can see the averages and the standard deviations for each group, as well as the significant values, whether they were or were not significant.
+
+22
+00:02:22,122 --> 00:02:29,352
+The specific p is reported, but when you see something like this, you might wonder, well, where does this come from and what does it mean?
+
+23
+00:02:29,382 --> 00:02:31,482
+So I want to talk through that a little bit with you.
+
+24
+00:02:31,902 --> 00:02:38,232
+Before we jump into that though, we have to understand the concept of alpha inflation and family wise error.
+
+25
+00:02:38,742 --> 00:02:45,822
+Basically, when you're choosing a post hoc method or a post hoc test, you want to think about balance.
+
+26
+00:02:46,512 --> 00:02:52,421
+Sometimes you might want to be a little bit more liberal. That is, you are good at detecting a true difference.
+
+27
+00:02:52,422 --> 00:02:58,032
+But it's also risky because you might be wrong. You might suggest that there are differences when there really aren't any.
+
+28
+00:02:58,482 --> 00:03:01,012
+Other times, you might want to be a little more conservative.
+
+29
+00:03:01,092 --> 00:03:09,912
+You might want to be safer from false alarms, but because of that, you know, safe approach, you might actually miss the real differences.
+
+30
+00:03:10,242 --> 00:03:16,272
+So every single one of our tests, the assumptions test, the omnibus test,
+
+31
+00:03:16,272 --> 00:03:23,532
+and the post hoc comparisons all have some degree of risk for making a type one or a type two error.
+
+32
+00:03:23,832 --> 00:03:28,102
+And if you're more willing to make a type one error, then you can use a liberal approach.
+
+33
+00:03:28,152 --> 00:03:32,232
+And if you're more willing to make a type two error, you can use a more conservative approach.
+
+34
+00:03:33,302 --> 00:03:41,792
+Um, alpha inflation is, um, something that happens when you conduct multiple hypotheses tests on the same set of data.
+
+35
+00:03:42,032 --> 00:03:48,932
+Each time you run a test. There's just this chance that you will incorrectly reject the null hypothesis or make a type one error.
+
+36
+00:03:49,352 --> 00:04:00,302
+Um, the family wise error rate is the probability of making at least one type one error across to the set or across the family of tests.
+
+37
+00:04:00,782 --> 00:04:06,142
+So for instance, if there are three levels in your Anova, then you're only making three comparisons, right?
+
+38
+00:04:06,152 --> 00:04:09,242
+Group 1 to 2, group 2 to 3, and group 3 to 1.
+
+39
+00:04:09,632 --> 00:04:13,742
+But if there are four levels now you're actually making six comparisons.
+
+40
+00:04:13,922 --> 00:04:19,112
+And if there are five levels in your independent variable, you're actually making ten comparisons.
+
+41
+00:04:19,532 --> 00:04:23,372
+Imagine you are playing darts at your local eatery.
+
+42
+00:04:23,582 --> 00:04:32,462
+And, um, you know, if you only throw one dart, then the chances of hitting the bullseye maybe, uh, depending on your skill level, is not that good.
+
+43
+00:04:32,792 --> 00:04:38,432
+But if you had ten darts, the chances of you making a bullseye go up because, um,
+
+44
+00:04:38,432 --> 00:04:42,392
+you know, you may not be a skilled dart player, but you've just got greater odds.
+
+45
+00:04:42,602 --> 00:04:47,582
+And that's, in essence, what, um, it captures this idea of alpha inflation.
+
+46
+00:04:47,612 --> 00:04:55,801
+And that's why when we think about which post-hoc tests we use, we consider, um, their family wise error rate or,
+
+47
+00:04:55,802 --> 00:05:00,542
+um, the likelihood that we're leaning toward a type one error versus a type two error.
+
+48
+00:05:01,692 --> 00:05:05,372
+So let's return to our write up, which you'll see in the bottom left screen.
+
+49
+00:05:05,382 --> 00:05:11,982
+I've just taken a snippet of it that post-hoc pairwise comparisons using Tukey's HSD.
+
+50
+00:05:12,342 --> 00:05:20,892
+We're going to find out where those words came from. The first place it comes from is determining if it's an unplanned or a planned comparison.
+
+51
+00:05:21,132 --> 00:05:24,342
+Post hoc generally means an unplanned comparison.
+
+52
+00:05:24,462 --> 00:05:33,732
+There's no specific hypothesis. We're going to look at all possible comparisons available to us, and we might adjust for the multiple comparisons.
+
+53
+00:05:33,732 --> 00:05:42,552
+That is, we might try to include a test that has a lower family wise error because it's accounted for it mathematically,
+
+54
+00:05:42,702 --> 00:05:49,031
+especially if we're doing like lots of comparisons, you know, uh, uh, independent variable with 5 or 6 levels.
+
+55
+00:05:49,032 --> 00:05:51,192
+We definitely want to, um, account for that.
+
+56
+00:05:51,792 --> 00:05:58,512
+Planned comparisons or a priori comparisons are ones that were hypothesized before the data were collected and analyzed.
+
+57
+00:05:58,812 --> 00:06:01,422
+Uh, we would do a limited number of comparisons.
+
+58
+00:06:01,692 --> 00:06:07,662
+And because we're limiting the number of comparisons, we also have that lesser chance of making the family wise error rate.
+
+59
+00:06:08,052 --> 00:06:11,922
+So from that right up earlier we used the word post-hoc.
+
+60
+00:06:12,252 --> 00:06:16,182
+This indicates to the reader that we are using unplanned comparisons.
+
+61
+00:06:16,332 --> 00:06:19,722
+And we are comparing every single group to every single other group.
+
+62
+00:06:21,793 --> 00:06:30,103
+And that's something that we've probably been talking about this whole time, like comparing um, group A to Group B, group A to Group C, and so on.
+
+63
+00:06:30,433 --> 00:06:38,293
+Um, usually when people say they're doing a post hoc test, they are talking about this simple 1 to 1 group mean comparison.
+
+64
+00:06:38,593 --> 00:06:43,002
+Um, so much so that the word pairwise is often not even used in a write up.
+
+65
+00:06:43,003 --> 00:06:47,473
+It's just presumed to be a pairwise comparison unless you're otherwise stating it.
+
+66
+00:06:48,013 --> 00:06:52,962
+Um, so, uh, we don't have to do a pairwise comparison, though we could do a composite comparison.
+
+67
+00:06:52,963 --> 00:06:58,813
+And there are some times when that is really useful. Uh, the pairwise comparison is comparing each group to every other group.
+
+68
+00:06:58,993 --> 00:07:04,753
+But the composite comparison um, also sometimes called the complex or the non pairwise comparison, uh,
+
+69
+00:07:04,783 --> 00:07:12,733
+gives us the opportunity to have kind of a weighted average or multiple other groups, um, to make this kind of linear composite.
+
+70
+00:07:13,303 --> 00:07:18,553
+Uh, imagine we're studying how different course designs impact a students sense of community.
+
+71
+00:07:18,953 --> 00:07:27,043
+Uh, we have had in our prior examples here, four different designs project based, problem based service learning and lecture.
+
+72
+00:07:28,193 --> 00:07:37,273
+A pairwise comparison might ask, you know, is sense of community different in group one versus group two, group two versus group three and so on?
+
+73
+00:07:37,283 --> 00:07:42,143
+Very straightforward. But we could maybe ask an even broader question.
+
+74
+00:07:42,473 --> 00:07:52,463
+Do community oriented designs create a stronger sense of community, um, by comparison to teacher centered designs?
+
+75
+00:07:52,943 --> 00:07:59,543
+Now, using a question like that, we might actually make a composite group averaging the scores from the project.
+
+76
+00:07:59,543 --> 00:08:05,483
+The problem and the service learning designs, which are all community oriented into one composite group,
+
+77
+00:08:05,483 --> 00:08:13,972
+group B and then the lecture group might stand alone on its own group A so this is a very simple form of a,
+
+78
+00:08:13,973 --> 00:08:21,143
+uh, complex comparison, uh, the type of comparison that lets us test, um, thematic or theory driven contrasts.
+
+79
+00:08:21,383 --> 00:08:25,613
+And you can explore some of this in future, um, future lectures.
+
+80
+00:08:25,823 --> 00:08:32,453
+But really right now we're focusing on that, um, remembering the fact that pairwise comparison means one versus one.
+
+81
+00:08:32,753 --> 00:08:37,673
+And a composite comparison means a one versus a blend of others.
+
+82
+00:08:37,992 --> 00:08:41,742
+Comparisons that are orthogonal are mutually independent.
+
+83
+00:08:41,752 --> 00:08:46,092
+That means that no group mean is reused across the comparisons.
+
+84
+00:08:46,542 --> 00:08:55,392
+Um, and that means that the the average represents a single group, um, and it again is only used once in a standalone comparison.
+
+85
+00:09:01,252 --> 00:09:05,212
+This can be done conceptually through design or it can be done statistically.
+
+86
+00:09:05,592 --> 00:09:11,331
+Um it's not inherently bad. In fact non orthogonal comparisons are very useful.
+
+87
+00:09:11,332 --> 00:09:14,182
+And most post-hoc comparisons are non orthogonal.
+
+88
+00:09:14,702 --> 00:09:22,312
+Uh just without getting too deep into the math uh just understand that certain group means are reused.
+
+89
+00:09:22,582 --> 00:09:27,172
+Um, and then possibly we could provide them with different weights or weightings.
+
+90
+00:09:27,442 --> 00:09:33,832
+Um, imagine you tell the Anova, uh, to treat one group as, as counting more than another group.
+
+91
+00:09:34,072 --> 00:09:42,772
+Um, and this can be handy sometimes, particularly for, uh, survey research where um groups are already underrepresented within that population.
+
+92
+00:09:43,012 --> 00:09:47,032
+Uh, imagine your question has to do with, um, gender identity, and you might have,
+
+93
+00:09:47,422 --> 00:09:54,202
+um, 100, uh, you know, males, 100 females and ten non-binary identifying people.
+
+94
+00:09:54,322 --> 00:09:58,192
+Well, mathematically, you can't compare 100 to 100 to ten.
+
+95
+00:09:58,402 --> 00:10:01,492
+It's just not going to be a balanced comparison.
+
+96
+00:10:01,862 --> 00:10:08,152
+Uh, so what we might do is up weight the mean of the non-binary group, um,
+
+97
+00:10:08,152 --> 00:10:11,902
+to treat them as if they carry more influence mathematically within that weight.
+
+98
+00:10:12,202 --> 00:10:15,592
+Uh, so that's just an illustration of sometimes what can be done.
+
+99
+00:10:15,772 --> 00:10:18,892
+That's generally not what we're doing in a class like this.
+
+100
+00:10:19,082 --> 00:10:25,162
+Uh, but it is something that you can keep in the back of your mind. Um, in fact, this is a little controversial statistic.
+
+101
+00:10:25,192 --> 00:10:30,872
+Statisticians have a lot to say about orthogonality, and, uh, they can get a little emotional.
+
+102
+00:10:30,952 --> 00:10:34,762
+I think the key takeaway, though, is that orthogonal comparisons are cleaner.
+
+103
+00:10:35,182 --> 00:10:39,202
+Um, but, uh, maybe more interpretable for theory.
+
+104
+00:10:39,772 --> 00:10:44,032
+And if you're doing a planned comparison, then it's probably an orthogonal comparison.
+
+105
+00:10:44,272 --> 00:10:47,841
+But it's worth knowing that you don't always have to follow that rule.
+
+106
+00:10:47,842 --> 00:10:52,432
+And sometimes it's good to break a rule. Uh, non orthogonal comparisons can be practical.
+
+107
+00:10:52,582 --> 00:11:01,012
+They can be very powerful in the real world, especially when they're unequal sample sizes or conceptual reasons to spotlight specific groups.
+
+108
+00:11:01,522 --> 00:11:07,132
+Now, whether or not a test is orthogonal or not orthogonal is based on the test itself.
+
+109
+00:11:07,222 --> 00:11:10,701
+So I don't have to use the word in my explanation.
+
+110
+00:11:10,702 --> 00:11:13,732
+But I do know that tukey's is non orthogonal.
+
+111
+00:11:13,912 --> 00:11:19,132
+So that is what has led me to uh, talk about this as well as share that in the write up.
+
+112
+00:11:20,032 --> 00:11:23,452
+Last but not least, you need to select a name your post-hoc test.
+
+113
+00:11:23,722 --> 00:11:28,222
+And over the past century, researchers had developed more than 30 post-hoc procedures.
+
+114
+00:11:28,522 --> 00:11:37,192
+Honestly, it's very overwhelming to just choose one, and there's not one right or wrong answer because statisticians do disagree about it.
+
+115
+00:11:37,612 --> 00:11:42,922
+I'm not an expert in all of them by any means, and you do not have to be an expert in all of them either.
+
+116
+00:11:43,222 --> 00:11:49,432
+Instead, it's just helpful to understand the categories that they fall into, the assumptions that they require or make,
+
+117
+00:11:49,582 --> 00:11:54,742
+and whether they're considered to be more liberal or more conservative in detecting those group differences.
+
+118
+00:11:55,132 --> 00:11:59,692
+There are some post-hoc tests that use a T based distribution.
+
+119
+00:12:00,352 --> 00:12:03,922
+There are others that rely on a range based statistic.
+
+120
+00:12:04,222 --> 00:12:10,072
+And um, still others use an F based statistic or account for unequal variances.
+
+121
+00:12:10,402 --> 00:12:13,882
+So in practice, what we do is basically two things.
+
+122
+00:12:14,002 --> 00:12:17,062
+We understand the broad logic of these categories.
+
+123
+00:12:17,212 --> 00:12:22,402
+And then we make informed choices based on the current literature based on what our research mentors think,
+
+124
+00:12:22,672 --> 00:12:25,432
+uh, based on what our software defaults to.
+
+125
+00:12:25,792 --> 00:12:33,232
+SPSS, for example, splits available tests based on whether the assumption of homogeneity of variance is met or violated.
+
+126
+00:12:33,592 --> 00:12:38,242
+Um, which is about as much of agreement as you can expect, probably in the field.
+
+127
+00:12:38,572 --> 00:12:42,682
+Um, so beyond that is just the basics. You name explained, cite and apply.
+
+128
+00:12:42,742 --> 00:12:44,782
+You make your choice and you justify it.
+
+129
+00:12:45,322 --> 00:12:53,302
+Um, if the homogeneity is met, I generally would recommend Tukey's hsd first because it's probably the most common that's used.
+
+130
+00:12:53,632 --> 00:12:58,642
+And it has a nice balance of power. Um, and, uh, family wise error control.
+
+131
+00:12:59,712 --> 00:13:04,432
+Uh, our WCU rank is similarly strong.
+
+132
+00:13:04,732 --> 00:13:10,851
+Um, and some might even say mathematically it's more sound, but it's just not regularly used in education research.
+
+133
+00:13:10,852 --> 00:13:19,552
+And I'm not 100% sure why. So because of its lack of familiarity, I would want to either have enough space to explain that to my readers,
+
+134
+00:13:19,552 --> 00:13:26,242
+or I would just go with the two keys because it's a familiar, um, well known, quantified, you know, understandable term.
+
+135
+00:13:26,692 --> 00:13:30,622
+Uh, Bonferroni is everywhere. Um, even though it's a little more conservative.
+
+136
+00:13:30,622 --> 00:13:39,591
+And maybe that's what you want. You might want to be conservative, um, in your testing site, AQE is, uh, mathematically similar to the Bonferroni,
+
+137
+00:13:39,592 --> 00:13:43,132
+but it's less commonly reported, which is why I placed it just slightly lower.
+
+138
+00:13:43,522 --> 00:13:47,902
+And then Fisher's LSD is actually a very, very liberal test.
+
+139
+00:13:47,932 --> 00:13:52,042
+You really should only use Fisher's when you have three comparisons.
+
+140
+00:13:52,042 --> 00:13:55,522
+So only for a three level group independent variable.
+
+141
+00:13:55,642 --> 00:14:00,682
+If you have 4 or 5 levels in your independent variable, you really shouldn't be using Fisher's.
+
+142
+00:14:00,922 --> 00:14:04,912
+Uh. Because of its liberal nature, you're more likely to make that type one error.
+
+143
+00:14:05,362 --> 00:14:08,542
+And then, um, chef's is actually the opposite of Fisher's.
+
+144
+00:14:08,542 --> 00:14:13,342
+It's very conservative. Um, so you just don't find as many true effects.
+
+145
+00:14:13,552 --> 00:14:19,882
+Um, and I think playing it too safe can be just as problematic is as being a little too risky.
+
+146
+00:14:20,302 --> 00:14:24,142
+Um, so these are my recommendations, but they're only my recommendations.
+
+147
+00:14:24,142 --> 00:14:26,332
+They are by no means the end all. Be all.
+
+148
+00:14:26,452 --> 00:14:33,142
+Which is why, again, returning to what is it that you think based on your understanding and your reading of the literature,
+
+149
+00:14:33,142 --> 00:14:39,232
+which is your responsibility as, um, the person who's conducting the study, what does your research mentor think?
+
+150
+00:14:39,262 --> 00:14:43,252
+What are the styles or norms of the place that you're trying to have this published?
+
+151
+00:14:44,152 --> 00:14:48,202
+Now, if homogeneity is violated, there's a totally different set of tests.
+
+152
+00:14:48,472 --> 00:14:51,712
+And um, particularly in SPSS, it's a completely different section.
+
+153
+00:14:51,982 --> 00:14:55,941
+Um, and in that case, the gams howl is, uh, probably your best bet.
+
+154
+00:14:55,942 --> 00:14:58,552
+It's powerful. It adjusts for unequal group size.
+
+155
+00:14:58,972 --> 00:15:07,612
+Um, I think the C and the T three both have, um, larger error degrees of freedom and that gives it more power.
+
+156
+00:15:14,479 --> 00:15:17,629
+They can kind of be swapped out depending on the study and the sample size.
+
+157
+00:15:17,959 --> 00:15:24,109
+And if you want to make a very, um, you know, conservative choice, the T2 is a safe option.
+
+158
+00:15:24,289 --> 00:15:29,029
+Uh, but again, it might under detect those real differences for the sake of conservation.
+
+159
+00:15:29,359 --> 00:15:31,549
+So as you can see in the bottom left of the screen,
+
+160
+00:15:31,549 --> 00:15:38,899
+again just selecting and naming that test based on my familiarity based on the literature and based on the folks that I'm working with.
+
+161
+00:15:39,559 --> 00:15:43,668
+Um, here, we're going to do a little bit of a write up. So where is this coming from?
+
+162
+00:15:43,669 --> 00:15:46,219
+Where are these numbers generated in SPSS.
+
+163
+00:15:46,219 --> 00:15:54,229
+And you can see top to bottom on the left side of the screen screenshots that I've kind of doctored a little bit in order to illustrate some points.
+
+164
+00:15:54,559 --> 00:15:59,328
+When you're doing Tukey's HSD you get two tables.
+
+165
+00:15:59,329 --> 00:16:05,749
+One is called the homogeneous um subsets and the other one is called multiple comparisons.
+
+166
+00:16:05,749 --> 00:16:13,549
+So that's the two charts at the top are actually, um, potentially from the same study in this case.
+
+167
+00:16:13,549 --> 00:16:15,109
+Again, I had to doctor it a little bit.
+
+168
+00:16:15,529 --> 00:16:25,069
+Um, so this is helpful because the Tukey's hsd homogeneous um, subsets helps you like interpret it in super simple language.
+
+169
+00:16:25,069 --> 00:16:28,819
+Before you even get into the math, let's not get overwhelmed by that.
+
+170
+00:16:28,939 --> 00:16:35,719
+Let's just understand where the differences are within our model and understand the direction or the nature of these differences.
+
+171
+00:16:36,079 --> 00:16:40,459
+Um, and that's why to the right of that homogeneous subsets, uh, that top screenshot,
+
+172
+00:16:40,459 --> 00:16:44,599
+you can see a very straightforward sentence, not even with any numbers.
+
+173
+00:16:44,809 --> 00:16:50,839
+Post-hoc comparisons indicated that beginners were significantly more anxious than intermediate and advanced.
+
+174
+00:16:51,199 --> 00:16:54,319
+However, intermediate and advanced were not different from one another.
+
+175
+00:16:54,739 --> 00:16:59,809
+Um, and so I've highlighted the elements of that statement and where those things came from.
+
+176
+00:17:00,049 --> 00:17:04,279
+Um, why? I'm knowing that beginners were, um, higher or lower.
+
+177
+00:17:05,469 --> 00:17:12,339
+The same detail can be reported, but to include the mathematical calculated values.
+
+178
+00:17:12,489 --> 00:17:15,369
+And you see that in the second set here below.
+
+179
+00:17:15,609 --> 00:17:23,349
+Um Tukey's HST indicated advanced um, the advanced learners and the advanced group were significantly less anxious than beginners.
+
+180
+00:17:23,649 --> 00:17:27,929
+Um, and I'm indicating the change that, uh, triangle is the delta symbol.
+
+181
+00:17:27,939 --> 00:17:33,219
+And so I'm looking at the mean difference there. Sometimes you'll see that with a D bar as well.
+
+182
+00:17:33,699 --> 00:17:37,778
+Uh, but I want them to know how far apart were these groups.
+
+183
+00:17:37,779 --> 00:17:43,689
+And these groups were 3.8 points apart, which seems pretty big.
+
+184
+00:17:44,049 --> 00:17:53,168
+And the p value would suggest that is true because it is a 0.03, 4.034 is lower than 0.05.
+
+185
+00:17:53,169 --> 00:17:55,269
+So that is statistically significantly different.
+
+186
+00:17:55,839 --> 00:18:03,519
+And when I'm reporting these, uh, post hoc differences, when I'm reporting the, uh, pairwise differences between these two groups,
+
+187
+00:18:03,519 --> 00:18:11,979
+beginners and, um, in advanced, I'm also reporting the confidence interval, um, making a thorough report.
+
+188
+00:18:12,069 --> 00:18:17,019
+So I'm reporting the differences for the beginners compared to the advanced in the first sentence.
+
+189
+00:18:17,319 --> 00:18:22,419
+And then in the second sentence, I'm reporting the differences between the intermediate and the beginners,
+
+190
+00:18:22,599 --> 00:18:22,795
+which were, you know, also, uh, you know, uh, I guess, um, more anxious or less anxious.
+
+191
+00:18:27,747 --> 00:18:32,517
+Right. So I'm again sharing that mean difference, the p value and the confidence interval.
+
+192
+00:18:32,787 --> 00:18:40,977
+But even in the groups where there were no pairwise differences observed, I am still reporting that outcome.
+
+193
+00:18:41,157 --> 00:18:44,757
+The difference between the intermediate and advanced was non-significant.
+
+194
+00:18:44,907 --> 00:18:50,367
+Sharing that mean difference the calculated p as well as the confidence interval.
+
+195
+00:18:50,847 --> 00:18:55,407
+And finally, in that middle example, you'll notice that I named the test Tukey's.
+
+196
+00:18:55,827 --> 00:18:59,967
+Do you do always want to name the test. And that's usually on the SPSS output.
+
+197
+00:18:59,967 --> 00:19:01,587
+I've highlighted it on the first two.
+
+198
+00:19:01,827 --> 00:19:08,397
+And then in the third screenshot at the very bottom, it's just the top of one of those multiple comparisons charts.
+
+199
+00:19:08,637 --> 00:19:12,137
+That multiple comparisons chart looks exactly like Tukey's.
+
+200
+00:19:12,147 --> 00:19:18,836
+The only difference is the name. So imagine that the multiple comparisons were Bonferroni.
+
+201
+00:19:18,837 --> 00:19:26,667
+I would be reporting it very similarly. Only I would say Bonferroni indicated that these differences were present.
+
+202
+00:19:31,095 --> 00:19:35,985
+But now that you understand some of the concepts that go with it, maybe you want to give this another review.
+
+203
+00:19:36,465 --> 00:19:45,325
+Um, in this case, though, I'm imagining a scenario where we did, uh, three planned comparisons, uh, that we used Bonferroni, uh,
+
+204
+00:19:45,345 --> 00:19:54,375
+more conservative test and Bonferroni as one of those, uh, tests that uses a T based statistic instead of a range based statistic like Tukey's.
+
+205
+00:19:54,765 --> 00:19:59,265
+Um, and so that means that some of the numbers from the output are going to be a little bit different,
+
+206
+00:19:59,415 --> 00:20:04,365
+but it doesn't change the interpretation, and it doesn't change the fact that I want to be thorough in my reporting.
+
+207
+00:20:04,695 --> 00:20:08,535
+Uh, so I have explained what I've done with my Bonferroni correction.
+
+208
+00:20:08,775 --> 00:20:12,764
+I have included the means and the standard deviations for the groups,
+
+209
+00:20:12,765 --> 00:20:17,925
+so that you can get a sense of the central tendency and the dispersion for each group.
+
+210
+00:20:18,255 --> 00:20:21,885
+And then, uh, Bonferroni uses that t test, as I mentioned earlier.
+
+211
+00:20:21,885 --> 00:20:26,654
+So I have my t statistic with my degrees of freedom, the calculated t, uh,
+
+212
+00:20:26,655 --> 00:20:33,105
+the standard error and the p value that was, uh, specific to that, um, pairwise comparison.
+
+213
+00:20:33,585 --> 00:20:39,135
+And all three of them are there, uh, both the significant ones as well as the non-significant ones.
+
+214
+00:20:39,405 --> 00:20:43,885
+And this can seem really overwhelming. And it takes a few minutes to write because you want to go slow.
+
+215
+00:20:43,905 --> 00:20:48,105
+You want to make sure you haven't made a typo. You have to double and triple check your APA formatting.
+
+216
+00:20:48,465 --> 00:20:53,715
+But all this really means, in layman's terms, is that students who were in active,
+
+217
+00:20:53,715 --> 00:21:01,875
+community focused course designed felt more connected, um, than those students who were in lecture style courses.
+
+218
+00:21:02,355 --> 00:21:09,315
+Um, and I found that by using a stricter standard, the Bonferroni uh, standard, the more conservative tests compared to the tukey's.
+
+219
+00:21:09,615 --> 00:21:13,455
+Um, just to be sure that these differences weren't due to chance.
+
+220
+00:21:29,207 --> 00:21:36,677
+Each test has its strengths and weaknesses based on whether it is either liberal or conservative, and depending on your context,
+
+221
+00:21:36,677 --> 00:21:44,137
+depending on your literature, depending on your norms and depending on your research mentor, you might want to choose one style of test over another.
+
+222
+00:21:44,177 --> 00:21:52,037
+Recognizing that you might be making pairwise or composite comparisons, that you might be making planned or unplanned comparisons.
+
+223
+00:21:52,217 --> 00:21:56,807
+And regardless of the tests that you run, you are always making a thorough report,
+
+224
+00:21:56,867 --> 00:22:03,196
+not only summarizing the meaningful differences between groups that were observed in an understandable term,
+
+225
+00:22:03,197 --> 00:22:12,047
+like you might do from the homogeneous subsets, but also a very specific report of the actual calculated values for each of the differences,
+
+226
+00:22:12,047 --> 00:22:14,417
+whether they were statistically significant or not.
+

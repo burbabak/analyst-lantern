@@ -1,0 +1,589 @@
+1
+00:00:00,900 --> 00:00:08,580
+[Auto-generated transcript. Edits may have been applied for clarity.]
+All right. Analysis of covariance. Ancova analysis of covariance is a blend of Anova and regression.
+
+2
+00:00:08,970 --> 00:00:14,670
+The continuous independent variables are called covariates, and the categorical independent variables are called factors.
+
+3
+00:00:15,210 --> 00:00:21,870
+A covariate is an independent variable that can influence the outcome the dependent variable, but isn't of direct interest.
+
+4
+00:00:22,350 --> 00:00:24,239
+It's analogous to matching and blocking,
+
+5
+00:00:24,240 --> 00:00:30,690
+but ancova matches participants mathematically rather than by physically forming pairs or blocks of similar participants.
+
+6
+00:00:31,470 --> 00:00:38,190
+Graphically, we have a covariate and a grouping variable, and they both share variance with a dependent variable.
+
+7
+00:00:38,730 --> 00:00:43,440
+This is the variance explained by the grouping variable. This is the variance explained by the covariate.
+
+8
+00:00:43,890 --> 00:00:48,480
+Once we remove the variance explained by the covariate,
+
+9
+00:00:48,750 --> 00:00:53,069
+the ancova determines how much variance in the dependent variable can be attributed to the
+
+10
+00:00:53,070 --> 00:00:58,320
+independent variable after controlling for or removing the variance explained by the covariate.
+
+11
+00:00:59,690 --> 00:01:05,120
+All right. If you have a study design where you're measuring the same dependent variable in two or more independent,
+
+12
+00:01:05,120 --> 00:01:09,230
+unrelated groups over two time points, and ancova might be appropriate.
+
+13
+00:01:09,620 --> 00:01:15,349
+For example, you might want to determine any changes in blood pressure before and after different types of exercise
+
+14
+00:01:15,350 --> 00:01:21,410
+intervention as you believe the Post-intervention scores will depend to some degree on the intervention scores.
+
+15
+00:01:21,800 --> 00:01:28,130
+You compare differences in Post-intervention scores between the interventions with the pre intervention score as a covariate.
+
+16
+00:01:28,610 --> 00:01:31,670
+Another way you could do this would be to use a mixed Anova.
+
+17
+00:01:32,960 --> 00:01:36,020
+Um, you can reduce the effect of an extraneous variable.
+
+18
+00:01:36,020 --> 00:01:40,040
+So if you have a study design where you're measuring a dependent variable and two or more independent groups,
+
+19
+00:01:40,040 --> 00:01:45,859
+and you want to control for the effect of another variable known or thought to influence the dependent variable.
+
+20
+00:01:45,860 --> 00:01:48,559
+And ancova might be suitable, for example.
+
+21
+00:01:48,560 --> 00:01:54,860
+So you wish to compare the differences in cholesterol concentration for different physical activity level groups.
+
+22
+00:01:54,860 --> 00:02:01,040
+You might use a body mass as a covariate, as this will also have an impact on cholesterol levels.
+
+23
+00:02:01,550 --> 00:02:07,250
+So here's some examples of covariates. You're comparing the salaries of men and women to see who earns more.
+
+24
+00:02:07,280 --> 00:02:12,259
+One factor that you need to control for is that people tend to earn more the longer they are out of college.
+
+25
+00:02:12,260 --> 00:02:16,530
+So years out of college in this case is a covariate you're running.
+
+26
+00:02:16,550 --> 00:02:19,340
+Experiment to see how corn plants tolerate drought.
+
+27
+00:02:19,730 --> 00:02:25,370
+Level of drought is the actual treatment, but it's not the only factor that affects how plants perform.
+
+28
+00:02:25,370 --> 00:02:30,410
+Size is a known factor that affects tolerance level. So you would run plant size as a covariate.
+
+29
+00:02:31,280 --> 00:02:36,649
+So you want to know whether or not there are three uh, three types of studying techniques impact exam scores.
+
+30
+00:02:36,650 --> 00:02:40,490
+But we want to account for the grade that the student already has in the class.
+
+31
+00:02:40,760 --> 00:02:45,440
+So we use their current grade as a covariate and conducted a cobra to see if there's
+
+32
+00:02:45,440 --> 00:02:49,370
+a statistically significant difference between the mean scores of the three groups.
+
+33
+00:02:50,380 --> 00:02:53,690
+So we have some assumptions. You have one DV that's continuous.
+
+34
+00:02:53,710 --> 00:02:57,160
+You have one categorical I-V that consist of two or more groups.
+
+35
+00:02:57,610 --> 00:03:00,640
+You have one continuous I-V. That's covariate.
+
+36
+00:03:01,680 --> 00:03:11,450
+And you have independence of observations. The covariant is linearly related to the dependent variable at each level of the independent variable.
+
+37
+00:03:11,600 --> 00:03:17,330
+We have homogeneity of regression slopes. We have residuals that are normally distributed.
+
+38
+00:03:17,660 --> 00:03:22,250
+We have homo skewed activity which is the homogeneity of variances.
+
+39
+00:03:22,640 --> 00:03:26,330
+And we also have no outliers. So here's do it. Let's do an example.
+
+40
+00:03:26,750 --> 00:03:31,820
+Dana wishes to assess whether vitamin C is effective in the treatment of colds.
+
+41
+00:03:32,120 --> 00:03:36,800
+To evaluate her hypothesis, she decides to conduct a two year experimental study.
+
+42
+00:03:37,190 --> 00:03:41,120
+She obtains 30 volunteers from undergraduate classes to participate.
+
+43
+00:03:41,510 --> 00:03:46,430
+She randomly assigns an equal number of students to three groups placebo group one,
+
+44
+00:03:46,430 --> 00:03:50,720
+a low dose of vitamin C, group two, and a high dose of vitamin C group three.
+
+45
+00:03:51,380 --> 00:03:58,760
+In the first and second years of the study, students in all three groups are monitored to assess the number of days that they have cold symptoms.
+
+46
+00:03:59,360 --> 00:04:03,799
+During the first year, students don't take any pills, and the second year of the study,
+
+47
+00:04:03,800 --> 00:04:11,570
+the students take pills that contain one of the following no active ingredient, a low dose of vitamin C, or a high dose of vitamin C.
+
+48
+00:04:12,230 --> 00:04:21,469
+Dana's SPSS data file includes 30 cases and three variables of factor distinguishing among the three medical medication groups a covariate,
+
+49
+00:04:21,470 --> 00:04:27,230
+which is the number of days with cold symptoms in the first year before any treatment, and a dependent variable.
+
+50
+00:04:27,230 --> 00:04:32,000
+The number of days with cold symptoms in the second year when they're taking the pills.
+
+51
+00:04:33,660 --> 00:04:35,700
+So the research question and hypothesis.
+
+52
+00:04:35,720 --> 00:04:43,350
+So my research question is do three different levels of vitamin C impact the number of days of cold symptoms in the second year of the study?
+
+53
+00:04:43,680 --> 00:04:47,070
+Controlling for the number of days of cold symptoms in the first year.
+
+54
+00:04:47,640 --> 00:04:55,080
+So my nose at three different levels of vitamin C do not impact the number of days of cold symptoms in the second year of study,
+
+55
+00:04:55,080 --> 00:04:58,340
+controlling for the number of days and so forth and so on.
+
+56
+00:04:58,350 --> 00:05:04,320
+And then the alternate is the three different levels of vitamin C do impact the number of days.
+
+57
+00:05:06,260 --> 00:05:08,260
+So we're going to start with assumption five.
+
+58
+00:05:08,270 --> 00:05:15,950
+We'll go to um that that the covariates should be linearly related to the dependent variable at each level of the independent variable.
+
+59
+00:05:16,370 --> 00:05:21,980
+So we have to do something a little bit different. We go to data and we come down to split file.
+
+60
+00:05:22,700 --> 00:05:25,790
+And then we're going to say it's this one's hyper checked.
+
+61
+00:05:25,790 --> 00:05:29,270
+But we're going to click this one and say organize output by groups.
+
+62
+00:05:29,570 --> 00:05:32,210
+And we'll bring the groups over. And then we click okay.
+
+63
+00:05:33,320 --> 00:05:39,530
+So the covariance should be linearly related to the dependent variable at each level of the independent variable.
+
+64
+00:05:39,650 --> 00:05:44,830
+Go to chart builder scatter plot move pre to y and days to x.
+
+65
+00:05:44,840 --> 00:05:51,770
+Click okay. On each graph you can double click elements, double click it, it'll pop out, click elements and come down to fit.
+
+66
+00:05:51,770 --> 00:05:58,200
+Line it total. And then it'll, um, give you the, the fit line for each.
+
+67
+00:05:58,200 --> 00:06:03,120
+And you can see that they're each linearly related at each level of the dependent variable.
+
+68
+00:06:03,780 --> 00:06:08,609
+So then you have to not forget, you can't forget to go and reset the split file.
+
+69
+00:06:08,610 --> 00:06:12,059
+Or everything else you do will be split out by the grouping variable.
+
+70
+00:06:12,060 --> 00:06:17,400
+So you just go back to this recall dialog. Come down to split file and then just hit reset.
+
+71
+00:06:17,550 --> 00:06:22,230
+And then okay. Okay. Homogeneity of regression slopes.
+
+72
+00:06:22,240 --> 00:06:25,540
+This means that the interaction term cannot be significant.
+
+73
+00:06:25,540 --> 00:06:27,790
+So we have to check the internet interaction term.
+
+74
+00:06:28,180 --> 00:06:35,169
+So we go to analyze general linear model univariate move the various variables over and then click the models.
+
+75
+00:06:35,170 --> 00:06:39,999
+We have days as our DV. The fixed factor is group and pre days is our covariate.
+
+76
+00:06:40,000 --> 00:06:46,130
+We click model. Um, this full factorial will be, um, checked.
+
+77
+00:06:46,140 --> 00:06:50,460
+We want to click build terms. So we click group and move it over.
+
+78
+00:06:50,760 --> 00:06:55,800
+We click pre days and move it over. Then we hold down shift and click them both in the interaction.
+
+79
+00:06:56,130 --> 00:06:59,220
+Will will be done for us.
+
+80
+00:07:00,660 --> 00:07:04,410
+Then we click continue. And then okay. So then we have to come down here.
+
+81
+00:07:04,450 --> 00:07:11,350
+Our first table just tells us the levels of our factor. So this is what we want to see if we have significance for the interaction term.
+
+82
+00:07:11,370 --> 00:07:21,659
+We can't do it in code. We might have to go back and do a, uh it's a mixed repeated measures Anova, but we don't have a significant interaction here.
+
+83
+00:07:21,660 --> 00:07:26,730
+So we have homogeneity of regression slopes because this is not significant.
+
+84
+00:07:27,330 --> 00:07:34,560
+So there was homogeneity of regression slopes as the interaction term was not statistically significant in our report the F-statistic.
+
+85
+00:07:35,420 --> 00:07:41,659
+Now, it's a bit counterintuitive, but in order to continue checking assumptions, you need to keep going and run the Ancova.
+
+86
+00:07:41,660 --> 00:07:44,300
+To get some of the saved items, you will need to check assumptions.
+
+87
+00:07:44,540 --> 00:07:49,820
+So we're going to go ahead and run the Ancova and then come back to those findings after we check assumptions.
+
+88
+00:07:50,480 --> 00:07:58,100
+So we'll go back and do the ancova. Go back to recall recently, use dialogs and pull up the univariate and everything will be set.
+
+89
+00:07:59,480 --> 00:08:04,520
+Click model and we'll go back to the full factorial and then click save.
+
+90
+00:08:04,880 --> 00:08:07,940
+And then click standardized and Unstandardized.
+
+91
+00:08:08,210 --> 00:08:11,620
+Then click estimated marginal means. And we're going to do the same thing.
+
+92
+00:08:11,630 --> 00:08:14,840
+Compare main effects and Bonferroni. Then we'll click options.
+
+93
+00:08:14,840 --> 00:08:17,990
+And we're going to add the homogeneity test and click continue.
+
+94
+00:08:18,680 --> 00:08:19,700
+And then click okay.
+
+95
+00:08:20,210 --> 00:08:26,960
+So assumption seven is that our dependent variable should be approximately normally distributed for each group of the independent variable.
+
+96
+00:08:27,650 --> 00:08:36,580
+We'll run an explorer with the zero one saved variable which is here um as the dependent variable and group as the independent variable.
+
+97
+00:08:36,590 --> 00:08:42,110
+So we go to analyze Descriptive Statistics Explorer. Move variables over and click plots.
+
+98
+00:08:42,470 --> 00:08:46,520
+Uncheck the stem and leaf and click the normality. And we're going to say continue.
+
+99
+00:08:46,520 --> 00:08:54,290
+And then okay. And we can see that we have normal distribution for all levels of the, um, group in variable.
+
+100
+00:08:55,680 --> 00:09:01,650
+Standardized residuals for the interventions were normally distributed as assessed by the Shear Paradox test.
+
+101
+00:09:01,770 --> 00:09:04,890
+So now we're going to check the overall normality which is easy.
+
+102
+00:09:05,370 --> 00:09:12,160
+We just go to the recall dialog box and pull up explorer and then kick out the groups and just uh, in the factor list and click okay.
+
+103
+00:09:12,180 --> 00:09:17,990
+So we just want to look at this and say, okay. And we can see that those are also normally distributed.
+
+104
+00:09:18,090 --> 00:09:22,860
+Standardized residuals for the overall model were normally distributed as assessed by Shapiro Wealth.
+
+105
+00:09:23,580 --> 00:09:26,930
+Then we want to look at homoscedasticity or equal variances.
+
+106
+00:09:26,940 --> 00:09:30,659
+We asked for the Levene's test. And we could see also that that is not significant.
+
+107
+00:09:30,660 --> 00:09:35,400
+So we have equal variances. Finally we need to see if there are any outliers.
+
+108
+00:09:35,820 --> 00:09:40,740
+We can do an analyze descriptive statistics descriptives of our standardized residual variables.
+
+109
+00:09:41,840 --> 00:09:48,590
+And we see that there are no plus or minus. Um, we're at -2.25 and 1.93.
+
+110
+00:09:48,590 --> 00:09:51,770
+So we're within plus or minus three. So we can assume no outliers.
+
+111
+00:09:52,370 --> 00:09:55,430
+So now we scroll back up and we um evaluate our output.
+
+112
+00:09:55,790 --> 00:09:59,630
+So this between subject factors just tells us about the levels of our independent variable.
+
+113
+00:10:00,110 --> 00:10:04,549
+This table presents the means and standard deviations and sample size for each dependent variable.
+
+114
+00:10:04,550 --> 00:10:13,670
+For for the DV, for each group of the um the grouping variables, we have the placebo, which has the highest number of days with cold symptoms.
+
+115
+00:10:13,670 --> 00:10:16,820
+We have the low dose of vitamin C and then the high dose of vitamin C.
+
+116
+00:10:18,130 --> 00:10:23,080
+Nuts. These are just descriptives. Unadjusted means without considering the covariate.
+
+117
+00:10:23,800 --> 00:10:29,050
+All right, so then you see estimated marginal means. These are the adjusted means which account for the covariate.
+
+118
+00:10:29,350 --> 00:10:34,840
+It is these means that are being compared when independent variables being tested for statistical significance.
+
+119
+00:10:35,380 --> 00:10:39,050
+See how they're different than the table on the previous slide. This is after controlling.
+
+120
+00:10:39,070 --> 00:10:46,450
+So now we actually have the placebo has longer longer days of culture treatments.
+
+121
+00:10:46,450 --> 00:10:50,020
+And the low dose and the high dose have actually shorter days.
+
+122
+00:10:50,920 --> 00:10:53,080
+Um, except for the high dose goes up a little bit.
+
+123
+00:10:53,440 --> 00:10:59,260
+So we say just a means represented number of days are called symptoms in the second year was greater in the placebo group, etc., etc.
+
+124
+00:10:59,770 --> 00:11:00,099
+Okay.
+
+125
+00:11:00,100 --> 00:11:07,480
+So now we want to know whether there was an overall statistically significant difference in days with cold symptoms in the second year on the vitamin,
+
+126
+00:11:07,930 --> 00:11:11,110
+which is the days variable between the different interventions,
+
+127
+00:11:11,110 --> 00:11:16,750
+which is the group variable once their means have been adjusted for days with cold symptoms in the first year, which is the three days.
+
+128
+00:11:17,380 --> 00:11:20,470
+So we're looking um, at the grouping variable.
+
+129
+00:11:20,470 --> 00:11:26,590
+And we want to know is that significant. And we find that it is after adjustment for first year days with cold symptoms,
+
+130
+00:11:26,590 --> 00:11:32,530
+there was a statistically significant difference in second year days with cold symptoms between the interventions.
+
+131
+00:11:33,010 --> 00:11:37,750
+And you write out the f-statistic. Then we can look at the adjust the pairwise comparisons.
+
+132
+00:11:38,410 --> 00:11:42,190
+And we see that the placebo is significantly different than the low dose.
+
+133
+00:11:42,190 --> 00:11:49,540
+And the placebo is significantly different than the high dose, and that the low dose and the high dose are not statistically significant.
+
+134
+00:11:49,540 --> 00:11:51,520
+So we will report that out.
+
+135
+00:11:51,790 --> 00:11:57,309
+Days of cold symptoms were statistically significantly greater in the control group compared to the low dose vitamin C group,
+
+136
+00:11:57,310 --> 00:12:04,000
+and compared to the low, high dose vitamin C group, there was no significant difference between the low and high dose vitamin C groups.
+
+137
+00:12:04,630 --> 00:12:12,580
+So then we ran a final report in EPA, and Ancova was run to determine whether there was an overall statistically significant difference
+
+138
+00:12:12,580 --> 00:12:17,889
+in days with cold symptoms in the second year on vitamin C between the different interventions,
+
+139
+00:12:17,890 --> 00:12:23,350
+which was the group, once their means have been adjusted for days with cold symptoms in the first year,
+
+140
+00:12:23,350 --> 00:12:27,879
+which is the pre days variable after adjustment for the first year days with cold symptoms,
+
+141
+00:12:27,880 --> 00:12:33,430
+there was a statistically significant difference in second year days with cold symptoms between the interventions.
+
+142
+00:12:34,180 --> 00:12:39,309
+Examining Bonferroni adjusted post-hoc tests show that the days of cold symptoms was statistically
+
+143
+00:12:39,310 --> 00:12:44,469
+significantly greater in the placebo group compared to the low dose and the high dose vitamin C groups.
+
+144
+00:12:44,470 --> 00:12:48,040
+There was no difference between the low and high vitamin C groups.
+
+145
+00:12:48,670 --> 00:12:56,770
+The thing about ancova that you need to really be careful with is whether or not you violate the homogeneity of regression slopes,
+
+146
+00:12:57,100 --> 00:13:03,910
+because if you do, you can't. If you violate that, you really have to stop and you would maybe go and do mixed repeated measures Anova.
+
+147
+00:13:04,390 --> 00:13:08,650
+But otherwise, if you don't violate that assumption that ancova will be fine.
+

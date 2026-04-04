@@ -1,0 +1,265 @@
+1
+00:00:01,420 --> 00:00:06,190
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Okay, I'm gonna do a quick maneuver on these data. I have five variables.
+
+2
+00:00:06,520 --> 00:00:10,840
+We have cholesterol concentration, C-reactive protein, and systolic blood pressure.
+
+3
+00:00:11,710 --> 00:00:18,130
+I want to know if there is a difference in these outcome measures by activity group.
+
+4
+00:00:18,910 --> 00:00:25,300
+Okay. So in order to do that, the first thing I want to do is check to see if I have any multivariate outliers.
+
+5
+00:00:25,990 --> 00:00:35,030
+And I need to use Mahalanobis distance. But one thing that I need to do is to be able to identify if there are any outliers, what the cases are.
+
+6
+00:00:35,050 --> 00:00:39,390
+So I'm going to compute a variable. I'm going to call it an ID area.
+
+7
+00:00:39,440 --> 00:00:43,360
+What it's going to do is just give every subject an ID number.
+
+8
+00:00:43,840 --> 00:00:48,070
+I click on all. I click on case number. Or I could also just type it in.
+
+9
+00:00:48,280 --> 00:00:51,630
+I click this up up arrow and say okay.
+
+10
+00:00:51,640 --> 00:00:54,670
+And you can see the ID number one is one.
+
+11
+00:00:54,820 --> 00:00:59,950
+Two is two etc. Okay. So we're going to go to analyze regression.
+
+12
+00:01:00,430 --> 00:01:03,969
+I'm going to put the ID variable in the dependent variable.
+
+13
+00:01:03,970 --> 00:01:08,650
+And I'm going to make the dependent variables my independent variables.
+
+14
+00:01:09,190 --> 00:01:13,300
+The only thing I want to do is check save and then Mahalanobis.
+
+15
+00:01:14,020 --> 00:01:22,300
+We're going to get a bunch of output but we're just going to scroll down. Mahalanobis distance here is between 0.105 and 11.44.
+
+16
+00:01:22,840 --> 00:01:28,540
+If you look at cut points with three independent variables, if you have three,
+
+17
+00:01:28,540 --> 00:01:33,880
+the cut point is 16.27, beyond which you would have multivariate outliers.
+
+18
+00:01:34,060 --> 00:01:37,380
+Our maximum is below that cut point.
+
+19
+00:01:37,420 --> 00:01:41,350
+So we can say we don't have any and keep moving. Okay.
+
+20
+00:01:41,350 --> 00:01:51,900
+So what I want to do now is I want to make sure that we have linearity among the dependent variables across the levels of the independent variable.
+
+21
+00:01:51,910 --> 00:01:57,820
+So I'm going to go to scatter dot click matrix scatter define it I've already done it.
+
+22
+00:01:58,390 --> 00:02:05,470
+Let me go. The rows are the group. And then my deep dives go in the matrix variable.
+
+23
+00:02:05,680 --> 00:02:10,050
+I click okay and I get this little bitty tiny graph.
+
+24
+00:02:10,060 --> 00:02:17,650
+And so you can see that there's linearity but that's pretty small. So if I want to do it again I could go to data come down to split file.
+
+25
+00:02:18,640 --> 00:02:22,180
+Organize the output by groups. Click okay.
+
+26
+00:02:22,960 --> 00:02:27,040
+Go back to my scatter plot matrix and just click okay again.
+
+27
+00:02:27,580 --> 00:02:33,879
+And it makes it a lot bigger. You get one for each activity group high moderate low.
+
+28
+00:02:33,880 --> 00:02:37,780
+And you can see better that yes we have for the most part linearity.
+
+29
+00:02:38,440 --> 00:02:42,639
+Now don't make the cardinal sin of going up for getting to un split your file so you.
+
+30
+00:02:42,640 --> 00:02:49,150
+So I just want to recall dialog split file reset okay.
+
+31
+00:02:50,350 --> 00:02:55,270
+All right. So we've got the UN split file. Now we want to check normality dependent variable.
+
+32
+00:02:55,270 --> 00:02:59,389
+So I'm going to go to have an explorer feature here.
+
+33
+00:02:59,390 --> 00:03:05,080
+And we reset it I'm going to bring my cholesterol C-reactive protein systolic
+
+34
+00:03:05,080 --> 00:03:10,299
+blood pressure over as my dependent list and my groups as the factor list.
+
+35
+00:03:10,300 --> 00:03:16,000
+I click plot, uncheck stem and leave and click Normality Plots with test.
+
+36
+00:03:16,600 --> 00:03:18,520
+Click continue and click okay.
+
+37
+00:03:18,760 --> 00:03:26,829
+And you can see within each level of the dependent variable across the levels of the independent variable, we have none that are significant.
+
+38
+00:03:26,830 --> 00:03:30,120
+That one's close but it's not significant. So we could say we have normality.
+
+39
+00:03:30,130 --> 00:03:33,060
+The last thing I want to check is multicollinearity.
+
+40
+00:03:33,070 --> 00:03:39,309
+So I want to make sure that if I go to correlation and do my bivariate, I've already got them brought over.
+
+41
+00:03:39,310 --> 00:03:44,740
+But let me go ahead. Do it again. Cholesterol, C-reactive protein and systolic.
+
+42
+00:03:44,740 --> 00:03:54,640
+I'm just going to leave it at Pearson's and click okay. I can see I have 0.6520 .429 and .380.
+
+43
+00:03:54,670 --> 00:03:59,680
+None of those are greater than 0.9 or even close to 0.9.
+
+44
+00:03:59,680 --> 00:04:09,790
+So we can say we don't have multicollinearity. Okay, so now we're ready for the manova I'm going to go to general linear model multivariate.
+
+45
+00:04:10,510 --> 00:04:17,530
+I'm going to bring my group over as my fixed factor, my cholesterol C-reactive protein and systolic blood pressure.
+
+46
+00:04:17,530 --> 00:04:21,430
+I could bring weight over as the covariate, but we'd be doing a makeover.
+
+47
+00:04:21,880 --> 00:04:27,160
+Right now we're just doing manova. So the first thing I want to do is check post-hoc.
+
+48
+00:04:27,640 --> 00:04:34,090
+I'm going to bring my grouping variable over. I'll pick Bonferroni and then I want to check options.
+
+49
+00:04:34,300 --> 00:04:38,620
+I want descriptives estimates of effect size and homogeneity tests.
+
+50
+00:04:38,800 --> 00:04:48,490
+And then I'm just going to click okay okay. So we can see we have descriptive statistics here within each dependent variable across the levels
+
+51
+00:04:48,490 --> 00:04:54,100
+of the independent variable we want evaluate boxes test of equality of covariance matrices.
+
+52
+00:04:54,100 --> 00:04:58,930
+And we can see that we don't have significant. So we do have equal variances.
+
+53
+00:04:59,440 --> 00:05:02,870
+We come over here and we. Look at our multivariate tests.
+
+54
+00:05:02,880 --> 00:05:11,220
+Let's look at the Wilks. And yes, we do have significant differences in the dependent variables across the levels of the independent variables.
+
+55
+00:05:11,860 --> 00:05:15,450
+We look at the Levene's test. None of these are significant.
+
+56
+00:05:15,450 --> 00:05:24,660
+We see we have equal variances. And then within the group we can look at each individual dependent variable to see if they're all significant.
+
+57
+00:05:24,930 --> 00:05:28,770
+Right now we know the omnibus test with the Wilks lambda is significant.
+
+58
+00:05:28,770 --> 00:05:33,660
+But we want to make sure each of these is significant. And they are they're all highly significant.
+
+59
+00:05:34,350 --> 00:05:41,520
+Finally we go to the multiple comparisons and we can tell which ones are significant in comparison to which other ones.
+
+60
+00:05:41,520 --> 00:05:44,730
+And you can see that if you go down the list, most of them are.
+
+61
+00:05:45,180 --> 00:05:49,860
+So let's just look at the ones that aren't for the cholesterol, low and moderate.
+
+62
+00:05:49,860 --> 00:05:54,570
+They aren't significantly different and low and high or different.
+
+63
+00:05:54,960 --> 00:06:01,710
+Moderate and low for the same. Moderate and high are significantly different within C-reactive protein.
+
+64
+00:06:02,100 --> 00:06:05,219
+Low and moderate or not, and low and high or not.
+
+65
+00:06:05,220 --> 00:06:11,580
+And the rest armor. And then with systolic blood pressure, everything is significant except for moderate and high.
+
+66
+00:06:11,760 --> 00:06:14,310
+All right. That's how you do it.
+

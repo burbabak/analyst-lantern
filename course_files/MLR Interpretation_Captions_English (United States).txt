@@ -1,0 +1,893 @@
+1
+00:00:04,123 --> 00:00:12,693
+[Auto-generated transcript. Edits may have been applied for clarity.]
+this time taking a look at how we run the regression itself and then interpret the overall model, the coefficients and reported in APM.
+
+2
+00:00:12,883 --> 00:00:16,213
+We'll also talk about some special cases for multiple linear regression.
+
+3
+00:00:17,113 --> 00:00:26,263
+As you recall, the multiple linear regression process is calculating power, checking your assumptions, and then executing and interpreting the test.
+
+4
+00:00:26,653 --> 00:00:33,973
+Uh, in this video, we are assuming that we have already done a power calculation and that our assumptions are all intact.
+
+5
+00:00:38,841 --> 00:00:47,451
+Working from the top of the screen and from left to right, you will see that we have R, which is a value of multiple correlation.
+
+6
+00:00:47,961 --> 00:00:52,550
+This is equivalent to the lowercase r if we were doing a regular correlation.
+
+7
+00:00:52,551 --> 00:00:56,091
+But we've got the multiple correlation that's the r value.
+
+8
+00:00:56,571 --> 00:01:07,011
+And then we have the r square. So you will see that that is literally the r times itself 0.42 times 0.42 is 0.18.
+
+9
+00:01:18,322 --> 00:01:22,162
+The standard error, which is the SM or the MSE.
+
+10
+00:01:22,192 --> 00:01:24,316
+You'll see them abbreviated both ways. And sometimes you need change statistics when we are looking at comparison k.
+
+11
+00:01:28,399 --> 00:01:31,909
+In the center of the screen, you have your overall model information.
+
+12
+00:01:32,329 --> 00:01:38,959
+We use the degrees of freedom. We use the f statistic or the f ratio, and we use the significance value here.
+
+13
+00:01:45,202 --> 00:01:49,822
+typically in APA format, a standardized beta, which is the beta symbol.
+
+14
+00:01:50,122 --> 00:01:54,922
+We need to know if each effect is significant or not, which you'll see in that bottom center of the screen.
+
+15
+00:01:55,162 --> 00:01:59,932
+And we have our confidence interval the tolerance values and the variance inflation values.
+
+16
+00:02:00,292 --> 00:02:05,871
+So when we're looking at our SPSS screen it can be very overwhelming because we have all these boxes and numbers.
+
+17
+00:02:05,872 --> 00:02:08,208
+But there's no reason to be concerned. If we take just a moment and read the labels then we can very easily interpret what's on the um.
+
+18
+00:02:13,445 --> 00:02:17,945
+I said that this lecture assumed that the assumptions were intact.
+
+19
+00:02:18,215 --> 00:02:26,705
+So the first thing that we're checking on this output is that final assumption to ensure that our data are not multicollinearity,
+
+20
+00:02:26,735 --> 00:02:26,855
+we're checking our tolerances to make sure they are, uh, closer to one.
+
+21
+00:02:34,424 --> 00:02:39,304
+Um, assuming those are intact, then the next thing we're going to do is interpret the overall model.
+
+22
+00:02:39,484 --> 00:02:43,203
+And this actually gets reported very similarly to the Anova report.
+
+23
+00:02:43,204 --> 00:02:44,944
+In fact it's using an Anova test.
+
+24
+00:02:45,374 --> 00:02:54,994
+Um, we would say something like um f parentheses and using the uh regression degree of freedom and then the residual degree of freedom.
+
+25
+00:02:55,114 --> 00:03:00,184
+Close parentheses equals the f ratio. That's in this case 6.65.
+
+26
+00:03:00,514 --> 00:03:00,557
+And then it is valuable. Um. And then it is significant at the 0.000 level, which in APA we would report as less than 0.001.
+
+27
+00:03:09,274 --> 00:03:14,404
+Once we have an overall significant model, then we can interpret the R square.
+
+28
+00:03:14,464 --> 00:03:17,974
+The R square does not matter if the model is not significant.
+
+29
+00:03:18,214 --> 00:03:22,624
+So if there is a significant model we move on to step three the R square.
+
+30
+00:03:22,834 --> 00:03:30,574
+The R square explains the variance in our dependent variable, which is explained by all of the independent variables together.
+
+31
+00:03:30,934 --> 00:03:37,924
+In this case, our model explains 0.181 of the variance that's found in the dependent variable.
+
+32
+00:03:38,074 --> 00:03:42,064
+We're going to write this up as r squared equals 0.18.
+
+33
+00:03:42,394 --> 00:03:46,263
+Or we're going to write this up as 18% of the variance.
+
+34
+00:03:46,264 --> 00:03:49,024
+So we might need to move our decimals depending on our phrasing.
+
+35
+00:03:49,804 --> 00:03:59,074
+After we've explained the overall model and how much variance it explains, now we can figure out what exactly within that model is doing the work.
+
+36
+00:03:59,644 --> 00:04:07,204
+We do that by looking at the coefficients table, and the first thing we want to check out there at this stage is the significance line.
+
+37
+00:04:07,414 --> 00:04:14,134
+Because some coefficients, or you might say independent variables are significant and others are not.
+
+38
+00:04:14,464 --> 00:04:20,673
+As you'll see on the screen, autonomy is 0.019, which is lower than 0.05.
+
+39
+00:04:20,674 --> 00:04:26,374
+So autonomy is significant. But the other two coefficients relatedness and competence.
+
+40
+00:04:26,554 --> 00:04:31,443
+They both have values that are higher than 0.05. So these two are not significant.
+
+41
+00:04:31,444 --> 00:04:34,127
+And they are not going to be reported in the same way when we are ready and we know which.
+
+42
+00:04:40,234 --> 00:04:46,424
+We're going to do that using the betas. We might use the unstandardized or we might use the standardized betas.
+
+43
+00:04:46,534 --> 00:04:53,723
+These are in section five of that output. We're going to talk a little bit more about which to choose when and a few slides.
+
+44
+00:04:58,201 --> 00:05:04,591
+We do have a significant value of our overall model for 0.004 is lower than 0.05.
+
+45
+00:05:04,801 --> 00:05:11,341
+And therefore we want to report the degrees of freedom as one and eight using that regression and residual line.
+
+46
+00:05:11,491 --> 00:05:17,521
+We want to report the f-statistic to two decimals. And we want to report the p statistic to three decimals.
+
+47
+00:05:18,091 --> 00:05:24,121
+If we have a significant model we can also report the overall variance that's explained by our model.
+
+48
+00:05:24,241 --> 00:05:28,021
+And this could be done in r squared equals with a decimal place.
+
+49
+00:05:28,021 --> 00:05:31,231
+Or we could have written 67% of the variance.
+
+50
+00:05:31,821 --> 00:05:35,525
+Um in this case you can see the R square is really very high six point.
+
+51
+00:05:38,976 --> 00:05:44,316
+We can also see that the adjusted R squared just slightly to the right of that value is very similar.
+
+52
+00:05:44,346 --> 00:05:51,186
+0.62 is not very low. But I want to show you two other outputs that you might see on the right hand side.
+
+53
+00:05:51,186 --> 00:05:56,136
+At the bottom. What you see is a significance value that is higher than 0.05.
+
+54
+00:05:56,256 --> 00:05:56,407
+So here imagine we ran the Anova. So here imagine we ran the regression and the overall model was not statistically significant.
+
+55
+00:06:02,730 --> 00:06:07,440
+Then we would stop here by reporting a non-significant, um, overall model result.
+
+56
+00:06:07,500 --> 00:06:12,210
+We would not go on to report the R. We would not go on to report the coefficients.
+
+57
+00:06:12,630 --> 00:06:20,790
+Sometimes also, you might have an output where the r square is very different from the adjusted R square as you see in the top right.
+
+58
+00:06:21,060 --> 00:06:26,670
+Uh 0.48 is a lot higher than 0.21.
+
+59
+00:06:33,340 --> 00:06:36,300
+We're going to talk a little bit more about that in just a moment as well.
+
+60
+00:06:41,361 --> 00:06:45,081
+There's been some type of entry error because that should not be mathematically possible.
+
+61
+00:06:45,441 --> 00:06:50,891
+And in this case, remember the r in the correlation is the effect size.
+
+62
+00:06:50,901 --> 00:06:56,121
+There's no additional calculation to do. And that's true also with the multiple linear regression.
+
+63
+00:07:02,454 --> 00:07:09,564
+When we consider all of the variables in the model together, so there's no additional calculation steps for the overall model.
+
+64
+00:07:14,073 --> 00:07:17,103
+And this is really very important. And it can be a little bit tricky.
+
+65
+00:07:17,523 --> 00:07:22,083
+So I want to talk through it a little bit on this slide and then go through two different examples.
+
+66
+00:07:22,683 --> 00:07:30,633
+Remember from simple regression where we find out how much information x that's the independent variable is contained about y.
+
+67
+00:07:30,663 --> 00:07:36,573
+That's the dependent variable. Or how much variation within y is explained by x.
+
+68
+00:07:36,942 --> 00:07:40,632
+But even with that, we don't know which one is more powerful.
+
+69
+00:07:40,632 --> 00:07:43,592
+Was it the sleep? Was it the GPA? Was it the hours?
+
+70
+00:07:43,632 --> 00:07:52,272
+And that's why the coefficient comes in Unstandardized betas show us the amount of change in the Y for every one unit increase in the X.
+
+71
+00:07:52,602 --> 00:08:00,432
+This is important to understand in terms of direction. So for every one unit of increase in the x that's the independent variable.
+
+72
+00:08:00,582 --> 00:08:06,821
+We can expect to see some amount of change in the unstandardized beta.
+
+73
+00:08:06,822 --> 00:08:09,792
+That's the y that's the dependent variable.
+
+74
+00:08:10,272 --> 00:08:18,912
+And we interpret the regression and report it in terms of regular meaningful language by using this type of model in the table from earlier on.
+
+75
+00:08:18,912 --> 00:08:24,522
+Step five, it showed that autonomy had an unstandardized beta of -2.35.
+
+76
+00:08:24,792 --> 00:08:28,932
+So that would tell us that for every one unit increase in autonomy,
+
+77
+00:08:29,052 --> 00:08:35,532
+we would have a decrease of 2.35 points in concealing that was the dependent variable.
+
+78
+00:08:35,982 --> 00:08:45,732
+Imagine the sign had been reversed. Then it would say for every one unit increase in autonomy, we would have a 2.35 increase in concealing.
+
+79
+00:08:45,972 --> 00:08:50,142
+So the x or the independent variable is always increasing.
+
+80
+00:08:50,232 --> 00:08:56,592
+Because going back to that basis of regression, where the data are plotted on that x y value,
+
+81
+00:08:56,712 --> 00:09:01,512
+the x is always moving to the right, it's always traveling higher on the number line.
+
+82
+00:09:01,722 --> 00:09:07,752
+And because of that, the data tells us what the Y is doing as that X is traveling.
+
+83
+00:09:07,752 --> 00:09:12,252
+Is the Y going up or down while the X is always traveling to the right?
+
+84
+00:09:12,252 --> 00:09:13,984
+That's in the positive direction. So in that example, maybe it makes sense because points on a survey make sense or points on the test makes sense.
+
+85
+00:09:21,136 --> 00:09:24,856
+Sometimes we need the standardized coefficient or the standardized beta.
+
+86
+00:09:25,066 --> 00:09:32,986
+This is what unifies scales of different sizes, because it looks at distribution instead of range by using the standard deviation.
+
+87
+00:09:33,226 --> 00:09:42,076
+And because it uses the standard deviation. You can now compare how these independent variables perform against one another within the model.
+
+88
+00:09:42,496 --> 00:09:50,416
+Interpreting the standardized beta is a little lesson to it, if only because it uses standard deviations instead of original units.
+
+89
+00:09:50,656 --> 00:09:53,543
+But the phrasing is exactly the same. Returning to that chart that you saw earlier.
+
+90
+00:09:55,919 --> 00:10:06,929
+What we would say here is that for one standard deviation increase in autonomy, we can expect a 0.367 standard deviation decrease in concealing.
+
+91
+00:10:12,428 --> 00:10:18,937
+But what can be more meaningful is using those standardized betas in comparison to one another in this case,
+
+92
+00:10:18,938 --> 00:10:22,347
+and imagining all of those other variables were significant and they weren't.
+
+93
+00:10:29,487 --> 00:10:32,001
+Um, again, had competence been significant? Um, and that's because.
+
+94
+00:10:36,168 --> 00:10:39,888
+so that you can decide what's the best way to convey the results to your readers.
+
+95
+00:10:40,278 --> 00:10:45,198
+There are times when unstandardized units don't make a lot of sense, and then there are times when they do.
+
+96
+00:10:45,768 --> 00:10:50,418
+Imagine a regression of exam scores on hours reading and hours writing.
+
+97
+00:10:50,728 --> 00:10:55,068
+Um, if the standard deviations or something weird, uh, then, you know,
+
+98
+00:10:55,068 --> 00:11:01,547
+it doesn't make sense necessarily to say let's have 0.57 of a standard deviation.
+
+99
+00:11:01,548 --> 00:11:05,268
+It just makes more sense to say how many minutes, right? Like 30 more minutes.
+
+100
+00:11:05,658 --> 00:11:12,168
+Um, so we want to speak in words that are, um, actionable, that are clear and,
+
+101
+00:11:12,168 --> 00:11:16,818
+uh, ensuring that practitioners who read this can make informed decisions.
+
+102
+00:11:16,998 --> 00:11:21,228
+Uh, that might be now increasing their study time that they allow within their class.
+
+103
+00:11:21,498 --> 00:11:27,287
+Or if you're using the standard deviations, um, and those standardized betas, maybe it's that, um,
+
+104
+00:11:27,288 --> 00:11:34,428
+you know, hours spent reading was twice as good as a predictor as, um, something else like practice tests.
+
+105
+00:11:34,668 --> 00:11:39,348
+And as a result, I'm going to make sure I do a lot more reading in the classes that I'm teaching.
+
+106
+00:11:40,568 --> 00:11:44,768
+I know that that's a little complicated. So we're going to do through two worked examples here.
+
+107
+00:11:45,138 --> 00:11:49,298
+Um, imagine the researcher is interested in the impact of population, um,
+
+108
+00:11:49,358 --> 00:11:55,628
+petty crimes like burglary, larceny, vehicle theft and how that impacts the overall murder rate.
+
+109
+00:11:56,078 --> 00:12:00,698
+Um, here, the dependent variable or, um, the outcome variable is the murder rate.
+
+110
+00:12:00,968 --> 00:12:05,978
+And the independent variable or the predictor variables are all the things that you see listed under the model.
+
+111
+00:12:05,978 --> 00:12:09,518
+That's the population, the burglary, the larceny and the motor vehicle theft.
+
+112
+00:12:15,036 --> 00:12:21,126
+And now it's time to interpret our coefficients. So our variance inflation factor and our tolerance values look fine.
+
+113
+00:12:21,456 --> 00:12:27,486
+And now we're going to take a look at our significance values. We have two that are below the 0.05 threshold.
+
+114
+00:12:27,696 --> 00:12:30,816
+And we have two that are above the .05 threshold.
+
+115
+00:12:30,966 --> 00:12:35,706
+So only two out of the four of these coefficients were statistically significant.
+
+116
+00:12:36,456 --> 00:12:40,956
+Um, we then look a little bit to the left and we decide if something is significant.
+
+117
+00:12:41,256 --> 00:12:43,712
+Then we need to explain how so. Carefully reading each line.
+
+118
+00:12:45,254 --> 00:12:51,674
+We can report this both in terms of the unstandardized and the standardized coefficients, depending on our preference.
+
+119
+00:12:51,674 --> 00:12:55,214
+But we're only going to usually pick one approach to interpreting.
+
+120
+00:12:55,664 --> 00:13:03,314
+So using original units or the unstandardized beta, you would write for every one additional burglary per 100,000,
+
+121
+00:13:03,434 --> 00:13:08,864
+there is a 0.007 increase in the murder rate, holding the other variables constant.
+
+122
+00:13:09,164 --> 00:13:17,144
+And for every one additional motor vehicle theft, um, rate increase, there is a 0.01 increase in the murder rate.
+
+123
+00:13:17,444 --> 00:13:27,454
+And even though you know rates per 100,000 might make sense in descriptive statistics, you can't really get 0.007 murdered, right?
+
+124
+00:13:27,464 --> 00:13:32,054
+You're either murdered or you're not murdered. So even when you're using the Unstandardized coefficients,
+
+125
+00:13:32,054 --> 00:13:37,304
+you might still need to turn this into something that's a little bit more understandable or translatable.
+
+126
+00:13:37,664 --> 00:13:44,744
+Uh, you might say that, uh, when there are 90 more vehicle thefts, that there is one additional murder or, uh,
+
+127
+00:13:44,857 --> 00:13:49,086
+Or you might use the standardized beta to state something like motor vehicle thefts
+
+128
+00:13:49,087 --> 00:13:54,697
+are 1.5 times better at predicting murder rates by comparison to burglary rates.
+
+129
+00:13:57,418 --> 00:14:04,797
+If we wanted to pick that approach to reporting, we would simply write for every one standard deviation increase in burglary.
+
+130
+00:14:04,798 --> 00:14:08,248
+Remember that X is always traveling up. It's always increasing.
+
+131
+00:14:08,818 --> 00:14:12,598
+There is a .33 standard deviation increase in the murder rate.
+
+132
+00:14:12,688 --> 00:14:20,608
+So keywords here are remembering to include the fact that it is a standard deviation not 0.33 increase in the rate itself,
+
+133
+00:14:20,608 --> 00:14:27,958
+but in the standard deviation of the rate. We also want to point out the fact that we are holding other variables constant, which is true,
+
+134
+00:14:28,168 --> 00:14:33,958
+and that is true even of the non-significant values, the burglary rate and the motor vehicle rate.
+
+135
+00:14:34,168 --> 00:14:40,168
+Um, significance would change if population and larceny were not included in the model,
+
+136
+00:14:40,198 --> 00:14:44,128
+even though population and larceny were not statistically significant.
+
+137
+00:14:48,797 --> 00:14:52,726
+And we're going to report the value of the overall model whether it was significant or not.
+
+138
+00:14:52,727 --> 00:14:58,306
+And if it was significant we're going to report the R-squared. We're also going to report the final equation.
+
+139
+00:14:58,307 --> 00:15:05,807
+And the final equation is going to be the intercept uh plus or minus the um unstandardized beta amount.
+
+140
+00:15:05,807 --> 00:15:09,077
+The literal number from the table times the variable name.
+
+141
+00:15:09,497 --> 00:15:13,397
+And uh, then of course we are going to interpret that for the reader,
+
+142
+00:15:13,607 --> 00:15:17,061
+either using the unstandardized approach for every, um, for every one original unit increase,
+
+143
+00:15:19,799 --> 00:15:28,649
+there is some change in the dependent variable or through the standardized betas, that is, for every one standard deviation increase in variable one.
+
+144
+00:15:28,829 --> 00:15:33,449
+Uh, we can expect a some standard deviation change in the dependent variable.
+
+145
+00:15:33,643 --> 00:15:37,033
+So let's take another look at interpreting these coefficients.
+
+146
+00:15:37,228 --> 00:15:47,188
+First examining our significance values, we see that both of the coefficients are statistically significant, and then we can take them one at a time.
+
+147
+00:15:47,278 --> 00:16:00,868
+Test one has an unstandardized coefficient of 2.406 and a standardized coefficient of 0.805, whereas test three has a -0.768.
+
+148
+00:16:01,048 --> 00:16:05,247
+So this symbol is what's going to indicate to us the increase or decrease.
+
+149
+00:16:05,248 --> 00:16:14,758
+As we are writing out our coefficients. We would report it this way using the Unstandardized coefficients a for every one point increase on test one,
+
+150
+00:16:14,968 --> 00:16:18,777
+there is a 2.41. increase on the job score.
+
+151
+00:16:18,778 --> 00:16:22,018
+The job score is the dependent variable. It's indicated at the bottom of the screen.
+
+152
+00:16:22,558 --> 00:16:29,278
+For every one point increase on test three, there is a 0.77 decrease on job score.
+
+153
+00:16:32,957 --> 00:16:38,147
+The x or the independent variable is always increasing by one unit.
+
+154
+00:16:38,417 --> 00:16:44,507
+And then the sign that's associated with the number under the unstandardized coefficient beta column.
+
+155
+00:16:44,777 --> 00:16:47,927
+That's telling you the direction. Are we saying increase or decrease.
+
+156
+00:16:48,287 --> 00:16:55,307
+And it's also telling you the amount of change or behavior you expect to see in the named dependent variable.
+
+157
+00:16:58,936 --> 00:17:05,926
+And I'm plugging it into the template that I showed multiple linear regression of job score on test one and test three in terms of points.
+
+158
+00:17:06,356 --> 00:17:10,546
+Uh, the overall model was significant reporting that f value, the, uh,
+
+159
+00:17:10,546 --> 00:17:17,836
+two degrees of freedom and the f statistic to two decimal places, as well as the p value to three decimal places.
+
+160
+00:17:18,196 --> 00:17:21,495
+The r squared value in this case is 0.61.
+
+161
+00:17:21,496 --> 00:17:26,926
+So we're going to say 61% of the variance in job score can be explained by the final regression model.
+
+162
+00:17:27,376 --> 00:17:33,106
+All of your regression reports need to have a final fitted model in the overall report.
+
+163
+00:17:33,466 --> 00:17:38,806
+Uh, the formula you can follow is using the Y hat symbol that indicates that it's a predictive model.
+
+164
+00:17:44,177 --> 00:17:51,797
+And then plus or minus the actual unstandardized beta amount times the actual variable name.
+
+165
+00:17:52,187 --> 00:17:58,337
+Um I'll return to the previous slide. Here you can see the constant is -11.922.
+
+166
+00:17:58,667 --> 00:18:04,007
+Test one is positive 2.4, and test three is -0.76.
+
+167
+00:18:09,781 --> 00:18:14,401
+I'm going to go on, though, to explain what this means in terms of interpretation,
+
+168
+00:18:14,401 --> 00:18:18,211
+so that our readers can understand mathematically what's happening to that slope.
+
+169
+00:18:18,378 --> 00:18:24,108
+There was a significant relationship between test one and job score and sharing the specific p value,
+
+170
+00:18:24,318 --> 00:18:28,428
+and between test three again sharing the specific p value.
+
+171
+00:18:28,728 --> 00:18:35,568
+Holding each other variable constant. So in our regression write up, we want to remind readers that there's lots of variables in this equation.
+
+172
+00:18:35,718 --> 00:18:39,678
+And when I'm reporting any one thing, everything else is being held constant.
+
+173
+00:18:40,068 --> 00:18:45,828
+For each extra point on test one, there was a 2.418. increase on job score,
+
+174
+00:18:46,188 --> 00:18:52,653
+and for each extra additional point on test three, job scores decreased by 0.77 points.
+
+175
+00:18:52,685 --> 00:18:58,115
+I shared that we would talk through some special cases of regression, and the first one of those is the adjusted R squared.
+
+176
+00:18:58,475 --> 00:19:03,695
+R squared can only increase. It never decreases when you add more information to it.
+
+177
+00:19:03,695 --> 00:19:09,245
+Because if even by chance, the additional information might explain some variance.
+
+178
+00:19:09,308 --> 00:19:12,157
+And this is especially true when there's lots of stuff in the model,
+
+179
+00:19:12,158 --> 00:19:18,728
+especially at the stuff is a little bit junky from a mathematical perspective, or if the sample sizes are really very low.
+
+180
+00:19:19,188 --> 00:19:22,388
+Um, adjusted R squared is very similar to r squared,
+
+181
+00:19:22,388 --> 00:19:31,598
+but it kind of penalizes the r squared a little bit because it's accounting for the number of predictors within the model, uh within the denominator.
+
+182
+00:19:31,778 --> 00:19:38,468
+And that basically says if you've given me a lot of information, uh, you might have overreached a little bit.
+
+183
+00:19:38,468 --> 00:19:42,578
+And I'm going to make sure I account for that mathematically. That's what this formula is telling you.
+
+184
+00:19:42,938 --> 00:19:46,988
+And so that's why we try to keep model simple. We try to keep models parsimonious.
+
+185
+00:19:52,002 --> 00:20:00,972
+But every once in a while, you do need to report the adjusted R squared either separately from or in addition to the regular R squared.
+
+186
+00:20:01,182 --> 00:20:06,972
+And you would do this in cases where the differences in the value is very large,
+
+187
+00:20:07,122 --> 00:20:12,462
+where your research mentor asks you to, or where a journal standard expects you to.
+
+188
+00:20:16,488 --> 00:20:21,888
+It's not from a specific chart, but it gives you a template to follow, as in terms of how you would report,
+
+189
+00:20:22,038 --> 00:20:26,387
+which you will see is almost exactly like your reporting in R squared,
+
+190
+00:20:26,388 --> 00:20:33,528
+except we're adding an additional value there where we're reporting the overall model as having an R squared of 0.59,
+
+191
+00:20:33,678 --> 00:20:39,648
+we would add the r squared adjusted with the subscript add j equals 0.28.
+
+192
+00:20:39,888 --> 00:20:43,818
+And we can see in this example 0.28 is pretty far from 0.59.
+
+193
+00:20:43,998 --> 00:20:47,748
+And this tells me because there's probably a bunch of other variables in the model,
+
+194
+00:20:47,748 --> 00:20:53,028
+and that those variables really didn't contribute very much in terms of significance.
+
+195
+00:20:53,083 --> 00:20:57,132
+Finally, sometimes we might be interested in not just whether our predictions were valuable,
+
+196
+00:20:57,133 --> 00:21:01,363
+but whether or not adding new information was worth it, so to speak.
+
+197
+00:21:01,633 --> 00:21:04,993
+And so on the left side, we talk a little bit about our change.
+
+198
+00:21:04,993 --> 00:21:10,663
+That triangle symbol is actually the delta, and it indicates the amount of something that has changed.
+
+199
+00:21:10,963 --> 00:21:16,243
+We use an R change to explain what is the new difference when variables are added.
+
+200
+00:21:16,753 --> 00:21:22,843
+If I've added an additional variable to this model in say step two, then have I.
+
+201
+00:21:22,873 --> 00:21:27,193
+Is it worth it? Have I gained a lot more explanation in terms of overall variance?
+
+202
+00:21:27,853 --> 00:21:33,223
+We see this quite frequently reported in hierarchical or sequential approaches to regression.
+
+203
+00:21:33,703 --> 00:21:40,903
+At the bottom of the left hand side of the screen, you see me offering a sentence of how it might be reported, adding study strategies.
+
+204
+00:21:40,903 --> 00:21:46,003
+In step two of the regression explained an additional 12% of the variance in exam performance.
+
+205
+00:21:46,243 --> 00:21:49,572
+I would say 12%. Additional explanation is very much so worth it.
+
+206
+00:21:49,573 --> 00:21:58,183
+And therefore, if I'm in a program where I'm collecting data or designing, um, initiatives, then probably,
+
+207
+00:21:58,303 --> 00:22:04,693
+um, study strategies is going to be something that's worthy of my investment of time and, uh, data attention.
+
+208
+00:22:08,124 --> 00:22:16,704
+It's not very common in education research. Um, but if you do see this reported, it's usually because there's been some type of model comparison.
+
+209
+00:22:16,954 --> 00:22:20,094
+Uh, they had training data, they built a regression formula.
+
+210
+00:22:20,274 --> 00:22:24,294
+And then, um, using new data, they tested the model.
+
+211
+00:22:24,294 --> 00:22:26,604
+How well did my model fit the new data?
+
+212
+00:22:26,904 --> 00:22:33,984
+Um, so my hope here is that you recognize that there are more than one ways to both approach a regression as well as to report it.
+
+213
+00:22:34,264 --> 00:22:39,550
+Um, and all of these little nuances do tell a little bit of information to the readers as to what,
+
+214
+00:22:39,550 --> 00:22:43,450
+as to what you did as a researcher, and also what they can expect from the outcome.
+
+215
+00:22:46,851 --> 00:22:52,851
+You know that you have to check your assumptions, and if assumptions are intact, the next thing you're going to check is the overall model.
+
+216
+00:22:53,061 --> 00:23:00,951
+If the model is significant, then you can go on to report the overall R-squared and interpret each of the coefficients one by one,
+
+217
+00:23:00,951 --> 00:23:07,701
+depending on whether they were significant or not. When you report it, you want to, as the researcher, make the best choice possible.
+
+218
+00:23:07,701 --> 00:23:11,211
+What helps your readers understand this in the real world?
+
+219
+00:23:11,511 --> 00:23:20,211
+Is it the unstandardized beta that is in the original units, or is it in the standardized beta that is in standard deviation terms?
+
+220
+00:23:20,541 --> 00:23:21,681
+And no matter what?
+
+221
+00:23:21,711 --> 00:23:30,171
+We remember that for every one unit increase or one standard deviation increase on that word that's listed in the coefficients table,
+
+222
+00:23:30,171 --> 00:23:36,801
+that independent variable, it's actually the dependent variable or the outcome variable that's changing its value.
+
+223
+00:23:36,981 --> 00:23:40,881
+The sign indicates the direction and the number indicates the amount.
+

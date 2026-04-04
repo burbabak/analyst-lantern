@@ -1,0 +1,2585 @@
+1
+00:00:04,922 --> 00:00:10,192
+[Auto-generated transcript. Edits may have been applied for clarity.]
+As you can see, these steps are on the screen. The first thing we're going to do is calculate power.
+
+2
+00:00:10,202 --> 00:00:19,322
+Then we're going to check the assumptions of the test, execute the omnibus test and if it is significant conduct post-hoc comparisons.
+
+3
+00:00:19,532 --> 00:00:23,732
+So let's begin with our power calculation I like to use g power.
+
+4
+00:00:30,792 --> 00:00:35,442
+Uh, you might be able to see on your screen there is this data set that I've called data set one.
+
+5
+00:00:35,442 --> 00:00:41,052
+It is just for the purposes of demonstration. These are not the same numbers or variables that you will have.
+
+6
+00:00:41,292 --> 00:00:45,522
+And it's important for me to let you know that all of these things are totally made up.
+
+7
+00:00:45,522 --> 00:00:52,002
+I generated this data set with generative AI so I could show you a few things mathematically.
+
+8
+00:00:52,152 --> 00:00:58,782
+Um, as we get results, you might find that one, uh, type of support or one type of structure is better than another.
+
+9
+00:00:58,782 --> 00:01:02,952
+Those meaning, um, those results are meaningless because these data are totally fake.
+
+10
+00:01:03,432 --> 00:01:10,571
+Uh, right. So disclaimers out of the way, we have our variable names, um, and of course the types, the decimals,
+
+11
+00:01:10,572 --> 00:01:16,692
+the labels and the values I've already gone through and, uh, filled in what was necessary for me to fill in.
+
+12
+00:01:17,112 --> 00:01:22,662
+Um, however, as we proceed, we may discover there are other transformations or calculations I need to do.
+
+13
+00:01:25,632 --> 00:01:31,242
+which is this unique character SAT instructional structure, which is kind of how a class was created.
+
+14
+00:01:31,242 --> 00:01:36,762
+Is is that a flexible structure? Uh, that moderately structured is highly structured.
+
+15
+00:01:37,062 --> 00:01:42,641
+Um, and it appears that those are the three categories. Uh, we have, um, some type of scale here.
+
+16
+00:01:42,642 --> 00:01:47,432
+Uh, how maybe the perceptions are about autonomy within this class, uh,
+
+17
+00:01:47,442 --> 00:01:52,362
+whether or not the competence is developed and then whether or not they have relatedness.
+
+18
+00:01:52,392 --> 00:01:59,051
+Um, there is a number here, collaboration frequency, maybe how often they're collaborating and, uh,
+
+19
+00:01:59,052 --> 00:02:06,252
+what type of scholarship they're engaging with in terms of level, uh, is it peripheral, active, central or emerging?
+
+20
+00:02:06,852 --> 00:02:12,042
+Uh, we have um participation, um, which is recoded.
+
+21
+00:02:12,042 --> 00:02:16,992
+So this is the recoded variable of, uh, scholarly participation that appears.
+
+22
+00:02:16,992 --> 00:02:20,082
+Yes. And then uh, researcher identity.
+
+23
+00:02:20,292 --> 00:02:26,292
+Uh, do you identify as an education researcher, practitioner, scholar, clinician, educator?
+
+24
+00:02:27,072 --> 00:02:30,971
+Uh, there's a methods mastery score potentially there in a class together.
+
+25
+00:02:30,972 --> 00:02:38,322
+And there's this assessment. Um, and then whether or not they completed their project, uh, so if we want to know what ones and zeros mean, again,
+
+26
+00:02:38,322 --> 00:02:43,182
+we just go back over to the variable and then, uh, variable view, and then we'll be able to see it in the label.
+
+27
+00:02:43,182 --> 00:02:48,132
+Zero is not completed. One is completed. So that's our data set.
+
+28
+00:02:48,402 --> 00:02:54,942
+And uh, it occurs to me that really in procedures, probably what we need to do is actually start with a question.
+
+29
+00:02:55,272 --> 00:03:00,192
+I can't really run, uh, power analysis unless I know what question we're asking.
+
+30
+00:03:00,462 --> 00:03:04,872
+Uh, so we're going to start and I'll zoom in a little bit here. Maybe that's a little better for you.
+
+31
+00:03:05,232 --> 00:03:13,992
+Um, how do perceptions of autonomy support. So you might remember that variable and our data set differ across instructional structure.
+
+32
+00:03:13,992 --> 00:03:17,531
+So, uh, we have an independent variable.
+
+33
+00:03:17,532 --> 00:03:24,792
+Well, let's do that together. Uh, then, uh, so how do perceptions of autonomy support differ across this instructional structure?
+
+34
+00:03:25,092 --> 00:03:32,501
+Our null hypothesis would be perceptions of autonomy do not differ across the instructional structure.
+
+35
+00:03:32,502 --> 00:03:38,952
+So nothing to see here. And then our alternative hypothesis will need to include both magnitude and direction.
+
+36
+00:03:39,282 --> 00:03:51,402
+Perceptions of autonomy will be significantly that's magnitude higher in um some direction of um or some category of instructional uh, structure type.
+
+37
+00:03:51,402 --> 00:03:56,052
+So I must not have known what structure types were in the data set when I was, uh, drafting this up.
+
+38
+00:03:56,952 --> 00:04:02,922
+Uh, before we go back and fill this in, let's just do our independent, independent variables just for ourselves.
+
+39
+00:04:02,922 --> 00:04:03,191
+Right.
+
+40
+00:04:03,192 --> 00:04:11,802
+So, uh, let's see here the independent variable is the one that's kind of, um, we think it's the one that's going to make the difference in the Anova.
+
+41
+00:04:11,802 --> 00:04:15,402
+You must have a categorical independent variable.
+
+42
+00:04:15,912 --> 00:04:20,381
+Um, so we're wondering does instructional structure make a difference in something.
+
+43
+00:04:20,382 --> 00:04:25,422
+And so that's why this is our um, independent variable.
+
+44
+00:04:25,602 --> 00:04:30,552
+And then our dependent variable is the one that we think where we're going to be able to measure some change.
+
+45
+00:04:30,552 --> 00:04:36,342
+It's the one that ends up, you know, hoping maybe significant difference there because we want to see,
+
+46
+00:04:36,642 --> 00:04:41,622
+uh, that uh, actually that is influenced by some other independent variable.
+
+47
+00:04:41,682 --> 00:04:46,751
+So what we're asking is, uh, um, does the perception of autonomy support differ.
+
+48
+00:04:46,752 --> 00:04:53,082
+So we're saying is autonomy support going to change. And the dependent variable is the one where we think we're going to observe change.
+
+49
+00:04:53,292 --> 00:04:57,492
+So we can say that autonomy support is our dependent variable.
+
+50
+00:04:57,732 --> 00:05:00,882
+And that's helpful just to kind of keep things organized.
+
+51
+00:05:01,062 --> 00:05:10,572
+Now one last little cleanup we need to do is go and figure out what our, um, uh, um, uh, categories are here for instructional.
+
+52
+00:05:10,572 --> 00:05:13,992
+So we've got flexible moderate and high.
+
+53
+00:05:14,022 --> 00:05:17,472
+So where do we think autonomy will be highest?
+
+54
+00:05:17,472 --> 00:05:21,432
+Now of course these are totally made up data and categories.
+
+55
+00:05:21,702 --> 00:05:26,172
+So um, let's just say moderate um, whatever.
+
+56
+00:05:26,172 --> 00:05:29,742
+That was just for fun. Let's see. All right.
+
+57
+00:05:29,772 --> 00:05:33,492
+Now I think that we know what question we're doing.
+
+58
+00:05:34,032 --> 00:05:38,232
+We've written our hypotheses. We know which variables we're using.
+
+59
+00:05:38,712 --> 00:05:45,432
+Um, we could maybe take a minute, especially since this is the first time we're using this data set, just to become a little more familiar with it.
+
+60
+00:05:45,882 --> 00:05:53,052
+Uh, I can analyze descriptive frequencies, and I can just kind of drop any, um,
+
+61
+00:05:53,502 --> 00:05:57,941
+any variable over there, especially the ones that are categorical, like course instruction.
+
+62
+00:05:57,942 --> 00:06:05,412
+That's going to be more important with, uh, that level of participation, primary research identity, um, and completion.
+
+63
+00:06:05,412 --> 00:06:12,072
+Let's take a look at that. Um, I'm only exploring right now, so I'm not going to go through these unless there was something I knew I wanted.
+
+64
+00:06:12,402 --> 00:06:17,082
+And then I am always in the habit of pasting my syntax over here.
+
+65
+00:06:17,472 --> 00:06:21,372
+And the reason why is because as I'm doing more sophisticated analyzes.
+
+66
+00:06:21,472 --> 00:06:28,342
+I can kind of work faster in the syntax. And, um, sometimes there are things in SPSS that you can only do in the syntax.
+
+67
+00:06:28,342 --> 00:06:34,312
+So I think it's good to, uh, what would you say. Um, exercise this, you know, muscle a little bit.
+
+68
+00:06:34,672 --> 00:06:38,092
+But um, now that it's over here in the syntax, I'll press run.
+
+69
+00:06:38,332 --> 00:06:41,782
+If you're not in the habit of using syntax, that's okay.
+
+70
+00:06:41,812 --> 00:06:46,222
+I think syntax helps me help you, but, um, that's your choice.
+
+71
+00:06:46,492 --> 00:06:49,572
+All right, so we are now taking a look at our frequencies.
+
+72
+00:06:49,582 --> 00:06:53,092
+Yes. So we did have three levels in our independent variable.
+
+73
+00:06:53,092 --> 00:06:56,212
+Let me start a little slower up from the top to the bottom.
+
+74
+00:06:56,722 --> 00:07:01,762
+We have 300 cases in this data set. None of the cases have any missing variables.
+
+75
+00:07:02,212 --> 00:07:04,371
+That's not very authentic to the real world.
+
+76
+00:07:04,372 --> 00:07:09,352
+But that is how I asked the data set to be generated, just so you and I would have some clean demonstrations.
+
+77
+00:07:10,072 --> 00:07:13,782
+The course instructional format was one of the variables we asked for.
+
+78
+00:07:13,792 --> 00:07:16,882
+If we take a look at the table, it lists the um levels.
+
+79
+00:07:16,882 --> 00:07:20,302
+It lists flexible, highly structured and moderately structured.
+
+80
+00:07:20,512 --> 00:07:23,151
+It tells us how many are in each category.
+
+81
+00:07:23,152 --> 00:07:31,732
+So 8482 and 134, relatively highly, um, or relatively evenly distributed with maybe, uh, a little more book in the moderate section.
+
+82
+00:07:32,332 --> 00:07:39,922
+Then it tells you, you know what percent of the, uh, data set is represented by this particular value.
+
+83
+00:07:39,922 --> 00:07:45,712
+So flexible is 28% of the data set, whereas moderately structured is 44% of the data set.
+
+84
+00:07:47,072 --> 00:07:52,892
+It tells you how much of is valid. And that's using that to say like, are there any missing things within it?
+
+85
+00:07:53,222 --> 00:07:58,652
+Are there any things that are messing it up. So in this case we've got a equal one for one situation there.
+
+86
+00:07:58,652 --> 00:08:05,912
+And then it's telling us the cumulative percent. So if you say wanted to know how much is both flexible and highly structured,
+
+87
+00:08:06,122 --> 00:08:10,772
+you would know that it's 55% because it's adding each category eventually ending at 100.
+
+88
+00:08:11,222 --> 00:08:18,002
+And then we have the same tables for the other, uh, variables that we're using that are categorical.
+
+89
+00:08:18,622 --> 00:08:24,722
+Uh, so let's do another quick descriptive statistic and we will do um.
+
+90
+00:08:25,654 --> 00:08:32,994
+Are numeric variables. All right. So I've asked for descriptives and we have a few numeric variables there.
+
+91
+00:08:33,024 --> 00:08:37,054
+Um let's see here. That's a recode.
+
+92
+00:08:37,444 --> 00:08:40,594
+That's a method score. All right. And that's enough.
+
+93
+00:08:40,954 --> 00:08:47,603
+So we'll move those over to the variables click options. And now we're saying what do we want out of these variables.
+
+94
+00:08:47,604 --> 00:08:50,824
+So we want to know their average. We want to know how they add together.
+
+95
+00:08:50,974 --> 00:08:55,564
+Do we want to know anything. And I tend to ask for um quite a few things.
+
+96
+00:08:55,624 --> 00:08:59,914
+If I'm just exploring, I don't feel like there's a reason why not to ask for this.
+
+97
+00:08:59,914 --> 00:09:03,694
+I may not end up using it, but I don't think it hurts to ask.
+
+98
+00:09:03,694 --> 00:09:08,034
+So I've pasted it over and so I need to toggle down to my syntax.
+
+99
+00:09:08,044 --> 00:09:12,814
+There's probably a faster way to do that and press run just for that test, because I've already run the other test.
+
+100
+00:09:13,305 --> 00:09:14,745
+Here's our descriptive table.
+
+101
+00:09:15,165 --> 00:09:22,875
+Um, it's down at the bottom, and we can see each of those variables we selected with the total number of cases, the range statistics.
+
+102
+00:09:22,875 --> 00:09:26,325
+So that's the spread um, the minimum and the maximum.
+
+103
+00:09:26,325 --> 00:09:30,755
+So if you were to take seven -2.40 it would equal 4.60.
+
+104
+00:09:30,765 --> 00:09:32,295
+That's how these are working together.
+
+105
+00:09:32,905 --> 00:09:42,245
+Um the mean or the average is 4.95 for perceived autonomy with the standard deviation the variance, the skewness and the kurtosis.
+
+106
+00:09:42,285 --> 00:09:50,835
+So these numbers might be helpful later on. But for now they just kind of indicate to me, you know, are they relatively normally distributed or not.
+
+107
+00:09:51,045 --> 00:09:54,854
+Uh, depending on those um, skewness and kurtosis values.
+
+108
+00:09:54,855 --> 00:09:58,485
+And um, I mean, autonomy looks pretty good to me.
+
+109
+00:09:58,485 --> 00:10:06,885
+So let's, uh, let's explore that maybe a little more specifically now that we are all set in getting to know our our data set.
+
+110
+00:10:07,665 --> 00:10:12,665
+Before I go one more step, I will say I do like to label my SPSS as I go.
+
+111
+00:10:12,675 --> 00:10:16,195
+You do not have to do this, but I find in my own practice it.
+
+112
+00:10:17,075 --> 00:10:24,605
+Makes life easier because I can't always remember what I did, you know, yesterday, much less, you know, a week ago.
+
+113
+00:10:24,785 --> 00:10:31,745
+So if I'm picking this data set up over a long period of time, like you might be when you're doing your own dissertation, I think labels really help.
+
+114
+00:10:32,135 --> 00:10:35,395
+Um, also, I am keeping kind of a running notebook.
+
+115
+00:10:35,405 --> 00:10:40,505
+You might do this electronically. You might use kind of like a sticky note situation at your desk.
+
+116
+00:10:41,045 --> 00:10:46,985
+But writing down the steps that you're taking or making yourself a little checklist is really important.
+
+117
+00:10:47,345 --> 00:10:51,515
+Uh, we don't talk a lot about, uh, like, fidelity in practice.
+
+118
+00:10:51,515 --> 00:10:56,285
+In stats, we just assume you've done it correctly, and I feel like that's probably safe.
+
+119
+00:10:56,285 --> 00:10:59,524
+But maybe it's better, especially as we're learning to just make sure. All right.
+
+120
+00:10:59,525 --> 00:11:03,155
+So frequencies of data set.
+
+121
+00:11:03,425 --> 00:11:06,785
+And now you will definitely find out that I cannot do two things at once.
+
+122
+00:11:06,785 --> 00:11:12,185
+So there will be definitely periods of silence while I do little things that I'm talking about.
+
+123
+00:11:13,055 --> 00:11:17,885
+Are we ready now to actually do our one way Anova help? So all right, let's check our procedures.
+
+124
+00:11:18,185 --> 00:11:22,835
+Uh, the one way Anova procedure is to calculate our power.
+
+125
+00:11:23,555 --> 00:11:30,364
+So let's get our g power over here. Uh, when we calculate power, we first pick the test family.
+
+126
+00:11:30,365 --> 00:11:35,315
+And the Anova is part of the F test family. And then we pick the statistical test.
+
+127
+00:11:35,315 --> 00:11:40,865
+And you'll see that there's a lot of them. You just kind of have to read them to find the one that sounds most correct.
+
+128
+00:11:41,135 --> 00:11:47,735
+So Anova Fixed Effects Omnibus one way that has a lot of keywords for me.
+
+129
+00:11:47,735 --> 00:11:54,094
+So this is the one I'm going to pick. If I look at the other Anova it says things like main effects and interactions.
+
+130
+00:11:54,095 --> 00:11:57,815
+I know we didn't talk about that. And then here we're talking about repeated measures.
+
+131
+00:11:57,815 --> 00:12:02,645
+Well, I know this is not a repeated measures or a pretest post test situation.
+
+132
+00:12:02,885 --> 00:12:06,425
+So I'm going to go back and with confidence choose my choice.
+
+133
+00:12:06,995 --> 00:12:15,395
+Um, the type of analysis matters only in that it's already kind of assuming what you have in hand, in terms of what you know and what you don't know.
+
+134
+00:12:15,725 --> 00:12:22,204
+Um, a priori would be in advance of the analysis and then post hoc would be after the analysis.
+
+135
+00:12:22,205 --> 00:12:27,515
+Sometimes you do both because when you're planning to collect a sample, a priori is best.
+
+136
+00:12:27,905 --> 00:12:35,015
+Um, if and after you've collected your sample, and especially if you did not collect enough people, then post hoc is necessary.
+
+137
+00:12:35,315 --> 00:12:38,704
+There are other ways, uh, to calculate power.
+
+138
+00:12:38,705 --> 00:12:47,165
+Uh, you can explore those independently. Uh, the effect size is the minimum effect size that you want to be able to detect.
+
+139
+00:12:47,465 --> 00:12:52,535
+So, uh, Anova knows that the effect size of 0.10 is small.
+
+140
+00:12:52,925 --> 00:12:59,405
+If that's the minimum you want to be able to detect, then you're going to need more people to get to that level of granularity.
+
+141
+00:12:59,765 --> 00:13:05,285
+If you're willing to live with only confidently stating that large effects were, um,
+
+142
+00:13:05,495 --> 00:13:11,255
+were valuable, then you can get away with using fewer samples in your data set.
+
+143
+00:13:11,465 --> 00:13:16,294
+But it also means that when you write up your results, you might have to kind of explain that,
+
+144
+00:13:16,295 --> 00:13:19,985
+particularly if you have a significant result that does not,
+
+145
+00:13:20,375 --> 00:13:26,555
+um, achieve a large effect size, maybe you have a significant result, but it's only a small effect size.
+
+146
+00:13:26,705 --> 00:13:35,645
+Then what you would have to say is it was significant, but due to the sample size, we, you know, can't necessarily fully trust the effect size.
+
+147
+00:13:35,735 --> 00:13:44,205
+We want to interpret that cautiously. So for our effect size, let's just keep it as medium because that's what the program suggested.
+
+148
+00:13:44,655 --> 00:13:47,685
+Um let's see here error probability. That's your alpha.
+
+149
+00:13:47,695 --> 00:13:53,715
+So that's always going to stay at 0.05 unless you're using some of our alpha threshold for some reason.
+
+150
+00:13:54,105 --> 00:14:01,905
+And then typically in education research we use um power which is one minus beta as 0.80.
+
+151
+00:14:02,265 --> 00:14:05,805
+Um, now if you have a ton of data in hand or if you know,
+
+152
+00:14:05,805 --> 00:14:12,825
+you have a very large group and you want to calculate this at 0.90 or 0.95, that's absolutely no problem.
+
+153
+00:14:13,485 --> 00:14:19,335
+Um, and then finally number of groups. Now we know in our research question where was that right here.
+
+154
+00:14:19,575 --> 00:14:23,565
+How do perceptions differ across instructional structure.
+
+155
+00:14:23,775 --> 00:14:26,955
+And you remember how many instructional structures there were. Right.
+
+156
+00:14:27,015 --> 00:14:32,085
+Uh, let's see here. There were three. There was a test for flexible highly and moderately three.
+
+157
+00:14:32,325 --> 00:14:37,695
+So we have three groups. And that's what we need to put into the G power three groups.
+
+158
+00:14:37,995 --> 00:14:41,745
+And now we understand everything on the left panel and can click calculate.
+
+159
+00:14:42,135 --> 00:14:46,575
+It says that we need a total sample size of 159.
+
+160
+00:14:47,525 --> 00:14:52,865
+We also know in our data set there are 300. So we are like super good on this situation.
+
+161
+00:14:53,105 --> 00:14:57,184
+We might then what I would do is just, you know, exploring.
+
+162
+00:14:57,185 --> 00:15:00,215
+What would it be like if I needed a small sample size?
+
+163
+00:15:00,575 --> 00:15:03,665
+Oh no, 969 not there.
+
+164
+00:15:03,995 --> 00:15:07,654
+All right. So let's maybe go up a little bit. That was a big difference.
+
+165
+00:15:07,655 --> 00:15:12,304
+Did you notice. All right. And okay 246 were in that 300 range.
+
+166
+00:15:12,305 --> 00:15:18,524
+So probably pretty good. Maybe we could go down to 18 if we wanted. I could also change this to see how that would affect.
+
+167
+00:15:18,525 --> 00:15:21,965
+So now beta is uh .90 instead of 0.80.
+
+168
+00:15:22,205 --> 00:15:26,104
+And you can see it required more, but not like a ton more.
+
+169
+00:15:26,105 --> 00:15:29,914
+So maybe I drop that down here and press calculate.
+
+170
+00:15:29,915 --> 00:15:31,175
+And now we're back to 29.
+
+171
+00:15:31,355 --> 00:15:39,425
+So um, you can see a little bit how using this in advanced gives you the researchers some ideas about how many people that you need.
+
+172
+00:15:39,695 --> 00:15:42,755
+All right. But we've calculate our power and we're good to go there.
+
+173
+00:15:42,925 --> 00:15:45,785
+Uh, I'm going to minimize this. And we're going to add that to our write up later.
+
+174
+00:15:45,785 --> 00:15:52,115
+But the point now is that we know that we have adequate sample size to run our Anova using the three groups.
+
+175
+00:15:52,655 --> 00:15:56,885
+Now it's time to check our assumptions. The first assumption is independence of observation.
+
+176
+00:15:57,065 --> 00:16:00,815
+And this is an assumption that is not tested mathematically.
+
+177
+00:16:01,535 --> 00:16:10,355
+So we have to just know in terms of the way that this study was designed, each person can be in one and only one group.
+
+178
+00:16:10,565 --> 00:16:15,535
+That's the idea. Now this is a study where like class structure matters.
+
+179
+00:16:15,545 --> 00:16:19,195
+So my imagination is that I'm only in one class.
+
+180
+00:16:19,205 --> 00:16:23,435
+I'm not in two separate classes for this study. And I think that's a fair assumption.
+
+181
+00:16:23,615 --> 00:16:27,275
+So we're going to call this check. Uh, independence of observation.
+
+182
+00:16:27,305 --> 00:16:30,785
+Good to go. Now we want to check the normal distribution of error.
+
+183
+00:16:30,795 --> 00:16:34,715
+So let's do that. Mathematically we need to pull our SPSS back up.
+
+184
+00:16:35,125 --> 00:16:42,175
+Um, and we are checking the, um, the distribution of errors for our dependent variable.
+
+185
+00:16:43,075 --> 00:16:46,045
+Our dependent variable was autonomy support.
+
+186
+00:16:46,555 --> 00:16:53,965
+And in order to check the distribution of errors, we're not having to calculate what the error or the residual is.
+
+187
+00:16:54,565 --> 00:17:06,325
+Um, in a nova, looking at normality within each group is sufficient for, um asserting that the assumption is intact.
+
+188
+00:17:06,655 --> 00:17:12,185
+When we go to other tests, like the multiple linear regression, that will not necessarily be the case.
+
+189
+00:17:12,205 --> 00:17:15,895
+So, um, for this second assumption, we need to.
+
+190
+00:17:17,075 --> 00:17:21,545
+What? Check for hernia normality. Okay. So that is going to be in descriptive statistics.
+
+191
+00:17:22,495 --> 00:17:29,275
+And then explore. Us and our independent list.
+
+192
+00:17:29,275 --> 00:17:33,505
+We, uh, put in our independent variable, which was autonomy, perceived autonomy.
+
+193
+00:17:33,775 --> 00:17:36,924
+And in our factor list, that's where we put our groups.
+
+194
+00:17:36,925 --> 00:17:41,454
+And that's the course instruction over in statistics.
+
+195
+00:17:41,455 --> 00:17:46,285
+We have to tell it what we want. We've already asked for a descriptive so we don't really need that.
+
+196
+00:17:46,645 --> 00:17:54,954
+Um, I really don't need any of that. Uh, we look at our plots, we, um, can change to histogram if we like.
+
+197
+00:17:54,955 --> 00:17:58,165
+I do like, if you like stem and leaf, you are welcome to keep it there.
+
+198
+00:17:58,165 --> 00:18:03,535
+I just prefer a histogram personally. But we must all check the normality plots with tests.
+
+199
+00:18:04,075 --> 00:18:10,554
+Uh, that's what's going to give us our. Shapiro Wilk. Um, um, value options.
+
+200
+00:18:10,555 --> 00:18:15,085
+Uh, that came over on the other screen. We can change the way it looks at the data set.
+
+201
+00:18:15,085 --> 00:18:15,954
+We don't need to do that.
+
+202
+00:18:15,955 --> 00:18:24,145
+And then bootstrap is something that is not addressed in these videos, because it basically just means running the test multiple times to make sure,
+
+203
+00:18:24,145 --> 00:18:30,265
+especially in a small sample size, uh, that we haven't mistakenly said something that is or isn't significant.
+
+204
+00:18:30,685 --> 00:18:34,255
+And so, um, we don't need to do that because we've got sufficient.
+
+205
+00:18:35,225 --> 00:18:39,725
+Folks in this. We've pasted it. Let's go down and get our syntax.
+
+206
+00:18:41,125 --> 00:18:45,925
+And let's run this test. All right, so taking a look here.
+
+207
+00:18:46,255 --> 00:18:53,875
+What did we just explore. It was a nova autonomy by design or something like that.
+
+208
+00:18:54,505 --> 00:19:00,205
+All right, I'm seeing a warning. Let's find out what that is. The instructional structure.
+
+209
+00:19:01,305 --> 00:19:05,085
+Cannot you string variables that are longer than eight? It says it's too wordy.
+
+210
+00:19:05,235 --> 00:19:10,214
+Okay thank you SPSS. Flexible highly S is highly structured.
+
+211
+00:19:10,215 --> 00:19:14,795
+And then moderate would be moderate structure. All it did was truncate the variable there.
+
+212
+00:19:14,805 --> 00:19:21,665
+That's all it did. Now we can look down at our case processing and we can see how many were in each category.
+
+213
+00:19:21,675 --> 00:19:26,204
+This matches our frequency table doesn't it. Let's go look at that course.
+
+214
+00:19:26,205 --> 00:19:30,915
+Instructional 8482 134. And let's come back to this one.
+
+215
+00:19:33,025 --> 00:19:37,495
+There we go. 8482 134. So we know everything looks good.
+
+216
+00:19:38,835 --> 00:19:42,285
+You might think it's not necessary to do checks like that, and that's your choice.
+
+217
+00:19:42,285 --> 00:19:46,334
+But I like to double check my SPSS because you never know if it made a mistake.
+
+218
+00:19:46,335 --> 00:19:50,055
+But really, truthfully, more honestly, you never know when I make a mistake.
+
+219
+00:19:50,505 --> 00:19:57,644
+All right. So the mean statistic for the perceived autonomy 5445 and four nine.
+
+220
+00:19:57,645 --> 00:20:01,755
+And that does kind of jive with uh, let's see our descriptives.
+
+221
+00:20:02,145 --> 00:20:05,925
+Um, remember the autonomy overall average was four nine.
+
+222
+00:20:06,105 --> 00:20:13,845
+So that these are kind of, I don't know, falling into that makes sense, doesn't it?
+
+223
+00:20:14,145 --> 00:20:19,964
+It's also telling me something already flexible has a very high above average score,
+
+224
+00:20:19,965 --> 00:20:25,725
+whereas highly structured and moderate have either the average or the below average.
+
+225
+00:20:26,055 --> 00:20:30,975
+Um, so I'm kind of already getting a sense of maybe how these categories are going to interplay with each other
+
+226
+00:20:30,975 --> 00:20:36,585
+if there is a statistical difference using especially for hypotheses of difference like the Anova is,
+
+227
+00:20:36,765 --> 00:20:40,695
+using a descriptive table can truly help interpret results.
+
+228
+00:20:41,645 --> 00:20:45,755
+All right, now to what? We're really here for the test of normality.
+
+229
+00:20:46,115 --> 00:20:51,865
+Uh, we know that we're going to skip the kolmogorov-smirnov because we do not have a very large data set.
+
+230
+00:20:51,875 --> 00:20:55,385
+Our data set has 300. We are going to use the Shapiro Wilk.
+
+231
+00:20:55,745 --> 00:21:00,215
+And we are looking for values that are 0.05 or higher.
+
+232
+00:21:00,485 --> 00:21:07,535
+Remember with assumptions testing we do not want statistically significant results.
+
+233
+00:21:07,925 --> 00:21:14,195
+If it was statistically significant it would be like wow, something is unique or unexpected or special here.
+
+234
+00:21:14,795 --> 00:21:20,285
+But we don't want our assumptions to be surprising. We want our assumptions to be normal and boring.
+
+235
+00:21:20,735 --> 00:21:34,745
+And as we look at our significance values, 0.558 is higher than 0.05.951 is higher than 0.05, and 0.416 is higher than 0.05.
+
+236
+00:21:34,925 --> 00:21:38,975
+So all three of these are considered to be normally distributed.
+
+237
+00:21:39,755 --> 00:21:48,485
+And that is good because that means our assumptions test um, is uh, or our assumptions, um, our normality assumption is intact.
+
+238
+00:21:49,535 --> 00:21:54,094
+We can look at the histogram of each of these. I mean we can see a little bit of a spike there.
+
+239
+00:21:54,095 --> 00:21:57,665
+But this is relatively normal. This is relatively normal.
+
+240
+00:21:57,935 --> 00:22:05,045
+Um, histograms can be tricky as can stem and leafs because, uh, you know, just like, for instance, one spike here,
+
+241
+00:22:05,165 --> 00:22:14,045
+you might think, oh, that throws it off, but it it obviously didn't because the, uh, value for flexible was, uh, 0.558.
+
+242
+00:22:14,285 --> 00:22:17,374
+But look at highly, uh, structured 0.951.
+
+243
+00:22:17,375 --> 00:22:23,665
+That one was super normal. Right. And then you can see that curve is a lot more normal with maybe a little bit heavy left.
+
+244
+00:22:23,675 --> 00:22:28,535
+Um, you know, um, uh, more, more value on the left hand side of that middle.
+
+245
+00:22:28,865 --> 00:22:31,765
+Okay. And we can look at our q-q plots.
+
+246
+00:22:31,775 --> 00:22:39,565
+This just kind of tells us a little bit about how far each measure is away from where we would expect it to be.
+
+247
+00:22:39,575 --> 00:22:43,415
+The black line is where we would expect it to be. And then the blue dots are each measure.
+
+248
+00:22:43,745 --> 00:22:48,475
+I can see that each measure, each blue dot is very close to the black line.
+
+249
+00:22:48,485 --> 00:22:53,555
+You've got a few on the tails that are, uh, you know, kind of like further away.
+
+250
+00:22:53,975 --> 00:22:55,865
+Um, that's pretty typical.
+
+251
+00:22:56,135 --> 00:23:05,975
+And, um, that's why we look at normality across the category because, um, you know, one value like that doesn't throw the whole thing off.
+
+252
+00:23:07,025 --> 00:23:11,165
+And then this is basically the same plot. It's just kind of a different view.
+
+253
+00:23:11,255 --> 00:23:17,135
+Um, so we know with confidence that there's some normal distribution in here.
+
+254
+00:23:17,285 --> 00:23:24,094
+There was one outlier in the flexible group. This 87 is well below, um, whatever.
+
+255
+00:23:24,095 --> 00:23:29,345
+Or case number 87 rather is well below the average uh for autonomy support.
+
+256
+00:23:29,345 --> 00:23:33,965
+So we did have one person who was, um, feeling not autonomous at all.
+
+257
+00:23:34,205 --> 00:23:39,935
+Uh, but this one outlier does not necessarily need to change anything about our, um, analysis,
+
+258
+00:23:40,055 --> 00:23:44,825
+because when we're looking at group differences, something like this outlier kind of comes out in the wash.
+
+259
+00:23:44,825 --> 00:23:49,144
+And that's that might be a good thing or a bad thing. So, um, should we write this up?
+
+260
+00:23:49,145 --> 00:23:54,455
+I wonder if we should write this up right now. Let's let's maybe write this up right now so that we don't get too far ahead.
+
+261
+00:23:54,905 --> 00:23:59,734
+Um, all right, so we are looking at our, uh, question.
+
+262
+00:23:59,735 --> 00:24:03,839
+This is where we're writing up our our results. Um, what will I say?
+
+263
+00:24:08,161 --> 00:24:13,061
+First thing you always want to do is introduce or remind the reader of what your test is.
+
+264
+00:24:13,081 --> 00:24:16,981
+So I've written a one way analysis of variance was conducted to examine whether
+
+265
+00:24:16,981 --> 00:24:20,731
+perceptions of autonomy sport differed across levels of instructional structure.
+
+266
+00:24:20,941 --> 00:24:24,481
+And then I've let the reader know what my levels of the variable were.
+
+267
+00:24:24,481 --> 00:24:27,901
+And this can be super useful. You may have done that earlier in the write up.
+
+268
+00:24:28,141 --> 00:24:34,561
+Maybe you don't need to do it because it's super obvious, but I think in a dissertation this is probably a good approach to take.
+
+269
+00:24:41,476 --> 00:24:50,296
+I'm really kind of trying to show you the basics. Um, I am telling them that the independence of observations was in, um, confirmation by design.
+
+270
+00:24:50,836 --> 00:24:59,955
+Um, and then I'm telling the Shapiro Wilkes numbers, uh, because that was our test of normality, because we did also test, uh, normality.
+
+271
+00:24:59,956 --> 00:25:03,766
+Or maybe you should say, confirm normality by looking at the visuals.
+
+272
+00:25:04,066 --> 00:25:07,456
+I did explain that we did look at the, uh, visuals.
+
+273
+00:25:07,936 --> 00:25:16,026
+If you didn't look at the visuals or if you are trying to, like, save space or, uh, if your supervisor says, don't put that in there.
+
+274
+00:25:16,036 --> 00:25:19,636
+There's lots of reasons we could just delete that. It would be not a problem whatsoever.
+
+275
+00:25:19,996 --> 00:25:23,026
+Um, undue because I know some of you were like, no, don't delete it yet.
+
+276
+00:25:23,266 --> 00:25:26,686
+All right. So we do need to get some numbers in here. Shapiro. Wilk.
+
+277
+00:25:26,956 --> 00:25:30,226
+Uh, we will pull up our results.
+
+278
+00:25:31,336 --> 00:25:35,176
+So we're looking for those Shapiro Wilk tests, and we need to report them.
+
+279
+00:25:35,296 --> 00:25:37,882
+We're going over to the test of normality. Wonder if I can pull this up together.
+
+280
+00:25:38,292 --> 00:25:41,471
+So I think you can see the table with the Shapiro values.
+
+281
+00:25:41,472 --> 00:25:44,502
+And then of course our write up just a little smaller so we can have some space.
+
+282
+00:25:44,712 --> 00:25:50,322
+There's a few ways we could do this. Shapiro. Wilk. All p values were greater than 0.05.
+
+283
+00:25:50,472 --> 00:25:54,732
+This is certainly one way to do that.
+
+284
+00:25:55,092 --> 00:25:58,872
+Um notice that the P is in italics because that's RPA.
+
+285
+00:25:59,352 --> 00:26:06,572
+Um, another, uh, way to do it would be to be more explicit about the p the um, the,
+
+286
+00:26:06,612 --> 00:26:12,342
+the p values for each of these and of course include the Shapiro Wilk statistic itself.
+
+287
+00:26:12,672 --> 00:26:17,412
+Um, so let me take a moment and write that up and I'll show you where we get that value.
+
+288
+00:26:21,457 --> 00:26:30,427
+So the Shapiro Wilk tests were non-significant across the three groups of flexible where W which should be in italics because it's APA.
+
+289
+00:26:30,757 --> 00:26:39,907
+Um um, um, 84 is the degrees of freedom equals uh .99.
+
+290
+00:26:40,417 --> 00:26:45,367
+And uh, the p value is 0.558.
+
+291
+00:26:46,147 --> 00:26:52,257
+So where did that come from? I'm looking at the row test of normality flexible going to the Shapiro Wilk section.
+
+292
+00:26:52,297 --> 00:27:00,157
+So these last three columns the statistic itself is represented by the letter w and the statistic is 0.987.
+
+293
+00:27:00,157 --> 00:27:04,927
+Rounding that to two decimals is 0.99. So that's where this value comes from.
+
+294
+00:27:05,437 --> 00:27:09,367
+The degrees of freedom are 84. And that's where this value come from.
+
+295
+00:27:09,367 --> 00:27:12,907
+And it's important to report the degrees of freedom because it tells something to the readers.
+
+296
+00:27:12,907 --> 00:27:21,276
+It tells the size of the group for one. And then uh, the p value 0.558 that's here on the final column on that row of flexible.
+
+297
+00:27:21,277 --> 00:27:24,547
+So you always want to double check in my reporting, the right row for the right value.
+
+298
+00:27:25,027 --> 00:27:32,197
+And with p values we always go to three decimals. So as I go down you can follow along on the left hand side of the screen.
+
+299
+00:27:32,347 --> 00:27:40,257
+Highly structured was w degrees of freedom 82 equals 0.9 £0.09 value equals 0.951.
+
+300
+00:27:40,267 --> 00:27:45,487
+And I'm just double checking 993 rounds down to 9982951.
+
+301
+00:27:45,787 --> 00:27:52,707
+Check check and check okay. And then moderate structure is W 134 for the degrees of freedom 0.99.
+
+302
+00:27:52,717 --> 00:28:00,297
+And p value equals 416. Checking across the row 99134416.
+
+303
+00:28:00,307 --> 00:28:03,696
+Great. So this would be the more detailed way to write it up.
+
+304
+00:28:03,697 --> 00:28:06,247
+You could put this in a journal or you could put this in a dissertation.
+
+305
+00:28:06,457 --> 00:28:12,517
+And uh, it didn't take up that much more room to be much more specific about the normal distribution.
+
+306
+00:28:13,927 --> 00:28:18,847
+Let's return to our procedures. So we have done our power calculation.
+
+307
+00:28:18,847 --> 00:28:24,937
+We have checked our first and second assumption. And now we need to check our third assumption homogeneity of variance.
+
+308
+00:28:25,297 --> 00:28:29,917
+This is one that we check when we actually do the Anova itself.
+
+309
+00:28:30,277 --> 00:28:32,878
+Uh so it's time to pull SPSS back up. To do the Anova we're going to go to analyze general linear.
+
+310
+00:28:38,439 --> 00:28:44,228
+That's a one way Anova is called a univariate. So the dependent variable is perceived autonomy.
+
+311
+00:28:44,229 --> 00:28:48,339
+And the fixed factor is our independent variable.
+
+312
+00:28:48,339 --> 00:28:54,399
+That was the course instruction type. And we can go through these to see what we need to pick.
+
+313
+00:28:54,759 --> 00:29:00,939
+Um looking at the model, if you're doing something fancy I guess we'll skip that contrast.
+
+314
+00:29:01,299 --> 00:29:05,289
+Nothing to change there. So we don't need to do anything. Plots.
+
+315
+00:29:05,679 --> 00:29:15,249
+Um, this is something that we might do in the future if we're using, um, mixed types of variables, but we don't need to do that now, post hoc.
+
+316
+00:29:15,459 --> 00:29:18,969
+We will do that if there's something significant.
+
+317
+00:29:18,969 --> 00:29:24,609
+So theoretically we could do it right now. But I think we should go one at a time.
+
+318
+00:29:24,609 --> 00:29:27,669
+What do you think? Um, m means?
+
+319
+00:29:27,759 --> 00:29:33,179
+Uh, there we go. Um. We don't need to save any variables.
+
+320
+00:29:33,199 --> 00:29:37,159
+It's saying like, do you want me to create new variables for you off of my calculations?
+
+321
+00:29:37,699 --> 00:29:40,789
+Options, I think, is the only thing we really need to do.
+
+322
+00:29:41,119 --> 00:29:47,179
+We already know our descriptive statistics. Um, but we might want to ask for estimates of impact size.
+
+323
+00:29:47,269 --> 00:29:52,119
+I don't know what that's going to give us. We'll have to double check that. And we definitely need our homogeneity test.
+
+324
+00:29:52,129 --> 00:30:00,049
+That's really the whole reason that we're here. So we're going to press continue and then paste and then go get our syntax and run it.
+
+325
+00:30:00,431 --> 00:30:06,161
+All right. So this is our Anova for what was it autonomy by design.
+
+326
+00:30:07,271 --> 00:30:10,961
+And we can go ahead and start interpreting this a little. It is all right.
+
+327
+00:30:11,141 --> 00:30:14,950
+So the first thing we need to look at is our levene's test of equality.
+
+328
+00:30:14,951 --> 00:30:18,941
+Because that's what we're here for. We're testing our um assumption.
+
+329
+00:30:19,391 --> 00:30:24,311
+And what we can see is that the table itself has a few different, uh,
+
+330
+00:30:24,311 --> 00:30:29,501
+ways that we can interpret it based off the mean or the median, um, or some other type of adjustment.
+
+331
+00:30:29,771 --> 00:30:36,311
+Now, we knew our data were normally distributed, and the central point of normally distributed data is the mean.
+
+332
+00:30:36,311 --> 00:30:43,061
+So we're going to interpret that line based on mean. The Levene's statistic is 0.689.
+
+333
+00:30:43,361 --> 00:30:46,721
+And uh, the degrees of freedom are two and 297.
+
+334
+00:30:46,721 --> 00:30:53,411
+And the significance is 0.503 .503 is higher than 0.05.
+
+335
+00:30:53,411 --> 00:31:00,251
+So that's a good thing because now we know our, uh, assumption of homogeneity of variance is intact.
+
+336
+00:31:00,401 --> 00:31:10,631
+So maybe let's write that up. Let's add that to our, um, our ah, right up here, uh, so that we can kind of write as we go.
+
+337
+00:31:10,908 --> 00:31:13,608
+All right, I've added to the sentence here.
+
+338
+00:31:13,608 --> 00:31:20,598
+Levene's test of homogeneity of variance was non-significant, with my placeholders indicating that the assumption of equal variances was met.
+
+339
+00:31:20,898 --> 00:31:24,887
+So let me tell you where we're getting these statistics. Levene's test is an F statistic.
+
+340
+00:31:24,888 --> 00:31:28,488
+So it's based um, it's basically looking at groups.
+
+341
+00:31:28,488 --> 00:31:33,948
+That's usually what an f means. And Levine's statistic is right here, if I can get that to show up 0.689.
+
+342
+00:31:33,948 --> 00:31:37,968
+That's going to round up isn't it. To two decimals .69.
+
+343
+00:31:38,448 --> 00:31:42,558
+Um, so let's put that in there. All right.
+
+344
+00:31:42,768 --> 00:31:47,448
+And then the first degree of freedom is two. And the second degree of freedom is 297.
+
+345
+00:31:47,958 --> 00:31:54,437
+We're going to um, remember that when it comes to um, Anova reporting as well.
+
+346
+00:31:54,438 --> 00:31:58,307
+But for now I just know that they need to go there.
+
+347
+00:31:58,308 --> 00:32:01,638
+And then the p value is 0.503.
+
+348
+00:32:02,508 --> 00:32:08,088
+So let's write that in to three values 0.503 my f and my PR.
+
+349
+00:32:08,148 --> 00:32:11,328
+Um what's the word italicized. So we're good to go.
+
+350
+00:32:11,628 --> 00:32:18,138
+All right. Now we are ready to interpret our, um, Anova because all of our assumptions are intact.
+
+351
+00:32:18,378 --> 00:32:23,387
+So our Anova is already calculated for us. Remember we had to do that so we could get levene's.
+
+352
+00:32:23,388 --> 00:32:27,108
+And so our Anova is down here. The tests of between subjects.
+
+353
+00:32:31,771 --> 00:32:37,011
+We had to ask for it. And out of all of these things on the left, the corrected model intercept everything.
+
+354
+00:32:37,021 --> 00:32:40,471
+What we're really interested in is our independent variable line.
+
+355
+00:32:40,471 --> 00:32:45,690
+So that's instructional structure. We can see the sum of squares degrees of freedom and the f value.
+
+356
+00:32:45,691 --> 00:32:48,991
+The significance value and the partial eta squared are all there.
+
+357
+00:32:49,261 --> 00:32:54,211
+Looking at our significance value on that line it's less than 0.001.
+
+358
+00:32:54,361 --> 00:33:02,281
+So we do have an overall significant model. So what we've now found is that um, are there differences?
+
+359
+00:33:02,281 --> 00:33:06,391
+Uh, yes there are. Where are those differences? We don't yet know.
+
+360
+00:33:06,721 --> 00:33:10,891
+Um, but we do know that there are differences that we need to include in our write up.
+
+361
+00:33:10,891 --> 00:33:14,641
+So, uh, let's go ahead and get that out there.
+
+362
+00:33:20,393 --> 00:33:26,363
+We've got our, um, our f-statistic and then our degrees of freedom actually come from.
+
+363
+00:33:28,273 --> 00:33:32,383
+Let's see here the table we're looking at instructional structure two.
+
+364
+00:33:32,413 --> 00:33:39,253
+So that goes here. And then right here is our um error which is 297.
+
+365
+00:33:39,703 --> 00:33:46,272
+Uh so let's see here. All right. And what these numbers are telling you is remember there were three groups.
+
+366
+00:33:46,273 --> 00:33:49,602
+So k minus one um the three minus one is two.
+
+367
+00:33:49,603 --> 00:33:54,943
+And that's here. And then there were 300 uh cases.
+
+368
+00:33:55,333 --> 00:34:03,133
+Um, so it's actually something a little bit more like k minus groups or something like that.
+
+369
+00:34:03,583 --> 00:34:11,023
+Um, but that may not be exactly right. The idea is usually, but not always, but usually if you add these degrees of freedom together,
+
+370
+00:34:11,053 --> 00:34:14,623
+you're going to get something that's about one off from your data set.
+
+371
+00:34:15,103 --> 00:34:20,203
+All right. So we have our f statistic here instructional structure I mean that's always the case for Anova.
+
+372
+00:34:20,203 --> 00:34:24,943
+I just meant usually like in statistics generally. All right. So f statistics 22.371.
+
+373
+00:34:25,243 --> 00:34:28,572
+So our f statistic is 22.37.
+
+374
+00:34:28,573 --> 00:34:37,213
+We want to round that to two decimals. Our p value was less than uh 0.0001.
+
+375
+00:34:37,693 --> 00:34:42,762
+And our partial eta squared is calculated as 0.131.
+
+376
+00:34:42,763 --> 00:34:47,083
+But we don't want to use partial Ada squared. We want to use Ada squared.
+
+377
+00:34:47,323 --> 00:34:51,313
+So that means we're going to need to hand calculate something. So let's get our calculator out.
+
+378
+00:34:53,813 --> 00:34:56,213
+An order to calculate the Ada squared,
+
+379
+00:34:56,213 --> 00:35:06,713
+we all we have to do is divide the um sum of squares for the effect the 34.418 by the sum of squares for the total.
+
+380
+00:35:27,981 --> 00:35:35,761
+So now the actual um effect size is 0.004508.
+
+381
+00:35:35,781 --> 00:35:45,031
+So like super duper duper duper duper small. So it was uh, something like, I don't know where the 0.0045.
+
+382
+00:35:45,051 --> 00:35:52,491
+So we might report 004 or if I could have rounded it to one, but I don't think that I could.
+
+383
+00:35:52,491 --> 00:35:58,581
+So I'm just going to put 004. Normally Ada squared would be um, a two value thing.
+
+384
+00:35:58,581 --> 00:36:02,961
+But if I put zero zero then that makes it look weird. So I'm going to go with three value thing this time.
+
+385
+00:36:04,191 --> 00:36:09,080
+So it's not um, a very meaningful difference and yet statistically significant.
+
+386
+00:36:09,081 --> 00:36:16,161
+So we're going to keep on going. Who knows. Uh, what the, uh, values might show us in in the post hoc analysis.
+
+387
+00:36:16,354 --> 00:36:22,834
+So now that we have our omnibus, um, I know about as being significant, we need to figure out where those significances are.
+
+388
+00:36:23,074 --> 00:36:31,584
+So we are going to go back to SPSS and go to analyze general linear model univariate.
+
+389
+00:36:31,594 --> 00:36:36,184
+So we're going to the same spot we were just a moment ago. And you can see our stuff is still there.
+
+390
+00:36:36,184 --> 00:36:43,384
+So we don't necessarily have to change much. But this time we want to ask for our post-hoc comparisons.
+
+391
+00:36:44,374 --> 00:36:51,724
+Clicking post-hoc brings us this window. And it's saying you know what do you want your post-hoc for?
+
+392
+00:36:52,024 --> 00:37:01,894
+And um, so you move your variable over and then um, you have to decide if you have equal variances assumed or equivariance is not assumed.
+
+393
+00:37:02,044 --> 00:37:06,874
+Now, you know, our levene's was intact. So we do have equal variances assumed.
+
+394
+00:37:07,114 --> 00:37:12,814
+Um, it's important for the researcher to understand the difference between category up here and the category down here.
+
+395
+00:37:13,954 --> 00:37:18,933
+Uh, using equal variances assumed. There are quite a few that we could pick from.
+
+396
+00:37:18,934 --> 00:37:22,173
+Um, I think, uh, tukey's is very popular.
+
+397
+00:37:22,174 --> 00:37:26,344
+LSD is very popular. Bonferroni is very popular.
+
+398
+00:37:26,344 --> 00:37:30,124
+So I'll go with Tukey's and, uh, just press continue.
+
+399
+00:37:30,724 --> 00:37:34,593
+So I'm going to press paste and we'll see when I pull that syntax up.
+
+400
+00:37:34,594 --> 00:37:40,624
+There's almost only no difference. Just one line where it's asking for uh oh.
+
+401
+00:37:40,624 --> 00:37:43,894
+Right there, the line above, um, the where it's asking for the post-hoc.
+
+402
+00:37:44,074 --> 00:37:49,414
+So that's literally the only line. Now once I know that I can now, you know, kind of use that for future tests.
+
+403
+00:37:49,864 --> 00:38:01,624
+So I've run that again. And, uh, let's see here, we're down here, uh, Anova, um, autonomy by design with post hoc.
+
+404
+00:38:02,194 --> 00:38:08,354
+All right. And, um, we can see the test of between subjects is the exact same as it was before.
+
+405
+00:38:08,374 --> 00:38:11,794
+So here it is where we just ran it. And then I'll toggle up.
+
+406
+00:38:12,214 --> 00:38:16,683
+There we go. 223719126.
+
+407
+00:38:16,684 --> 00:38:20,794
+And coming back down here uh 223719126.
+
+408
+00:38:20,794 --> 00:38:27,934
+So it's the exact same test. We don't have to reinterpret or reread all of this stuff up here, uh, from this univariate that we just ran.
+
+409
+00:38:28,624 --> 00:38:33,814
+Because all of that is the same. The only thing that's new are the things that come under the post-hoc heading.
+
+410
+00:38:34,114 --> 00:38:36,064
+We can see that we have multiple comparisons.
+
+411
+00:38:36,514 --> 00:38:43,624
+So this is where the Anova compares each group to each other group comparing flexible to highly and moderate.
+
+412
+00:38:44,134 --> 00:38:48,244
+And then in the second chunk comparing highly to flexible and moderate.
+
+413
+00:38:48,514 --> 00:38:51,514
+And then in the third chunk moderate to flexible and high.
+
+414
+00:38:51,844 --> 00:38:56,104
+So you can see that these numbers tend to either repeat themselves or mirror themselves.
+
+415
+00:38:56,104 --> 00:39:00,904
+And that's because, um, you know, when you compare flexible to high versus high to flexible, it's,
+
+416
+00:39:00,934 --> 00:39:05,584
+you know, kind of one in the same, it's just either may be a positive or a negative difference.
+
+417
+00:39:06,214 --> 00:39:09,994
+And in fact, that's what you see here. The mean difference is I minus J.
+
+418
+00:39:10,234 --> 00:39:18,214
+So we would think uh, for instance, flexible minus um, highly structured results in a positive number,
+
+419
+00:39:18,244 --> 00:39:24,094
+meaning flexible already had more in its um account, so to speak, in its value than highly.
+
+420
+00:39:24,094 --> 00:39:27,334
+Did you say five minus two equals three.
+
+421
+00:39:27,604 --> 00:39:37,534
+So that's why it's a positive number. You know, uh, the flexible mean minus the high structure mean leaves a remainder of 0.9048 coming down to,
+
+422
+00:39:37,534 --> 00:39:42,843
+uh, highly structured compared to flexible, you'll see it's the same exact value, but it's negative.
+
+423
+00:39:42,844 --> 00:39:47,554
+And that's again because it's now a, it's um, the lower value minus the higher value,
+
+424
+00:39:47,824 --> 00:39:51,724
+uh, where we would have, you know, uh, what did I say, five minus two equals three.
+
+425
+00:39:51,934 --> 00:40:00,514
+I could say two minus five equals negative three. Um, so we have here the the lower value of the mean for the highly structured autonomy,
+
+426
+00:40:00,964 --> 00:40:08,854
+um, subtracting the, um, higher valued mean of the flexible class score, autonomy.
+
+427
+00:40:09,574 --> 00:40:13,234
+And uh, because this value is lower, that's why it results in a negative difference.
+
+428
+00:40:13,564 --> 00:40:18,304
+All right. So that's how we interpret the first few columns. Standard error um is what it is.
+
+429
+00:40:18,304 --> 00:40:23,974
+And then we have significance. So what we're looking here is to see where are there significant differences.
+
+430
+00:40:24,304 --> 00:40:27,634
+And then um, you know, use that to interpret.
+
+431
+00:40:27,904 --> 00:40:31,504
+And as I scan all of the values are significantly different.
+
+432
+00:40:31,504 --> 00:40:39,934
+So that'll be fun. All right. So uh, there are kind of extreme significant differences between flexible highly and flexible moderate.
+
+433
+00:40:39,934 --> 00:40:48,604
+Um, and then there's maybe, uh, still a very strongly significant difference at 0.006, which is lower than 0.05.
+
+434
+00:40:48,604 --> 00:40:53,384
+So it is a significant difference, uh, by comparing the moderate to the high, um,
+
+435
+00:40:53,464 --> 00:40:56,793
+and the moderate is, you know, in the middle, whereas the high is the lowest.
+
+436
+00:40:56,794 --> 00:41:04,234
+And I know that because this is the, uh, positive value. So now we know our post-hoc comparisons are totally significant.
+
+437
+00:41:04,244 --> 00:41:09,824
+So every pairwise comparison is significant. That means we need to report all of this in detail.
+
+438
+00:41:10,214 --> 00:41:11,594
+If you have a case where.
+
+439
+00:41:11,877 --> 00:41:18,027
+If you have a case where there are some that are significantly different and others that are not, then again, you still report all of that.
+
+440
+00:41:18,297 --> 00:41:26,627
+Uh, you would just indicate whether it was or wasn't significant. Another cool thing about Tukey's HST is it shows you the subsets.
+
+441
+00:41:26,637 --> 00:41:35,247
+Now, in this case, each level, like highly moderate and flexible, kind of serves as its own subset because they are all different from each other.
+
+442
+00:41:35,607 --> 00:41:42,177
+Imagine a scenario where high and moderate structure were not different from each other.
+
+443
+00:41:42,207 --> 00:41:47,187
+So imagine a scenario where that .006 was something higher than 0.05.
+
+444
+00:41:47,617 --> 00:41:50,577
+Uh, what you would find here is you would find two subsets.
+
+445
+00:41:50,727 --> 00:41:57,747
+You would find, uh, subset number one would include high and moderate in it because those two things stick together.
+
+446
+00:41:57,807 --> 00:42:00,957
+And then subset number two would have flexible in it.
+
+447
+00:42:01,377 --> 00:42:04,227
+Um, you're seeing here the means of each group.
+
+448
+00:42:04,257 --> 00:42:11,007
+So it's showing you not only that each group is unique, but it's also showing you the means, um, of the autonomy scores for each group.
+
+449
+00:42:11,007 --> 00:42:19,287
+So you can kind of see like how much different, um, they are if you didn't, you know, um, interpret that based off of the mean difference.
+
+450
+00:42:19,287 --> 00:42:24,387
+You can almost visually see that here. 4.5 to 5.4 is about a nine point difference, isn't it.
+
+451
+00:42:24,567 --> 00:42:30,056
+And that you see that the point nine difference. So now we know all of our stuff is pairwise significant.
+
+452
+00:42:30,057 --> 00:42:33,357
+And now we got to write it up. So let's pull up our results.
+
+453
+00:42:33,897 --> 00:42:39,056
+Uh let's see here. Got a little placeholder here.
+
+454
+00:42:39,057 --> 00:42:43,166
+Post-hoc comparisons. Uh, using two keys, I think is what we used.
+
+455
+00:42:43,167 --> 00:42:51,537
+Right. So, um, indicated that now, um, I do like to bullet point my results in first just so I get them.
+
+456
+00:42:51,537 --> 00:42:57,987
+Kind of, um, keep them separated so I don't get confused in my own interpretation, but I do have to turn this into a narrative.
+
+457
+00:42:58,347 --> 00:43:08,277
+Um, so I would probably put something like this here, uh, that all pairwise comparisons were, uh, significant.
+
+458
+00:43:09,387 --> 00:43:18,776
+All right. And then I need to explain how, uh, so this is where I'm using both numbers and words so that readers can kind of follow along,
+
+459
+00:43:18,777 --> 00:43:26,246
+and statisticians can certainly follow along. Um, I'm going to start with the most, I don't know, like the biggest difference.
+
+460
+00:43:26,247 --> 00:43:31,407
+And I like to start with that. Um, you might choose to start with something that's more important.
+
+461
+00:43:31,407 --> 00:43:37,226
+Uh, for instance, our hypothesis said moderate, so maybe we could start there or, uh, you know,
+
+462
+00:43:37,227 --> 00:43:40,887
+based on, I don't know, the literature, you might say one of these is more valuable.
+
+463
+00:43:41,217 --> 00:43:48,296
+Um, but I'm going to go with this. All right. So students in flexible instructional formats reported significantly higher autonomy
+
+464
+00:43:48,297 --> 00:43:52,467
+support than those in highly structured formats and moderately structured formats.
+
+465
+00:43:52,677 --> 00:43:58,707
+So this is a start, but it's missing a few values. Um, it's useful particularly when you're doing a detailed report,
+
+466
+00:43:58,707 --> 00:44:04,857
+like a dissertation to report the means and standard deviations, um, students and flexible instructional formats.
+
+467
+00:44:05,067 --> 00:44:10,796
+So here I'm going to put uh mean equals and SD, um equals.
+
+468
+00:44:10,797 --> 00:44:14,876
+And I could use the symbol uh like the sigma symbol or um whatnot.
+
+469
+00:44:14,877 --> 00:44:20,397
+But we know the means for flexible instructional formats was uh 5.438.
+
+470
+00:44:20,397 --> 00:44:26,977
+So I'm going to round that up to 5.44. And the standard deviation.
+
+471
+00:44:26,987 --> 00:44:31,007
+Let's see if we have that anywhere up here in our descriptive statistics.
+
+472
+00:44:31,127 --> 00:44:35,847
+No, but we do have it way up here in our descriptive statistics earlier don't we.
+
+473
+00:44:35,867 --> 00:44:41,446
+Perceived autonomy support standard deviation. Um well that won't be by the group.
+
+474
+00:44:41,447 --> 00:44:42,518
+Let me think for a minute. Here it is. Yes.
+
+475
+00:44:46,589 --> 00:44:50,789
+All right, 0.837. So that's going to be rounding up to 0.84.
+
+476
+00:45:00,369 --> 00:45:05,229
+And I want to make sure my SD and my M are in italics.
+
+477
+00:45:09,159 --> 00:45:15,429
+So I'm going to pause the video and add in a few more means and standard deviations, which I'm pulling from my descriptive statistics.
+
+478
+00:45:19,503 --> 00:45:22,593
+The highly structured mean and standard deviation is reported.
+
+479
+00:45:22,593 --> 00:45:26,283
+And that's over on the left. So highly structured mean is 0.4.
+
+480
+00:45:26,673 --> 00:45:31,743
+Uh excuse me 4.533.7. So that's rounding to 4.53.
+
+481
+00:45:32,013 --> 00:45:37,953
+And the standard deviation is just a few lines down. Standard deviation is 0.87452.
+
+482
+00:45:38,043 --> 00:45:43,923
+So that's rounding to 0.87. And then the moderate is uh the mean 4.91.
+
+483
+00:45:43,923 --> 00:45:50,373
+And that's rounded from 4.9137. Standard deviation is 0.90241.
+
+484
+00:45:50,673 --> 00:45:52,653
+Uh so that's rounded to 0.90.
+
+485
+00:45:52,803 --> 00:45:59,403
+So now that I have kind of the descriptive components in, I want to return to my, uh, post-hoc comparison, which was down here.
+
+486
+00:45:59,883 --> 00:46:03,213
+And I want to add in those p values.
+
+487
+00:46:03,753 --> 00:46:11,682
+Um, so the students in flexible instruction R formats reported significantly higher autonomy than those and high structures.
+
+488
+00:46:11,683 --> 00:46:19,713
+So I'm looking at the flexible compared to high scrolling over to significance is less than 0.001.
+
+489
+00:46:20,813 --> 00:46:26,993
+So I'm gonna drop that in here. P is less than 0.001.
+
+490
+00:46:27,413 --> 00:46:39,292
+And I want to do my, uh, 95% confidence interval as, uh, let's see here, um, 0.5841 is going around 2.58.
+
+491
+00:46:39,293 --> 00:46:45,113
+And uh, let's see here, 1.225 is going to be 1.22.
+
+492
+00:46:45,323 --> 00:46:51,623
+So I'm going to put that in here. .58 comma space 1.22 bracket.
+
+493
+00:46:54,043 --> 00:46:57,633
+I think that looks right. I might need to make some minor edits here.
+
+494
+00:46:57,643 --> 00:47:02,963
+My AP needs to be like that. And then, um, moderately structured formats.
+
+495
+00:47:02,983 --> 00:47:09,253
+Let's see here. Flexible compared to moderate. So I'm reading this first big chunk compared to the second smaller chunk.
+
+496
+00:47:09,253 --> 00:47:13,093
+Moderately structured significance less than 001.
+
+497
+00:47:13,453 --> 00:47:19,153
+Uh confidence is 2373. So that's going to round up to two four and 8123.
+
+498
+00:47:19,153 --> 00:47:26,413
+So it's going to stay at eight one. All right. So we've got P again um p less than .01.
+
+499
+00:47:26,683 --> 00:47:36,943
+And the um 95% confidence interval is um um what is it, 0.24 and 0.81.
+
+500
+00:47:37,243 --> 00:47:40,302
+Did I get that right? All right.
+
+501
+00:47:40,303 --> 00:47:48,143
+So I need to clean up. I can't remember right now, like 95% confidence interval.
+
+502
+00:47:48,153 --> 00:47:51,201
+I've done it two different ways. Let me just double check my APA. All right.
+
+503
+00:47:52,028 --> 00:47:55,808
+It is 95% confidence interval. I had it wrong.
+
+504
+00:47:57,248 --> 00:48:00,788
+Up there. All right. So we're good to go there now.
+
+505
+00:48:01,058 --> 00:48:09,728
+I might also need to put zeros in front of these because technically these can be greater than um the decimals.
+
+506
+00:48:10,268 --> 00:48:13,988
+So I'm going to come in and fix that for the purposes of APA.
+
+507
+00:48:15,818 --> 00:48:20,618
+All right. And this is looking pretty good on my APA format.
+
+508
+00:48:21,668 --> 00:48:28,747
+You might see a mistake. I'll find it later if I double check it. So I've just reported the differences between flexible, highly, and moderate,
+
+509
+00:48:28,748 --> 00:48:32,588
+but I have not yet reported the difference between highly and moderate between the two of them.
+
+510
+00:48:33,458 --> 00:48:40,538
+Um, before I move on, I just want to say another way to maybe have reported that would have been something like this.
+
+511
+00:48:40,718 --> 00:48:47,497
+But instead of, um, stating the the means and standard deviations, I might say, uh,
+
+512
+00:48:47,498 --> 00:48:54,218
+something more specific, like, uh, higher autonomy and I might say, um, the mean difference.
+
+513
+00:48:54,548 --> 00:48:58,417
+Uh, um, I can't think if there's a symbol for mean difference.
+
+514
+00:48:58,418 --> 00:49:07,838
+So I'll just write this for right now and uh, say uh, 0.9, uh zero because I'm taking that from the table.
+
+515
+00:49:08,168 --> 00:49:15,668
+So in in other words, here, I'm telling the reader, um, my mouse isn't quite working.
+
+516
+00:49:15,668 --> 00:49:22,898
+Where am I? Okay, so here I'm telling the reader, the mean is five for four and the mean is four, five, three.
+
+517
+00:49:23,168 --> 00:49:26,888
+If you do the math, you'll find that the main difference is 0.90.
+
+518
+00:49:27,248 --> 00:49:30,728
+Or I can give the reader the math myself.
+
+519
+00:49:31,868 --> 00:49:35,468
+If I do that, though, I might not report this.
+
+520
+00:49:35,888 --> 00:49:39,148
+Um, potentially. Maybe this was reported earlier.
+
+521
+00:49:39,158 --> 00:49:41,258
+Or maybe this is in a table somewhere.
+
+522
+00:49:41,538 --> 00:49:51,637
+Uh, so this is kind of the heart of the matter, but, um, I don't want to over inundate my report with too many numbers that are kind of repetitive.
+
+523
+00:49:51,638 --> 00:49:55,568
+So if I've got both of these values, I don't necessarily need to say the mean difference.
+
+524
+00:49:55,568 --> 00:49:59,528
+But another way to report the Anova would be just to focus on the mean differences.
+
+525
+00:49:59,528 --> 00:50:04,807
+And so now our little, um, side quest is over and we can report, uh,
+
+526
+00:50:04,808 --> 00:50:13,358
+the moderate structured formats reported significantly higher autonomy report, uh, support than those in high structured formats.
+
+527
+00:50:13,358 --> 00:50:18,968
+Well, this is actually a good opportunity for me to do that. Um, so maybe I'll, uh, just put in a placeholder right now.
+
+528
+00:50:18,978 --> 00:50:22,538
+Um, I think it would be like a change, like a mean, uh, delta.
+
+529
+00:50:22,898 --> 00:50:27,368
+Uh, but I'll just put in mean difference for now. Uh, students in moderately versus high.
+
+530
+00:50:27,368 --> 00:50:30,758
+So let's go moderate versus high.
+
+531
+00:50:31,118 --> 00:50:36,458
+The main difference is 0.3800. So I'm going to write that as 0.38.
+
+532
+00:50:37,748 --> 00:50:42,067
+And uh the p value is 0.006.
+
+533
+00:50:42,068 --> 00:50:47,468
+So I'm going to write that as 0.06. Let me go check my APA.
+
+534
+00:50:47,577 --> 00:50:52,177
+Well, I found a few answers, but, um, the one that I saw that I liked the best.
+
+535
+00:50:52,197 --> 00:50:55,677
+Because everyone's going to understand this no matter if it's APRA or not.
+
+536
+00:50:55,677 --> 00:51:01,387
+Is em in italics? Uh, with the subscript diff.
+
+537
+00:51:01,437 --> 00:51:04,707
+Notice that diff is not in italics.
+
+538
+00:51:05,037 --> 00:51:08,276
+All right. And so um, diff is going to be mean difference.
+
+539
+00:51:08,277 --> 00:51:14,757
+That's pretty obvious. Uh, but uh, give me the opportunity to remind myself I did not report the confidence interval.
+
+540
+00:51:14,907 --> 00:51:20,276
+So let's go back and finish this up. And then we will be all done with this question minus hypothesis statement.
+
+541
+00:51:20,277 --> 00:51:27,507
+Moderate high. That was .06 is .090309 and 6697.
+
+542
+00:51:27,507 --> 00:51:36,447
+So that's six seven. Uh see here .09 comma point uh 6067.
+
+543
+00:51:37,077 --> 00:51:42,517
+All right. And we have to have our leading zeros in there.
+
+544
+00:51:42,517 --> 00:51:45,547
+So my mouse is not cooperating.
+
+545
+00:51:51,847 --> 00:51:56,557
+And I think we're good there. So let's just back this up and make it a narrative.
+
+546
+00:51:56,977 --> 00:52:01,657
+All right. So the last thing to do is to kind of put this into final terms.
+
+547
+00:52:01,657 --> 00:52:05,736
+So collectively these findings suggest a, uh, graded pattern in which, you know,
+
+548
+00:52:05,737 --> 00:52:12,097
+perceived autonomy, um, increases as instructional support kind of becomes more flexible.
+
+549
+00:52:12,337 --> 00:52:18,487
+This is getting into the discussion section. So I might save this type of statement for discussion.
+
+550
+00:52:18,847 --> 00:52:23,736
+Um, maybe if I wanted to keep it as a result, I could make it more numerically.
+
+551
+00:52:23,737 --> 00:52:29,706
+I would just say, um, something less about the word suggest.
+
+552
+00:52:29,707 --> 00:52:34,957
+Suggest is very discussion. So I might just say results demonstrate a pattern.
+
+553
+00:52:34,957 --> 00:52:40,447
+Right? So it's almost the same statement but slightly different. And that actually makes a big difference to your readers.
+
+554
+00:52:46,416 --> 00:52:50,246
+Right. Let's circle back to our, uh, hypothesis and research question.
+
+555
+00:52:50,606 --> 00:52:57,026
+Um, because we've done this analysis for a reason, and it's to answer this question, how do the perceptions differ across structure?
+
+556
+00:52:57,206 --> 00:53:01,766
+So we've answered that kind of in a more of a plain language way.
+
+557
+00:53:02,096 --> 00:53:06,266
+Um, but we do need to make this statement which might go here or might have,
+
+558
+00:53:06,746 --> 00:53:15,116
+might have gone elsewhere, maybe up there, but, um, we, um, the null hypothesis, uh, is rejected.
+
+559
+00:53:21,492 --> 00:53:22,512
+I like it there. And. There we go.
+
+560
+00:53:25,829 --> 00:53:30,239
+We've got a research question. We've got our hypotheses. We identified our variables.
+
+561
+00:53:30,989 --> 00:53:34,709
+We introduced the test. We talked about our, um,
+
+562
+00:53:35,099 --> 00:53:39,659
+assumptions of normality and reported those in our levene's and reported that we
+
+563
+00:53:39,659 --> 00:53:43,499
+reported our omnibus test and what that meant in terms of our null hypothesis.
+
+564
+00:53:43,679 --> 00:53:50,159
+And because it was statistically significant, we did our post hoc comparisons comparing everything to everything.
+
+565
+00:53:50,159 --> 00:53:56,459
+So we didn't only report the significant ones, we reported all of it, and we included the necessary numbers.
+
+566
+00:53:56,819 --> 00:54:05,489
+And, uh, finally, we kind of summarized what all this means without accidentally, um, teetering into discussion.
+
+567
+00:54:06,779 --> 00:54:12,149
+Um, let's do one more Anova. And this time I'm actually going to go a lot faster.
+
+568
+00:54:12,149 --> 00:54:16,348
+Uh, know that that one was long. And that's kind of on purpose.
+
+569
+00:54:16,349 --> 00:54:20,069
+All right, so let's do this. Uh.
+
+570
+00:54:25,952 --> 00:54:30,002
+So similar question but it's competence instead of autonomy this time.
+
+571
+00:54:30,422 --> 00:54:33,812
+All right. So uh we need to start with analyzing.
+
+572
+00:54:34,922 --> 00:54:38,582
+Ooh. Actually, you know what I can do? Take my syntax.
+
+573
+00:54:39,032 --> 00:54:45,421
+All right, I can. First, we need to analyze our, uh, uh, our, uh, variable to see about normality.
+
+574
+00:54:45,422 --> 00:54:48,602
+And that was examine. So I can do that right here. Examine.
+
+575
+00:54:48,842 --> 00:54:52,202
+But instead of autonomy, we're doing what is it called? Competence.
+
+576
+00:54:53,072 --> 00:54:58,502
+There it is by instructional structure. And we do still want a histogram.
+
+577
+00:54:58,652 --> 00:55:02,322
+We're doing it by groups. And, uh, that's pretty much it.
+
+578
+00:55:02,342 --> 00:55:06,661
+Now I could go on and actually do that as well. But I'll just do it one step at a time.
+
+579
+00:55:06,662 --> 00:55:14,852
+We're all just learning here. Um, so now we've got our explore, um, and our test of normality, which is just here.
+
+580
+00:55:15,182 --> 00:55:23,492
+Uh, it is normal, flexible, highly and moderate. And I know that because significance is all above 0.05.
+
+581
+00:55:23,822 --> 00:55:27,842
+Uh, so let's go back to our where are we at? We're looking for our results.
+
+582
+00:55:27,872 --> 00:55:36,102
+Um. We'll grab this sentence and we'll just replace that.
+
+583
+00:55:37,122 --> 00:55:40,271
+Um, so our Shapiro. Wilk. Uh, let's see here.
+
+584
+00:55:40,272 --> 00:55:45,402
+Flexible is 0.9884331.
+
+585
+00:55:45,612 --> 00:55:50,112
+So 0.9884331.
+
+586
+00:55:51,762 --> 00:56:00,312
+And then highly structured is um 985 is a round up to 999982481.
+
+587
+00:56:00,582 --> 00:56:04,482
+So 9982 and 481.
+
+588
+00:56:04,902 --> 00:56:10,152
+And then moderate going over to Shapiro Wilks 987 is a round up.
+
+589
+00:56:10,152 --> 00:56:15,102
+So that's 99134213. And then 99134.
+
+590
+00:56:15,792 --> 00:56:17,526
+Um 213. All right. So now our Shapiro Wilk has been test.
+
+591
+00:56:20,944 --> 00:56:28,494
+One way Anova. Going to GLM and univariate. We can take out perceived autonomy and put in, um, competence.
+
+592
+00:56:28,504 --> 00:56:37,804
+I could just as easily be doing this in the syntax. Um, and I could go through and uncheck my post hoc.
+
+593
+00:56:38,494 --> 00:56:43,294
+Um, and I and I will just to be nice to you guys.
+
+594
+00:56:43,684 --> 00:56:47,574
+So take that out. Okay. All right.
+
+595
+00:56:47,594 --> 00:56:50,934
+Oops, I forgot to paste. That's all right between subjects.
+
+596
+00:56:50,954 --> 00:56:54,034
+Let's see here. Got the right numbers.
+
+597
+00:56:54,544 --> 00:57:00,634
+Here's our Levene's test because that's our next step. And based on the mean it's 9 to 5.
+
+598
+00:57:01,204 --> 00:57:04,924
+So that is um. What is that?
+
+599
+00:57:05,224 --> 00:57:08,943
+That's good. That is not statistically significant.
+
+600
+00:57:08,944 --> 00:57:13,384
+And that's what we want. We want our assumption to be intact.
+
+601
+00:57:13,624 --> 00:57:20,523
+So I've just gone up to my previous writing and I've pasted this here, uh, just to see where these numbers are coming from.
+
+602
+00:57:20,524 --> 00:57:25,254
+So Levene's test for equality of variances. We're reading the based on mean line.
+
+603
+00:57:25,324 --> 00:57:30,004
+The statistic is 0.078. I'm going to round that up to 0.08.
+
+604
+00:57:31,144 --> 00:57:35,793
+Um notice how much smaller it is. This is um interesting okay.
+
+605
+00:57:35,794 --> 00:57:39,603
+Degrees of freedom is two and 297. Uh, this is the same data set.
+
+606
+00:57:39,604 --> 00:57:43,744
+So that's, you know, that's the same, um, over here, it's already that.
+
+607
+00:57:44,074 --> 00:57:48,034
+And then the p value is where is it 925.
+
+608
+00:57:48,484 --> 00:57:53,014
+So we can type that in A925.
+
+609
+00:57:53,254 --> 00:57:58,744
+So the assumption is better now that our assumptions are intact we can go for our omnibus test.
+
+610
+00:58:00,004 --> 00:58:03,004
+Looking at our intervention line the instructional structure.
+
+611
+00:58:03,304 --> 00:58:06,783
+Um we've got a very low f value.
+
+612
+00:58:06,784 --> 00:58:12,004
+So I'm not thinking it's going to be statistically significant. And if you look at the significance, it's not statistically significant.
+
+613
+00:58:12,604 --> 00:58:16,424
+Um, so it's a good thing I unchecked the post hoc because we don't need it.
+
+614
+00:58:16,444 --> 00:58:23,704
+Um, I wouldn't have been able to report it. And, um, that might have been confusing to see it at the, uh, table.
+
+615
+00:58:24,244 --> 00:58:28,623
+Um, because it would, it would give me the answer mathematically,
+
+616
+00:58:28,624 --> 00:58:33,424
+but I shouldn't report it because it wasn't appropriate since there's no, uh, statistical significance.
+
+617
+00:58:33,754 --> 00:58:40,203
+So, um, let's see here the Anova revealed non statistically significant effect on instructional structure.
+
+618
+00:58:40,204 --> 00:58:43,354
+And uh, I think it's called competence. Right.
+
+619
+00:58:45,894 --> 00:58:49,494
+And the f value is C here.
+
+620
+00:58:49,504 --> 00:58:53,754
+Going back instructional structure A value is 0.080.
+
+621
+00:58:54,624 --> 00:58:58,794
+So that will be. 0.08.
+
+622
+00:58:59,304 --> 00:59:03,714
+And the degrees of freedom are two and 297.
+
+623
+00:59:04,104 --> 00:59:17,854
+That's the um. Uh, and the, uh, the thing that we're testing and then the, um, residual or error, the significance value is 0.923.
+
+624
+00:59:18,004 --> 00:59:22,314
+So that's p. Equals 0.923.
+
+625
+00:59:22,764 --> 00:59:26,874
+And then because it's a non-significant value I'm taking the ETA squared off.
+
+626
+00:59:27,534 --> 00:59:35,414
+These results indicate that. There are no different.
+
+627
+00:59:35,864 --> 00:59:42,734
+No. Oh, goodness. Significant differences in competence.
+
+628
+00:59:42,764 --> 00:59:49,904
+I don't remember what the name of the variable is exactly. Let me see if I can just find that somewhere on the screen.
+
+629
+00:59:49,904 --> 00:59:53,233
+I don't see it. Perceived competence. Confidence, perceptions.
+
+630
+00:59:53,234 --> 00:59:59,834
+Okay. We'll leave it the way it is. Um. Differentiated across instructional formats.
+
+631
+01:00:00,014 --> 01:00:06,494
+Therefore, um. Uh, I don't know if I should say we.
+
+632
+01:00:06,504 --> 01:00:09,594
+I don't know if I've said that yet. We fail to reject.
+
+633
+01:00:11,634 --> 01:00:15,564
+The null hypothesis. All right. That's how we would write it up.
+
+634
+01:00:15,564 --> 01:00:17,057
+If it's non-significant. You might be wondering what if it was, um, significant, um.
+
+635
+01:00:20,749 --> 01:00:25,279
+And just as I said in the lecture, I would, uh, potentially proceed with the citation.
+
+636
+01:00:25,309 --> 01:00:31,609
+Um, if it's, uh, the normality of errors that's violated, if I have large enough groups, maybe that's okay.
+
+637
+01:00:31,999 --> 01:00:35,839
+Um, and or maybe I, you know, do something else.
+
+638
+01:00:35,839 --> 01:00:39,679
+Like a nonparametric equivalent to the Anova is the Wallis test.
+
+639
+01:00:40,129 --> 01:00:45,169
+Um, so I could do that. Or what if normality is intact but levene's is violated?
+
+640
+01:00:45,499 --> 01:00:53,119
+Um, well, then maybe I would, uh, proceed with a different test like Welch's Anova and, um,
+
+641
+01:00:53,119 --> 01:00:59,809
+make sure that in my post-hoc comparisons, I'm selecting from the post hoc group, um, for non homogeneity of variance.
+
+642
+01:01:00,079 --> 01:01:04,579
+So, um, if you have violations of assumptions that is okay.
+
+643
+01:01:04,579 --> 01:01:09,559
+There's still some other way that you can analyze it. It's just not necessarily with the one way Anova.
+
+644
+01:01:10,459 --> 01:01:21,588
+In this video we went very detailed into uh what our data set is and the questions hypothesis, the full write up for this, uh, question.
+
+645
+01:01:21,589 --> 01:01:29,369
+And then kind of the partial write up for this question. Um, if you have questions, comments or concerns then make sure you make yourself known.
+
+646
+01:01:29,389 --> 01:01:37,549
+Otherwise, I hope that you find this demonstration useful, and I hope you, uh, are able to apply it when you do your own lab.
+

@@ -1,0 +1,257 @@
+1
+00:00:00,740 --> 00:00:10,190
+[Auto-generated transcript. Edits may have been applied for clarity.]
+All right. I'm going to briefly run through two separate non-parametric statistical procedures, the Mann-whitney U and A Wallace, just as an example.
+
+2
+00:00:11,150 --> 00:00:15,260
+So and I'll do this split screen so you can see everything on one one screen.
+
+3
+00:00:15,830 --> 00:00:22,219
+Uh, a researcher is interested in whether there are differences in patient stress scores after a simulation based training.
+
+4
+00:00:22,220 --> 00:00:27,650
+So the stress scores or our DV between male and female health science students,
+
+5
+00:00:27,800 --> 00:00:34,070
+which is gender, which is our I-V stress is measured on a continuous scale after the training.
+
+6
+00:00:34,070 --> 00:00:40,160
+Because the data are not normally distributed. The researcher chooses a man Whitney U test to compare the two groups.
+
+7
+00:00:40,880 --> 00:00:49,790
+All right, so let's check our assumptions. We need to check the shape of the distribution because it impacts how we write up our into interpretation.
+
+8
+00:00:49,790 --> 00:00:54,830
+So we can go to analyze. Come down to descriptives go across to explore.
+
+9
+00:00:55,430 --> 00:00:59,629
+We want to bring our stress score for our DV and gender for our factor.
+
+10
+00:00:59,630 --> 00:01:05,780
+And we're just going to click plots. Let's uncheck uncheck stem and leaf and check histogram.
+
+11
+00:01:06,740 --> 00:01:13,140
+And then we say, okay. All right. We can see that we have two histograms here.
+
+12
+00:01:14,370 --> 00:01:19,200
+They're not the same, but they're similar enough. We don't have any huge outliers.
+
+13
+00:01:19,860 --> 00:01:25,110
+And so we can we can say that we can compare the the medians for these two groups.
+
+14
+00:01:25,830 --> 00:01:32,639
+If the shapes were very different, we would interpret as difference in distribute distributions, not strictly medians okay.
+
+15
+00:01:32,640 --> 00:01:35,680
+So let's conduct the test. Let's go down to nonparametric.
+
+16
+00:01:36,270 --> 00:01:40,229
+We're we're going to go to independent samples. All right.
+
+17
+00:01:40,230 --> 00:01:46,620
+So we want to go to fields. We have the patient stress is our DV.
+
+18
+00:01:46,800 --> 00:01:54,870
+Gender is our I.V. We go to settings and we want to click customize Test and pick the Mann-whitney u because we have two samples.
+
+19
+00:01:55,470 --> 00:02:04,470
+Then we click run. And we can see in our hypothesis test summary it tells us to reject the null hypothesis because our significance is at some .05.
+
+20
+00:02:04,980 --> 00:02:14,120
+When we look at the independent samples Mann-whitney u test summary, we can see that we had a sample size of 20 and our use statistic is zero.
+
+21
+00:02:14,130 --> 00:02:19,590
+So what does that mean? What that means is the distribution for the males and the distribution for the females.
+
+22
+00:02:19,590 --> 00:02:24,210
+There's absolutely no overlap right. The males were much higher so they had higher stress.
+
+23
+00:02:25,320 --> 00:02:30,030
+And so we would interpret that as a significant finding, which we were told.
+
+24
+00:02:30,210 --> 00:02:32,700
+All right. Let's come over here and do the APA write up.
+
+25
+00:02:32,700 --> 00:02:38,460
+A man Whitney U test was conducted to examine differences in stress scores between gender groups.
+
+26
+00:02:38,970 --> 00:02:42,959
+There was a statistically significant difference in stress scores between groups.
+
+27
+00:02:42,960 --> 00:02:46,320
+U is equal to zero, P is less than 0.001.
+
+28
+00:02:46,890 --> 00:02:55,110
+Male participants had significantly higher scores mean rank 15.5 than female participants mean rank 5.5.
+
+29
+00:02:55,920 --> 00:03:01,889
+I want to make a note Mann-whitney u compares rank's not mean so report mean ranks
+
+30
+00:03:01,890 --> 00:03:07,170
+for the test and medians and interquartile range when data are skewed or not.
+
+31
+00:03:07,410 --> 00:03:15,120
+All right, let's do another one. In scenario two we're looking at a health care administrator who wants to compare patient satisfaction scores,
+
+32
+00:03:15,120 --> 00:03:23,340
+which is our DV across three hospitals, which is our Ivy hospital A, B and C satisfaction is measured on an ordinal scale.
+
+33
+00:03:23,700 --> 00:03:28,920
+The researcher uses a cross equals test to determine whether satisfaction differs across hospitals.
+
+34
+00:03:29,610 --> 00:03:36,240
+Let's check our assumptions again. We know that each participant belongs to only one hospital, so we have independent groups.
+
+35
+00:03:36,720 --> 00:03:39,810
+Our DV is ordinal. And let's look at the shape.
+
+36
+00:03:39,810 --> 00:03:42,959
+So we go to analyze. Go back to Descriptives.
+
+37
+00:03:42,960 --> 00:03:48,390
+Come come to explore uh patient satisfaction hospital.
+
+38
+00:03:48,810 --> 00:03:53,580
+Let's go to plots uncheck stem and leaf and check histogram and check okay.
+
+39
+00:03:54,480 --> 00:03:58,250
+All right. We can see we have unimodal distribution for hospital A,
+
+40
+00:03:58,260 --> 00:04:05,640
+we have a bimodal distribution for hospital B and a fairly unimodal distribution for hospital C, but we're just have a gap.
+
+41
+00:04:05,940 --> 00:04:09,300
+Let's talk about differences in distributions for this one.
+
+42
+00:04:09,510 --> 00:04:13,470
+So let's go to analyze. Go to nonparametric test.
+
+43
+00:04:13,800 --> 00:04:17,640
+It's still independent samples. We are going to hit reset.
+
+44
+00:04:18,240 --> 00:04:22,410
+We'll go to field. We're going to bring over patient satisfaction and hospital.
+
+45
+00:04:23,160 --> 00:04:27,540
+And then we're going to click settings. We're going to customize our test. And we're going to pick Cross Wireless.
+
+46
+00:04:27,540 --> 00:04:30,840
+And it's going to give us all pairwise comparisons. Let's click run.
+
+47
+00:04:31,560 --> 00:04:37,290
+And we can see that we haven't a significant finding. We will reject the null hypothesis for the omnibus test.
+
+48
+00:04:37,290 --> 00:04:41,009
+There is a significant difference among the hospitals we have.
+
+49
+00:04:41,010 --> 00:04:47,520
+Our N is our sample size. Our test statistic is 16.9.
+
+50
+00:04:47,520 --> 00:04:52,559
+And our degrees of freedom is two. In a in a Chris Wallace.
+
+51
+00:04:52,560 --> 00:04:55,560
+The test statistic is called H. Okay.
+
+52
+00:04:55,560 --> 00:04:58,709
+Let's look at the EPA right up across court.
+
+53
+00:04:58,710 --> 00:05:03,780
+Wallace test was conducted to examine differences in satisfaction scores across three hospitals.
+
+54
+00:05:04,170 --> 00:05:07,950
+There was a statistically significant difference in scores between hospitals.
+
+55
+00:05:08,310 --> 00:05:12,390
+H of two degrees of freedom is equal to 16.9.
+
+56
+00:05:12,690 --> 00:05:19,019
+P is less than 0.01. Just as a reminder, the test statistic in across classes called the Cross Corvallis age test.
+
+57
+00:05:19,020 --> 00:05:22,889
+So we reported as H. And it's works like a chi square.
+
+58
+00:05:22,890 --> 00:05:30,180
+So you have to report the degrees of freedom. Inspection of mean ranks indicated that hospital C had the highest scores,
+
+59
+00:05:30,180 --> 00:05:36,959
+followed by hospital B and hospital A had the lowest post-hoc pairwise comparisons using Dunn's
+
+60
+00:05:36,960 --> 00:05:42,810
+test with Bonferroni correction indicated that hospital A different significantly from hospital B,
+
+61
+00:05:42,810 --> 00:05:49,650
+with a p value of 0.027, and hospital C with a p value of less than 0.001.
+
+62
+00:05:49,950 --> 00:05:59,790
+The difference between hospital B and hospital C was also statistically significant, but marginal uh, with a p value of 0.048.
+
+63
+00:06:00,090 --> 00:06:06,270
+Because the distributions were not similarly shaped, one group demonstrated a bimodal distribution.
+
+64
+00:06:06,270 --> 00:06:12,660
+Results are interpreted as differences in distribution rather than in than differences in median.
+

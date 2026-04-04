@@ -1,0 +1,1941 @@
+1
+00:00:00,043 --> 00:00:07,513
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Hello advanced research method students. In this video we are going to run through the multiple linear regression using continuous variables.
+
+2
+00:00:07,723 --> 00:00:12,042
+I'm using the same data set that I used in my Anova, uh demonstration video.
+
+3
+00:00:12,043 --> 00:00:15,913
+So we've got instructional structure. That's the way the class works.
+
+4
+00:00:16,183 --> 00:00:19,903
+We've got three variables autonomy competence and relatedness.
+
+5
+00:00:20,233 --> 00:00:25,153
+Uh, we've got a few things in through here. And then the methods mastery is also a continuous variable.
+
+6
+00:00:25,423 --> 00:00:30,493
+You can see that we have the same 300 cases. Uh, it's probably important to start with a question.
+
+7
+00:00:30,673 --> 00:00:36,943
+So we will take a look. Do autonomy competence and relatedness predict methods mastery.
+
+8
+00:00:37,093 --> 00:00:46,122
+So we've got some uh requirements and that these three predictor variables are continuous as is the outcome variable, the methods mastery.
+
+9
+00:00:46,123 --> 00:00:49,333
+And that is the case. We did just take a look at that in SPSS.
+
+10
+00:00:50,053 --> 00:00:55,423
+Once we have a research question you will also have a null and alternative hypothesis.
+
+11
+00:00:55,633 --> 00:01:02,563
+So our null hypothesis is that autonomy competence and relatedness do not predict method mastery.
+
+12
+00:01:02,833 --> 00:01:09,103
+And our alternative is higher autonomy competence relatedness will significantly predict higher methods mastery.
+
+13
+00:01:09,403 --> 00:01:14,983
+Now there's a few different ways to do this. Uh for instance autonomy competence and relatedness.
+
+14
+00:01:15,163 --> 00:01:24,882
+Maybe that's one term as established in the literature, like let's just call that um, uh, student strength.
+
+15
+00:01:24,883 --> 00:01:34,243
+Right? Like that's not a real term. That's just something I've made up but imagined, uh, that I've done that you might use something like this.
+
+16
+00:01:34,243 --> 00:01:38,143
+So does student strength predict methods mastery.
+
+17
+00:01:38,413 --> 00:01:46,213
+Um, and so then what you kind of doing is substituting one word where three variables are standing in for that one word.
+
+18
+00:01:46,573 --> 00:01:55,273
+Um, so that's something that you can do. Also in the alternative hypothesis, sometimes you'll see things like higher autonomy means higher methods,
+
+19
+00:01:55,273 --> 00:02:00,492
+but maybe, um, higher competence means lower methods, for instance.
+
+20
+00:02:00,493 --> 00:02:07,303
+So just because I have one alternative hypothesis doesn't mean you will maybe you will have one or more alternative hypothesis.
+
+21
+00:02:07,573 --> 00:02:14,323
+If I had more than one, I would say h sub one. And uh, then I would come down and I would say h sub two.
+
+22
+00:02:14,653 --> 00:02:20,443
+Um, and you know, we can do that if we like, uh, let's say, um, well,
+
+23
+00:02:20,443 --> 00:02:27,432
+I guess I'll just say lower relatedness now since I accidentally grab that, uh, lower relatedness will lead to higher methods.
+
+24
+00:02:27,433 --> 00:02:30,043
+Mastery. Um, and then I'll just fix this one.
+
+25
+00:02:30,223 --> 00:02:36,043
+So that's, you know, again, this is all made up data and made up variables, and they don't mean anything in the real world.
+
+26
+00:02:36,193 --> 00:02:40,123
+But I'm demonstrating some options for you because I'm trying to prepare you for the real world.
+
+27
+00:02:41,443 --> 00:02:46,302
+Let's look at our procedures. We first need to do a power calculation.
+
+28
+00:02:46,303 --> 00:02:52,393
+Then we've got a ton of assumptions to test. We will execute the regression and interpret the coefficients if needed.
+
+29
+00:02:53,432 --> 00:02:57,512
+All right, let's pull up our power calculator. I use g power, but you can use anything you want.
+
+30
+00:02:58,082 --> 00:03:01,472
+Believe it or not, a regression is in the F test family.
+
+31
+00:03:01,502 --> 00:03:07,972
+Um, and that's because, well, you might recall from the lecture that it uses the F test to determine if it's overall significant.
+
+32
+00:03:07,992 --> 00:03:16,592
+So, uh, let's see here linear multiple regression for a fixed model, um, where we're looking for either a deviation from zero or an increase.
+
+33
+00:03:16,592 --> 00:03:21,482
+Well, we're not really looking to increase anything. So let's just look at this fixed model deviation from zero one.
+
+34
+00:03:22,082 --> 00:03:28,201
+Um, our effect size. This is uh, the, you know, the ah, basically what are we looking for?
+
+35
+00:03:28,202 --> 00:03:34,982
+Um, our, uh, alpha is 0.05 because it's, uh, the typical alpha.
+
+36
+00:03:34,982 --> 00:03:41,852
+We'll say our beta is, uh, 0.80. And, uh, if I remember correctly, from my notes, we have three predictors.
+
+37
+00:03:42,002 --> 00:03:45,302
+So let's press calculate. We need a total sample size of 77.
+
+38
+00:03:45,512 --> 00:03:49,682
+So we know that there is already like we have 300 cases right.
+
+39
+00:03:49,682 --> 00:03:59,732
+So what we could do is maybe take this effect size down. Um let's see if we have enough to, um, detect a small sample or effect size.
+
+40
+00:03:59,912 --> 00:04:03,902
+That's 0.02. Nope. We don't have enough. That's 500.
+
+41
+00:04:04,472 --> 00:04:08,552
+So we can, you know, maybe raise this up. Let's say 0.08.
+
+42
+00:04:08,882 --> 00:04:14,012
+Um. Plenty there we can do .05.
+
+43
+00:04:14,642 --> 00:04:18,332
+Getting closer. Let's maybe adjust this a little bit.
+
+44
+00:04:18,812 --> 00:04:23,282
+Uh, we're getting closer. I wonder if we can get to 90 here.
+
+45
+00:04:24,512 --> 00:04:25,921
+Oh, yeah, I like this is good.
+
+46
+00:04:25,922 --> 00:04:32,131
+Okay, so, um, the reason I've done all that played with the calculator is just to see what am I kind of reasonably working with,
+
+47
+00:04:32,132 --> 00:04:36,211
+since I already know I've got 300. Imagine a scenario where I hadn't collected my data.
+
+48
+00:04:36,212 --> 00:04:42,512
+I would have just left it like it was, and then I would have recalculate it based on what I actually collected.
+
+49
+00:04:42,872 --> 00:04:49,412
+Let's go to our results. Uh, yes. Um, so the first thing we need to do is calculate our, uh, report.
+
+50
+00:04:49,412 --> 00:04:51,032
+The fact that we calculated our powered.
+
+51
+00:04:51,507 --> 00:04:59,376
+I've already started my report, so we've got a multiple linear regression was conducted to examine whether these three variables predicted methods.
+
+52
+00:04:59,377 --> 00:05:04,587
+Mastery prior to analysis of power was, um, calculated.
+
+53
+00:05:04,597 --> 00:05:10,597
+We had alpha set at uh 0.5 and we had power which is one minus beta.
+
+54
+00:05:11,047 --> 00:05:17,017
+Uh, well, I've already forgotten is that .90.90.
+
+55
+00:05:17,347 --> 00:05:20,496
+And I should let them know the effect size too. Right.
+
+56
+00:05:20,497 --> 00:05:25,117
+So the effect size, um, which is hard for me to see.
+
+57
+00:05:25,147 --> 00:05:30,367
+Uh, but that is 0.05. It looks like an f squared, 0.05.
+
+58
+00:05:30,937 --> 00:05:37,267
+Um, and then I probably want to make these, you know, look more statistically appropriate.
+
+59
+00:05:37,657 --> 00:05:41,377
+Um, I'm actually literally just googling alpha, uh, symbol.
+
+60
+00:05:42,007 --> 00:05:48,157
+There is a way to do it in, um, Microsoft Word, but I just, you know, don't feel can't be bothered.
+
+61
+00:05:48,427 --> 00:05:51,847
+And then same thing for, for beta. I'm just going to do that again.
+
+62
+00:05:53,207 --> 00:05:57,257
+All right. So we've got our beta symbol here.
+
+63
+00:05:59,797 --> 00:06:03,036
+There we go. And the F should be up.
+
+64
+00:06:03,037 --> 00:06:08,467
+And the. Think something should be italicized there.
+
+65
+00:06:08,857 --> 00:06:12,456
+I don't know why this is bold. There we go. All right, so we're getting close.
+
+66
+00:06:12,457 --> 00:06:16,417
+Now, these Greek symbols don't have to be italicized. It's just like the letters.
+
+67
+00:06:16,537 --> 00:06:23,127
+Um, those are the only things that are supposed to be italicized. All right, so, uh, what did it indicate?
+
+68
+00:06:23,137 --> 00:06:32,077
+I think it was 280 something. Yeah. 288. So 288, indicating 288 cases, uh, were required.
+
+69
+00:06:32,077 --> 00:06:36,637
+And therefore sufficient power was established in this data set where n equals 300.
+
+70
+00:06:36,967 --> 00:06:40,837
+All right. Now we just we've done our power. So so what's our next step.
+
+71
+00:06:41,707 --> 00:06:44,797
+Assumptions testing. Um whoo.
+
+72
+00:06:44,857 --> 00:06:47,916
+And multiple linear regression. These are the assumptions.
+
+73
+00:06:47,917 --> 00:06:51,757
+But we kind of test them in a little bit different order in SPSS.
+
+74
+00:06:51,757 --> 00:06:57,217
+Not not a lot. All right. So we're going to do linear relationships first.
+
+75
+00:06:57,577 --> 00:07:05,077
+And um then I think we will do um also looking at independence and homoscedasticity.
+
+76
+00:07:05,707 --> 00:07:09,997
+And then we'll do um multicollinearity in cases.
+
+77
+00:07:10,537 --> 00:07:14,167
+And then we'll check the normal distribution of residuals once we're done.
+
+78
+00:07:14,407 --> 00:07:19,447
+The reason why is because the residuals aren't even calculated until you run your analysis.
+
+79
+00:07:19,848 --> 00:07:22,967
+All right. So we're going to jump into linear relationships graph.
+
+80
+00:07:22,968 --> 00:07:24,750
+And then I think um. Is that right?
+
+81
+00:07:31,803 --> 00:07:36,333
+Do a simple scatter plot. We're going to define it, um, on one of the axes.
+
+82
+00:07:36,333 --> 00:07:43,803
+We're going to put our outcome variable. And then on the other axes we'll put the um predictor variable.
+
+83
+00:07:44,583 --> 00:07:49,113
+And we don't really need to like we don't need to we're not using this to be fancy,
+
+84
+00:07:49,113 --> 00:07:52,473
+so we don't really need to put titles and stuff on it because it'll use the label.
+
+85
+00:07:53,013 --> 00:08:01,383
+We'll press paste and, um, we might as well go ahead and let's just copy and paste this.
+
+86
+00:08:03,813 --> 00:08:07,863
+And, uh, we need to do this with competency, right?
+
+87
+00:08:09,063 --> 00:08:12,963
+And we also needed to do with with relatedness.
+
+88
+00:08:14,913 --> 00:08:18,603
+There we go. So we can get all of our graphs at the same time.
+
+89
+00:08:20,253 --> 00:08:24,483
+And here they are. Uh, no. You can look at this and say, I don't know.
+
+90
+00:08:25,503 --> 00:08:29,823
+This one looks pretty much like a line, but this one looks like maybe a little more spread out.
+
+91
+00:08:30,243 --> 00:08:36,453
+Uh, what I like to do sometimes is double click and then go to this icon where you can put a,
+
+92
+00:08:36,453 --> 00:08:45,153
+um, add fit line, and, um, um, once you do that, uh, what did I did I mess up?
+
+93
+00:08:45,163 --> 00:08:50,393
+No, I didn't mess up. It's just that it went away. Um, it gives me a better visual, I think.
+
+94
+00:08:50,403 --> 00:08:55,443
+And, I mean, it's relative. It's kind of like, spread out, but it's still, you know, linear.
+
+95
+00:08:55,443 --> 00:08:58,623
+I'm not seeing a big curve, a big loop or anything like that.
+
+96
+00:08:59,043 --> 00:09:03,003
+Um, and and same for, for this. I'm not seeing a big curve or loop.
+
+97
+00:09:03,003 --> 00:09:06,633
+So, um, I'm believing that that is also linear.
+
+98
+00:09:06,663 --> 00:09:09,993
+That one's. And then this one's the most scattered.
+
+99
+00:09:10,533 --> 00:09:14,013
+Um, but. Uh, let's see here.
+
+100
+00:09:14,883 --> 00:09:17,017
+Uh oh. Where did I go? There we go.
+
+101
+00:09:17,811 --> 00:09:23,651
+So we have now our graphs with our lines, and we can kind of just see how they look.
+
+102
+00:09:23,661 --> 00:09:32,271
+So um, that's that step. And I would say that it's linear enough for me unless I saw a major violation like a horseshoe.
+
+103
+00:09:32,511 --> 00:09:38,211
+I'm probably going to proceed. All right. Now that we've established our linear relationships.
+
+104
+00:09:48,057 --> 00:09:52,677
+So, uh, we'll just follow along here. So the assumptions were checked.
+
+105
+00:09:53,097 --> 00:09:58,737
+Um, the, uh, scatter plots indicated that there was linear relationship, right.
+
+106
+00:09:58,737 --> 00:10:02,097
+Or approximately linear. Um, so that's good to go.
+
+107
+00:10:02,427 --> 00:10:10,017
+The visual inspection of the standard residual plots. We're not going to do that until after the, uh, test is run.
+
+108
+00:10:10,017 --> 00:10:15,717
+So I'm just going to mark that in a different color, um, histogram and q-q plots.
+
+109
+00:10:15,717 --> 00:10:22,856
+And Shapiro Wilk comes after the reason why these things come after is because they're based on the residuals.
+
+110
+00:10:22,857 --> 00:10:30,447
+We do not know the residuals yet. The residuals is the distance of any given measure from the line of prediction.
+
+111
+00:10:30,807 --> 00:10:34,526
+It's that error. Well we haven't calculated it yet so we don't know it yet.
+
+112
+00:10:34,527 --> 00:10:39,627
+But once we calculate it we can ask SPSS to save it. And then we can use that variable to double check.
+
+113
+00:10:40,317 --> 00:10:45,237
+Um uh, the Durbin Watson we get when we run the regression.
+
+114
+00:10:45,237 --> 00:10:48,926
+And uh same for multicollinearity and Cook's distance.
+
+115
+00:10:48,927 --> 00:10:51,237
+We're going to get that when we run the regression.
+
+116
+00:10:52,257 --> 00:11:01,947
+The only other thing I like to do is let me go back to SPSS is I like to do um, just a simple, um, uh, correlation matrix.
+
+117
+00:11:05,767 --> 00:11:11,137
+And I just like to drop all of my um variables in there.
+
+118
+00:11:11,647 --> 00:11:15,697
+And it doesn't really matter if you're doing Pearson or Spearman at this point.
+
+119
+00:11:16,087 --> 00:11:20,587
+Um, I could probably ask for my means and standard deviation.
+
+120
+00:11:20,587 --> 00:11:24,667
+Sometimes that's going to be useful in reporting. Uh, so it's just nice to get that while I'm there.
+
+121
+00:11:25,177 --> 00:11:29,107
+Um, I do not need my confidence intervals, but, you know, why not?
+
+122
+00:11:29,107 --> 00:11:33,547
+And then, uh, I think. Yeah, I think that's all I want to ask for while I'm here.
+
+123
+00:11:33,727 --> 00:11:35,639
+Let's go. Uh. Run that. Up Ups's.
+
+124
+00:11:39,443 --> 00:11:45,113
+And, you know, this is just showing about, you know, things that are, uh, I guess negative or.
+
+125
+00:11:45,143 --> 00:11:49,042
+Yeah, it's color coding it. That's cool. I never seen that before. Fun.
+
+126
+00:11:49,043 --> 00:11:53,243
+All right. Um, looking at my correlations, everything is, you know, fine.
+
+127
+00:11:53,243 --> 00:11:59,003
+Nothing is in that high, maybe dangerously multicollinearity area.
+
+128
+00:11:59,243 --> 00:12:05,003
+Um, now I'm still going to rely on my tolerance and variance inflation factor, but this has given me an early preview.
+
+129
+00:12:05,573 --> 00:12:09,532
+Um, so I'm I'm good on my, uh, graphs. I'm good on my correlations.
+
+130
+00:12:09,533 --> 00:12:16,463
+It's time now to run the multiple linear regression. So we go to analyze regression linear.
+
+131
+00:12:17,968 --> 00:12:24,108
+Our dependent variable is, uh, the the thing that we think it predicts, it's the outcome variable.
+
+132
+00:12:24,118 --> 00:12:32,098
+It's our research methods mastery score. And then our independent variables are the autonomy, competence and relatedness.
+
+133
+00:12:32,578 --> 00:12:36,988
+Now we need to go through these, uh, because there are probably a few things we're going to need to ask for.
+
+134
+00:12:37,438 --> 00:12:45,658
+Uh, let's see here. Um. We probably could ask for confidence intervals and, um.
+
+135
+00:12:46,698 --> 00:12:51,948
+We don't need a square change. I think we already asked for our descriptives.
+
+136
+00:12:51,948 --> 00:12:59,177
+We definitely need collinearity diagnostics because that's going to give us our VIF and we need our Durbin Watson.
+
+137
+00:12:59,178 --> 00:13:03,071
+So that's a lot of checking the box in that statistics for plots.
+
+138
+00:13:03,660 --> 00:13:10,469
+We definitely need to check because we are going to, um, make sure that everything is homoscedasticity.
+
+139
+00:13:10,470 --> 00:13:19,980
+So, uh, we put the z resid that's the z residual on the y line, and then we put the z pred.
+
+140
+00:13:19,980 --> 00:13:23,820
+That's the z predicted on the X line.
+
+141
+00:13:24,120 --> 00:13:32,849
+Um, so it's basically asking us kind of, um, taking what the Z score is for any given case against the Z score,
+
+142
+00:13:32,850 --> 00:13:36,360
+for what the perfect case could have been the predicted value.
+
+143
+00:13:36,570 --> 00:13:39,401
+And give us a plot and, um. We?
+
+144
+00:13:39,921 --> 00:13:43,071
+I told you, I like the histogram.
+
+145
+00:13:43,281 --> 00:13:46,731
+We ask for the normal probability just so we can see it.
+
+146
+00:13:46,731 --> 00:13:49,790
+If there are other graphs we want to ask for, we can go for that now. But we don't.
+
+147
+00:13:49,791 --> 00:13:54,861
+We don't need to. All right. Now what, if anything, do we want to save?
+
+148
+00:13:55,590 --> 00:14:01,079
+Um, for saving. We want to have our, um, residuals saved.
+
+149
+00:14:01,080 --> 00:14:07,500
+So here we want to ask for, um, the standardized residuals that's here.
+
+150
+00:14:07,950 --> 00:14:10,980
+Um, because we're going to use that variable later.
+
+151
+00:14:10,980 --> 00:14:16,020
+So what SPSS under save is always asking is hey I'm going to do some math in the background.
+
+152
+00:14:16,080 --> 00:14:20,730
+Do you need me to collect any columns while I'm doing it. And we're saying yes, collect me a column.
+
+153
+00:14:20,730 --> 00:14:23,880
+Make me a new column for the standardized um residual.
+
+154
+00:14:24,390 --> 00:14:29,789
+And um, so there we go. And, um, oops, I'm in the wrong category.
+
+155
+00:14:29,790 --> 00:14:33,420
+It's over here. Standardized residual. There we go. So good thing I just talked through that.
+
+156
+00:14:33,870 --> 00:14:36,990
+We don't need anything else through here. I do like to save my cook's distance.
+
+157
+00:14:37,260 --> 00:14:47,940
+Uh, in case I have to do some other stuff. I could ask for other values and maybe if, um, maybe if my model was very complicated, I would.
+
+158
+00:14:47,940 --> 00:14:52,080
+But in this case, I'm fine just using Cook's and press continue.
+
+159
+00:14:52,740 --> 00:14:56,070
+I think under options and style there's probably not much.
+
+160
+00:14:56,070 --> 00:15:01,200
+Let's see under options. Uh, we're fine there for style.
+
+161
+00:15:01,980 --> 00:15:05,150
+Um, this is kind of about the output for bootstrap.
+
+162
+00:15:05,160 --> 00:15:08,210
+If we had a small sample, we might use that, but we're not, so.
+
+163
+00:15:09,140 --> 00:15:12,290
+We've just really done all the heavy lifting right there.
+
+164
+00:15:13,100 --> 00:15:25,720
+Let's go to our syntax. Let's run our regression. So this is a regression of, um, autonomy, competence and relatedness on mastery.
+
+165
+00:15:26,350 --> 00:15:31,190
+I think. We want to read this in a correct order.
+
+166
+00:15:31,190 --> 00:15:36,310
+So, uh, let's start with we've got our descriptive statistics and our correlations.
+
+167
+00:15:36,320 --> 00:15:44,359
+No surprises there. We've seen these before. Um, the means look accurate based on kind of other things that I've done.
+
+168
+00:15:44,360 --> 00:15:47,659
+And it does have 300 cases. So that's positive.
+
+169
+00:15:47,660 --> 00:15:55,760
+That's good to hear. Um, the next thing we want to do is scroll all the way down and look at our, um, our scatter plots.
+
+170
+00:15:56,180 --> 00:16:04,640
+Uh, does this scatter plot of the dependent variable, uh, um, and the, um, um, residuals, uh,
+
+171
+00:16:04,640 --> 00:16:06,253
+look relatively homoscedasticity, so it's not all clumped together, but it's relatively spread, spread out.
+
+172
+00:16:10,658 --> 00:16:16,838
+And I think the answer is yes. So, uh, let's go and uh, uh, take that.
+
+173
+00:16:16,838 --> 00:16:20,378
+So that was the visual inspection of standardized residuals plots.
+
+174
+00:16:20,768 --> 00:16:29,047
+They were randomly dispersed with no clear pattern. So I'm now just going to take this and put it into, uh, the regular text color.
+
+175
+00:16:29,048 --> 00:16:32,947
+Because we did do that. You can notice this is kind of standard language.
+
+176
+00:16:32,948 --> 00:16:37,928
+I mean, you can go ahead and write this up even though you don't know the answer yet and fill in the answer as you go.
+
+177
+00:16:38,348 --> 00:16:41,678
+So, um, this is something we have not yet done.
+
+178
+00:16:42,128 --> 00:16:46,748
+Uh, but let's check our Durbin Watson value and then our multicollinearity.
+
+179
+00:16:47,138 --> 00:16:52,788
+All right. Going back to SPSS. Um.
+
+180
+00:16:52,838 --> 00:16:56,108
+Ah, Durbin Watson is somewhere in through here. There it is.
+
+181
+00:16:56,528 --> 00:17:01,838
+Uh, Durban Watson ranges from 0 to 4, where two is like the perfect value.
+
+182
+00:17:01,838 --> 00:17:04,928
+You can see this is very, very close to to Durban.
+
+183
+00:17:04,928 --> 00:17:08,977
+Watson is also very sensitive to analysis order.
+
+184
+00:17:08,978 --> 00:17:15,548
+If you ever get a value that seems uncomfortable, maybe it's less than one or higher than three.
+
+185
+00:17:15,938 --> 00:17:19,957
+I would encourage you to re sort your data, sort it.
+
+186
+00:17:19,958 --> 00:17:27,608
+And I mean literally just go to your data set. And right now it's probably sorted by ID and just, you know, re sort it right.
+
+187
+00:17:27,608 --> 00:17:37,147
+Sort ascending or re sort it, sort ascending and um, run the analysis again and just see what Durban Watson value you come up with.
+
+188
+00:17:37,148 --> 00:17:45,338
+And if they all are violating the assumption then you might actually have a problem with um independence of observations.
+
+189
+00:17:45,578 --> 00:17:49,838
+Um, but in this case and so autocorrelation might be present in your data.
+
+190
+00:17:49,838 --> 00:17:54,938
+But in this case we don't have that. So our Durban Watson value is 2.027.
+
+191
+00:17:54,938 --> 00:17:59,918
+We're going to round that up to 2.03. Um looking from a word document there.
+
+192
+00:18:00,278 --> 00:18:06,788
+So Durbin Watson um, was uh I think it's D equals 2.03.
+
+193
+00:18:07,928 --> 00:18:12,368
+And we would then italicize that which falls into the acceptable range.
+
+194
+00:18:13,378 --> 00:18:17,248
+So that's now reported and confirmed as being good.
+
+195
+00:18:17,488 --> 00:18:24,778
+Now we want to go check our multicollinearity. So our multicollinearity is down here on the coefficients table.
+
+196
+00:18:25,178 --> 00:18:30,548
+Um our tolerance is very close to one with one of them actually being one, which is kind of wild.
+
+197
+00:18:30,568 --> 00:18:35,038
+I don't know if I've ever seen that. And then the before is very it's low.
+
+198
+00:18:35,248 --> 00:18:39,928
+Um, so, you know, nowhere near that 5 or 10 range where we start to get nervous.
+
+199
+00:18:40,236 --> 00:18:44,766
+All right. So Multicollinearity diagnostics indicated no concerns.
+
+200
+00:18:45,066 --> 00:18:48,936
+Tolerance values ranged from um okay.
+
+201
+00:18:48,936 --> 00:18:54,306
+Yeah we can do that. We can do it this way. I'll start with the lowest 0.99.
+
+202
+00:18:56,436 --> 00:18:59,087
+21.00. Oh, less than ten.
+
+203
+00:18:59,573 --> 00:19:04,263
+And so they were all above that threshold of being away from the zero.
+
+204
+00:19:04,293 --> 00:19:12,863
+I've written 0.10. Um, just so it's not a zero and, uh, it's nowhere near, um, that low ness which we're trying to avoid.
+
+205
+00:19:13,013 --> 00:19:20,093
+And then the variance inflation factors ranged from, um, we can see the range there and report it that way.
+
+206
+00:19:20,543 --> 00:19:25,073
+Um, we could also report them specifically. Uh, let's try that.
+
+207
+00:19:25,163 --> 00:19:29,453
+Um, let's not do range for if, uh, were.
+
+208
+00:19:30,703 --> 00:19:30,743
+Um. 1.00 for autonomy.
+
+209
+00:19:35,762 --> 00:19:43,112
+1.00 for competence and 1.00 for relatedness.
+
+210
+00:19:48,122 --> 00:19:52,512
+All. Less than five. Suggesting.
+
+211
+00:19:54,592 --> 00:19:57,381
+Acceptable levels of shared variance among predictors.
+
+212
+00:19:57,382 --> 00:20:03,622
+So one thing you might notice is after I decided to report each one individually, they all were the same thing.
+
+213
+00:20:03,622 --> 00:20:06,142
+So that's kind of silly. I don't need to do that.
+
+214
+00:20:06,502 --> 00:20:14,572
+Um, so I might now rewrite this and just say they were all, uh, above, um, uh, you know, or they were all equal to one.
+
+215
+00:20:14,872 --> 00:20:22,641
+Another thing you'll notice is that I kept it in the same order autonomy, competence and relatedness that matches the order of the question.
+
+216
+00:20:22,642 --> 00:20:25,792
+So you want to have that kind of symmetry when you're doing your reporting?
+
+217
+00:20:27,062 --> 00:20:30,272
+Um, so the wife is good to go. And then the cook's distance.
+
+218
+00:20:30,302 --> 00:20:33,662
+Now we can check that. So Cook's distance is down here.
+
+219
+00:20:34,262 --> 00:20:40,292
+In our residual statistics we roll down to Cook's and we're looking for our mean.
+
+220
+00:20:40,502 --> 00:20:46,712
+Remember there are a few rules that you can use to determine, um, you know what value is acceptable.
+
+221
+00:20:47,012 --> 00:20:54,212
+The standard rule is kind of if it's, you know, point five or lower, then it's fine.
+
+222
+00:20:54,572 --> 00:21:01,682
+Um, there are multiple rules. So we're going to say the mean cook's distance was what is it?
+
+223
+00:21:02,952 --> 00:21:07,302
+Uh .003.
+
+224
+00:21:08,202 --> 00:21:15,462
+And normally I would report this for two values, but because it's 00I am adding that third value for clarity.
+
+225
+00:21:15,732 --> 00:21:17,262
+So the mean cook's distance.
+
+226
+00:21:17,972 --> 00:21:30,302
+Was this and well below the conventional threshold, um, of 0.05, indicating that no single cell case exerted undue influence on the model.
+
+227
+00:21:30,662 --> 00:21:37,412
+All right. So now our assumptions are totally checked and reported with the exception of the residual.
+
+228
+00:21:38,012 --> 00:21:45,062
+Let's go ahead and look at that residual before we actually read our, um, multiple linear regression results.
+
+229
+00:21:46,972 --> 00:21:50,452
+Going to the data set so I can show you where it was saved.
+
+230
+00:21:50,752 --> 00:21:55,762
+Remember when we said do a multiple linear regression and save some things for me?
+
+231
+00:21:55,942 --> 00:22:05,422
+We told it to save the, um, the, the the predicted residuals which are here and save cooked distance which is here.
+
+232
+00:22:06,602 --> 00:22:16,282
+So we actually just are going to run, um, a test of normality, but we're going to run it on this variable, which is the normal distribution of errors.
+
+233
+00:22:16,292 --> 00:22:20,192
+So these are the errors that were calculated when we ran our linear regression.
+
+234
+00:22:21,122 --> 00:22:25,952
+Analyze, explore, analyze, descriptive statistics, explore.
+
+235
+00:22:26,462 --> 00:22:32,252
+And our dependent list is just the standardized residuals that we just calculated.
+
+236
+00:22:32,612 --> 00:22:36,482
+And we don't need a factor list. It's not like by groups or anything like that.
+
+237
+00:22:36,812 --> 00:22:41,162
+So we're fine with that. I do like a histogram instead of a stem and leaf.
+
+238
+00:22:41,162 --> 00:22:45,722
+But you have to check normality plots with tests or else you don't get your your statistic.
+
+239
+00:22:46,232 --> 00:22:54,422
+And we can paste that over. Now, if you've been working at SPSS a long time you might already know to to key this in here.
+
+240
+00:22:54,422 --> 00:23:03,571
+And you wouldn't have to go through the dialog. All right. So our uh histogram here under explore um shows us a few things.
+
+241
+00:23:03,572 --> 00:23:09,811
+We can see uh 300 cases were processed. We can see the the mean is zero.
+
+242
+00:23:09,812 --> 00:23:13,922
+Why is that? Because it should be perfectly predicted.
+
+243
+00:23:13,922 --> 00:23:19,022
+Right. So that, um, makes sense. But we also know not everything was perfectly predicted.
+
+244
+00:23:19,172 --> 00:23:24,932
+And that's why there's this range. Um, the imperfection range is 5.216.
+
+245
+00:23:25,292 --> 00:23:26,942
+Um, so that's kind of interesting.
+
+246
+00:23:26,942 --> 00:23:32,282
+I think it kind of confirms my understanding of what a multiple linear regression is and why we test these assumptions.
+
+247
+00:23:32,732 --> 00:23:37,472
+Here is the test of normality. And the histogram. We can see it's pretty normal with just these two spikes.
+
+248
+00:23:37,802 --> 00:23:41,102
+And uh we can see those standardized residuals. That's the variable.
+
+249
+00:23:41,102 --> 00:23:51,242
+We're testing the Shapiro Wilks section. The statistic is 997 um and the DF is 300 and the significance is 0.808.
+
+250
+00:23:51,692 --> 00:23:55,532
+So I think we need to write that in um using our uh word.
+
+251
+00:23:55,622 --> 00:24:00,751
+All right. Um examination of the histogram on and ask for histogram.
+
+252
+00:24:00,752 --> 00:24:04,292
+Oh yeah. No. And here it is the Q-q plot okay.
+
+253
+00:24:04,412 --> 00:24:09,752
+So here we see the q-q plots. The blue dots are really close to the line.
+
+254
+00:24:10,052 --> 00:24:16,502
+Um, here we can see just a different view of it. They are, um, you know, not too very far spread.
+
+255
+00:24:16,682 --> 00:24:25,922
+There are maybe two cases that are, um, far away, but just two cases and and it didn't bother Cook's distance, so we're not worried about it.
+
+256
+00:24:26,222 --> 00:24:30,182
+So now we can say with confidence we've examined the histogram in normality.
+
+257
+00:24:30,182 --> 00:24:37,501
+Everything looks approximately normal. Shapiro Wilk was non-significant indicating normal was set.
+
+258
+00:24:37,502 --> 00:24:45,962
+But we have to put in our values here. And we really, um, want to fully report statistics, not just give the p value.
+
+259
+00:24:46,292 --> 00:24:50,912
+So let's go up to our test of normality and uh, bring that word document back.
+
+260
+00:24:51,912 --> 00:24:59,012
+Uh, w is the Shapiro Wilk. And then, um, the degree of freedom as 300.
+
+261
+00:24:59,532 --> 00:25:03,401
+Um, that equals, uh, 0.997.
+
+262
+00:25:03,402 --> 00:25:07,482
+Um, rounding that up 2.10. So it's almost like perfectly normal.
+
+263
+00:25:08,082 --> 00:25:12,252
+Um, and the p value equals 0.808.
+
+264
+00:25:14,982 --> 00:25:22,992
+Indicating. And then I'll go get rid of this extra one and fix my APA so that I'm in my italics as required.
+
+265
+00:25:23,772 --> 00:25:30,311
+All right. It's a lot of stuff to do, but it all happens kind of at once.
+
+266
+00:25:30,312 --> 00:25:37,062
+So, um, you know, starting with an outline, starting with a bullet point and having your, your process steps ready to go.
+
+267
+00:25:37,092 --> 00:25:40,512
+This is really helpful. We've calculated and reported our power.
+
+268
+00:25:40,692 --> 00:25:45,581
+We've done linear relationships independent of errors normal normal distribution of residuals.
+
+269
+00:25:45,582 --> 00:25:52,362
+We just did that homoscedasticity um, absence of cases which bias the model that was Cook's and then the multicollinearity.
+
+270
+00:25:52,362 --> 00:25:55,721
+Uh, that was the belief. Um, so now we execute the regression.
+
+271
+00:25:55,722 --> 00:26:01,662
+We've already executed the regression. We had to do that in order to get visuals on, um,
+
+272
+00:26:01,872 --> 00:26:07,092
+the independence of errors and also to calculate our residuals so we could check normal distribution.
+
+273
+00:26:07,362 --> 00:26:10,752
+So we have executed that and now we can go interpret that.
+
+274
+00:26:11,022 --> 00:26:15,042
+So let's put this down and go get our SPSS back. Um.
+
+275
+00:26:16,812 --> 00:26:24,722
+Here we are at our, uh, regression. And, um, the first thing we want to do remember, there's this big output.
+
+276
+00:26:25,262 --> 00:26:32,072
+We've already checked our assumptions. So now that we know our assumptions are intact, the next thing we do is first, um, report the model.
+
+277
+00:26:32,462 --> 00:26:35,222
+So the overall model is statistically significant.
+
+278
+00:26:35,222 --> 00:26:41,692
+And you can see the regression line, uh, has your degrees of freedom in your f-statistic and it is statistically significant.
+
+279
+00:26:41,702 --> 00:26:46,592
+So we're going to write that up. The next thing we're going to do is see how much variance doesn't explain.
+
+280
+00:26:46,892 --> 00:26:59,272
+And our R-squared is 0.327. So it explains 32.7% or R squared equals 0.327 of the, uh, the variance in the model and say,
+
+281
+00:26:59,282 --> 00:27:05,042
+well, the model itself is overall significant, but what within the model actually mattered.
+
+282
+00:27:05,432 --> 00:27:09,152
+And that's where we go to the um coefficients table.
+
+283
+00:27:09,932 --> 00:27:15,152
+And we can interpret that. Before we get too far ahead of ourselves. So let's write up what we know.
+
+284
+00:27:16,913 --> 00:27:20,663
+All right. So what we know is that the Anova was statistically significant.
+
+285
+00:27:20,663 --> 00:27:23,722
+So the overall regression model was statistically significant.
+
+286
+00:27:23,723 --> 00:27:26,843
+And then we report this just like we would report a one way Anova.
+
+287
+00:27:27,173 --> 00:27:31,483
+So uh our f is equal to 47.983.
+
+288
+00:27:31,493 --> 00:27:37,283
+We're going to round that to 47.98. So we're typing in our f statistic.
+
+289
+00:27:37,703 --> 00:27:44,572
+And then we also need to fill in our degrees of freedom. Our degrees of freedom are going to be the regression line and the residual line.
+
+290
+00:27:44,573 --> 00:27:48,773
+So degrees of freedom three and 296.
+
+291
+00:27:48,773 --> 00:27:52,703
+So we've got three and we've got 296 there.
+
+292
+00:27:53,363 --> 00:27:58,463
+Um and then finally we need to report significance. So P is less than 001.
+
+293
+00:27:58,733 --> 00:28:06,243
+So we'll say p less than 0.001. And we will make sure all of our unnecessary components are in italics.
+
+294
+00:28:06,243 --> 00:28:09,523
+So now the overall model is reported as significant.
+
+295
+00:28:09,533 --> 00:28:11,773
+Very straightforward. Now what does this do.
+
+296
+00:28:11,783 --> 00:28:19,913
+This indicates that the set of predictors that is all of those predictors together explain some amount of variance in method's mastery.
+
+297
+00:28:20,303 --> 00:28:25,613
+And we want to tell them how much variance. So the model accounted for approximately some percent.
+
+298
+00:28:25,853 --> 00:28:29,963
+Um so in this case it's 32.7. Where does that come from.
+
+299
+00:28:30,233 --> 00:28:33,683
+I'm looking at the r squared equals 0.327.
+
+300
+00:28:34,043 --> 00:28:39,502
+And I'm converting that to a percentage by moving the decimal place to to the right.
+
+301
+00:28:39,503 --> 00:28:46,373
+So boop boop 32.7. And um I'm actually going to report the um value here.
+
+302
+00:28:47,663 --> 00:28:52,163
+Some people ask you to report it to two decimals. Some people ask you to report it to three.
+
+303
+00:28:52,433 --> 00:28:58,493
+I like it to I like it to three decimals because then it matches the percentage perfectly.
+
+304
+00:28:58,763 --> 00:29:00,623
+Uh, but you got it wrong with the flow there.
+
+305
+00:29:00,623 --> 00:29:07,883
+So whatever your editor or your dissertation chair asks for, um, if you want to find out what APA says, I don't know.
+
+306
+00:29:08,243 --> 00:29:12,472
+All right. Now, you could report the adjusted R squared if you wanted.
+
+307
+00:29:12,473 --> 00:29:15,563
+And in our case, the adjusted R squared is 0.320.
+
+308
+00:29:15,563 --> 00:29:21,353
+And I'm taking that just directly from the model. Summary c r r square and r adjusted r squared.
+
+309
+00:29:23,153 --> 00:29:29,153
+I don't think it's really necessary in this case. Um we don't have a ton of junk in the model.
+
+310
+00:29:29,153 --> 00:29:32,783
+It's barely different. It's 0.007 different.
+
+311
+00:29:33,173 --> 00:29:42,833
+So for me, I don't necessarily think this is really all that useful, but if you wanted to report it, I've done it so you can see how it would work.
+
+312
+00:29:43,043 --> 00:29:46,643
+And then you say, you know, what does that mean in terms of effect?
+
+313
+00:29:46,763 --> 00:29:53,573
+You'll recall that, uh, you know, if the, um, r squared values are the exact effect measure.
+
+314
+00:29:53,583 --> 00:29:58,283
+So we're going to say that 0.327 is, uh, moderate effect size.
+
+315
+00:30:04,234 --> 00:30:04,822
+All right. We've got a question.
+
+316
+00:30:05,826 --> 00:30:09,606
+We calculated our power. We checked our assumptions. We checked our assumptions.
+
+317
+00:30:09,606 --> 00:30:13,266
+We checked our assumptions. We found a model. It was significant.
+
+318
+00:30:13,476 --> 00:30:18,426
+But what within the model really mattered? Let's take a look at our coefficients table.
+
+319
+00:30:20,096 --> 00:30:26,696
+Um in our coefficients. We've got each of our predictors the autonomy, the competence and the relatedness.
+
+320
+00:30:27,026 --> 00:30:32,306
+We have the unstandardized beta. So this is in the original units of measurement.
+
+321
+00:30:32,306 --> 00:30:39,415
+So uh, we probably I don't know for sure because it's made up, but uh, imagine this is, you know, some scale.
+
+322
+00:30:39,416 --> 00:30:42,745
+And we did a survey and um, so for each point.
+
+323
+00:30:42,746 --> 00:30:50,155
+Right, so for each one unit of measurement, so for each one point increase on these things,
+
+324
+00:30:50,156 --> 00:30:57,026
+the autonomy the competence or the relatedness, um, we're going to have some change in the outcome variable.
+
+325
+00:30:58,136 --> 00:31:02,036
+Uh, the standardized beta however looks at standard deviations.
+
+326
+00:31:02,276 --> 00:31:05,095
+Um, that way we're kind of doing a more apples to apples comparison.
+
+327
+00:31:05,096 --> 00:31:12,716
+Now, in this case, maybe a point of autonomy is relatively similar to a point of competence, but there's lots of times where it's not, um, and maybe,
+
+328
+00:31:12,716 --> 00:31:20,155
+you know, it's talking about dollar units, or maybe it's talking about ours and, you know, maybe it's talking about the number of months.
+
+329
+00:31:20,156 --> 00:31:23,186
+And so then the, you know, that really changes things.
+
+330
+00:31:23,186 --> 00:31:29,186
+And so sometimes the standardized beta and sometimes the unstandardized beta are the, you know, you just have to choose the best one.
+
+331
+00:31:29,546 --> 00:31:31,436
+Whichever one you choose though, you stick with it.
+
+332
+00:31:32,546 --> 00:31:38,096
+We get a T score out of it, we get a significance value out of it, and we get our upper and lower case, um,
+
+333
+00:31:38,126 --> 00:31:44,515
+uh uh, bounding for our confidence interval so we can look at perceived autonomy and look at significance.
+
+334
+00:31:44,516 --> 00:31:51,506
+It was a significant contributor to the model. Perceived competence was also a significant contributor to the model.
+
+335
+00:31:51,986 --> 00:31:56,006
+And then sense of relatedness was not a significant contributor to the model.
+
+336
+00:31:56,486 --> 00:32:05,006
+0.001 is lower than 0.05. That's why I know these are significant, but 0.10 is actually higher than 0.05.
+
+337
+00:32:05,156 --> 00:32:09,926
+And that's why I know that relatedness is not a statistically significant predictor.
+
+338
+00:32:10,406 --> 00:32:13,796
+We're still going to report some information off of this line,
+
+339
+00:32:13,796 --> 00:32:21,056
+but we are not necessarily going to go into the same level of detail as we will for the significant, um, predictors.
+
+340
+00:32:22,076 --> 00:32:28,076
+So let's write this up one note before we write it up. Let's figure do we even know what this means I mentioned earlier.
+
+341
+00:32:28,076 --> 00:32:37,016
+So for every one point increase in autonomy, we can expect to see a 2.251 increase in our mastery score.
+
+342
+00:32:38,036 --> 00:32:41,756
+These predictors are always changing by one unit.
+
+343
+00:32:41,786 --> 00:32:46,796
+Imagine you've got the X-Y graph and it's always going over by one to the right.
+
+344
+00:32:46,796 --> 00:32:52,256
+It's always going up. It's always increasing. So every one increase we will see some amount of change.
+
+345
+00:32:52,466 --> 00:32:55,586
+And in this case I know it's also increasing because it's a positive number.
+
+346
+00:32:56,156 --> 00:33:06,146
+Perceived competence for every one unit of increase in perceived competence, we can expect to see a 3.863 increase in mastery score.
+
+347
+00:33:06,836 --> 00:33:10,406
+And then finally relatedness. Now relatedness is not significant.
+
+348
+00:33:10,826 --> 00:33:23,786
+But if it were, the way I would state it would be for every one unit increase in relatedness, we can expect to see a 0.652 decrease in mastery.
+
+349
+00:33:25,236 --> 00:33:30,006
+I'm not going to write that out that way because it's not statistically significant, but that is how it goes.
+
+350
+00:33:30,006 --> 00:33:37,746
+So these variables are always increasing. These variables are either increasing or decreasing based on the sign in front of it.
+
+351
+00:33:38,466 --> 00:33:47,705
+I could also report this with standardized betas. So for every one standard deviation increase in autonomy we can expect a 0.296 standard
+
+352
+00:33:47,706 --> 00:33:53,966
+deviation increase in mastery for every one standard deviation increase in competence,
+
+353
+00:33:53,976 --> 00:33:59,376
+we can expect a 0.49 standard deviation increase in mastery.
+
+354
+00:34:00,006 --> 00:34:06,756
+And if this last line we're seeing that statistically significant I would say for every one standard deviation increase in relatedness,
+
+355
+00:34:06,966 --> 00:34:15,396
+we can expect to see a 0.079 decrease in standard deviation in mastery.
+
+356
+00:34:15,906 --> 00:34:20,616
+Again, because that third line is not statistically significant, I won't read it up to that level of detail.
+
+357
+00:34:26,410 --> 00:34:34,720
+So I would say, uh, for instance, uh, it's not quite that much, but if I just took this as a 0.30 and this is a 0.50,
+
+358
+00:34:34,720 --> 00:34:42,970
+I would say, you know, competence is almost twice as good as autonomy in terms of its worth in the model.
+
+359
+00:34:43,240 --> 00:34:50,590
+So I use these to kind of compare the, um, elements within the model more so than, um, than other things.
+
+360
+00:34:50,800 --> 00:34:55,929
+All right. So should we write it up? There's a long write up. I've already got some placeholders.
+
+361
+00:34:55,930 --> 00:34:57,247
+Let me get them in order. Um, so for our individual predictors, it can be helpful to go kind of line by line.
+
+362
+00:35:01,636 --> 00:35:06,496
+That's my personal preference. Um, if I didn't do that, I might keep it in the same order.
+
+363
+00:35:06,496 --> 00:35:09,706
+So, uh, that's a choice you all make stylistically.
+
+364
+00:35:10,126 --> 00:35:15,796
+Um, in this case, competence was more important. But autonomy was the first and order in the research question.
+
+365
+00:35:16,306 --> 00:35:22,626
+Um, that's not necessarily right or wrong. It's a style question. Uh, so, uh, I spaced it out because we'll decide what we want to do.
+
+366
+00:35:22,636 --> 00:35:25,756
+Competence perception with statistically significant of mastery.
+
+367
+00:35:26,086 --> 00:35:29,206
+Um, I want to, uh, report my beta.
+
+368
+00:35:29,446 --> 00:35:33,046
+I don't need my standard error. I don't need my standardized beta.
+
+369
+00:35:33,766 --> 00:35:37,396
+Um, but I do need, um, my confidence interval.
+
+370
+00:35:39,536 --> 00:35:43,226
+All right. So let's let's put that where it belongs and put it in.
+
+371
+00:35:43,226 --> 00:35:47,936
+So our beta is uh 3.86.
+
+372
+00:35:47,936 --> 00:35:53,666
+That's rounded from 3.863 here on the table competence unstandardized beta.
+
+373
+00:35:54,446 --> 00:36:01,646
+And um, we can go now to our, uh, t score which is here 10.279.
+
+374
+00:36:01,646 --> 00:36:08,386
+So I'm going to round that to 10.28. 10.28.
+
+375
+00:36:08,416 --> 00:36:13,186
+Yes, I've done that. Um, the, uh, let's see here.
+
+376
+00:36:13,216 --> 00:36:22,966
+Significance is, um. Uh, uh, the significance is less than 0.001, so we'll type that in.
+
+377
+00:36:28,396 --> 00:36:34,756
+All right. And our confidence interval was, um, over on the line.
+
+378
+00:36:35,806 --> 00:36:42,346
+Not that far. Perceived competence. Here it is, 3.123 to 3.12 and 4.602.
+
+379
+00:36:42,466 --> 00:36:49,966
+That's four six and 3.12 and 460, 3.12 and 4.60.
+
+380
+00:36:50,116 --> 00:36:54,106
+There we go. Oh, what did I miss? I missed my, uh, degrees of freedom for the t test.
+
+381
+00:36:58,575 --> 00:37:05,565
+Um, degrees of freedom for multiple linear regression is the number of cases minus the number of predictors minus one.
+
+382
+00:37:06,015 --> 00:37:09,795
+Um, so we had 300 cases and we had three predictors.
+
+383
+00:37:09,825 --> 00:37:16,785
+Um minus one equals uh uh what is it equal to 96 okay.
+
+384
+00:37:16,785 --> 00:37:22,535
+So um, that's, that's our degree of freedom for all of our t tests in this particular case.
+
+385
+00:37:22,545 --> 00:37:31,905
+So that's 296 I think probably if you let me tell you what I did, just in case you didn't follow along, I'm doing my reporting.
+
+386
+00:37:31,905 --> 00:37:33,015
+I have my placeholders.
+
+387
+00:37:33,015 --> 00:37:38,865
+I knew that I needed to report the t test, but I forgot that I would need to report the degrees of freedom and that it wouldn't be,
+
+388
+00:37:39,195 --> 00:37:43,875
+um, like out there on, um, the coefficients table.
+
+389
+00:37:44,745 --> 00:37:48,495
+So in this case, the, um.
+
+390
+00:37:52,591 --> 00:37:58,351
+We've got 300 cases, uh, so you can see that and then the number of predictors you've got, we've got three.
+
+391
+00:37:58,741 --> 00:38:04,171
+And then it's always minus one. So that's there. So 300 minus three minus one is 296.
+
+392
+00:38:04,411 --> 00:38:08,341
+What you'll notice is that's the same as the degrees of freedom for the residual.
+
+393
+00:38:15,314 --> 00:38:18,944
+You just have to know they're calculated the same way. And there it is, 296.
+
+394
+00:38:19,184 --> 00:38:25,874
+So you can just remember to look there. Um, so sorry if my little, uh, rabbit hole got confusing.
+
+395
+00:38:26,154 --> 00:38:31,904
+I'll keep it simple as we proceed. So we've got our first line interpreted.
+
+396
+00:38:32,294 --> 00:38:40,334
+Um, so I will say, for every one unit increase in competence.
+
+397
+00:38:42,644 --> 00:38:45,763
+Oh, mastery. Is that what it's called?
+
+398
+00:38:45,764 --> 00:38:54,794
+Mastery. Scores are predicted to increase 3.86 points.
+
+399
+00:38:55,454 --> 00:38:59,164
+All right, now, I might keep that all together or might separated out.
+
+400
+00:38:59,174 --> 00:39:04,654
+We'll just put it there for now. Um, and then this is more of the layman's terms, isn't it?
+
+401
+00:39:04,664 --> 00:39:09,794
+Like for every, um, for, for higher competence, we've got higher mastery.
+
+402
+00:39:10,574 --> 00:39:16,034
+So now we have to do that. And I know that's going to come later. So now we have to do this with all of them.
+
+403
+00:39:17,274 --> 00:39:21,474
+Uh, let's do our autonomy one next. So I'm just going to move that up here.
+
+404
+00:39:21,894 --> 00:39:27,293
+And I am going to take this because it's all formatted properly and paste it in.
+
+405
+00:39:27,294 --> 00:39:33,174
+But I'm going to make sure the numbers are correct. So for autonomy support, which was also statistically significant.
+
+406
+00:39:33,654 --> 00:39:36,854
+Um, we've got a beta of 2251.
+
+407
+00:39:36,854 --> 00:39:40,614
+So that's 2252.25.
+
+408
+00:39:40,944 --> 00:39:44,544
+We've got a t value of 6.197.
+
+409
+00:39:44,544 --> 00:39:47,574
+So we're rounding that up to 6.20.
+
+410
+00:39:51,024 --> 00:39:56,874
+All right. The degrees of freedom are the same. Um, because of the same number of cases and predictors, minus one.
+
+411
+00:39:57,444 --> 00:40:00,474
+And then our p value was also less than 001.
+
+412
+00:40:00,474 --> 00:40:05,873
+So we're good there. And then our confidence interval for autonomy is 1.536.
+
+413
+00:40:05,874 --> 00:40:14,513
+So that's 1.5 for. Typing that n and uh ranging to 2.965.
+
+414
+00:40:14,514 --> 00:40:19,794
+So we can round it up to 297. All right.
+
+415
+00:40:19,794 --> 00:40:26,783
+Did I get that correct? When I copy and paste it's always important to double check 2 to 5 one on our beta.
+
+416
+00:40:26,784 --> 00:40:30,474
+Yes T6197. Yes.
+
+417
+00:40:30,474 --> 00:40:35,693
+Rounded to six two. Oh, um, the degrees of freedom are the same as the residuals.
+
+418
+00:40:35,694 --> 00:40:42,983
+So that's 296. Our significance was less than 001 and our confidence was 1536.
+
+419
+00:40:42,984 --> 00:40:47,574
+So that's rounded to 154 and 2965297.
+
+420
+00:40:47,844 --> 00:40:52,064
+So that sentence is ready to go. So now we just need um oops.
+
+421
+00:40:52,074 --> 00:40:59,694
+We just need that uh, other sentence where we're saying kind of in the, you know, uh, like unit terms.
+
+422
+00:40:59,884 --> 00:41:03,054
+So for every one unit increase in autonomy.
+
+423
+00:41:05,214 --> 00:41:09,714
+Uh, mastery scores are predicted to increase. How much? 2.25 points.
+
+424
+00:41:12,164 --> 00:41:18,434
+Here we go. All right. And so we've got the, uh, very generic terms there.
+
+425
+00:41:18,614 --> 00:41:24,673
+Now, finally, we have to report our, um, next and final coefficient.
+
+426
+00:41:24,674 --> 00:41:29,174
+We have to report every coefficient in the table, even if it's not significant.
+
+427
+00:41:29,654 --> 00:41:36,014
+Um, I've just remembered something that I have not written, but maybe I should to make sure it's super clear.
+
+428
+00:41:36,314 --> 00:41:41,204
+Confidence. Perception. Was this a significant positive predictor of method's mastery?
+
+429
+00:41:41,714 --> 00:41:48,884
+I'll put it here. Holding all other variables constant.
+
+430
+00:41:49,664 --> 00:41:57,504
+Um, because competence is only this value when both autonomy and relatedness are in the model.
+
+431
+00:41:57,524 --> 00:42:01,064
+If we ran it again without relatedness because it was not statistically significant.
+
+432
+00:42:01,334 --> 00:42:06,104
+Competence may or may not be significant the second time around. And it certainly would have different values.
+
+433
+00:42:06,474 --> 00:42:17,114
+Um, so I might state that differently here. Um, holding all variables, constant autonomy support was also statistically significant.
+
+434
+00:42:17,324 --> 00:42:23,594
+So there we go. Now relatedness was not a statistically significant predictor of method's mastery.
+
+435
+00:42:23,594 --> 00:42:37,484
+But I do want to at least predict, uh, excuse me, uh, report the, um, p value p equals 0.100 and get that in italics.
+
+436
+00:42:39,744 --> 00:42:42,824
+All right. I don't, because it's not statistically significant.
+
+437
+00:42:42,834 --> 00:42:54,504
+I don't need to report things like the T or the Unstandardized, uh, value, but I might put it in context, like it was negative.
+
+438
+00:42:55,454 --> 00:43:01,964
+But not statistically significant. So if you needed to understand a little bit about the relationship, there it goes.
+
+439
+00:43:02,504 --> 00:43:14,144
+Um, all right. So, uh, we're ready to maybe take this to the final step, which is, uh, putting it all together in terms of the beginning.
+
+440
+00:43:14,534 --> 00:43:18,614
+Um, we have a research question and I hypothesis in this case, we have two hypotheses.
+
+441
+00:43:19,364 --> 00:43:29,594
+What were our hypotheses? Higher autonomy and competence will never entirely predict, uh, higher methods, mastery and lower relatedness.
+
+442
+00:43:29,624 --> 00:43:32,894
+Well, so competence. Yes.
+
+443
+00:43:33,524 --> 00:43:37,204
+Autonomy. Yes. I just guessed that. And that was correct.
+
+444
+00:43:37,214 --> 00:43:42,943
+Lucky us. All right. And then lower relatedness didn't significantly predict anything.
+
+445
+00:43:42,944 --> 00:43:49,333
+So it doesn't really matter. All right. So the higher your autonomy the better your methods.
+
+446
+00:43:49,334 --> 00:43:54,674
+Mastery is same for competence. So this we reject the null hypothesis.
+
+447
+00:43:55,394 --> 00:43:59,743
+The alternative one is uh correct so to speak.
+
+448
+00:43:59,744 --> 00:44:04,724
+Or there's evidence to support that alternative. Two there was no evidence to support that.
+
+449
+00:44:04,844 --> 00:44:07,279
+So let's go put that down here into terms. All right.
+
+450
+00:44:07,540 --> 00:44:12,000
+We could just probably just start with the null hypothesis.
+
+451
+00:44:12,600 --> 00:44:20,820
+Was rejecting higher, um, evidence in support of, uh.
+
+452
+00:44:21,830 --> 00:44:29,840
+The first alternative hypothesis or h sub one um was found.
+
+453
+00:44:31,080 --> 00:44:36,540
+Because oh my goodness, higher perceived.
+
+454
+00:44:36,600 --> 00:44:41,590
+Um. This is me not doing two things at once.
+
+455
+00:44:42,830 --> 00:44:50,390
+There we go. All right. It was found because higher perceived, uh, competence and autonomy sport was associated with, uh, mastery scores.
+
+456
+00:44:50,600 --> 00:44:58,910
+Um, no evidence to support um HS um, two uh, was found.
+
+457
+00:44:59,431 --> 00:45:07,591
+Because relatedness was not a statistically significant predictor.
+
+458
+00:45:09,721 --> 00:45:16,261
+I might, even if I wanted to soften that blow a little bit for my ego, I might say something like no evidence because.
+
+459
+00:45:17,931 --> 00:45:26,900
+Although negative and association related, this was not a statistically significant predictor.
+
+460
+00:45:26,901 --> 00:45:29,991
+So at least I'm kind of saying I had the right idea.
+
+461
+00:45:29,991 --> 00:45:31,761
+I just didn't have the right numbers.
+
+462
+00:45:32,121 --> 00:45:39,381
+All right, now I just need to put this into a little bit more like how you understand it if you're a human, not a statistician.
+
+463
+00:45:39,891 --> 00:45:43,521
+Um, controlling for relatedness. Both autonomy were predictive.
+
+464
+00:45:43,521 --> 00:45:49,600
+Students who, uh, reported, uh, higher levels of these things also had higher mastery in contrast.
+
+465
+00:45:49,601 --> 00:45:54,411
+So this is kind of the same thing as this. I might synthesize those together.
+
+466
+00:45:54,831 --> 00:45:59,601
+Um, if I'm ready to transition to discussion, which I'm just wanting to demonstrate a little bit,
+
+467
+00:45:59,961 --> 00:46:04,071
+I'll say something like, these findings are consistent with the literature.
+
+468
+00:46:04,401 --> 00:46:10,521
+And so when we're transitioning from results, which is very numbers and just to the facts.
+
+469
+00:46:11,671 --> 00:46:15,961
+We're keeping it without words that help people.
+
+470
+00:46:16,791 --> 00:46:20,121
+Interpret it in light of the bigger picture.
+
+471
+00:46:20,331 --> 00:46:25,791
+We do want them to understand the results. Meaning, you know, when one goes higher, the other goes higher.
+
+472
+00:46:25,941 --> 00:46:32,300
+But we don't want them to necessarily think about what the implications of that are, yet not in results and discussion.
+
+473
+00:46:32,301 --> 00:46:35,931
+However, we definitely want to help them find those implications.
+
+474
+00:46:36,201 --> 00:46:42,521
+Um, and one of our first implications might be that our model is theoretically sound.
+
+475
+00:46:42,531 --> 00:46:44,270
+And so we might point that out in discussion.
+
+476
+00:46:44,271 --> 00:46:48,231
+And there's a lot of other things that we might say in discussion based on the literature that we've cited.
+
+477
+00:46:48,741 --> 00:46:52,310
+But yikes, that is a very big write up. I'll make that big.
+
+478
+00:46:52,311 --> 00:46:56,571
+So you can see, just as a reminder, did we do all of our steps I think so.
+
+479
+00:47:00,679 --> 00:47:05,269
+All right. So, um, we had a question. We had our hypotheses.
+
+480
+00:47:05,599 --> 00:47:08,599
+We tested all of our assumptions and reported each one.
+
+481
+00:47:08,749 --> 00:47:16,609
+We reported the overall model. Then we reported, uh, the coefficients, um, in as much detail as required.
+
+482
+00:47:16,969 --> 00:47:22,069
+Uh, we put we tied up this into a nice little bow with our null by, uh, Python.
+
+483
+00:47:22,069 --> 00:47:27,558
+This statement, whether we accepted or rejected it, these two paragraphs could probably be synthesized.
+
+484
+00:47:27,559 --> 00:47:31,009
+Um, having them separate is not a bad thing. And then we transitioned to discussion.
+
+485
+00:47:31,309 --> 00:47:34,669
+So there you have it a complete multiple linear regression with write up.
+

@@ -1,0 +1,345 @@
+1
+00:00:00,600 --> 00:00:07,260
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Okay. In this demonstration, I'm going to walk through quickly how to make a contingency table that looks like this.
+
+2
+00:00:08,300 --> 00:00:15,120
+Work in SPSS. And then we'll, we'll do one for a three by three, and then we'll do a two by two.
+
+3
+00:00:15,120 --> 00:00:18,209
+And then I'll do a power analysis on that one. Okay.
+
+4
+00:00:18,210 --> 00:00:22,900
+For for the first one we have a contingency table where we have a hospital and satisfaction score.
+
+5
+00:00:22,920 --> 00:00:26,819
+We have three hospitals. Either we see and we have satisfied.
+
+6
+00:00:26,820 --> 00:00:33,900
+No opinion not satisfied. So the way these work 15 from hospital A we're satisfied.
+
+7
+00:00:34,200 --> 00:00:39,630
+Ten from hospital A had no opinion and five from hospital A were not satisfied.
+
+8
+00:00:39,900 --> 00:00:45,930
+So what we do is we go into variable view and I've already done this one, but we'll do the next one together.
+
+9
+00:00:46,440 --> 00:00:54,870
+I've created a variable called hospital and I have value labeled it one is equal to a two is equal to b, three is equal to c.
+
+10
+00:00:55,380 --> 00:01:02,610
+I have another variable called outcome one is satisfied, two is no opinion, three is not satisfied.
+
+11
+00:01:03,030 --> 00:01:06,959
+And then I have count. All right. The first two are nominal variables.
+
+12
+00:01:06,960 --> 00:01:10,740
+The second one is scale. And here I have I have no data.
+
+13
+00:01:10,770 --> 00:01:22,980
+So how does this work. So in the first column which is the first variable we're going to input these numbers 111222 and 333.
+
+14
+00:01:23,370 --> 00:01:29,550
+So we go 111222333.
+
+15
+00:01:30,180 --> 00:01:36,239
+That one is equal to hospital a two is equal to hospital B and three is equal to hospital C.
+
+16
+00:01:36,240 --> 00:01:39,750
+If I click this little button up here it shows me the value labels.
+
+17
+00:01:40,290 --> 00:01:43,349
+All right. And the second column which is a little bit out of whack.
+
+18
+00:01:43,350 --> 00:01:46,530
+But it's 123123123.
+
+19
+00:01:46,530 --> 00:01:53,730
+So we're going to go 123123123.
+
+20
+00:01:54,360 --> 00:02:00,330
+Those are our satisfaction scores satisfied, no opinion not satisfied etc.
+
+21
+00:02:00,990 --> 00:02:06,540
+And then in this last one go back to numbers. I'm going to actually put the data in.
+
+22
+00:02:06,540 --> 00:02:24,630
+You can either go down this column here or you can go left to right 1510 5218, seven etc. so 15, ten, five, 28, seven, 12, 14 and nine.
+
+23
+00:02:25,500 --> 00:02:30,200
+All right. So now what do we do? Let's look at the the contingency table.
+
+24
+00:02:30,210 --> 00:02:34,490
+We'll go to Descriptives. We will go to Crosstabs.
+
+25
+00:02:36,090 --> 00:02:39,560
+I will specify. Have it here.
+
+26
+00:02:40,190 --> 00:02:44,990
+Um, row for the hospital and outcome for the column.
+
+27
+00:02:45,470 --> 00:02:50,360
+And I'm doing something I always forget to do. So let me cancel that really quick coded data.
+
+28
+00:02:51,050 --> 00:02:55,550
+I need to go down to weight cases. What does that mean?
+
+29
+00:02:56,240 --> 00:03:03,770
+This is telling the computer that for each row of data, I'm giving it this many values.
+
+30
+00:03:04,040 --> 00:03:07,760
+So I have to click this radio button. Weight cases by count.
+
+31
+00:03:08,660 --> 00:03:12,110
+Okay. Now I can go back and do the crosstabs.
+
+32
+00:03:12,320 --> 00:03:17,210
+Descriptives Crosstabs comes up on my other screen.
+
+33
+00:03:17,690 --> 00:03:22,730
+Hospital in the rows. Outcome in the columns. And let's say okay.
+
+34
+00:03:22,760 --> 00:03:28,370
+And we can see our contingency table matches this exactly.
+
+35
+00:03:28,670 --> 00:03:32,600
+Hospital A through C satisfied to not satisfied.
+
+36
+00:03:33,320 --> 00:03:37,549
+And we have 100 total right. I don't have the totals over here.
+
+37
+00:03:37,550 --> 00:03:41,210
+But this contingency table matches. All right.
+
+38
+00:03:41,300 --> 00:03:48,560
+Now let's do our second contingency table. We have a two by two table where we're looking at gender and licensure exam outcome.
+
+39
+00:03:49,100 --> 00:03:56,090
+So we want to go to file new data. And we're going to start another contingency table from scratch.
+
+40
+00:03:56,660 --> 00:03:59,810
+Okay. So here we are in data view. I want to go to variable view.
+
+41
+00:03:59,840 --> 00:04:06,830
+I'm going to name the first variable gender. Going to name my second exam and my last one.
+
+42
+00:04:07,670 --> 00:04:14,150
+I can say count. Okay, first thing we need to do is value label them so we have one is equal to male.
+
+43
+00:04:16,710 --> 00:04:22,500
+And then two is equal to female. So okay.
+
+44
+00:04:22,510 --> 00:04:26,970
+And then we have. One and two.
+
+45
+00:04:27,660 --> 00:04:32,410
+And we have pass. And fail.
+
+46
+00:04:33,660 --> 00:04:40,150
+Say, okay, now notice when we started the new data set, it does not know what level of measurement these are.
+
+47
+00:04:40,170 --> 00:04:43,950
+So the first one is nominal. The second one is also nominal.
+
+48
+00:04:44,760 --> 00:04:48,540
+And then this last one, even though we haven't put it in yet we're going to go ahead and call it scale.
+
+49
+00:04:49,230 --> 00:04:57,390
+So let's go back to our data view and gender. We want one and one and then two and two which we can see here.
+
+50
+00:04:58,020 --> 00:05:01,800
+And then we have exam one and two and one and two.
+
+51
+00:05:02,990 --> 00:05:09,530
+And then our count is 25, ten, 30 and five.
+
+52
+00:05:10,430 --> 00:05:13,249
+Okay, so what do we do next? We've got to wade our cases.
+
+53
+00:05:13,250 --> 00:05:22,580
+We go to data wait cases, click the radio button, wait cases by account and say okay, no output yet.
+
+54
+00:05:23,120 --> 00:05:28,300
+Let's go to descriptives. Um.
+
+55
+00:05:28,310 --> 00:05:32,200
+Where are we going? Crosstabs. Gender in the rows.
+
+56
+00:05:32,200 --> 00:05:37,060
+Examine the columns. Let's just check our crosstabs before we do anything else.
+
+57
+00:05:37,210 --> 00:05:41,470
+All right, so our contingency table matches 25 and ten, 30 and five.
+
+58
+00:05:41,470 --> 00:05:44,500
+We're good. We had 70 overall. Our.
+
+59
+00:05:44,500 --> 00:05:49,780
+Now let's run the chi square. So let's go back to it. We can either go to the recall dialog which I'll do.
+
+60
+00:05:50,140 --> 00:05:54,070
+Let's click statistics which pops up on my other screen.
+
+61
+00:05:54,490 --> 00:05:59,170
+We want the chi square and we definitely want the field and Cramer's V.
+
+62
+00:05:59,170 --> 00:06:02,379
+So we're going to say continue and okay. All right.
+
+63
+00:06:02,380 --> 00:06:06,640
+So we have what we need. We um don't have significance.
+
+64
+00:06:07,120 --> 00:06:10,959
+But I'm still going to do a power analysis just for demonstration purposes.
+
+65
+00:06:10,960 --> 00:06:14,020
+We can see our chi square value was only 2.12.
+
+66
+00:06:14,740 --> 00:06:17,890
+And our p value is 0.15145.
+
+67
+00:06:18,010 --> 00:06:24,250
+Therefore we don't have significant we have a fee of -0.174.
+
+68
+00:06:24,310 --> 00:06:30,610
+Really quickly fee can be negative or positive because it reflects direction, but direction depends on how you code your categories.
+
+69
+00:06:31,090 --> 00:06:34,990
+Cramer's V is always positive because it only tells you the strength of the relationship.
+
+70
+00:06:35,590 --> 00:06:38,650
+So if he is negative and Kramer V is positive, that's okay.
+
+71
+00:06:38,710 --> 00:06:43,540
+Just focus on the magnitude, not the sign. For A22 by two table, we're going to use the V.
+
+72
+00:06:43,540 --> 00:06:50,200
+So now what do I do. So let's go into here's the little icon on my computer for G power.
+
+73
+00:06:51,820 --> 00:06:55,320
+And we are going to look at our tests.
+
+74
+00:06:55,360 --> 00:06:58,570
+We are going to look at chi square tests.
+
+75
+00:06:58,990 --> 00:07:02,860
+We'll just leave it in quick contingency tables. All right.
+
+76
+00:07:02,870 --> 00:07:08,230
+We're going to start with the. Well, let's go ahead and start with a priority.
+
+77
+00:07:09,090 --> 00:07:12,420
+All right. So our alpha level is set at 0.05.
+
+78
+00:07:13,280 --> 00:07:18,140
+We have an effect size of 0.3. But we can see right here we only have 0.17.
+
+79
+00:07:18,260 --> 00:07:23,260
+Okay. And then we have a power of 0.95 which is to the strong.
+
+80
+00:07:23,270 --> 00:07:27,190
+We want power of 0.8 and how many degrees of freedom we have.
+
+81
+00:07:27,200 --> 00:07:31,309
+We only have one because we are in a two by two table.
+
+82
+00:07:31,310 --> 00:07:43,130
+So let's say calculate. All right. And you can see that we would need a sample size of 272 in order to achieve power at this level of effect.
+
+83
+00:07:44,360 --> 00:07:51,170
+And we only had 70. So let's do a post-hoc and see how much power we actually had.
+
+84
+00:07:51,560 --> 00:07:58,310
+So we we can lay 0.17 here. We're going to go ahead and put in our sample size which was 70.
+
+85
+00:07:59,090 --> 00:08:06,540
+We have our degrees of freedom. And we're going to calculate. And we can see that we were only powered at 0.295 or 0.3.
+
+86
+00:08:06,560 --> 00:08:10,430
+So 30% power which is drastically under underpowered.
+

@@ -1,0 +1,125 @@
+1
+00:00:00,750 --> 00:00:10,860
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Okay. So I'm just going to quickly go through, uh, repeated measures Anova one way repeated measures Anova using the data set from the PowerPoint.
+
+2
+00:00:11,520 --> 00:00:16,440
+So in variable view you can see we just have four scale variables time 1 to 4.
+
+3
+00:00:16,440 --> 00:00:19,559
+And they've been labeled. So let's go to analyze.
+
+4
+00:00:19,560 --> 00:00:23,260
+And let's just do a quick explore. Reset.
+
+5
+00:00:23,830 --> 00:00:28,959
+I will hold down shift and bring them all over and just click plots and do more melody plots.
+
+6
+00:00:28,960 --> 00:00:31,960
+Uncheck stem and leaf and click continue and okay.
+
+7
+00:00:34,470 --> 00:00:38,780
+We can see nothing is significant. No. Uh, outliers.
+
+8
+00:00:38,790 --> 00:00:43,000
+One outlier here. Several here. And one here.
+
+9
+00:00:43,870 --> 00:00:49,700
+All right. Then we're going to go to, uh, do the general linear model, repeated measures.
+
+10
+00:00:49,720 --> 00:01:00,190
+Let me reset this. Um, I'm going to type in that my character's name is time and that we have four levels of it.
+
+11
+00:01:00,940 --> 00:01:05,560
+Click add. Don't have to do this part, but I'm going to go ahead and add the measure name.
+
+12
+00:01:06,770 --> 00:01:10,280
+Okay. Then I'm going to define it. I'm going to bring them over one at a time.
+
+13
+00:01:10,280 --> 00:01:14,180
+Or I could hold down shift. All right. So we're going to be comparing all of these.
+
+14
+00:01:14,900 --> 00:01:21,980
+All right. So I want to look at uh first I want to go and look at estimated marginal means.
+
+15
+00:01:23,060 --> 00:01:26,900
+Okay, I'm going to compare the main effects using a Bonferroni adjustment.
+
+16
+00:01:27,680 --> 00:01:31,969
+Um, I don't have to do post-hoc because if I go, you see, there's nothing there.
+
+17
+00:01:31,970 --> 00:01:34,580
+There's no between subject factors, so I can't do it.
+
+18
+00:01:35,360 --> 00:01:42,130
+If I click uh contrast I'll get polynomial contrast, which is something that we haven't talked about.
+
+19
+00:01:42,140 --> 00:01:49,520
+So I'm just going to go back and do the simple like we did before in the PowerPoint and leave it at uh, first and then, uh,
+
+20
+00:01:49,520 --> 00:01:58,310
+go to plots and bring time over onto the horizontal axis and add, and then we'll just go to options and do descriptives and estimates of effect size.
+
+21
+00:01:58,940 --> 00:02:03,110
+And we say okay. All right. So these are within subject uh factors.
+
+22
+00:02:03,560 --> 00:02:07,070
+Here is our descriptive statistics with the means of each one.
+
+23
+00:02:07,820 --> 00:02:14,959
+The multivariate tests here we see that we have uh Marshallese test of sphere SD is significant.
+
+24
+00:02:14,960 --> 00:02:24,380
+So we do the greenhouse geyser because it's less than oh point 75, which means that we then come down here and we want to look is time significant?
+
+25
+00:02:24,380 --> 00:02:29,420
+We look at the greenhouse geyser and we see that, yes, it is um, the contrast.
+
+26
+00:02:29,420 --> 00:02:33,920
+We get these even though, you know, we're probably more interested in the post-hoc tests.
+
+27
+00:02:34,580 --> 00:02:40,250
+The between subject effects is, uh, the null model because there's no between subjects right now.
+
+28
+00:02:41,060 --> 00:02:47,630
+Um, here are our estimates at each time, which is, uh, the same as up here.
+
+29
+00:02:47,900 --> 00:02:51,290
+But now we have, uh, confidence intervals if we're interested in that,
+
+30
+00:02:51,920 --> 00:02:57,680
+and then the pairwise comparisons and, um, we can skip this multivariate test for now.
+
+31
+00:02:58,110 --> 00:03:04,370
+All right. It's very easy to do this, uh, one way, um, analysis, repeated measures, analysis of variance.
+
