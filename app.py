@@ -25,7 +25,7 @@ APP_TITLE = "Analyst's Lantern"
 APP_SUBTITLE = "A bounded guide for thinking through analysis."
 SESSIONS_FILE = "sessions.csv"
 TURNS_FILE = "turns.csv"
-MODEL_NAME = "gpt-5.1-mini"
+MODEL_NAME = "gpt-4.1-mini"
 INACTIVITY_TIMEOUT_SECONDS = 15 * 60  # 15 minutes
 VECTOR_STORE_ID = "vs_69d12923dfc081919ea0b7d992b6092a" 
 
