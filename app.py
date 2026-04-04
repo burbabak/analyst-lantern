@@ -518,27 +518,6 @@ for msg in st.session_state.messages:
     with st.chat_message("assistant" if msg["role"] == "assistant" else "user"):
         st.write(msg["content"])
 
-import pandas as pd
-
-st.subheader("Download Data (for testing)")
-
-if os.path.exists(TURNS_FILE):
-    df_turns = pd.read_csv(TURNS_FILE)
-    st.download_button(
-        "Download turns.csv",
-        df_turns.to_csv(index=False),
-        file_name="turns.csv",
-        mime="text/csv",
-    )
-
-if os.path.exists(SESSIONS_FILE):
-    df_sessions = pd.read_csv(SESSIONS_FILE)
-    st.download_button(
-        "Download sessions.csv",
-        df_sessions.to_csv(index=False),
-        file_name="sessions.csv",
-        mime="text/csv",
-    )
 # -----------------------------
 # Chat input
 # -----------------------------
