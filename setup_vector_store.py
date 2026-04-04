@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
-COURSE_FOLDER = "course-files"
+COURSE_FOLDER = "course_files"
 
 # 1. Create vector store
 vector_store = client.vector_stores.create(

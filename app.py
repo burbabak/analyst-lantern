@@ -22,7 +22,7 @@ APP_SUBTITLE = "A bounded guide for thinking through analysis."
 LOG_FILE = "lantern_log.csv"
 MODEL_NAME = "gpt-4.1-mini"
 INACTIVITY_TIMEOUT_SECONDS = 15 * 60  # 15 minutes
-
+VECTOR_STORE_ID = "vs_69d12923dfc081919ea0b7d992b6092a" 
 
 # -----------------------------
 # OpenAI client
@@ -162,12 +162,23 @@ def build_conversation_input(user_text: str) -> list[dict]:
 
 
 def get_lantern_reply(user_text: str) -> str:
-    response = client.responses.create(
-        model=MODEL_NAME,
-        input=build_conversation_input(user_text),
-        max_output_tokens=160,
-    )
-    return response.output_text.strip()
+    try:
+        response = client.responses.create(
+            model=MODEL_NAME,
+            input=build_conversation_input(user_text),
+            tools=[
+                {
+                    "type": "file_search",
+                    "vector_store_ids": [VECTOR_STORE_ID],
+                }
+            ],
+            max_output_tokens=180,
+        )
+
+        return response.output_text.strip()
+
+    except Exception as e:
+        return f"I hit a technical snag. Please try again. ({e})"
 
 
 def append_turn_log(domain: str, thinking_type: str) -> None:
