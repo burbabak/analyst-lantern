@@ -19,7 +19,8 @@ st.set_page_config(page_title="Analyst Lantern", page_icon="🕯️", layout="ce
 # -----------------------------
 APP_TITLE = "🕯️ Analyst Lantern"
 APP_SUBTITLE = "A bounded guide for thinking through analysis."
-LOG_FILE = "lantern_log.csv"
+SESSIONS_FILE = "sessions.csv"
+TURNS_FILE = "turns.csv"
 MODEL_NAME = "gpt-4.1-mini"
 INACTIVITY_TIMEOUT_SECONDS = 15 * 60  # 15 minutes
 VECTOR_STORE_ID = "vs_69d12923dfc081919ea0b7d992b6092a" 
@@ -50,6 +51,7 @@ def initialize_session_state() -> None:
         st.session_state.messages = []
         st.session_state.turn_logs = []
         st.session_state.total_tokens_est = 0
+        st.session_state.turn_number = 0
         st.session_state.session_saved = False
 
 
@@ -61,6 +63,7 @@ def reset_session() -> None:
     st.session_state.messages = []
     st.session_state.turn_logs = []
     st.session_state.total_tokens_est = 0
+    st.session_state.turn_number = 0
     st.session_state.session_saved = False
 
 
@@ -81,11 +84,13 @@ Classify the student's message in two ways.
 2. Thinking type:
 - procedural
 - interpretive
+- evaluation
 - other
 
 Definitions:
 - procedural = asks about steps, tests, mechanics, what to run, how to do it
 - interpretive = asks what findings mean, how to explain results, how to connect results to a research question or argument
+- evaluation = asks whether something is appropriate, justified, adequate, strong, weak, aligned, or defensible
 - other = anything else
 
 Return ONLY this format:
@@ -107,7 +112,7 @@ Student message:
             domain, thinking_type = parts
             if domain not in {"quant", "qual", "other"}:
                 domain = "other"
-            if thinking_type not in {"procedural", "interpretive", "other"}:
+            if thinking_type not in {"procedural", "interpretive", "evaluation","other"}:
                 thinking_type = "other"
             return domain, thinking_type
     except Exception:
@@ -338,7 +343,7 @@ def get_lantern_reply(user_text: str) -> str:
                     "vector_store_ids": [VECTOR_STORE_ID],
                 }
             ],
-            max_output_tokens=180,
+            max_output_tokens=300,
         )
 
         return response.output_text.strip()
@@ -347,29 +352,56 @@ def get_lantern_reply(user_text: str) -> str:
         return f"I hit a technical snag. Please try again. ({e})"
 
 
-def append_turn_log(domain: str, thinking_type: str) -> None:
-    st.session_state.turn_logs.append(
-        {
-            "timestamp": now_iso(),
-            "domain": domain,
-            "thinking_type": thinking_type,
-        }
-    )
+def append_turn_log(
+    user_text: str,
+    assistant_text: str,
+    domain: str,
+    thinking_type: str,
+) -> None:
+    input_token_est = estimate_tokens(user_text)
+    output_token_est = estimate_tokens(assistant_text)
+    total_token_est = input_token_est + output_token_est
+
+    row = {
+        "session_id": st.session_state.session_id,
+        "session_number": st.session_state.session_number,
+        "turn_number": st.session_state.turn_number,
+        "timestamp": now_iso(),
+        "user_text": user_text,
+        "assistant_text": assistant_text,
+        "domain": domain,
+        "thinking_type": thinking_type,
+        "input_token_est": input_token_est,
+        "output_token_est": output_token_est,
+        "total_token_est": total_token_est,
+    }
+
+    st.session_state.turn_logs.append(row)
+
+    with open(TURNS_FILE, "a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "session_id",
+                "session_number",
+                "turn_number",
+                "timestamp",
+                "user_text",
+                "assistant_text",
+                "domain",
+                "thinking_type",
+                "input_token_est",
+                "output_token_est",
+                "total_token_est",
+            ],
+        )
+        writer.writerow(row)
 
 
 def compute_session_summary() -> dict:
     end_time = st.session_state.last_activity_time
     duration_seconds = max(0, int(end_time - st.session_state.start_time))
     message_count = sum(1 for m in st.session_state.messages if m["role"] == "user")
-
-    turn_logs = st.session_state.turn_logs
-    total_classified_turns = len(turn_logs)
-
-    quant_count = sum(1 for t in turn_logs if t["domain"] == "quant")
-    qual_count = sum(1 for t in turn_logs if t["domain"] == "qual")
-    procedural_count = sum(1 for t in turn_logs if t["thinking_type"] == "procedural")
-    interpretive_count = sum(1 for t in turn_logs if t["thinking_type"] == "interpretive")
-    other_count = sum(1 for t in turn_logs if t["thinking_type"] == "other")
 
     return {
         "session_id": st.session_state.session_id,
@@ -379,12 +411,7 @@ def compute_session_summary() -> dict:
         "duration_seconds": duration_seconds,
         "message_count": message_count,
         "token_count_est": st.session_state.total_tokens_est,
-        "classified_turn_count": total_classified_turns,
-        "quant_count": quant_count,
-        "qual_count": qual_count,
-        "procedural_count": procedural_count,
-        "interpretive_count": interpretive_count,
-        "other_count": other_count,
+        "classified_turn_count": len(st.session_state.turn_logs),
     }
 
 
@@ -393,9 +420,8 @@ def save_session_summary() -> None:
         return
 
     row = compute_session_summary()
-    file_exists = os.path.exists(LOG_FILE)
 
-    with open(LOG_FILE, "a", newline="", encoding="utf-8") as f:
+    with open(SESSIONS_FILE, "a", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
             fieldnames=[
@@ -407,27 +433,56 @@ def save_session_summary() -> None:
                 "message_count",
                 "token_count_est",
                 "classified_turn_count",
-                "quant_count",
-                "qual_count",
-                "procedural_count",
-                "interpretive_count",
-                "other_count",
             ],
         )
-        if not file_exists:
-            writer.writeheader()
         writer.writerow(row)
 
     st.session_state.session_saved = True
 
-
 def inactivity_expired() -> bool:
     return (now_ts() - st.session_state.last_activity_time) > INACTIVITY_TIMEOUT_SECONDS
 
+def ensure_log_files() -> None:
+    if not os.path.exists(SESSIONS_FILE):
+        with open(SESSIONS_FILE, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(
+                f,
+                fieldnames=[
+                    "session_id",
+                    "session_number",
+                    "start_timestamp",
+                    "end_timestamp",
+                    "duration_seconds",
+                    "message_count",
+                    "token_count_est",
+                    "classified_turn_count",
+                ],
+            )
+            writer.writeheader()
 
+    if not os.path.exists(TURNS_FILE):
+        with open(TURNS_FILE, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(
+                f,
+                fieldnames=[
+                    "session_id",
+                    "session_number",
+                    "turn_number",
+                    "timestamp",
+                    "user_text",
+                    "assistant_text",
+                    "domain",
+                    "thinking_type",
+                    "input_token_est",
+                    "output_token_est",
+                    "total_token_est",
+                ],
+            )
+            writer.writeheader()
 # -----------------------------
 # Initialize
 # -----------------------------
+ensure_log_files()
 initialize_session_state()
 
 
@@ -476,14 +531,12 @@ if user_input:
 
     st.session_state.last_activity_time = now_ts()
 
-    domain, thinking_type = classify_user_message(user_input)
-    append_turn_log(domain, thinking_type)
-
-    st.session_state.messages.append({"role": "user", "content": user_input})
-    st.session_state.total_tokens_est += estimate_tokens(user_input)
-
     with st.chat_message("user"):
         st.write(user_input)
+
+    st.session_state.messages.append({"role": "user", "content": user_input})
+
+    domain, thinking_type = classify_user_message(user_input)
 
     try:
         reply = get_lantern_reply(user_input)
@@ -491,8 +544,20 @@ if user_input:
         reply = f"I hit a technical snag. Please try again. ({e})"
 
     st.session_state.messages.append({"role": "assistant", "content": reply})
-    st.session_state.total_tokens_est += estimate_tokens(reply)
-    st.session_state.last_activity_time = now_ts()
 
     with st.chat_message("assistant"):
         st.write(reply)
+
+    st.session_state.turn_number += 1
+
+    input_token_est = estimate_tokens(user_input)
+    output_token_est = estimate_tokens(reply)
+    st.session_state.total_tokens_est += input_token_est + output_token_est
+    st.session_state.last_activity_time = now_ts()
+
+    append_turn_log(
+        user_text=user_input,
+        assistant_text=reply,
+        domain=domain,
+        thinking_type=thinking_type,
+    )
