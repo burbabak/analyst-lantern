@@ -11,17 +11,21 @@ from openai import OpenAI
 # -----------------------------
 # Page setup
 # -----------------------------
-st.set_page_config(page_title="Analyst Lantern", page_icon="🕯️", layout="centered")
+st.set_page_config(
+    page_title="Analyst's Lantern",
+    page_icon="lantern.png",
+    layout="centered"
+)
 
 
 # -----------------------------
 # Config
 # -----------------------------
-APP_TITLE = "🕯️ Analyst Lantern"
+APP_TITLE = "Analyst's Lantern"
 APP_SUBTITLE = "A bounded guide for thinking through analysis."
 SESSIONS_FILE = "sessions.csv"
 TURNS_FILE = "turns.csv"
-MODEL_NAME = "gpt-4.1-mini"
+MODEL_NAME = "gpt-5.1-mini"
 INACTIVITY_TIMEOUT_SECONDS = 15 * 60  # 15 minutes
 VECTOR_STORE_ID = "vs_69d12923dfc081919ea0b7d992b6092a" 
 
@@ -489,28 +493,30 @@ initialize_session_state()
 # -----------------------------
 # UI
 # -----------------------------
+st.image("lantern.png", width=80)
 st.title(APP_TITLE)
 st.caption(APP_SUBTITLE)
 
-with st.expander("What this tool does"):
-    st.write(
-        "The Lantern is a guide, not an answer machine. It helps you think through "
-        "analysis questions using short, question-driven support."
-    )
+st.caption(
+    "The Lantern is a guide, not an answer machine. It helps you think through analysis "
+    "using short, question-driven support, but does not complete assignments or give final answers. "
+    "Basic usage data may be recorded to improve the tool; no personal information is collected."
+)
+if not st.session_state.messages:
+    st.info("Light the lantern by asking a question about your analysis.")
 
-col1, col2 = st.columns(2)
-with col1:
-    if st.button("End Session"):
-        save_session_summary()
-        st.success("Session saved.")
-with col2:
-    if st.button("Start New Session"):
-        reset_session()
-        st.rerun()
+st.divider()
+
+if st.button("End Session"):
+    save_session_summary()
+    st.success("Your path has been illuminated... but use the lantern any time you need!")
+    reset_session()
+    st.rerun()
+
 
 if inactivity_expired() and st.session_state.messages and not st.session_state.session_saved:
     save_session_summary()
-    st.info("Your previous session was saved after inactivity. A new session will begin when you continue.")
+    st.info("Your path has been illuminated... but use the lantern any time you need!")
 
 
 # Display prior messages
