@@ -1,0 +1,1189 @@
+1
+00:00:00,035 --> 00:00:06,065
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Hi advanced research methods learners, and welcome to this lecture about establishing trustworthiness.
+
+2
+00:00:06,605 --> 00:00:14,975
+Um, by now you probably recognize that the influence research philosophies have, um, on how research is done.
+
+3
+00:00:15,275 --> 00:00:22,955
+And, um, I want you to now draw a connection between that philosophy and this idea of trustworthiness.
+
+4
+00:00:23,375 --> 00:00:28,205
+You see, without philosophy, how would you even define what good research is?
+
+5
+00:00:28,595 --> 00:00:36,935
+Um, it's actually quite difficult. And as soon as you begin to describe good research, you begin to reveal your philosophical point of view.
+
+6
+00:00:37,415 --> 00:00:42,514
+Remember that qualitative research is relatively new by comparison to the scientific method.
+
+7
+00:00:42,515 --> 00:00:50,495
+So going back hundreds of years of history of research. And while the scientific method may be perfect for bench research, um,
+
+8
+00:00:50,495 --> 00:00:56,405
+where everything and everyone can be controlled and measured, it's not realistic in human settings.
+
+9
+00:00:56,705 --> 00:01:01,565
+Um, we just don't have a lot of random assignment in our society or in education.
+
+10
+00:01:01,925 --> 00:01:10,175
+So many would say good research is valid and reliable, and I think that those words are great starting points when it comes to qualitative research.
+
+11
+00:01:10,175 --> 00:01:14,675
+However, they don't translate in the same way that they would do in quantitative.
+
+12
+00:01:15,095 --> 00:01:18,545
+Uh, you're probably familiar with this word trustworthiness.
+
+13
+00:01:18,845 --> 00:01:25,355
+Um, well, when qualitative researchers were figuring it out kind of in the 80s and 90s, uh, they called it a lot of things.
+
+14
+00:01:25,355 --> 00:01:29,885
+They called it truth, validity and credibility. You see that work in Lincoln and Guba?
+
+15
+00:01:30,215 --> 00:01:41,194
+Um, of course, trustworthiness, uh, from, uh, Eisner and others, uh, rigor and authenticity also were, uh, used again by Guba and Lincoln and, um,
+
+16
+00:01:41,195 --> 00:01:50,225
+even, uh, phrases like goodness, like the qualitative research, uh, the goodness of the research, uh, by Emden and Sander Lawsky and Marshall.
+
+17
+00:01:50,555 --> 00:01:55,384
+So, um, the essence of, like, the validity of your study, um,
+
+18
+00:01:55,385 --> 00:02:02,585
+and the quality of your study when it comes to qualitative research is really what we're asking about is the truthfulness of your findings and,
+
+19
+00:02:02,615 --> 00:02:11,225
+um, the truthfulness of the conclusions based on kind of the maximum opportunity to hear participant voices in a particular context.
+
+20
+00:02:11,555 --> 00:02:15,575
+It's imperative that as clinicians and as educators, um,
+
+21
+00:02:15,575 --> 00:02:23,495
+we think about establishing validity not only in like research strength, but also, um, knowing its limits.
+
+22
+00:02:23,705 --> 00:02:31,594
+And by doing that, we can then see the holes in our research designs and of course, uh, the outcomes of those research studies.
+
+23
+00:02:31,595 --> 00:02:36,605
+And that is what brings a sense of honesty and transparency to our research process.
+
+24
+00:02:37,055 --> 00:02:43,624
+So, um, we give the reader a better opportunity to reflect on their own opinion after reading our,
+
+25
+00:02:43,625 --> 00:02:49,835
+uh, research report, if they or if others should even give credence to what it is that we present.
+
+26
+00:02:50,214 --> 00:02:54,564
+So what makes qualitative research credible, rigorous and persuasive?
+
+27
+00:02:54,924 --> 00:03:02,814
+Today we'll explore researcher threats, procedural rigor, trustworthiness criteria and strategies to strengthen them all.
+
+28
+00:03:03,174 --> 00:03:07,044
+Um, in reality, qualitative research requires a different kind of rigor.
+
+29
+00:03:07,254 --> 00:03:14,153
+Um, not less. Rigor and trustworthiness refers to the ways qualitative researchers demonstrate
+
+30
+00:03:14,154 --> 00:03:17,874
+that through their interpretations by making sure that they're credible,
+
+31
+00:03:17,874 --> 00:03:20,154
+transparent, and supported by the data.
+
+32
+00:03:20,514 --> 00:03:29,514
+Um, in dissertations and in journal articles, you will almost always be expected to identify trustworthiness criteria in how you've defined it.
+
+33
+00:03:29,904 --> 00:03:32,814
+Um, and also, you know, how it's defined within the literature,
+
+34
+00:03:32,934 --> 00:03:39,234
+describe the strategies you used to enhance the trustworthiness and quality of your qualitative work,
+
+35
+00:03:39,654 --> 00:03:43,254
+and explain why your findings should be taken seriously.
+
+36
+00:03:43,794 --> 00:03:47,394
+So trustworthiness is not just about doing the research well, although it is.
+
+37
+00:03:47,394 --> 00:03:51,104
+And that helps. Um, it is also about communicating, uh,
+
+38
+00:03:51,114 --> 00:03:59,394
+the rigor and quality and clarity to our readers so that reviewers and readers and committees alike can make informed decisions about the work.
+
+39
+00:04:00,264 --> 00:04:09,594
+Now, trustworthy matters because, uh, qualitative research involves interpretation researcher involvement in context dependent meaning,
+
+40
+00:04:09,864 --> 00:04:14,724
+um, it's not as cut and dry as measurement might appear to be on its surface.
+
+41
+00:04:14,964 --> 00:04:22,073
+So because it's a little bit more in an area where there are multiple truths or multiple, uh,
+
+42
+00:04:22,074 --> 00:04:26,994
+like outcomes at which we could arrive after reading or hearing the same qualitative text.
+
+43
+00:04:34,803 --> 00:04:41,912
+Because regardless of what the research is, how it was conducted or what it says at the end of it, the findings, um,
+
+44
+00:04:41,913 --> 00:04:50,043
+if we don't believe that the process was conducted in an ethically way, um, or if we don't believe that it is, uh,
+
+45
+00:04:50,073 --> 00:04:56,583
+grounded in the data, that the researcher is just kind of making up whatever they wish was there, then, um,
+
+46
+00:04:56,583 --> 00:05:03,213
+or even maybe going further than the data, you know, making claims that aren't supported, then we would say, like, that is not as high quality.
+
+47
+00:05:03,213 --> 00:05:12,393
+That is less trustworthy. And so, because of the nature of qualitative research, we're required to help our readers make these informed decisions.
+
+48
+00:05:13,113 --> 00:05:20,192
+Now, there's a range of history, um, on this concept of, um, what makes good qualitative research?
+
+49
+00:05:20,193 --> 00:05:24,543
+And I want to kind of share a few perspectives, uh, because as a qualitative researcher,
+
+50
+00:05:24,543 --> 00:05:35,133
+it is your responsibility to read about and discern the application of any given, uh, framework for trustworthiness on your, uh, um, project.
+
+51
+00:05:35,373 --> 00:05:41,973
+Uh, this is not something that I can teach as a procedure, like, um, check your assumptions and then interpret the omnibus test.
+
+52
+00:05:42,153 --> 00:05:48,873
+This is something that you, as the researcher, must read, think and contemplate and decide for any given project you're conducting.
+
+53
+00:05:49,713 --> 00:05:58,772
+Now, if someone is is, like, more on the positive side of things, then maybe a little more positive is leaning, um, than they are likely to believe.
+
+54
+00:05:58,773 --> 00:06:04,412
+That kind of like the holy trinity of quantitative work validity, reliability, and generalizability, right?
+
+55
+00:06:04,413 --> 00:06:11,583
+This is like what makes good quantitative work. And so they would like to maybe file save as and transfer that on to the qualitative work.
+
+56
+00:06:11,733 --> 00:06:14,132
+And many other people have tried to do that.
+
+57
+00:06:14,133 --> 00:06:22,323
+In fact what you see on the screen is a slight attempt for that, uh, that, uh, Daley and colleagues, uh, made in the early 2000.
+
+58
+00:06:27,851 --> 00:06:36,371
+they move kind of from level one to level four, uh, where uh, level four is uh, along the weaker lines.
+
+59
+00:06:36,371 --> 00:06:40,571
+Right. So level four is the least weighty in this proposed hierarchy.
+
+60
+00:06:40,571 --> 00:06:45,101
+And it involves a single case or a small sample of interviews with thick descriptions.
+
+61
+00:06:45,341 --> 00:06:50,861
+It's useful, but not, uh, necessarily as good as it could be, at least according to this framework.
+
+62
+00:06:51,281 --> 00:06:56,591
+Level three is more descriptive, qualitative research that includes participants experiences, views.
+
+63
+00:06:56,921 --> 00:07:00,461
+Um, but it may or may not have like a theoretical aspect.
+
+64
+00:07:00,821 --> 00:07:11,890
+Level two is, uh, a theory driven study incorporating, uh, folks who may not be, um, the most representative but are, uh, conceptually sound.
+
+65
+00:07:11,891 --> 00:07:15,341
+And then level one is characterized as generalizable.
+
+66
+00:07:15,341 --> 00:07:22,000
+It's the most important. It includes, uh, qualitative, um, studies that mirror population representativeness.
+
+67
+00:07:22,001 --> 00:07:29,561
+And as it would be translated into the quantitative world and, um, you know, sample sizes that are sufficiently large enough.
+
+68
+00:07:29,981 --> 00:07:34,270
+So if we take a moment to just reflect on this, uh, hierarchy by daily, uh,
+
+69
+00:07:34,271 --> 00:07:40,001
+when we discuss qualitative work, we have to generally say it's not generalizable.
+
+70
+00:07:40,001 --> 00:07:44,711
+Right. Like and in fact, it's not even the point. So it's not a limitation of the qualitative work.
+
+71
+00:07:44,831 --> 00:07:49,511
+It's the nature of the qualitative work not to be generalizable.
+
+72
+00:07:49,961 --> 00:07:54,011
+Um, we almost always say center your work around participant views.
+
+73
+00:07:54,251 --> 00:08:02,321
+And um, of course, when you're doing at least dissertation work, and certainly, I hope, future research, you would have a theory.
+
+74
+00:08:02,591 --> 00:08:07,270
+Um, so this does kind of cross over a few of the different levels,
+
+75
+00:08:07,271 --> 00:08:11,771
+maybe how we've talked about qualitative research in this program and then, of course,
+
+76
+00:08:11,771 --> 00:08:15,521
+how it gets executed beyond, um, so if you agree with Daley,
+
+77
+00:08:15,521 --> 00:08:20,951
+then you may want to spend some time reading ways to make qualitative work more generalizable.
+
+78
+00:08:21,221 --> 00:08:28,421
+Um, if you're like more on the level four type of thing, you might be a little bit annoyed, you know, to be at the bottom of that framework.
+
+79
+00:08:28,421 --> 00:08:33,491
+But no need to worry because there are lots of frameworks who would not put them in a hierarchy like this.
+
+80
+00:08:34,121 --> 00:08:42,101
+So, um, most researchers probably believe something more here, uh, out of the work of Lincoln and Guba.
+
+81
+00:08:42,281 --> 00:08:51,131
+So, uh, believing that like, components of rigor for quantitative terms might only be useful in concept, therefore,
+
+82
+00:08:51,131 --> 00:08:58,091
+we need to transform them or translate them into something that is more closely aligned with the epistemology of qualitative research.
+
+83
+00:08:58,481 --> 00:09:05,231
+And the common components, as you see here, are credibility, transferability, dependability and confirm ability.
+
+84
+00:09:05,771 --> 00:09:11,861
+Um, we're going to jump into that a little bit further. Uh, these are based on Lincoln and his work, uh, from 1985.
+
+85
+00:09:12,041 --> 00:09:19,061
+Uh, so that's how long these things have been, um, kind of in the mix and in the lexicon of qualitative researchers.
+
+86
+00:09:19,421 --> 00:09:25,810
+Um, and if you're a qualitative researcher, you might want to do um, and interlibrary loan requests or just see the library.
+
+87
+00:09:25,811 --> 00:09:32,021
+I don't think we have a copy. But for the naturalistic inquiry, that's what their work was titled, The Naturalistic Inquiry.
+
+88
+00:09:32,351 --> 00:09:41,261
+Um, and read what they were saying at the time. Um, because I will say, although it's very commonly used, not everyone is happy with this approach.
+
+89
+00:09:41,501 --> 00:09:45,730
+You know, some kind of think it's biased toward a positive paradigm,
+
+90
+00:09:45,731 --> 00:09:51,911
+even though it is trying to maybe be a little, uh, more open minded in its terminology and translation.
+
+91
+00:09:51,911 --> 00:09:55,121
+But there's still this, like quantitative criteria as a basis,
+
+92
+00:09:55,391 --> 00:09:59,902
+assuming that even quantitative research is valid and like prioritizing, um, it or privileging purple.
+
+93
+00:09:59,948 --> 00:10:05,558
+Or privileging quantitative research over qualitative research by using their terms as if it's better.
+
+94
+00:10:06,128 --> 00:10:11,707
+So from this point of view, you know, like introducing new terms that share the meaning of reliability and validity only
+
+95
+00:10:11,708 --> 00:10:17,018
+serve to further marginalize qualitative inquiry from kind of mainstream science.
+
+96
+00:10:17,468 --> 00:10:23,948
+So although this is the most popular way of characterizing trustworthiness, it's certainly not the only way and it may not be the best way.
+
+97
+00:10:24,218 --> 00:10:31,567
+Going back to something I said earlier, qualitative researchers, it's necessary for you to do your own reading about trustworthiness,
+
+98
+00:10:31,568 --> 00:10:35,708
+what it means, how it can look, and how you explain it to your readers.
+
+99
+00:10:35,805 --> 00:10:41,855
+But when we adopt these criteria for trustworthiness, we're often asking ourselves what state?
+
+100
+00:10:41,865 --> 00:10:46,665
+What strategies enhanced credibility? How did this study support transferability?
+
+101
+00:10:46,935 --> 00:10:55,275
+How is the analytic process documented for the purposes of dependability and what evidence supports confirm ability?
+
+102
+00:10:55,485 --> 00:10:57,475
+And so these categories, uh,
+
+103
+00:10:57,705 --> 00:11:04,455
+these categories can help both researchers and readers understand how rigor was maintained throughout the research process.
+
+104
+00:11:05,565 --> 00:11:10,835
+So the last stands about, you know, quote unquote, good qualitative research that I want to cover is, uh,
+
+105
+00:11:10,875 --> 00:11:17,985
+from those who believe that qualitative research has its own universal set of criteria independent of quantitative research,
+
+106
+00:11:18,165 --> 00:11:23,745
+uh, like two separate bubbles. Um, it has a very different evaluative component and process.
+
+107
+00:11:23,805 --> 00:11:28,935
+So we need a very different construct of like what is good, what is rigor, what is quality, what is valid.
+
+108
+00:11:29,415 --> 00:11:35,145
+Um, and there's a part of this which qualitative researchers agree to for the sake of maintaining flexibility and judgment.
+
+109
+00:11:35,415 --> 00:11:40,484
+Um, the roots of qualitative inquiry, uh, remind us that we have to remain open minded,
+
+110
+00:11:40,485 --> 00:11:45,685
+that we have to consider the different definitions of truth regarding what is good research.
+
+111
+00:11:45,765 --> 00:11:52,185
+So just being open minded to new terms and continuing to contest these terms, um, is a very,
+
+112
+00:11:52,185 --> 00:11:58,365
+very valuable exercise for qualitative researchers and very in the vibe of qualitative work.
+
+113
+00:11:58,755 --> 00:12:06,345
+Um, some believe that there may not even be a set of criteria, since every study is kind of couched in its own unique context.
+
+114
+00:12:06,705 --> 00:12:10,515
+Um, Tobin and Begley ask, why do we need consensus?
+
+115
+00:12:10,785 --> 00:12:19,364
+Um, and the answer is because these, uh, strategies for trustworthiness help ensure we're not just doing fiction writing would say, uh, cut left.
+
+116
+00:12:19,365 --> 00:12:26,145
+McKenna and Hammersley. Um, so there are these debates in qualitative circles, uh, that challenge us methodologically,
+
+117
+00:12:26,145 --> 00:12:33,165
+not just along the content of our of our or the main subject of our research, but along the ways in which we conduct our research.
+
+118
+00:12:33,675 --> 00:12:36,825
+Now, this speaks to the question of who determines what quality is.
+
+119
+00:12:37,005 --> 00:12:43,105
+Judgments might be made by readers of the research reports, but also if it's meaningful to them but not to us.
+
+120
+00:12:43,125 --> 00:12:49,125
+Might it still be trustworthy? Um, at least for them, um, is trustworthiness more about the researcher?
+
+121
+00:12:49,125 --> 00:12:52,215
+Like what did I do to responsibly establish it?
+
+122
+00:12:52,515 --> 00:12:58,155
+Um, what was my responsibility to protect the reader from untrustworthy assertions when I wrote it up?
+
+123
+00:12:58,995 --> 00:13:04,725
+Um, generally, I think we agree that the quality of qualitative research is established through research design,
+
+124
+00:13:04,875 --> 00:13:09,585
+including the researcher characteristics that influence a study, the conceptual framework,
+
+125
+00:13:09,775 --> 00:13:16,425
+contextual factors, the use of a research paradigm, and traditions both methodologically and epistemologically uh,
+
+126
+00:13:16,425 --> 00:13:21,075
+research goals, purpose and questions, data sources and data collection methods.
+
+127
+00:13:21,495 --> 00:13:25,153
+Uh, we also look at good research with data analysis interpretation, which infers um.
+
+128
+00:13:29,684 --> 00:13:34,364
+of the researchers theoretical perspective as they go through the analysis stage.
+
+129
+00:13:34,604 --> 00:13:41,564
+And then finally the qualitative report, or the findings, or the results or the outcomes that you're sharing with readers.
+
+130
+00:13:41,774 --> 00:13:49,574
+Some qualitative researchers call them knowing, um, the, the report itself, uh, as a sense of physical evidence.
+
+131
+00:13:49,844 --> 00:13:57,734
+Um, and this may be not only represented in writing, but in audio recordings and transcripts that remain intact and things of that nature.
+
+132
+00:13:58,041 --> 00:14:04,971
+So all of that is to say that trustworthy continues to evolve, and more modern, trustworthy viewpoints include,
+
+133
+00:14:04,971 --> 00:14:11,211
+um, aspects that try to capture complexity and try to capture richness of qualitative work.
+
+134
+00:14:11,451 --> 00:14:18,981
+Uh, you might see, uh, authors writing about authenticity, representing multiple perspectives fairly or coherence,
+
+135
+00:14:19,131 --> 00:14:23,271
+logical alignment between the data interpretation and the claims that have been made.
+
+136
+00:14:23,661 --> 00:14:29,211
+You might look for substantive contribution, and that is advancing an understanding of a phenomenon.
+
+137
+00:14:29,511 --> 00:14:35,750
+Um, you know, these expanded frameworks remind us that qualitative rigor involves not only methodological procedures,
+
+138
+00:14:35,751 --> 00:14:38,776
+but also quality of interpretation and contribution to knowledge. Um.
+
+139
+00:14:42,955 --> 00:14:50,575
+leveled hierarchy of trustworthiness to criteria of hierarchy that are established or something that's a little bit more nuanced.
+
+140
+00:14:50,665 --> 00:14:57,675
+Your responsibility as a researcher is both. Develop your understanding of this discussion in the Academy, uh, to, uh,
+
+141
+00:14:57,745 --> 00:15:04,824
+define and describe how it's operationalized in your study and then convince the reader that what you've done is,
+
+142
+00:15:04,825 --> 00:15:08,335
+uh, producing what you would hope to be good qualitative research.
+
+143
+00:15:09,055 --> 00:15:12,174
+So if it's the job of the researcher to convey trustworthiness,
+
+144
+00:15:12,175 --> 00:15:18,955
+it's important for us to take that responsibility seriously and then arm ourselves with the necessary information to anticipate,
+
+145
+00:15:18,955 --> 00:15:23,695
+minimize, and appropriately respond to the threats of that trustworthiness.
+
+146
+00:15:24,115 --> 00:15:32,244
+Because we are researchers and we are humans, our professional and personal selves are likely to intertwine in developing that research,
+
+147
+00:15:32,245 --> 00:15:35,995
+uh, relationship and, uh, how we go about conducting our work.
+
+148
+00:15:36,325 --> 00:15:39,535
+So trustworthiness is not only about strategies.
+
+149
+00:15:39,535 --> 00:15:41,905
+It's not just a checklist of things that you can do.
+
+150
+00:15:42,085 --> 00:15:50,545
+It's about avoiding common threats that, uh, do appear frequently when we look at, uh, the rigor of qualitative research.
+
+151
+00:15:50,815 --> 00:15:58,089
+Some threats occur during data collection, such as asking leading interview questions or doing inadequate sampling and,
+
+152
+00:16:04,957 --> 00:16:12,097
+confirming too quickly to a codebook, um, or ignoring contradictory data because it doesn't suit your narrative.
+
+153
+00:16:12,247 --> 00:16:21,126
+Maybe even privileging certain voices over others, particularly when those voices align with your personal perspective,
+
+154
+00:16:21,127 --> 00:16:27,127
+or kind of the hypothesis, for lack of a better word, that you might have had in your mind about what the story would have been.
+
+155
+00:16:27,517 --> 00:16:31,687
+Now, recognizing these threats is the first step in designing strategies to address them.
+
+156
+00:16:32,527 --> 00:16:39,427
+And bias can impact all components of research design. Uh, Klein offers us five components we should consider.
+
+157
+00:16:39,757 --> 00:16:47,197
+Any of these may create validity threats. High quality qualitative research emphasizes systematic data collection.
+
+158
+00:16:47,197 --> 00:16:54,907
+Careful documentation of analytic decisions, reflexivity about researcher influence, and transparency throughout the research process.
+
+159
+00:16:55,207 --> 00:17:00,877
+So procedural rigor refers to the care and discipline with which qualitative research is conducted.
+
+160
+00:17:01,297 --> 00:17:06,517
+Unlike quantitative research, rigor is not primarily about those statistical controls.
+
+161
+00:17:06,697 --> 00:17:12,487
+Instead, qualitative rigor is demonstrated through things like transparency and reflexivity.
+
+162
+00:17:12,787 --> 00:17:17,767
+And readers should be able to understand how interpretations were developed from the data.
+
+163
+00:17:18,037 --> 00:17:24,366
+So not only do we, as qualitative researchers, need to understand the discussion of trustworthiness and rigor and embrace,
+
+164
+00:17:24,367 --> 00:17:27,937
+uh, potentially a viewpoint for the purposes of conducting our study,
+
+165
+00:17:28,117 --> 00:17:35,827
+we need to also make decisions that help us avoid critiques of, um, lack of rigor, uh, such as seen on the other slide,
+
+166
+00:17:35,827 --> 00:17:42,097
+but built in procedural rigor so that readers, uh, believe that we've gone about this in an appropriate way.
+
+167
+00:17:43,941 --> 00:17:51,201
+qualitative researchers are always kind of and introspective and looking at their methods and asking the tough questions.
+
+168
+00:17:51,381 --> 00:18:00,770
+And in this case, many qualitative researchers are asking has traditional trustworthiness as probably more on the Lincoln side of things,
+
+169
+00:18:00,771 --> 00:18:08,301
+the confirm ability, transfer ability. But maybe it could mean some different things, but mostly has that type of, you know, um, uh,
+
+170
+00:18:08,301 --> 00:18:17,541
+trustworthiness criteria become overly procedural because, uh, folks have treated it like only a process and not necessarily a mindset.
+
+171
+00:18:17,961 --> 00:18:23,211
+And I think, you know, many dissertations and articles, you know, folks will list strategies for trustworthiness,
+
+172
+00:18:23,211 --> 00:18:28,791
+triangulation, member checking and audit trails, um, checklists, things of that nature.
+
+173
+00:18:33,611 --> 00:18:40,991
+you're turning trustworthiness into methodological ritual rather than a meaningful analytic practice.
+
+174
+00:18:41,501 --> 00:18:46,121
+So the meaningful analytic practice is maybe what trustworthiness is meant to be,
+
+175
+00:18:46,121 --> 00:18:50,771
+but we've, uh, operationalized it so much that we're only checking the boxes.
+
+176
+00:18:51,191 --> 00:18:55,361
+Uh, Bronwen Clark are famous for their, uh, cycle of data analysis,
+
+177
+00:18:55,541 --> 00:19:01,330
+and they write about reflexive thematic analysis and argue that qualitative rigor should focus
+
+178
+00:19:01,331 --> 00:19:07,961
+less on applying predetermined techniques and more on applying transparent analytical reasoning.
+
+179
+00:19:07,961 --> 00:19:13,091
+So they try to surface the analytical elements that the researcher kind of keeps in their own brain.
+
+180
+00:19:13,541 --> 00:19:18,821
+Um, instead of simply listing the strategies, researchers demonstrate how interpretations were developed,
+
+181
+00:19:19,091 --> 00:19:24,011
+how decisions were made during analysis, how the researcher positionality influenced the study.
+
+182
+00:19:24,191 --> 00:19:29,981
+So this might be, uh, for instance, sharing your original codebook, sharing where the codebook evolved,
+
+183
+00:19:30,101 --> 00:19:36,401
+sharing, uh, multiple examples of how codes were collapsed or how themes were formed through iteration.
+
+184
+00:19:36,401 --> 00:19:43,451
+And so making that transparent, um, offer offers that reflexive, um, clarity for readers.
+
+185
+00:19:44,351 --> 00:19:47,831
+Another evolving emphasis concerns um, representation and power.
+
+186
+00:19:48,041 --> 00:19:53,831
+Scholars often ask whether qualitative research adequately represents participant perspectives,
+
+187
+00:19:54,011 --> 00:19:58,121
+especially when qualitative studies are done with marginalized communities.
+
+188
+00:19:58,511 --> 00:20:02,920
+And it's ironic because usually, uh, the qualitative research is,
+
+189
+00:20:02,921 --> 00:20:10,421
+is desiring to bring about the voice of those who have been on the margins or, um, left out of the conversation.
+
+190
+00:20:10,691 --> 00:20:14,351
+And yet when we do that, you know, are we doing it adequately?
+
+191
+00:20:14,501 --> 00:20:21,701
+So contemporary discussions of trustworthiness often include, uh, these like reflexive, reflexive positionality statements, um,
+
+192
+00:20:21,701 --> 00:20:27,791
+ethical representation of participant voices, uh, transparency about those analytic decisions and,
+
+193
+00:20:27,791 --> 00:20:31,241
+um, making sure that we're communicating that clearly for our readers.
+
+194
+00:20:31,451 --> 00:20:37,421
+Our dissertation committees certainly will expect us to describe traditional trustworthiness criteria,
+
+195
+00:20:37,751 --> 00:20:43,901
+um, and then pivot from there if we're adopting it, if we are discarding it, what are we moving toward?
+
+196
+00:20:44,201 --> 00:20:51,641
+Um, but we must address the ongoing methodological conversation, um, in our own qualitative research.
+
+197
+00:20:51,791 --> 00:20:59,711
+And so, uh, this fluency with the frameworks and also the debates about it are quite important for qualitative researchers to develop.
+
+198
+00:21:00,611 --> 00:21:03,551
+Now, you can read up on any of these strategies. Right.
+
+199
+00:21:03,551 --> 00:21:08,260
+So speaking of checklist this is what they're chasing like let's avoid doing all of this right.
+
+200
+00:21:08,261 --> 00:21:11,320
+And this can seem long. You're not expected to have all of them.
+
+201
+00:21:11,321 --> 00:21:18,551
+And honestly it's better if you don't. It's better to do like 1 or 2 of these well than to have 6 or 7 because they might, like,
+
+202
+00:21:18,551 --> 00:21:22,391
+distract you from the research itself, which is exactly what Bryan and Clark are saying.
+
+203
+00:21:22,751 --> 00:21:27,161
+Um, member checking has been cited as a key strategy for establishing trustworthiness.
+
+204
+00:21:27,401 --> 00:21:34,630
+It refers to the ongoing consultation with participants to test the goodness of fit, right, for developing, uh, the findings.
+
+205
+00:21:34,631 --> 00:21:37,811
+So does this pulse check pass there?
+
+206
+00:21:37,811 --> 00:21:43,510
+Um, review? Um, this is more than just review, though, you know, not just like, look at your transcript.
+
+207
+00:21:43,511 --> 00:21:49,721
+And was it accurate? It's asking them how well the analysis represents their experience.
+
+208
+00:21:49,991 --> 00:21:56,351
+And, uh, that is maybe also called something like respondent validation or interpretive validity.
+
+209
+00:21:56,501 --> 00:22:05,381
+Validity or reciprocity. Um, so a way from member checking and more into member engagement I think is where the field is shifting.
+
+210
+00:22:05,981 --> 00:22:08,530
+Triangulation is definitely another big strategy.
+
+211
+00:22:08,531 --> 00:22:14,021
+You will hear that word tossed around a lot, and it can mean a lot of different things to a lot of different people in a lot of different settings.
+
+212
+00:22:14,351 --> 00:22:18,551
+Uh, you can have triangulation of data, sources of analysis or of investigators.
+
+213
+00:22:18,791 --> 00:22:25,481
+Uh, you can have triangulation of data methods and um, or units of analysis, um, triangulation of participants.
+
+214
+00:22:25,601 --> 00:22:28,811
+So there's a lot that goes into triangulation in and on its own.
+
+215
+00:22:29,231 --> 00:22:34,001
+Peer debriefing allows for another check outside of the designated research team.
+
+216
+00:22:34,151 --> 00:22:40,270
+This might be a colleague, classmate, or individual within the community, and their role is to play the devil's advocate.
+
+217
+00:22:40,271 --> 00:22:44,711
+Looking. At what you've analyzed and how your findings are shaping up.
+
+218
+00:22:44,753 --> 00:22:50,363
+Negative case analysis involves refining and developing themes as additional information becomes available.
+
+219
+00:22:50,543 --> 00:22:57,443
+So the concept behind this is that we're constantly searching for data that go beyond what our current findings are.
+
+220
+00:22:57,473 --> 00:23:03,923
+We're searching for cases that may be represented by the same findings, but from different populations of interest or,
+
+221
+00:23:04,283 --> 00:23:08,333
+um, the kind of thing where we're almost saying, like, can we prove ourselves wrong?
+
+222
+00:23:08,603 --> 00:23:12,773
+Um, and constantly ask ourselves, you know, what else could be the story here?
+
+223
+00:23:13,013 --> 00:23:17,093
+Uh, so we're so we're challenging, um, our case analysis.
+
+224
+00:23:17,453 --> 00:23:22,823
+And then referential adequacy involves checking preliminary findings against archived raw data,
+
+225
+00:23:22,973 --> 00:23:27,833
+previous literature and existing research to explore alternative, um, explanation.
+
+226
+00:23:27,843 --> 00:23:30,923
+So we've conducted a study and we've got these findings.
+
+227
+00:23:31,133 --> 00:23:33,532
+Uh, but what is the literature saying about this?
+
+228
+00:23:33,533 --> 00:23:40,703
+Or if there was a similar secondary data set, would I be able to look in those transcripts and find, um, a similar thing or not?
+
+229
+00:23:41,093 --> 00:23:45,623
+Um, so any one of these might be appropriate for developing trustworthiness.
+
+230
+00:23:45,863 --> 00:23:51,203
+And, uh, they all might relate back to a different criteria within Lincoln and Gupta's, uh, framework.
+
+231
+00:23:57,098 --> 00:24:04,568
+Reflexes. Reflexive journals enhance confirm ability, and thick descriptions support transferability,
+
+232
+00:24:04,748 --> 00:24:08,408
+so trustworthiness is rarely achieved through a single strategy.
+
+233
+00:24:08,468 --> 00:24:12,127
+Most qualitative studies do use a multiple strategy approach,
+
+234
+00:24:12,128 --> 00:24:20,948
+working in tandem and relating them specifically to their definition or their, um, criterion for establishing trustworthiness.
+
+235
+00:24:21,258 --> 00:24:24,338
+Uh, but we are not taking a checklist approach here.
+
+236
+00:24:24,420 --> 00:24:31,680
+I think it's also important to recognize the role of artificial intelligence in qualitative work both how it's conducted,
+
+237
+00:24:31,680 --> 00:24:33,660
+how it's analyzed, and how it's reported.
+
+238
+00:24:33,900 --> 00:24:40,980
+You know, alien tools can assist analysis, but human interpretation is still central to our qualitative research.
+
+239
+00:24:45,924 --> 00:24:51,954
+summarize transcripts, identify potential patterns within that textual data.
+
+240
+00:24:52,284 --> 00:24:53,874
+And these tools are great.
+
+241
+00:24:53,904 --> 00:25:01,374
+You know, they can assist us and it makes it feel really easy, which sometimes when you're stressed as a researcher is quite valuable.
+
+242
+00:25:01,584 --> 00:25:05,034
+But it raises a severe question of trustworthiness.
+
+243
+00:25:05,244 --> 00:25:11,304
+If an AI system generates a code or a theme, who is responsible for that interpretation?
+
+244
+00:25:11,784 --> 00:25:18,114
+Qualitative research relies heavily on interpretive judgment, contextual understanding, and reflexivity.
+
+245
+00:25:18,324 --> 00:25:27,834
+So these things cannot be automated. Um, so scholars, you know, we emphasize that AI tools are used in qualitative research that we clearly document.
+
+246
+00:25:27,834 --> 00:25:36,504
+And there's always a human in the loop. Um, but I think that, uh, aspect of human in the loop is even more pressing for qualitative work.
+
+247
+00:25:37,014 --> 00:25:44,454
+Um, so we must address, you know, how I was used, um, or what tools we used that may have had an AI element.
+
+248
+00:25:44,454 --> 00:25:49,523
+And it's very difficult to even use a software that doesn't include an AI element.
+
+249
+00:25:49,524 --> 00:25:53,844
+So it's almost unavoidable if you're using any kind of computer mediated coding.
+
+250
+00:25:54,354 --> 00:25:58,674
+Um, what analytic steps did we do to remain human driven?
+
+251
+00:25:58,884 --> 00:26:02,214
+Um, so how did we put guardrails around ourselves?
+
+252
+00:26:02,454 --> 00:26:06,804
+Uh, if you know, we to avoid becoming too reliant on the AI.
+
+253
+00:26:07,104 --> 00:26:09,594
+Um, how did we make interpretive decisions?
+
+254
+00:26:09,804 --> 00:26:15,954
+Uh, so not just, you know, maintaining an audit trail and an analytic memo, because those are very important,
+
+255
+00:26:16,194 --> 00:26:20,484
+um, within these contexts, but also, again, thinking about it and explaining it.
+
+256
+00:26:20,844 --> 00:26:25,614
+The key principle, I think, is that interpretation must remain the responsibility of the researcher,
+
+257
+00:26:25,764 --> 00:26:30,684
+even if a digital tool assist you with organizing, exploring or reporting the data.
+
+258
+00:26:31,794 --> 00:26:38,874
+I think a common mistake, the conception about, um, trustworthiness is that it can be achieved by those strategies alone.
+
+259
+00:26:39,114 --> 00:26:41,094
+Uh, that's what Brown and Clark were saying.
+
+260
+00:26:41,214 --> 00:26:47,714
+You know, uh, we ensure credibility through triangulation and member checking, but reviewers and committees don't just want you to say it.
+
+261
+00:26:47,724 --> 00:26:52,674
+They want to know how and why that was done. Um, there are many ways to go about it.
+
+262
+00:26:52,704 --> 00:26:57,834
+What was your specific approach, um, when and how did you implement the strategy?
+
+263
+00:26:57,864 --> 00:27:05,964
+What did that strategy show you? You know, we're there instances in which, um, member checking was like, uh, changed something.
+
+264
+00:27:06,294 --> 00:27:10,934
+Um, how did it influence the analysis? So it's more than just stating that it was done.
+
+265
+00:27:10,944 --> 00:27:14,694
+It's how it and it influenced the entire analysis process.
+
+266
+00:27:15,084 --> 00:27:20,364
+Trustworthiness is an argument about quality and transparency in the research.
+
+267
+00:27:20,544 --> 00:27:25,574
+It's not a list of things to do when you're writing your dissertation.
+
+268
+00:27:25,584 --> 00:27:28,674
+You'll probably include a dedicated subsection.
+
+269
+00:27:28,914 --> 00:27:34,074
+Um, and it might be titled something like trustworthiness or Trustworthiness and rigor.
+
+270
+00:27:34,314 --> 00:27:41,484
+Um, that is the section in which you will explain, uh, what criteria guide your study and your definition.
+
+271
+00:27:41,724 --> 00:27:51,504
+What strategies did you use? Where did they come from and how do they, you know, appear within data collection and analysis and interpretation?
+
+272
+00:27:58,137 --> 00:28:04,797
+clear expectations, help committees and journal article reviewers understand why your findings should be trusted.
+
+273
+00:28:05,757 --> 00:28:14,427
+Now, in addition to trustworthy strategies, there are lots of journals and research communities that rely on reporting standards for these things.
+
+274
+00:28:14,547 --> 00:28:20,337
+So it's kind of interesting because the philosophical tension, um, particularly if you were on the,
+
+275
+00:28:20,337 --> 00:28:27,177
+um, more modern side of trustworthiness, might rub against some of these reporting standards.
+
+276
+00:28:27,177 --> 00:28:33,757
+And yet the outlet for your work might have to go through standards such as these.
+
+277
+00:28:33,777 --> 00:28:39,507
+Um, these are just two of many frameworks for reporting the consolidated criteria for reporting qualitative research.
+
+278
+00:28:39,627 --> 00:28:48,987
+The standards for reporting qualitative research. And I find the APA Jar's um chapter for qualitative research to be quite useful.
+
+279
+00:28:53,267 --> 00:28:57,647
+Um, there are definitely checklists related to reflexivity there.
+
+280
+00:28:57,947 --> 00:29:02,567
+Um, sr SR is, um, very useful, just kind of generally.
+
+281
+00:29:02,777 --> 00:29:05,567
+So these are not replacements for trustworthy.
+
+282
+00:29:05,567 --> 00:29:13,607
+And nobody in, um, their writing should say my trustworthy strategy was to follow this, uh, this reporting standard.
+
+283
+00:29:13,757 --> 00:29:20,237
+This is simply, um, a tool that helps us remember what to write in our method section and,
+
+284
+00:29:20,237 --> 00:29:24,467
+uh, make sure we're providing sufficient detail for readers to evaluate the study.
+
+285
+00:29:24,857 --> 00:29:28,877
+If you're writing something in a dissertation or in a journal article,
+
+286
+00:29:28,877 --> 00:29:35,506
+you want to become familiar with that outlet's standards so that you can meet them and clearly document your,
+
+287
+00:29:35,507 --> 00:29:39,287
+um, you know, process for readers, making it clear and transparent.
+
+288
+00:29:39,647 --> 00:29:46,096
+Um, but this, uh, standard isn't replacing what trustworthiness is.
+
+289
+00:29:46,097 --> 00:29:52,217
+You already needed to be doing the trustworthiness before you got to how to explain the trustworthiness by using these standards.
+
+290
+00:29:53,357 --> 00:29:57,917
+So establishing trustworthiness in qualitative research is quite personal.
+
+291
+00:29:58,037 --> 00:30:02,897
+There are many articles, uh, regarding how to do it, when to do it, where to do it.
+
+292
+00:30:06,461 --> 00:30:10,851
+as well as your research colleagues or your dissertation chair in committee.
+
+293
+00:30:10,961 --> 00:30:16,061
+But ultimately, establishing trustworthiness is the work of the researcher themselves.
+
+294
+00:30:16,241 --> 00:30:23,831
+To think about the argument for trustworthiness and rigor and quality, as well as to,
+
+295
+00:30:23,831 --> 00:30:29,801
+um, predetermine approaches that will improve the quality and rigor of the project,
+
+296
+00:30:29,951 --> 00:30:35,141
+and then to transparently and clearly communicate those to readers so that readers are then equipped
+
+297
+00:30:35,141 --> 00:30:41,171
+to make final decisions about whether or not they believe your qualitative work is trustworthy.
+

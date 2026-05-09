@@ -1,0 +1,1529 @@
+1
+00:00:01,148 --> 00:00:08,528
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Students, we're going to talk about the 30 essential skills for qualitative research, which comes from a text written by John Creswell himself.
+
+2
+00:00:08,858 --> 00:00:14,438
+Creswell is a prolific qualitative methods writer and often cited for his work and mixed and qualitative methods.
+
+3
+00:00:14,618 --> 00:00:22,118
+He's a professor of educational psychology and director of the Office of Qualitative and Mixed Methods Research at the University of Nebraska-Lincoln.
+
+4
+00:00:22,718 --> 00:00:26,947
+He's also been an adjunct professor of medicine at the University of Michigan and
+
+5
+00:00:26,948 --> 00:00:31,178
+at the Health Services research consultant at the Department of Veterans Affairs.
+
+6
+00:00:31,448 --> 00:00:40,828
+So this book, which was written in uh, 2016, um, published by sage, offers uh, many tips for qualitative researchers.
+
+7
+00:00:40,898 --> 00:00:44,227
+It's broken into seven parts, each with 2 to 5 skills.
+
+8
+00:00:44,228 --> 00:00:48,998
+And that serves and all practical how to advice that is missing from the introductory
+
+9
+00:00:48,998 --> 00:00:53,498
+literature on qualitative inquiry as stated in the introduction of the book.
+
+10
+00:00:58,795 --> 00:01:05,245
+Qualitative research requires that people approach research from a perspective that may be different than what they have previously learned.
+
+11
+00:01:05,455 --> 00:01:09,745
+It requires thinking differently than the perspectives taken in quantitative literature.
+
+12
+00:01:10,105 --> 00:01:13,885
+Research is divided into the three types quantitative, qualitative, and mixed.
+
+13
+00:01:14,125 --> 00:01:17,065
+Quantitative has been around for much of the 20th century,
+
+14
+00:01:17,215 --> 00:01:24,534
+and although qualitative research was used in some disciplines early on, it grew extensively in the 1960s and forward then.
+
+15
+00:01:24,535 --> 00:01:31,465
+Mixed methods developed pretty rapidly in the 1980s, and that may seem like a long time to us right now.
+
+16
+00:01:31,625 --> 00:01:34,705
+Um, many of you, uh, weren't even born back then.
+
+17
+00:01:34,975 --> 00:01:41,875
+Uh, but in the age of production of knowledge, qualitative and mixed methods, they're kind of in the infant stage.
+
+18
+00:01:42,235 --> 00:01:45,805
+Criswell developed a little quiz to see how qualitative researchers thought.
+
+19
+00:01:46,135 --> 00:01:51,745
+He believed they saw the big picture, made connections easily and liked to write, and liked to draw pictures,
+
+20
+00:01:51,925 --> 00:01:56,785
+organized diffused information into categories, and saw unusual things in everyday detail.
+
+21
+00:01:57,025 --> 00:02:02,785
+He believed that qualitative researchers were bored by routine and saw many perspectives about things loved to explore.
+
+22
+00:02:03,055 --> 00:02:07,825
+Um, late, liked to tinker and a knew how to count, but liked words better.
+
+23
+00:02:08,019 --> 00:02:16,299
+So in that quiz, he provided pictures, um, like this for students and asked them to describe the picture and then describe a paragraph about it.
+
+24
+00:02:16,539 --> 00:02:24,399
+So quantitative researchers would tend to report the distances between the boats, maybe the topography of the land behind it, the colors of the sea.
+
+25
+00:02:24,669 --> 00:02:27,789
+But qualitative researchers would tell stories about, you know,
+
+26
+00:02:27,789 --> 00:02:33,159
+people fishing and the contrast between kind of the dark and the light in the foreground, in the background.
+
+27
+00:02:33,399 --> 00:02:39,369
+Um, they would often even talk about what's not in the picture, creating a whole story about the folks who are in the community,
+
+28
+00:02:39,369 --> 00:02:42,489
+even though there are not necessarily a bunch of folks in the picture.
+
+29
+00:02:42,819 --> 00:02:47,829
+So at the heart of qualitative researcher is this central phenomenon or topic we wish to explore.
+
+30
+00:02:48,039 --> 00:02:55,058
+And around that central phenomenon, um, the several elements of the nature of qualitative research about that central phenomenon.
+
+31
+00:02:55,059 --> 00:03:00,999
+We hope to report the voices of participants go out to the setting or context to collect data.
+
+32
+00:03:01,239 --> 00:03:07,179
+Look how processes unfold. Focus on a small number of people or on a small number of sites.
+
+33
+00:03:07,479 --> 00:03:09,909
+Um. Explore in an open ended way.
+
+34
+00:03:09,969 --> 00:03:17,979
+Develop a complex understanding um, and lift up the silenced voices of those groups who may have been, um, on the margins.
+
+35
+00:03:18,459 --> 00:03:22,298
+By doing this, we're creating multiple perspectives and views of the phenomenon.
+
+36
+00:03:22,299 --> 00:03:25,359
+And, um, then contrasting those views are from now on and on.
+
+37
+00:03:25,569 --> 00:03:29,798
+So studying sensitive topics that are hard to study or reflect on, um,
+
+38
+00:03:29,799 --> 00:03:35,259
+because of our own biases or our own experiences are right up the alley of thinking like a qualitative researcher.
+
+39
+00:03:35,709 --> 00:03:39,669
+But it's not enough, Creswell writes, to understand how qualitative researchers think.
+
+40
+00:03:39,789 --> 00:03:42,879
+We also need to actually see how they practice.
+
+41
+00:03:43,116 --> 00:03:51,306
+So we see this in quantitative work because the author will have a hypothesis in advance and, you know, won't change math in the middle of the study.
+
+42
+00:03:51,306 --> 00:03:56,226
+And they'll claim that they are not biased and that kind of thing.
+
+43
+00:03:56,706 --> 00:04:02,316
+The same is kind of true in the qualitative, in that we have certain characteristics that are manifested, um,
+
+44
+00:04:02,376 --> 00:04:05,466
+as a result of having this conversation in an academic setting where there
+
+45
+00:04:05,466 --> 00:04:09,876
+are norms and as a result of following methods of folks who have preceded us.
+
+46
+00:04:10,118 --> 00:04:15,818
+The qualitative characteristics that are manifested in journals are often other things that are the look for,
+
+47
+00:04:16,298 --> 00:04:21,938
+um, when reviewers are, uh, judging or um, you know, choosing, selecting work.
+
+48
+00:04:22,298 --> 00:04:25,718
+Uh, is is the design named? Is it emerging?
+
+49
+00:04:25,928 --> 00:04:29,078
+Are there, uh, voices, uh, amongst the participants?
+
+50
+00:04:29,228 --> 00:04:34,058
+Uh, are there quotes from the participants? Is a complex picture presented?
+
+51
+00:04:34,418 --> 00:04:40,148
+Um, is the researcher, uh, bias, positionality, reflexivity addressed?
+
+52
+00:04:40,478 --> 00:04:49,718
+Um, is context and setting discussed? Um, are there open ended data collection methods that, uh, relate remained, um,
+
+53
+00:04:49,838 --> 00:04:56,078
+let's say open ended throughout the process so that there could be like a recursive approach to methods.
+
+54
+00:04:56,378 --> 00:05:06,758
+And, uh, was there an analysis that was suitable for, uh, the paradigm of um, and, uh, the, um, approach of qualitative research that was selected.
+
+55
+00:05:06,927 --> 00:05:10,886
+So decide on your topic. Um, you know, that's the central phenomenon.
+
+56
+00:05:10,887 --> 00:05:15,897
+Ask yourself what has and hasn't been said, uh, will anybody care about my work?
+
+57
+00:05:16,197 --> 00:05:21,297
+Um, and then, you know, potentially choosing not necessarily to investigate just what's in your own backyard,
+
+58
+00:05:21,297 --> 00:05:23,697
+but also things that are not in your own backyard.
+
+59
+00:05:23,869 --> 00:05:29,529
+You might need to, uh, look for, uh, something that makes your study concepts conceptually interesting.
+
+60
+00:05:29,539 --> 00:05:33,559
+Maybe it's an unusual location or an unusual group of participants.
+
+61
+00:05:33,679 --> 00:05:40,909
+You might need to take an angle or a perspective that isn't expected or, uh, that the data are not typically expected in this form.
+
+62
+00:05:41,209 --> 00:05:45,468
+Uh, you have to catch the reader's attention. Keep it short. Consider making your title a question.
+
+63
+00:05:45,469 --> 00:05:53,989
+Use a gerund or an ING word, uh, to, um, you know, uh, gather the qualitative energy that you're looking for,
+
+64
+00:05:54,139 --> 00:05:59,959
+um, as you think about how you're going to go about this project. Uh, qualitative research is an emotional journey.
+
+65
+00:05:59,959 --> 00:06:04,969
+There are many positive aspects and rewarding field feelings, but there are negative ones too.
+
+66
+00:06:05,389 --> 00:06:10,849
+Um, and so we have to kind of plan for those. Qualitative researchers often report feelings of isolation.
+
+67
+00:06:10,999 --> 00:06:15,739
+It's labor intensive to do this work. Uh, both the transcribing and the coding.
+
+68
+00:06:16,039 --> 00:06:23,599
+Uh, there's frequently frustrations with the IRB process, especially if, uh, the subject is relatively sensitive.
+
+69
+00:06:23,959 --> 00:06:29,089
+Um, and of course, it relies heavily on your ability to write. And, and many of us struggle with writing.
+
+70
+00:06:29,539 --> 00:06:35,479
+So believe it or not, you have to educate your committee and, uh, the folks who are working with you.
+
+71
+00:06:35,779 --> 00:06:41,509
+Yes, they may be seasoned advisors or researchers, but that doesn't mean they know the context of your work.
+
+72
+00:06:41,659 --> 00:06:46,249
+Sometimes you have to convince folks that qualitative research is valuable,
+
+73
+00:06:46,729 --> 00:06:51,919
+and sometimes you have to convince them that going about it in this way is suitable.
+
+74
+00:06:52,178 --> 00:06:57,608
+So you do this by putting your best foot forward. You know your best material, not your sloppy copies.
+
+75
+00:06:57,848 --> 00:07:00,398
+Um, and you listen to the pearls of wisdom.
+
+76
+00:07:00,578 --> 00:07:06,338
+Of course, work is always in draft, but it needs to at least make sense to the reader a little bit, or they can't provide you feedback.
+
+77
+00:07:06,638 --> 00:07:09,818
+You need to remain open to criticism, and that's not always easy.
+
+78
+00:07:10,028 --> 00:07:13,908
+Um, you might say like, that's an interesting point. Let me think about it.
+
+79
+00:07:13,928 --> 00:07:21,548
+That's a good way to get out of a sticky situation. Um, or maybe you already feel like that's a bad idea, but rather than just saying no.
+
+80
+00:07:21,788 --> 00:07:26,138
+Uh, you might need to engage in a conversation. I could consider your suggestion.
+
+81
+00:07:26,288 --> 00:07:30,097
+My initial concern is whatever it is that's holding you back.
+
+82
+00:07:30,098 --> 00:07:35,648
+And then we're beginning a dialog. So that qualitative aspect is not just a series of yes no decisions.
+
+83
+00:07:35,648 --> 00:07:39,818
+It's a dialog the entire time, even before the project gets off the ground.
+
+84
+00:07:44,972 --> 00:07:52,531
+I'm using philosophy and theory in qualitative research. We all bring a philosophical orientation to our research, and that informs us,
+
+85
+00:07:52,532 --> 00:07:59,222
+either consciously or unconsciously, and we need to distinguish ourselves from the quantitative researchers.
+
+86
+00:07:59,822 --> 00:08:08,342
+Ultimately, our paradigms or worldviews inform our theoretical lens, which then inform and shape our methodologies and our methods sections.
+
+87
+00:08:08,792 --> 00:08:12,812
+Believe it or not, using theory and qualitative work is not something everyone does.
+
+88
+00:08:13,112 --> 00:08:20,042
+You will do it in this program and in writing a dissertation, but you can read plenty of qualitative work that doesn't even mention a theory.
+
+89
+00:08:20,642 --> 00:08:25,022
+There are certainly social science theories which, um, shape the research question.
+
+90
+00:08:25,292 --> 00:08:29,431
+Um, and it might be a leadership theory or political theory or a psychological theory.
+
+91
+00:08:29,432 --> 00:08:32,672
+And of course, there are educational, um, learning theories as well.
+
+92
+00:08:32,980 --> 00:08:38,080
+There are also other kinds of theories that are more interpretive or advocacy oriented.
+
+93
+00:08:38,200 --> 00:08:47,140
+So it forms the process, um, and it ends with an advocacy or a sense of change and improvement for the individuals or groups who are involved.
+
+94
+00:08:47,470 --> 00:08:50,980
+So this would be more along the lines of a participatory paradigm.
+
+95
+00:08:51,430 --> 00:08:57,070
+Um, for instance, you might ask like how how do adolescents describe dating violence?
+
+96
+00:08:57,370 --> 00:09:04,850
+Um, and look at that from a social science theory. But then how are female adolescents abused in violent dating relationships?
+
+97
+00:09:04,930 --> 00:09:11,950
+Looking at that more from an advocacy point of view. And so that shapes the way that we're thinking about and phrasing our questions.
+
+98
+00:09:12,400 --> 00:09:19,600
+So we need to anticipate our ethical issues. Of course all research should be done ethically quantitative and qualitative.
+
+99
+00:09:19,880 --> 00:09:22,960
+Uh, but with qualitative we have to submit our application to the IRB.
+
+100
+00:09:23,140 --> 00:09:30,040
+And um, we generally will need folks to sign a consent form or at least verbally acknowledge consent to participate.
+
+101
+00:09:30,550 --> 00:09:33,220
+Um, ethical issues may arise before the study.
+
+102
+00:09:33,370 --> 00:09:42,820
+Um, and that's why we, you know, take our training and we, uh, commit to our ethics, um, and our professional association standards.
+
+103
+00:09:43,120 --> 00:09:47,050
+Um, and that's why we seek our IRB permission in the first place.
+
+104
+00:09:47,350 --> 00:09:54,040
+Um, it's very important if you're working with a team of authors to, uh, like, uh, you know, carefully communicate like,
+
+105
+00:09:54,040 --> 00:10:00,760
+who's who's the lead author, who's, uh, a middle author, um, to talk about who's going to do what work.
+
+106
+00:10:00,940 --> 00:10:05,620
+Um, to carefully select kind of the sites or locations where your study might be taking place.
+
+107
+00:10:06,190 --> 00:10:10,170
+Um, there are many things that might, uh, happen at the beginning of the study.
+
+108
+00:10:10,180 --> 00:10:14,080
+So whereas that stuff was like leading up to the project at the beginning of the study.
+
+109
+00:10:14,380 --> 00:10:18,070
+Um, you know, who are we selecting and why? What are the norms of this group?
+
+110
+00:10:18,340 --> 00:10:22,660
+And then, of course, throughout the data collection, we're worried about power imbalance.
+
+111
+00:10:22,660 --> 00:10:24,190
+We're worried about disruption.
+
+112
+00:10:24,430 --> 00:10:33,160
+Um, and we're thinking, you know, if folks are disclosing things or, um, are we doing our best to protect privacy and anonymity?
+
+113
+00:10:33,610 --> 00:10:37,450
+Uh, especially to the extent that we are, uh, guaranteed or offered that.
+
+114
+00:10:37,990 --> 00:10:41,589
+And then finally, even when you think you're done with the work, you're never done with the ethics.
+
+115
+00:10:41,590 --> 00:10:49,150
+Because even in reporting, in publishing, you know, certainly we can't falsify anything like all authorship or we don't want to plagiarize.
+
+116
+00:10:49,420 --> 00:10:57,100
+Um, but we also, you know, need to be cautious about, like, trying to disseminate our findings across multiple journals.
+
+117
+00:10:57,110 --> 00:11:06,640
+Um, uh, we might be, uh, cautious about, um, uh, framing something in a way that's advantageous to us or the narrative or the political agenda or the,
+
+118
+00:11:06,850 --> 00:11:11,140
+uh, change agenda that we had in mind, but actually stay true to the data.
+
+119
+00:11:12,130 --> 00:11:16,120
+Um, so you may be surprised how many ethical issues come up in qualitative work.
+
+120
+00:11:16,330 --> 00:11:22,390
+Uh, imagine you're you're doing a qualitative study where a teenage participant discloses the use of an illegal drug,
+
+121
+00:11:22,630 --> 00:11:29,070
+or maybe a colleague of yours, uh, publishes a paper but doesn't put your name on it, even though you contributed, uh,
+
+122
+00:11:29,080 --> 00:11:35,469
+maybe raw materials were not stored or handled properly over the process of the project itself.
+
+123
+00:11:35,470 --> 00:11:38,740
+And, um, maybe it wasn't you, but maybe it was a team member who did.
+
+124
+00:11:38,950 --> 00:11:43,000
+So anticipating these ethical issues is important and just get it up front.
+
+125
+00:11:43,660 --> 00:11:48,280
+Developing a literature map is one of the key skills a qualitative researcher can can have.
+
+126
+00:11:48,670 --> 00:11:53,800
+Um, this provides a reference for your study in relationship to the larger dialog within the literature.
+
+127
+00:11:53,950 --> 00:11:58,960
+It bridges the gap between your study and other studies, and it shows the importance of your study,
+
+128
+00:11:59,170 --> 00:12:02,920
+uh, so that your study kind of fits in as a tool of comparison.
+
+129
+00:12:03,430 --> 00:12:10,240
+It might be surprising to us today, but qualitative researchers did not believe that they needed to do a literature review before,
+
+130
+00:12:10,480 --> 00:12:13,780
+um, conducting the study back in the old days.
+
+131
+00:12:13,990 --> 00:12:17,440
+Um, and this was because it's like I'm just going out and just collecting the story.
+
+132
+00:12:17,650 --> 00:12:24,609
+Now, I think we do recognize literature is useful because, uh, not only does it inform how we do things,
+
+133
+00:12:24,610 --> 00:12:29,530
+but it also informs the way we shape and analyze, uh, the, the data that we collect.
+
+134
+00:12:30,100 --> 00:12:36,410
+Uh, so get good at developing key search terms, navigating databases, and keeping your literature organized.
+
+135
+00:12:36,430 --> 00:12:45,280
+That is certainly a skill unto itself. This visual map can be a summary that allows us to understand what your study adds when, where, and how.
+
+136
+00:12:45,400 --> 00:12:48,759
+But it can also be a map that helps us, um, as authors,
+
+137
+00:12:48,760 --> 00:12:54,697
+when we're writing our literature review and recognizing that maybe each one of these boxes becomes a heading or a subheading.
+
+138
+00:12:54,800 --> 00:12:58,850
+Um, and then finally viewing the structure of a qualitative thesis or article.
+
+139
+00:12:59,060 --> 00:13:05,300
+Uh, yes. There are qualitative researchers who do really, you know, interesting and creative things.
+
+140
+00:13:05,600 --> 00:13:10,160
+But, um, particularly at the beginning of your research career, and certainly in the dissertation phase,
+
+141
+00:13:10,310 --> 00:13:15,350
+the form of the report is going to take a, uh, standard approach.
+
+142
+00:13:22,962 --> 00:13:26,262
+Um, we need to better understand. Fill in the blank.
+
+143
+00:13:26,472 --> 00:13:29,812
+Uh, we know just a little bit about fill in the blank.
+
+144
+00:13:29,832 --> 00:13:33,042
+It's for these reasons that I propose your purpose statement.
+
+145
+00:13:33,432 --> 00:13:36,611
+Um, the setting and participants are appropriate because.
+
+146
+00:13:36,612 --> 00:13:41,022
+And explain why the methods I plan using are the following.
+
+147
+00:13:41,022 --> 00:13:49,751
+And use your citations to explain not just the background, but also this specific procedure analysis would generate answers to these questions.
+
+148
+00:13:49,752 --> 00:13:53,652
+Why and how? Because what cycle will you use or what approach will use?
+
+149
+00:13:54,012 --> 00:14:00,882
+And then the findings will be, um, you know, identified as being trustworthy or rigorous or validated as,
+
+150
+00:14:00,912 --> 00:14:05,412
+uh, defined by and described by, um, other elements of trustworthiness.
+
+151
+00:14:05,712 --> 00:14:14,802
+The study poses no serious ethical concerns or problems, and then preliminary results support the, uh, practicability and the value of the study.
+
+152
+00:14:15,052 --> 00:14:22,332
+Uh, so we're talking about the topic, the purpose, the participants, the methods, the analysis, the trustworthiness, the ethics, and the values.
+
+153
+00:14:22,362 --> 00:14:25,902
+And that's true whether you're writing up something very small or very large.
+
+154
+00:14:26,352 --> 00:14:30,791
+Um, you can see that addressing these questions gives you a really nice outline for a study.
+
+155
+00:14:30,792 --> 00:14:37,662
+And so it is a very helpful practice to understand the macro structure of a manuscript.
+
+156
+00:14:38,712 --> 00:14:42,612
+And that brings us to part three introducing a qualitative study.
+
+157
+00:14:42,942 --> 00:14:48,012
+Uh, Creswell writes that writing a good qualitative title and abstract is a little harder than you think.
+
+158
+00:14:48,312 --> 00:14:53,262
+Titles should be short. 10 to 15 words are usually the max, and it's usually a statement.
+
+159
+00:14:53,262 --> 00:14:59,802
+But it could be a question and it might be one part or two parts, kind of with the colon.
+
+160
+00:15:00,132 --> 00:15:06,232
+Uh, lots of study titles start with a verb and you might think, why am I needing coaching on a title?
+
+161
+00:15:06,252 --> 00:15:11,262
+But a title does a lot. I think back to times where you've been doing literature review,
+
+162
+00:15:11,262 --> 00:15:16,331
+and whether or not a title catches you often will lead to whether or not you click on the article,
+
+163
+00:15:16,332 --> 00:15:22,121
+and then you'll scan maybe the abstract or the methods or the outcomes section to decide
+
+164
+00:15:22,122 --> 00:15:26,982
+if this article is worthy of a full read and a full integration into your own manuscript.
+
+165
+00:15:27,222 --> 00:15:29,322
+So you want to do the readers, uh,
+
+166
+00:15:29,352 --> 00:15:36,612
+a service by giving them a title that's worthy of clicking on so that they can be drawn in to the outcomes of your study.
+
+167
+00:15:37,092 --> 00:15:40,602
+Abstracts can vary from 50 words to 300 words.
+
+168
+00:15:40,632 --> 00:15:44,922
+Some of them are, um, structured. So you might see it with bold headings.
+
+169
+00:15:44,952 --> 00:15:52,002
+Um, that mirror the outline of the paper, maybe, uh, methods, uh, you know, purpose, methods, results.
+
+170
+00:15:52,212 --> 00:15:58,122
+Uh, but some of them are unstructured. So it's kind of one long paragraph conveying the same information, but just in a different way.
+
+171
+00:15:58,542 --> 00:16:00,582
+Now, um, there are different points of view.
+
+172
+00:16:00,582 --> 00:16:06,432
+If someone should write an abstract first, because that's almost like a miniature outline for the whole project,
+
+173
+00:16:06,702 --> 00:16:12,072
+or if you should write an abstract last, because you already know what to say.
+
+174
+00:16:12,072 --> 00:16:15,912
+It's the miniature elements of what your longer report shares.
+
+175
+00:16:16,107 --> 00:16:22,496
+Chris was pretty adamant that if you don't have a good title and a good introduction and opening sentence,
+
+176
+00:16:22,497 --> 00:16:26,127
+much less paragraph, the reader is not going to stick with you for very long.
+
+177
+00:16:26,367 --> 00:16:29,004
+So you want to grab the attention reader, um, components of, uh, the introduction that.
+
+178
+00:16:29,048 --> 00:16:34,238
+And right away you want to be able to identify the topic. State the purpose or the intent of the study.
+
+179
+00:16:34,268 --> 00:16:38,318
+Narrow it down to the very, more specific thing that you're doing in this study.
+
+180
+00:16:38,528 --> 00:16:45,878
+And then explain kind of the research design. Um, just at its at its simplest form, you want to kind of surface that information.
+
+181
+00:16:46,308 --> 00:16:52,988
+Uh, the first sentence draws your reader through, maybe even, um, a personal statement or a statistic that's kind of catchy.
+
+182
+00:16:53,318 --> 00:16:59,798
+Um, maybe a certain story or participant, um, within your site, uh, can grab that.
+
+183
+00:17:00,218 --> 00:17:05,858
+Um, he writes that a successful qualitative published work, uh, may sound like this at the beginning.
+
+184
+00:17:06,428 --> 00:17:10,388
+Um, I grew up in a small town of 3000 people in the foothills of Virginia.
+
+185
+00:17:10,628 --> 00:17:13,221
+Uh, the same place my parents were born and raised. Um.
+
+186
+00:17:13,289 --> 00:17:21,659
+Or something like incarceration rates for U.S. residents have increased 700% between these in that years, and they continue to climb.
+
+187
+00:17:21,869 --> 00:17:26,399
+So the idea is like, you want to draw the reader in one way or the other.
+
+188
+00:17:26,639 --> 00:17:33,659
+I will say, however, that this is often a negotiation both with your, uh, coauthors, with your chair or committee,
+
+189
+00:17:33,659 --> 00:17:39,839
+if you're writing a dissertation, and certainly with the editor of the journal, um, if you're submitting a manuscript for publication.
+
+190
+00:17:40,119 --> 00:17:48,779
+Uh, so depending on your outlet and audience, you might need to consider what are the best ways to grab that reader in this moment.
+
+191
+00:17:49,319 --> 00:17:51,388
+We want to script a qualitative purpose,
+
+192
+00:17:51,389 --> 00:17:56,789
+and of course have that purpose statement and research questions that are aligned with the qualitative tradition.
+
+193
+00:17:57,189 --> 00:18:03,629
+Uh, the purpose was that overall objective. And we are familiar with, uh, the one sentence approach to that.
+
+194
+00:18:04,529 --> 00:18:11,529
+Um, key elements might include, uh, kind of those the verb tense, uh, of being past, present or future.
+
+195
+00:18:11,549 --> 00:18:14,639
+You know, it's short. It's to the point. It's not necessarily directional.
+
+196
+00:18:14,639 --> 00:18:18,989
+So we're not trying to say we're, um, only looking for positive or negative.
+
+197
+00:18:19,199 --> 00:18:22,559
+Um, we might talk a little bit about who the participants are.
+
+198
+00:18:22,709 --> 00:18:29,909
+So there are lots of different words that might be able to fit into this purpose statement without making it, uh, too cumbersome.
+
+199
+00:18:30,479 --> 00:18:38,429
+Um, Cresswell offers these structures, and he does so not only for the purpose statement, but also for the, uh, question itself.
+
+200
+00:18:38,729 --> 00:18:42,149
+Um, he offers a few different questions in his text, like,
+
+201
+00:18:42,269 --> 00:18:49,469
+how do first year Chinese graduate students adjust at a midwestern university and says, you know, that could be improved?
+
+202
+00:18:49,679 --> 00:18:55,529
+Uh, because, uh, by looking more specifically at what are the coping strategies that first year
+
+203
+00:18:55,529 --> 00:19:01,389
+Chinese graduate students use to adjust in their first year at a midwest university?
+
+204
+00:19:01,439 --> 00:19:06,029
+So it's not just generally descriptive, but it's looking at something about how we're building knowledge.
+
+205
+00:19:06,169 --> 00:19:11,179
+You might have second or third questions to narrow the central phenomenon.
+
+206
+00:19:11,509 --> 00:19:17,029
+Um, maybe, like, what are their attitudes toward forming social groups or how are they acclimating?
+
+207
+00:19:17,119 --> 00:19:21,018
+Some of that is done through the protocol, through the question and data collection itself,
+
+208
+00:19:21,019 --> 00:19:29,149
+and then becomes surfaced through analysis and and theme, making others are more explicit in the fact that they are research questions.
+
+209
+00:19:29,449 --> 00:19:34,099
+Um, but these research questions, if you have more than one and no matter how they are structured,
+
+210
+00:19:34,219 --> 00:19:42,439
+they must jive together both with the purpose statement and the introduction, as of course, with the, uh, data collection and analysis.
+
+211
+00:19:42,549 --> 00:19:48,819
+So speaking of collecting data, understanding the process of data collection is a key skill for qualitative researchers.
+
+212
+00:19:49,269 --> 00:19:55,929
+We generally gravitate towards the interview or focus group and that is very obvious and is very common and useful.
+
+213
+00:19:56,100 --> 00:20:01,380
+But there are lots of other data that are available regardless of the data that we're collecting.
+
+214
+00:20:01,380 --> 00:20:04,590
+The process is what Creswell focuses on here.
+
+215
+00:20:04,770 --> 00:20:08,820
+We need to have a rationale for using qualitative research in the first place.
+
+216
+00:20:08,820 --> 00:20:11,602
+And it's not just because we wanted to or it was convenient. It needs to be, um, contextually and um, uh.
+
+217
+00:20:11,657 --> 00:20:14,987
+It needs to be contextually and theoretically grounded.
+
+218
+00:20:15,587 --> 00:20:20,147
+We want to name the research site. We want to talk about how we went through the IRB process.
+
+219
+00:20:20,327 --> 00:20:22,457
+We want to talk about the recruitment strategies.
+
+220
+00:20:22,457 --> 00:20:31,247
+You know, placing ads, putting up, um, fliers, sending emails, um, snowball approach where we can get, uh, word of mouth referral.
+
+221
+00:20:31,637 --> 00:20:39,917
+That purposeful or purposive sampling is where we're specifically targeting our group of people who we think are relative to the phenomenon.
+
+222
+00:20:40,157 --> 00:20:47,147
+Um, and researchers should probably keep a data of, um, a data set or a table of relevant demographic data.
+
+223
+00:20:47,477 --> 00:20:50,327
+Um, because even when we're looking at qualitative work,
+
+224
+00:20:50,327 --> 00:20:57,437
+we often want to know more about who your people are and how that demographic data might look different for any given study.
+
+225
+00:20:57,617 --> 00:21:03,887
+Of course, you know, like, um, race or gender, those things come to mind, but they may not be relevant to your study.
+
+226
+00:21:04,037 --> 00:21:07,936
+What might be more relevant is how many years of experience do they have?
+
+227
+00:21:07,937 --> 00:21:15,737
+Or do they teach in this discipline or that discipline? Um, and so your, uh, your demographics aren't necessarily meant to be, uh,
+
+228
+00:21:15,797 --> 00:21:21,407
+the same as you might see in quantitative work, but certainly characterizing the sample is quite,
+
+229
+00:21:21,437 --> 00:21:28,607
+um, normal and necessary so that readers can understand, um, how much maybe that relates to their group or doesn't relate to their group.
+
+230
+00:21:29,687 --> 00:21:35,927
+The centerpiece of data collection are, of course, the types of data and, uh, the advantages and disadvantages of each.
+
+231
+00:21:40,152 --> 00:21:44,202
+So the researcher should give back, um, time to them.
+
+232
+00:21:44,262 --> 00:21:47,501
+Reciprocity involves the researcher, you know,
+
+233
+00:21:47,502 --> 00:21:54,432
+sharing with the the subjects and the participants in some form or fashion might be a minor token of appreciation.
+
+234
+00:21:54,642 --> 00:21:58,782
+Um, uh, something, uh, major step of support and advocacy work.
+
+235
+00:21:58,992 --> 00:22:01,602
+Um, and a variety of activities in between.
+
+236
+00:22:01,831 --> 00:22:09,211
+Now, if you have a study that's relying on one specific type of data, you will certainly be good at collecting that data by the end.
+
+237
+00:22:09,421 --> 00:22:14,821
+But essential skills for qualitative researchers means you need to be familiar with all the data types.
+
+238
+00:22:15,241 --> 00:22:22,921
+Observation is a very powerful qualitative tool, um, particularly when the interviewer cannot interject themselves into a conversation.
+
+239
+00:22:23,131 --> 00:22:30,721
+It can help you triangulate, and it can help you see things that people can't necessarily say, either because they're unwilling or unable.
+
+240
+00:22:30,961 --> 00:22:34,621
+But observation is definitely a skill that you have to learn to develop.
+
+241
+00:22:35,011 --> 00:22:38,971
+The goal is to understand. It's not to judge.
+
+242
+00:22:39,091 --> 00:22:44,881
+So we might locate a site, develop a protocol, and focus on a certain type of event or interaction.
+
+243
+00:22:45,241 --> 00:22:48,241
+Um, that helps us better understand our central phenomenon.
+
+244
+00:22:48,421 --> 00:22:54,151
+And then, uh, more or less record those observations both descriptively and reflectively.
+
+245
+00:22:54,391 --> 00:22:57,571
+That is what becomes our data for the purposes of analysis.
+
+246
+00:22:58,021 --> 00:23:04,111
+You have to strive to capture detail and write as much as possible, hopefully in complete sentences, if there's time.
+
+247
+00:23:04,381 --> 00:23:08,881
+Um, if participants engage with you during your observation, you might talk with them,
+
+248
+00:23:08,881 --> 00:23:15,331
+but you would want to record that fact in your field notes, um, and maybe even record the nature of the conversation.
+
+249
+00:23:15,481 --> 00:23:21,060
+Uh, very quickly in a narrative, the amount of data in an observation is very overwhelming,
+
+250
+00:23:21,061 --> 00:23:27,031
+and it can be challenging to kind of coordinate all together. Um, researchers aren't always sure what to focus on.
+
+251
+00:23:27,251 --> 00:23:34,561
+Uh, so it's important to, uh, practice the skill of observation, uh, particularly if it's a key way that you'll be collecting data.
+
+252
+00:23:38,669 --> 00:23:43,849
+Um, but generally you are, you know, having them to consent to the interview either verbally or in writing.
+
+253
+00:23:43,999 --> 00:23:47,329
+And there's a lot that goes into, uh, a successful interview.
+
+254
+00:23:47,749 --> 00:23:51,769
+Um, it's important for you to choose the type of interview, whether it is, uh,
+
+255
+00:23:51,799 --> 00:23:56,689
+a one on one type interview, is it structured or, um, semi-structured or unstructured?
+
+256
+00:23:56,869 --> 00:24:00,949
+Is it a group interview which would what we would normally call a focus group?
+
+257
+00:24:01,369 --> 00:24:07,009
+Um, are you following a protocol? Is that protocol clear if you're the only one collecting data?
+
+258
+00:24:07,339 --> 00:24:10,659
+Uh, that's fine, but what if other people are collecting data?
+
+259
+00:24:10,669 --> 00:24:12,769
+You know, are we keeping it consistent?
+
+260
+00:24:13,219 --> 00:24:19,009
+Uh, Creswell suggests that short interviews are better, and you can always go back to the interview if you need to.
+
+261
+00:24:19,159 --> 00:24:24,049
+So a 30 minute interview is likely to yield something like 20 pages of transcription.
+
+262
+00:24:24,349 --> 00:24:29,899
+And, um, then, you know, like, if you have, uh, a 60 minute interview and you've done that over,
+
+263
+00:24:29,899 --> 00:24:33,949
+you know, 20 or 30 participants, you are really swimming in the data.
+
+264
+00:24:34,069 --> 00:24:37,789
+So you have to be cautious about what you collect in your interview protocol.
+
+265
+00:24:45,730 --> 00:24:53,260
+You want to get to know each other and establish an ease of, um, of this exchange, not a high pressure question right away.
+
+266
+00:24:53,470 --> 00:24:59,560
+We get to the central phenomenon through the remaining questions, and we generally end with a question that's a nice off ramp.
+
+267
+00:24:59,920 --> 00:25:09,670
+Um, and certainly we, uh, share some caveats, like I might follow up with you later or, um, if you have questions, now's a great time.
+
+268
+00:25:09,670 --> 00:25:18,850
+You know, do you have any other closing thoughts? And if our, um, uh, topic is anything sensitive at all, we want to cover some safety procedures.
+
+269
+00:25:19,090 --> 00:25:25,360
+Um, such as, uh, you know, the, um, suicide hotline or the safety plan if they're leaving in distress,
+
+270
+00:25:25,510 --> 00:25:30,310
+you know, is there a friend to call, um, or referral to an academic resource?
+
+271
+00:25:30,310 --> 00:25:36,459
+Because potentially we've been discussing, um, academic remediation or other challenges and making sure that they're, uh,
+
+272
+00:25:36,460 --> 00:25:43,510
+aware of all of these support structures so that when they leave your interview, they're not in a worse place than when they started.
+
+273
+00:25:43,655 --> 00:25:47,434
+There are lots of concerns with collecting data from marginalized populations,
+
+274
+00:25:47,435 --> 00:25:54,125
+and many of these concerns have to do with power and historical mistreatment within research situations themselves.
+
+275
+00:25:54,455 --> 00:25:58,325
+Um, so we don't want to treat marginalized groups as homogeneous.
+
+276
+00:25:58,595 --> 00:26:06,095
+Um, but it can be sometimes difficult to access these marginalized groups, uh, because, of course, there's low trust.
+
+277
+00:26:06,095 --> 00:26:09,725
+Or, uh, maybe you're asking about, um, illegal activities.
+
+278
+00:26:09,725 --> 00:26:14,045
+And so they don't want to face, you know, any repercussions or have that story get out there.
+
+279
+00:26:14,345 --> 00:26:19,834
+Um, there can be lots of barriers, you know, um, there might be, uh, for instance, if you're, uh,
+
+280
+00:26:19,835 --> 00:26:25,655
+studying folks who are unhoused, uh, there could be all kinds of, like, comorbidity issues of, uh,
+
+281
+00:26:25,655 --> 00:26:33,845
+mental illness or drug abuse or, um, any number of other things, not to mention just the challenge of living on the streets and how that affects,
+
+282
+00:26:34,145 --> 00:26:37,565
+um, kind of just the ability for me to show up and participate in an interview.
+
+283
+00:26:37,565 --> 00:26:44,675
+Right. Um, so, uh, it's very important that we are culturally aware within the global qualitative research setting.
+
+284
+00:26:44,975 --> 00:26:50,555
+Um, not everything is appropriate in every setting, even if the methods text says to do something.
+
+285
+00:26:50,705 --> 00:26:55,084
+You have to be able to, as a researcher, control that within the context,
+
+286
+00:26:55,085 --> 00:26:59,795
+because qualitative research, more than anything, is about what's in the context of this study.
+
+287
+00:26:59,878 --> 00:27:02,831
+Part five is about analyzing and validating data. Um, there.
+
+288
+00:27:02,920 --> 00:27:09,340
+Because there are lectures about these things elsewhere. I'm going to kind of, uh, just touch the the highlights here.
+
+289
+00:27:09,460 --> 00:27:14,650
+Creswell offers tons of great insights about coding text based data,
+
+290
+00:27:14,860 --> 00:27:20,980
+using computer software and looking for that agreement or inter rater reliability.
+
+291
+00:27:21,250 --> 00:27:26,920
+Um, that's basically checking between kind of the consistency of two or more researchers as they're coding to see.
+
+292
+00:27:27,070 --> 00:27:28,595
+Are they coming up with the same thing? The way Creswell describes these things is not the only way.
+
+293
+00:27:31,949 --> 00:27:35,519
+He's very much committed to being, um,
+
+294
+00:27:35,579 --> 00:27:42,839
+on the paper and would encourage all researchers to begin with printed transcripts before they move to a computer software program.
+
+295
+00:27:42,839 --> 00:27:48,389
+And I personally I agree with Cresswell on this issue. Um, but you may not, and that's okay.
+
+296
+00:27:48,419 --> 00:27:52,799
+Uh, I think, uh, it's important to recognize that there's a variety of approaches.
+
+297
+00:27:53,099 --> 00:27:56,249
+Um, and these are Cresswell recommendations. Same for coding.
+
+298
+00:27:56,399 --> 00:28:02,429
+Um, he and, uh, Saldana, who's another, you know, uh, prolific qualitative research methods,
+
+299
+00:28:02,429 --> 00:28:07,169
+um, author, uh, talk about, like, organizing labels and codifying them.
+
+300
+00:28:07,199 --> 00:28:12,719
+But then Cresswell also emphasizes the value of organizing them into themes or creating a concept map.
+
+301
+00:28:12,899 --> 00:28:17,159
+Whereas, Saldana says, you know, not every work turns into a theme.
+
+302
+00:28:17,159 --> 00:28:21,389
+And if we force that, we're actually not having a lot of fidelity to the data.
+
+303
+00:28:21,689 --> 00:28:23,639
+Uh, so there are some tensions here.
+
+304
+00:28:24,020 --> 00:28:28,280
+But in that section of the text, there are two tips that I want to discuss a little bit further.
+
+305
+00:28:28,280 --> 00:28:34,250
+Coding images and pictures, which can be really powerful, but it's much harder maybe than you might anticipate.
+
+306
+00:28:34,550 --> 00:28:43,760
+Uh, because when you're, uh, say, coding a video, which is a moving picture with sound, there's actually 3 or 4 layers of coding that are happening.
+
+307
+00:28:44,060 --> 00:28:50,600
+And if the video includes multiple people, multiple moving parts, um, it's quite labor intensive.
+
+308
+00:28:50,850 --> 00:28:58,490
+Uh, so when we're looking at, say, a photograph, we've already, we've already, uh, selected or coded something in a way,
+
+309
+00:28:58,670 --> 00:29:05,930
+because as the video organizer or the photographer, I've already made a choice about how to frame the photo.
+
+310
+00:29:06,140 --> 00:29:10,820
+And, um, if you see the picture on the screenshot, it's of a girl smiling.
+
+311
+00:29:10,820 --> 00:29:14,269
+She appears to be doing homework. Um, there's something behind her.
+
+312
+00:29:14,270 --> 00:29:20,419
+It may be someone standing, or it might be, uh, a blanket. But then you know what's what's beyond that couch?
+
+313
+00:29:20,420 --> 00:29:23,120
+What's beyond that chair that we can't see.
+
+314
+00:29:23,390 --> 00:29:32,178
+Um, and so we have to recognize that the data we're working with and probably just like any textual data, is quite limited to the frame that we have.
+
+315
+00:29:32,392 --> 00:29:38,992
+And then if we do develop theme passages like Creswell suggests, then, um, we can.
+
+316
+00:29:39,080 --> 00:29:45,380
+Organize our codes or our raw data to help us explain, you know, groupings of that central phenomenon.
+
+317
+00:29:45,590 --> 00:29:53,330
+The idea here of writing a theme passage is to present the complexity of them on the basis of evidence that's collected within the study.
+
+318
+00:29:53,570 --> 00:30:00,170
+And so the best theme passages, according to Creswell, have a label that's like clear and conceptual and interesting,
+
+319
+00:30:00,170 --> 00:30:03,680
+and multiple codes could provide evidence for that theme.
+
+320
+00:30:04,010 --> 00:30:11,330
+Uh, multiple quotations or, uh, rich, thick descriptions from, from participants would be, um, illustrators of that theme.
+
+321
+00:30:11,660 --> 00:30:15,590
+And so it's helpful, I think, when you're coding to identify possible quotations,
+
+322
+00:30:15,590 --> 00:30:19,280
+things that just catch you or stand out, uh, because then you're able to more,
+
+323
+00:30:19,280 --> 00:30:27,980
+um, quickly, uh, put those together as your, your, you know, both analyzing and interpreting and reporting, uh, your, your findings.
+
+324
+00:30:28,250 --> 00:30:39,020
+Um, but we want to use our themes, um, not just as, like pros and cons of this approach, but more so, uh, themes stated in terms that are meaningful.
+
+325
+00:30:39,380 --> 00:30:43,850
+Um, so, for instance, if you were, say, doing a qualitative study about, uh,
+
+326
+00:30:43,850 --> 00:30:50,150
+the ways in which faculty use microlearning techniques or, uh, philosophies to design their courses,
+
+327
+00:30:50,390 --> 00:30:55,400
+you wouldn't have one theme that said microlearning has challenges and list the challenges,
+
+328
+00:30:55,400 --> 00:30:59,900
+and then microlearning has benefits and then lists the benefits. Those are not themes at all.
+
+329
+00:31:00,200 --> 00:31:04,939
+Themes would be something more along the lines of faculty address.
+
+330
+00:31:04,940 --> 00:31:15,649
+Microlearning challenges in the design phase to avoid student frustration or um faculty recognize
+
+331
+00:31:15,650 --> 00:31:22,340
+the benefits of microlearning outweigh the effort it takes for them to build those materials.
+
+332
+00:31:22,610 --> 00:31:27,020
+Those would be more like the theme statements that, uh, we're trying to work for.
+
+333
+00:31:27,620 --> 00:31:30,290
+And then finally implementing validity checks.
+
+334
+00:31:30,530 --> 00:31:38,880
+Um, although the idea of trustworthy with trustworthiness with which which Creswell calls validity, um, has been described elsewhere.
+
+335
+00:31:38,900 --> 00:31:43,850
+It's important, I think, to put this in the deck, uh, because he does offer a different point of view.
+
+336
+00:31:44,030 --> 00:31:54,079
+Um, he, uh, definitely takes that more, um, uh, quantitative paradigm, a belief system which might be reflective of his personal practice,
+
+337
+00:31:54,080 --> 00:32:00,170
+his medical training, or the age in which he was producing, uh, the primary qualitative work that he was developing.
+
+338
+00:32:00,380 --> 00:32:03,860
+Uh, so it's kind of interesting that, um, from Creswell,
+
+339
+00:32:03,860 --> 00:32:08,720
+I think we can still learn quite a few lessons, regardless of whether we use the word validity or not.
+
+340
+00:32:12,524 --> 00:32:20,414
+So researchers should use triangulation to look for different, you know, avenues of support, but also look for confirming evidence.
+
+341
+00:32:20,744 --> 00:32:24,734
+Um, they should also try to reflect on their own experiences.
+
+342
+00:32:25,184 --> 00:32:29,174
+Um, the second way, you know, uh, Chris will, uh, operationalize is,
+
+343
+00:32:29,174 --> 00:32:33,524
+are thinks about validity and his own qualitative work is through the participants lens.
+
+344
+00:32:33,704 --> 00:32:40,574
+And I think that that's often missing from, um, traditional or more modern, um, uh, discussions about trustworthiness.
+
+345
+00:32:40,574 --> 00:32:46,603
+So I really appreciate that. Uh, this can be done through member checking, but more than just checking the transcript,
+
+346
+00:32:46,604 --> 00:32:49,604
+actually checking does this with maybe even a second interview.
+
+347
+00:32:49,604 --> 00:32:54,494
+Does this kind of, um, align with your own experience or if not, you know,
+
+348
+00:32:54,494 --> 00:32:58,873
+help me understand where there might be discrepancies and, um, then finally,
+
+349
+00:32:58,874 --> 00:33:04,424
+validity can comes from, um, can come from a reviewer or a reader, uh,
+
+350
+00:33:04,424 --> 00:33:10,544
+just to make sure that the account is, is accurate, um, that it's clear that it's not overreaching.
+
+351
+00:33:10,804 --> 00:33:17,134
+Part six is all about writing and publishing your qualitative research, and that could be its own slide deck.
+
+352
+00:33:17,434 --> 00:33:22,534
+Um, so that would be its own, um, you know, uh, very exhaustive lecture, I'm sure.
+
+353
+00:33:22,714 --> 00:33:25,924
+But the thing about writing is you learn through practice.
+
+354
+00:33:26,194 --> 00:33:30,333
+Um, as Cresswell talks about writing in a scholarly way, in a qualitative way,
+
+355
+00:33:30,334 --> 00:33:35,434
+writing or flexibly writing a strong conclusion and publishing your work in a journal article.
+
+356
+00:33:35,674 --> 00:33:42,064
+And these chapters have so much detail that I've provided them as a supplemental tool for your reading.
+
+357
+00:33:42,334 --> 00:33:46,354
+Um, but I think probably some of the takeaways here is that, uh,
+
+358
+00:33:46,354 --> 00:33:52,174
+Cresswell hopes that there are sufficient details in every section to convey rigor and quality to readers.
+
+359
+00:33:52,504 --> 00:33:57,214
+Um, and he also hopes that qualitative researchers recognize the importance of reflexivity.
+
+360
+00:33:57,334 --> 00:34:00,624
+You are not just, um, a means to an end.
+
+361
+00:34:00,634 --> 00:34:07,864
+You are an important voice and component of this entire process, and acting like you don't exist might not be the best approach.
+
+362
+00:34:08,135 --> 00:34:12,595
+So let's wrap up with part seven evaluating a study and using qualitative designs.
+
+363
+00:34:12,605 --> 00:34:19,085
+These are the last tips in the text. And it's kind of funny because I think these are the easiest tips that he shares.
+
+364
+00:34:19,355 --> 00:34:23,224
+Um number 29 is selecting qualitative criteria for qualitative study.
+
+365
+00:34:23,225 --> 00:34:26,585
+And number 30 is introducing qualitative designs.
+
+366
+00:34:26,855 --> 00:34:34,565
+Um qualitative work should have standards. It's not just that um we can go about, you know, calling anything with words qualitative.
+
+367
+00:34:34,745 --> 00:34:42,485
+It's not um, as simple as that. Nor should it be because qualitative research, um brings both value of participants.
+
+368
+00:34:44,588 --> 00:34:50,348
+And so he advocates that we select and adhere to standards and then convey those to readers.
+
+369
+00:34:50,378 --> 00:34:58,058
+Not necessarily that there's one set of standards, but that each project might have its own standards and that these are clearly,
+
+370
+00:34:58,238 --> 00:35:02,018
+um, conveyed and discussed within your own research community.
+
+371
+00:35:02,018 --> 00:35:05,798
+And, of course, for readers to be applying, um, in their own sense.
+
+372
+00:35:06,136 --> 00:35:12,226
+And then finally introducing qualitative designs, which in my opinion should probably be all the way back in section one.
+
+373
+00:35:12,406 --> 00:35:18,555
+But in this tip, he really talks about not using a general approach to qualitative research,
+
+374
+00:35:18,556 --> 00:35:24,166
+but more specifically selecting a design like case study or like phenomenology,
+
+375
+00:35:24,256 --> 00:35:31,546
+so that your general qualitative inquiry methods can be tied more specifically to a research tradition.
+
+376
+00:35:31,666 --> 00:35:37,156
+Not only might that help improve the strength and rigor of your own process and procedure,
+
+377
+00:35:37,606 --> 00:35:42,226
+but it also might help make the findings of your study more relatable,
+
+378
+00:35:42,256 --> 00:35:48,316
+more transferable, more trustworthy to the readers and in the academic community at large.
+
+379
+00:35:48,676 --> 00:35:54,706
+So overall, the 30 Essential Skills for Qualitative Research is a very approachable and very practical text,
+
+380
+00:35:54,886 --> 00:36:00,556
+a good companion for any qualitative researcher, whether you're getting started or if you need a little refresher,
+
+381
+00:36:00,676 --> 00:36:09,436
+there are many practical strategies that are presented as options, not necessarily as prescriptive, uh, or as deal breakers.
+
+382
+00:36:09,586 --> 00:36:16,305
+So no doubt you will be able to use the skills that Creswell presents, and you will find value in the wisdom that he offers.
+

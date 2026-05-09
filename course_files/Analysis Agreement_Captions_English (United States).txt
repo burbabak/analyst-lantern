@@ -1,0 +1,1289 @@
+1
+00:00:00,032 --> 00:00:01,592
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Hi research methods learners.
+
+2
+00:00:01,622 --> 00:00:09,302
+In this session we're going to focus on analysis agreement which has quantitative roots but gets applied to qualitative research all the time.
+
+3
+00:00:09,722 --> 00:00:12,242
+If you download the PowerPoint you'll see on the first slide I'm going to mention many references throughout this text.
+
+4
+00:00:18,507 --> 00:00:24,507
+So the objectives of this conversation are to both have conceptual understanding
+
+5
+00:00:24,507 --> 00:00:29,187
+as well as a practical understanding of what IRR that's inter reader reliability.
+
+6
+00:00:29,187 --> 00:00:33,897
+And Ika that's inter coder agreement are but how they function differently.
+
+7
+00:00:34,167 --> 00:00:38,337
+And uh to have a dialog about what is or isn't correct.
+
+8
+00:00:38,337 --> 00:00:48,447
+As for agreement goes before we kind of define anything or jump into this, I think it's important to just surface our assumptions about agreement.
+
+9
+00:00:48,687 --> 00:00:55,017
+Many of you come from quantitative backgrounds, where agreement is basically a proxy for reliability,
+
+10
+00:00:55,287 --> 00:01:03,207
+and in quantitative work, disagreement is treated like error, like, um, noise, like variance.
+
+11
+00:01:03,207 --> 00:01:08,457
+That's unexplained. But in qualitative research, especially in interpretive approaches,
+
+12
+00:01:08,607 --> 00:01:14,697
+disagreement may actually signal something that's important because there are differences in perspectives.
+
+13
+00:01:14,847 --> 00:01:22,227
+Uh, there are differences in what we think makes meaning in the process of meaning making can be, uh, quite challenging.
+
+14
+00:01:22,317 --> 00:01:27,957
+And then, of course, there are differences based on our epistemological or theoretical positions.
+
+15
+00:01:28,197 --> 00:01:32,457
+And so that's the question we're grappling with in this entire conversation.
+
+16
+00:01:32,577 --> 00:01:38,007
+Are we trying to eliminate disagreement or are we trying to learn from it now?
+
+17
+00:01:38,007 --> 00:01:42,837
+Um, integrator reliability comes from the quantitative measurement tradition.
+
+18
+00:01:43,047 --> 00:01:49,227
+The goal there is to ensure that different observers produce consistent results when they're measuring the same thing.
+
+19
+00:01:49,467 --> 00:02:00,507
+Uh, this is critical in fields like clinical assessment or, um, ACS or, um, other aspects where uh raters can introduce error or variability.
+
+20
+00:02:00,777 --> 00:02:05,936
+It comes from, uh, Cohen, uh, who introduced the uh statistic called Kappa.
+
+21
+00:02:05,937 --> 00:02:11,803
+And lots of you have probably heard about Cohen's kappa. And this is a way that we account for agreement beyond chance.
+
+22
+00:02:18,291 --> 00:02:26,331
+quote unquote, a true value or a true category that we as raters are trying to,
+
+23
+00:02:26,331 --> 00:02:35,630
+um, hit that we're trying to to lock in on and approximate, um, within this notion of integrator reliability, disagreement is a problem.
+
+24
+00:02:35,631 --> 00:02:42,710
+It's one that we want to minimize. Um, so the way that folks go about into rated reliability, as I've already mentioned, is Cohen's kappa.
+
+25
+00:02:42,711 --> 00:02:46,041
+But there's also a more, uh, simpler way, which is percent agreements.
+
+26
+00:02:46,341 --> 00:02:51,891
+Um, this is where you would divide the number of times a coder agrees with the total number of coding decisions.
+
+27
+00:02:52,161 --> 00:03:00,591
+But this inflates the agreement rate because, um, some level of agreement is going to happen just surely by chance.
+
+28
+00:03:00,591 --> 00:03:06,531
+Right? So but just because we agreed isn't necessarily because we agreed it might have just been, you know, coincidental.
+
+29
+00:03:06,801 --> 00:03:14,180
+And that's where Cohen's kappa comes in. It corrects the, um, estimate so that the random rates of agreement are removed.
+
+30
+00:03:14,181 --> 00:03:22,041
+As you can see in the formula, um, kappa is most appropriate and actually only useful when you have two raters.
+
+31
+00:03:22,041 --> 00:03:25,431
+So you have to have two people, not one and not three or more.
+
+32
+00:03:25,611 --> 00:03:32,871
+You have to be using categorical codes. Uh, so, uh, you might be using a rubric that has a number, but those numbers are distinct.
+
+33
+00:03:32,871 --> 00:03:36,047
+It's not a numeric assignment. It's a categorical assignment.
+
+34
+00:03:41,694 --> 00:03:49,074
+Uh, that's kind of the benchmark that's been set. You'll find that cited in a lot of different places Cohen's work, but also McHugh's work in 2012.
+
+35
+00:03:49,464 --> 00:03:53,724
+And so this is the approach that assumes agreement reflects accuracy.
+
+36
+00:03:53,724 --> 00:04:02,034
+And maybe that's a fair assumption. Um, but maybe in qualitative work that's an unstable assumption and maybe even an unhelpful assumption.
+
+37
+00:04:02,604 --> 00:04:09,624
+There are more ways to calculate agreement, um, particularly when the first two are more simple or maybe not applicable.
+
+38
+00:04:09,984 --> 00:04:18,984
+Um, you'll see Crippen Dwarfs Alpha is more flexible, and it's often, you know, the method that's used when there are either incomplete data sets,
+
+39
+00:04:19,224 --> 00:04:23,814
+uh, data sets are using numbers or there are multiple raters beyond just two raters.
+
+40
+00:04:24,144 --> 00:04:28,554
+Um, conceptually, uh, endorse alpha or lots times you'll just see it as alpha.
+
+41
+00:04:28,794 --> 00:04:34,254
+Um compares observed disagreement to the disagreement that we would have expected just by chance.
+
+42
+00:04:34,584 --> 00:04:43,164
+Um, and so if observed disagreement is lower than the expected disagreement, then that means our reliability is high because our agreement is high.
+
+43
+00:04:43,584 --> 00:04:49,073
+Um, so the alpha is calculated as, you know, one being perfect, um, agreement.
+
+44
+00:04:49,074 --> 00:04:53,783
+There's no disagreement whatsoever. Zero is like what you would expect by chance.
+
+45
+00:04:53,784 --> 00:04:59,603
+That's kind of the null hypothesis of gryffindors. And then, um, you know, uh, less than zero means worse.
+
+46
+00:04:59,604 --> 00:05:01,734
+Like, we're not being very consistent.
+
+47
+00:05:02,364 --> 00:05:09,354
+Um, and then finally, inter class correlation is one that I see quite frequently in medical and health professions education research.
+
+48
+00:05:09,624 --> 00:05:13,554
+Uh, you can use this because in continuous data or ordinal data.
+
+49
+00:05:13,554 --> 00:05:16,914
+So it's really helpful, especially when folks are doing um say rubrics.
+
+50
+00:05:17,274 --> 00:05:23,274
+And um, those readers are assigning some type of, of, you know, rating scale and of someone's performance.
+
+51
+00:05:23,634 --> 00:05:25,373
+So rather than just counting agreement,
+
+52
+00:05:25,374 --> 00:05:32,394
+ICC examines how similar the readers are across the codes relative to the variation that's within the data itself.
+
+53
+00:05:32,724 --> 00:05:41,033
+Conceptually, ICC is asking how much of the variation in scores is due to real differences between the performers.
+
+54
+00:05:41,034 --> 00:05:47,604
+The cases that we've judged, as opposed to just the differences that we would see amongst the Raiders themselves.
+
+55
+00:05:48,054 --> 00:05:55,494
+And, um, if most of the variation is due to the kind of the cases themselves and not the raters, then reliability is high.
+
+56
+00:05:55,824 --> 00:06:02,304
+Um, you see this in clinical settings and performance assessments, and usually you are looking for ICC close to one.
+
+57
+00:06:02,604 --> 00:06:11,484
+Um, it means that, uh, the variance is real, that there's high agreement zero means that there is, um, you know, lots of error, there's low agreement.
+
+58
+00:06:12,084 --> 00:06:16,614
+So when it comes to enter rater reliability, there are many ways to measure it.
+
+59
+00:06:16,854 --> 00:06:23,034
+Um, percent agreement is the simplest. Kappa is quite common, but it's restricted in its categories.
+
+60
+00:06:23,214 --> 00:06:28,434
+You would use ICC when raters are assessing like numeric scores or ordinal scores.
+
+61
+00:06:28,614 --> 00:06:32,154
+And crimping dwarfs uh is useful when there are multiple coders.
+
+62
+00:06:32,154 --> 00:06:34,854
+Um, missing data handles those things very well.
+
+63
+00:06:35,424 --> 00:06:44,813
+Again, though, and all four of these measures, there is an underlining assumption of what's deciding, you know, whether or not agreement is the goal.
+
+64
+00:06:44,814 --> 00:06:50,184
+Um, is it even appropriate in a qualitative work, um, particularly the interpretive,
+
+65
+00:06:50,214 --> 00:06:54,594
+uh, styles that, that that would even be something that we would want.
+
+66
+00:06:55,164 --> 00:07:02,094
+So if, if we take the underlying logic of the integrated reliability and then apply it to the qualitative work,
+
+67
+00:07:02,424 --> 00:07:06,054
+um, we are kind of, um, um, testing that assumption.
+
+68
+00:07:06,294 --> 00:07:10,494
+We're challenging. Um, we are, uh, asking ourselves.
+
+69
+00:07:10,715 --> 00:07:18,515
+What is the role of coding? Is it to simply categorize things correctly, or is it the act of meaning making?
+
+70
+00:07:18,755 --> 00:07:25,415
+And if it is the act of meaning making, I mean that's shaped by researcher perspective, theory, context.
+
+71
+00:07:25,745 --> 00:07:29,295
+And Saldana says, you know, coding isn't just classification.
+
+72
+00:07:29,315 --> 00:07:32,555
+Coding is actually the beginning of analytic interpretation.
+
+73
+00:07:33,035 --> 00:07:37,295
+Um, so when we are looking at, you know, codes matching,
+
+74
+00:07:37,685 --> 00:07:43,145
+are we really wanting to be measuring consistency or are we wanting to be constructing meaning?
+
+75
+00:07:43,415 --> 00:07:48,485
+Uh, because if we're constructing meaning, maybe consistency isn't the best approach.
+
+76
+00:07:49,085 --> 00:07:51,745
+And this is where the terminology really matters.
+
+77
+00:07:51,755 --> 00:07:58,735
+It's essential for, uh, dissertation writing if you're using this approach and you will often see it in your journal articles.
+
+78
+00:07:58,745 --> 00:08:07,025
+But what's troubling is that there are, I think, um, times where these terms are used interchangeably, when in fact they're conceptually different.
+
+79
+00:08:07,385 --> 00:08:13,265
+Integrated reliability refers to the statistical consistency, and it is grounded in measurement theory.
+
+80
+00:08:13,265 --> 00:08:21,965
+It assumes that there is a stable underlying category or a stable truth that we raters, um, or we coders are trying to capture.
+
+81
+00:08:22,014 --> 00:08:27,294
+Inter coder agreement is kind of like lessening those high measurement stakes.
+
+82
+00:08:27,474 --> 00:08:32,574
+We see it a lot in qualitative research to describe the degree of consistency between coders.
+
+83
+00:08:32,874 --> 00:08:38,424
+Um, especially when, um, you know, something like percent agreement rather than, you know, Crip endorse.
+
+84
+00:08:38,424 --> 00:08:42,203
+Alpha is used because we're not worried about statistical correction.
+
+85
+00:08:42,204 --> 00:08:45,204
+We're just trying to indicate, hey, we kind of agreed a lot.
+
+86
+00:08:45,624 --> 00:08:54,684
+Um, but interpretive convergence is much more conceptually, um, on the, you know, critical side or, uh, constructivist side of things.
+
+87
+00:08:55,014 --> 00:09:00,713
+Um, I think you will see it in a lot of qualitative traditions that are critical in, in their nature, um,
+
+88
+00:09:00,714 --> 00:09:07,014
+because interpretive convergence really reflects the idea that researchers are working toward a shared understanding of the data,
+
+89
+00:09:07,224 --> 00:09:10,044
+not just discovering a single correct answer.
+
+90
+00:09:10,404 --> 00:09:17,244
+So Saldana uses um, inter coder agreement and interpretive convergence to describe the process of coming together.
+
+91
+00:09:17,364 --> 00:09:23,634
+And so this kind of indicates, you know, if someone as famous as Johnny Saldana, who's written, you know,
+
+92
+00:09:24,084 --> 00:09:30,324
+just countless numbers of qualitative methodological Texans using these terms interchangeably, you know, what chance do we stand?
+
+93
+00:09:30,594 --> 00:09:38,544
+And this is why, as an author, you need to be reading and thinking and capturing your thinking in the reports that you're sharing.
+
+94
+00:09:38,724 --> 00:09:45,203
+Um, in a dissertation, you have an endless amount of room. So even if it's paragraphs or pages in a journal, not so much.
+
+95
+00:09:45,204 --> 00:09:52,704
+But you can use a few key terms to, uh, kind of, you know, provide a flag for readers who are looking very closely.
+
+96
+00:09:52,930 --> 00:09:54,910
+So as we've been talking about agreement,
+
+97
+00:09:54,910 --> 00:10:01,809
+I want to address one of the misconceptions that lots of folks bring to qualitative work is that when you're doing qualitative studies,
+
+98
+00:10:01,810 --> 00:10:06,400
+you need to have more coders. You need to have multiple coders in order for you.
+
+99
+00:10:06,400 --> 00:10:09,040
+Are qualitative outcomes to be rigorous?
+
+100
+00:10:09,400 --> 00:10:14,810
+Now, um, I can understand where you're coming from because that kind of makes you feel like you have a backstop, right?
+
+101
+00:10:14,830 --> 00:10:21,170
+I didn't just totally make this up, but, uh, that is, um, not necessarily understanding and, um,
+
+102
+00:10:21,220 --> 00:10:27,550
+truly adhering to, uh, both how qualitative work is analyzed, but also even just the nature of the work itself.
+
+103
+00:10:28,150 --> 00:10:34,810
+The truth is, most qualitative dissertations, uh, are coded by a single researcher, and that's okay.
+
+104
+00:10:34,900 --> 00:10:39,190
+Single coder designs, they help us, you know, deeply engage with the data.
+
+105
+00:10:39,370 --> 00:10:43,540
+They allow us lots of reflexivity. And that becomes quite important in the work.
+
+106
+00:10:43,750 --> 00:10:50,289
+And it makes sure that there is consistency through the researchers analytic lens because no one else muddied the waters.
+
+107
+00:10:50,290 --> 00:10:54,790
+It was just you. And um, so this consistent, um, you know,
+
+108
+00:10:54,790 --> 00:11:01,780
+approach to analysis is very appropriate for the reflexive thematic analysis that Brown and Clark talk about,
+
+109
+00:11:01,960 --> 00:11:08,080
+where, um, you know, coding is understood as an interpretive act rather than, um, a reliability exercise.
+
+110
+00:11:08,410 --> 00:11:15,670
+Now, multiple coders, you do see that, uh, frequently in the published literature, often because there are large research teams,
+
+111
+00:11:15,670 --> 00:11:22,539
+um, they're doing applied or evaluative research work, and, uh, there might be doing more structured approaches.
+
+112
+00:11:22,540 --> 00:11:27,340
+They might be doing a content analysis, uh, for instance, not necessarily an interpretive analysis.
+
+113
+00:11:27,700 --> 00:11:33,730
+So I think, you know, the main point there is that it's the design of your methods that really ties
+
+114
+00:11:33,730 --> 00:11:37,900
+to the decision of whether or not a single or multiple coder approach is used.
+
+115
+00:11:38,110 --> 00:11:44,769
+It's not a universal standard. So when multiple coders are used, though, the goal is not just simply to agree.
+
+116
+00:11:44,770 --> 00:11:48,340
+Hopefully it's to expand and refine the interpretation.
+
+117
+00:11:48,614 --> 00:11:56,084
+Of course, the benefit of having multiple coders is that they bring different perspectives and that can lead to a richer, more nuanced analysis.
+
+118
+00:11:56,414 --> 00:11:59,684
+Um, I think, you know, teams can be a good reality check,
+
+119
+00:11:59,684 --> 00:12:04,393
+especially if there's honesty and good communication amongst them so that you don't have just these, you know,
+
+120
+00:12:04,394 --> 00:12:11,534
+idiosyncratic or, um, you know, overly narrow analytic or, uh, analytic claims or themes or,
+
+121
+00:12:11,804 --> 00:12:17,084
+um, you know, even discarding of what didn't naturally, like, agree, you know.
+
+122
+00:12:17,444 --> 00:12:20,654
+Um, but that benefit comes with a real trade off.
+
+123
+00:12:20,654 --> 00:12:28,454
+And, uh, it Andrews introduces more variability and introduces more conversation, more, um, struggle.
+
+124
+00:12:28,754 --> 00:12:33,794
+And, uh, that's why process is so important for multiple coder teams.
+
+125
+00:12:34,304 --> 00:12:39,904
+Um, lots of folks think that having multiple coders, I would just, you know, let them code their stuff.
+
+126
+00:12:39,914 --> 00:12:44,983
+I would calculate the agreement and then I would be done because I will have a number and hopefully that number is .80 or higher.
+
+127
+00:12:44,984 --> 00:12:49,694
+So that I can say that it's good and I can move on with my, you know, findings and my discussion.
+
+128
+00:12:49,904 --> 00:12:53,174
+But the reality is much stickier than that.
+
+129
+00:12:53,474 --> 00:13:00,644
+Um, it's a large process. It's, uh, sometimes an unwieldy process, even if you are an expert in managing teams.
+
+130
+00:13:00,884 --> 00:13:05,144
+Because before agreement is even calculated, you need to define the codes clearly.
+
+131
+00:13:05,144 --> 00:13:10,154
+You need to train coders, um, you need to calibrate or norm the interpretations.
+
+132
+00:13:10,304 --> 00:13:15,314
+And then of course, you need to iteratively refine the coding system as you learn things.
+
+133
+00:13:16,304 --> 00:13:21,043
+Uh, Myles Huberman and, um, so Daniel, uh, have uh, an analytic, uh,
+
+134
+00:13:21,044 --> 00:13:28,844
+analysis test and they really emphasize that coding consistency emerges through shared definitions and iterative refinement, not just measurement.
+
+135
+00:13:29,054 --> 00:13:33,554
+So their point is that agreement is not the process.
+
+136
+00:13:33,824 --> 00:13:37,334
+Um, it is an outcome of the process.
+
+137
+00:13:37,574 --> 00:13:43,153
+Uh, it's not necessarily that agreement is, uh, kind of, uh, the goal that we need to just.
+
+138
+00:13:43,154 --> 00:13:44,474
+All right. Fine. Have your way.
+
+139
+00:13:44,654 --> 00:13:52,544
+No, the disagreement is important because that process leads us to an outcome where agreement happens more organically.
+
+140
+00:13:53,384 --> 00:13:59,264
+Now, training is essential, as I mentioned, because coders need to develop a shared understanding of what each codes mean,
+
+141
+00:13:59,504 --> 00:14:06,644
+um, when it should and shouldn't be applied. And the reason this works well is because you've got a structured codebook.
+
+142
+00:14:06,884 --> 00:14:10,603
+Um, it has clear definitions, inclusion and exclusion criteria.
+
+143
+00:14:10,604 --> 00:14:14,894
+And, um, very importantly, it has examples of what doesn't doesn't qualify.
+
+144
+00:14:15,404 --> 00:14:24,494
+Uh, clear operational definitions are critical when multiple analysts are involved because, uh, ambiguity leads to inconsistent coding.
+
+145
+00:14:24,494 --> 00:14:30,494
+And lots of inconsistent coding is really challenging to, uh, work through and make sense.
+
+146
+00:14:30,704 --> 00:14:38,624
+Now without the training, the agreement metrics basically are meaningless because coders are not working from the same starting point,
+
+147
+00:14:38,624 --> 00:14:44,564
+from that same shared understanding. So that training is what helps develop that shared starting point.
+
+148
+00:14:45,524 --> 00:14:51,314
+And then once folks are trained, you need to do, uh, like norming sessions or calibration sessions.
+
+149
+00:14:51,704 --> 00:14:57,734
+And, uh, this is a step that lots of novice researchers miss because it can be tedious and time consuming.
+
+150
+00:14:57,884 --> 00:15:05,384
+And it really asks a lot of your coding team, um, so your coding team needs to be fully invested in this project, just like you would be.
+
+151
+00:15:05,654 --> 00:15:13,454
+So in these sessions, coders would have independently coded the same data set, and then we would meet to kind of compare the results.
+
+152
+00:15:13,694 --> 00:15:20,353
+We would talk about what we disagreed on, and then we would work to resolve that and that work and um, resolving that,
+
+153
+00:15:20,354 --> 00:15:27,584
+that that conversation that we're having that's actually helping us to develop the shared kind of, uh, starting point, that shared agreement.
+
+154
+00:15:27,854 --> 00:15:32,414
+Um, and now we know for sure that we're working from the same, um, opening position.
+
+155
+00:15:32,654 --> 00:15:38,084
+So we are, uh, also, you know, kind of refining our codebook at that time because we want our codebook to capture
+
+156
+00:15:38,204 --> 00:15:42,044
+whatever new understanding we've developed during these norming sessions.
+
+157
+00:15:42,374 --> 00:15:46,574
+Um, it's important to recognize here, though, that disagreement is not a problem.
+
+158
+00:15:46,724 --> 00:15:56,054
+It's a signal that definitions need to be clarified. And, uh, that's also challenging because it means we have to interact.
+
+159
+00:15:56,324 --> 00:16:00,704
+And, um, it also means that we have to sometimes, you know, work through conflict.
+
+160
+00:16:00,797 --> 00:16:07,037
+I think at this phase, it's also very important to take another step back about the assumptions we're making over agreement,
+
+161
+00:16:07,217 --> 00:16:12,767
+particularly as like, you might have one foot in the quantitative world and one foot in the qualitative world.
+
+162
+00:16:13,187 --> 00:16:16,897
+Um, in quantitative context, norming reduces error.
+
+163
+00:16:16,907 --> 00:16:23,626
+So we're trying to move that 0.80 to 0.90 or, or 0.95 so that we can get as close to one,
+
+164
+00:16:23,627 --> 00:16:29,007
+which is that perfect score as possible in qualitative contexts, though, that's not necessarily the goal.
+
+165
+00:16:29,027 --> 00:16:32,807
+Norming is really meant to deepen our shared meaning.
+
+166
+00:16:33,227 --> 00:16:36,047
+And again we're capturing that in the codebook.
+
+167
+00:16:36,105 --> 00:16:44,595
+Saldana suggests that having one person who serves as the code book editor can help maintain the system as it evolves.
+
+168
+00:16:44,865 --> 00:16:54,135
+Um, and it is evolving. It is not static because we are working to, um, capture that new, deep and shared meaning that we've developed.
+
+169
+00:16:55,305 --> 00:16:58,454
+After the norming session and the initial coding.
+
+170
+00:16:58,455 --> 00:17:00,615
+Then we would move into iterative cycles.
+
+171
+00:17:01,095 --> 00:17:09,185
+And in this iteration and refinement, we need to be in dialog with one another as a multiple coder team so that we can kind of pulse check.
+
+172
+00:17:09,195 --> 00:17:13,125
+We started from the same position, but have we diverged or have we converged?
+
+173
+00:17:13,605 --> 00:17:18,914
+Um, coders, you know, apply the new codes to the same set of data, um, and to new data,
+
+174
+00:17:18,915 --> 00:17:25,725
+then compare the results and, you know, refine the definitions and, and revisit other earlier conversations.
+
+175
+00:17:25,935 --> 00:17:32,115
+I mentioned that this was a bit of a time consuming process, and it's an emotionally taxing process as well.
+
+176
+00:17:32,115 --> 00:17:41,985
+And this is why, uh, because you must do the work a few times before you can confidently state that everybody has the same perspective on your code.
+
+177
+00:17:41,985 --> 00:17:46,874
+But, um, this iteration is, uh, adding to your qualitative rigor.
+
+178
+00:17:46,875 --> 00:17:54,255
+It's something that you want to talk about explicitly, uh, so that readers can judge not just that,
+
+179
+00:17:54,435 --> 00:17:58,865
+um, when disagreements were present, we discussed them and everybody agreed at the end.
+
+180
+00:17:58,875 --> 00:18:05,924
+You see that sentence a lot in journal articles, but it really, um, fluffs over the work that needs to be done.
+
+181
+00:18:05,925 --> 00:18:12,315
+And I, for one, certainly would advocate for seeing at least 2 or 3 more sentences there in a journal article and of course,
+
+182
+00:18:12,345 --> 00:18:16,035
+a paragraph or page or more, um, in a dissertation.
+
+183
+00:18:16,185 --> 00:18:19,455
+So agreement is not just something that you check, you know, what's our score?
+
+184
+00:18:19,455 --> 00:18:24,195
+It's something that, um, comes as a result or emerge from our process.
+
+185
+00:18:27,867 --> 00:18:31,617
+And this is straightforward, but it doesn't account for chance agreement.
+
+186
+00:18:32,007 --> 00:18:37,226
+Now in quantitative research this issue is resolved through chance corrected statistics.
+
+187
+00:18:37,227 --> 00:18:44,577
+Like Cohen's Kappa Kappa estimates how much agreement um exceeds what would be expected kind of randomly.
+
+188
+00:18:44,877 --> 00:18:48,927
+And that can give you a sense of rigor and reliability.
+
+189
+00:18:49,257 --> 00:18:52,191
+Um, it's reasonable to question, uh, you know, should qualitative researchers simply just use kappa or some other statistic in its place?
+
+190
+00:18:58,044 --> 00:19:03,474
+Because then that way we're taking out the chance. Um, and there are several, you know, reasons for this.
+
+191
+00:19:03,474 --> 00:19:09,984
+Kappa assumes that categories are fixed, um, that they're clearly defined and that they are consistently applied.
+
+192
+00:19:10,674 --> 00:19:13,674
+But as qualitative researchers, we kind of question that. Right.
+
+193
+00:19:13,674 --> 00:19:22,733
+Our approach, um, particularly if we're doing an inductive coding approach or a reflexive coding, um, approach, you know, codes are not static.
+
+194
+00:19:22,734 --> 00:19:27,474
+They're constantly changing. They're constantly evolving as we do iterative analysis.
+
+195
+00:19:27,654 --> 00:19:34,494
+And not only can I code, you know, change, but also the meaning of it can change as we deepen our understanding of the data.
+
+196
+00:19:34,824 --> 00:19:42,294
+So that flexibility really violates the assumption that's required for a statistic like kappa to function as its intended.
+
+197
+00:19:50,665 --> 00:19:58,195
+So when, um, there are certain categories that are rare, um, or certain categories that are very frequent,
+
+198
+00:19:58,525 --> 00:20:03,025
+um, Coppa values can appear, you know, artificially low or artificially high.
+
+199
+00:20:03,025 --> 00:20:08,515
+And this is actually documented in the statistical literature as Coppa paradox, um,
+
+200
+00:20:08,515 --> 00:20:14,845
+because it highlights that even statistical agreement does not always align with intuitive agreement.
+
+201
+00:20:15,205 --> 00:20:21,625
+Um, but often in qualitative work when Cap is being used, that tension isn't, um, confronted.
+
+202
+00:20:22,015 --> 00:20:27,895
+And I think also, uh, and I've mentioned this to, you know, kind of the purpose of coding differs across paradigms.
+
+203
+00:20:28,165 --> 00:20:33,655
+Um, if you are doing something like a content analysis then coding functions as classification.
+
+204
+00:20:33,775 --> 00:20:37,285
+And so consistency across codes is important.
+
+205
+00:20:37,555 --> 00:20:42,415
+And therefore you would want to use something like potentially Coppa or something else.
+
+206
+00:20:53,582 --> 00:21:03,452
+Coppa would be potentially very useful to say, um, look how much we agreed on the fit of this data to our theory or framework that's guiding our work.
+
+207
+00:21:03,902 --> 00:21:10,652
+But, um, and interpretive work, not only is it reasonable to expect, it's almost desired that,
+
+208
+00:21:10,652 --> 00:21:14,342
+uh, different researchers would interpret the same data in different ways.
+
+209
+00:21:14,582 --> 00:21:17,702
+And so the, the value of that isn't in agreement.
+
+210
+00:21:17,702 --> 00:21:20,012
+It's in the analytic outcome.
+
+211
+00:21:20,173 --> 00:21:25,992
+And then of course, there's just the practical element, which is that a lot of times, and maybe I'm making some assumptions here,
+
+212
+00:21:25,993 --> 00:21:29,503
+but a lot of times qualitative researchers, they just don't want to deal with the math.
+
+213
+00:21:29,833 --> 00:21:33,783
+And so, you know they can handle percent agreement. And that's what we're going to do.
+
+214
+00:21:33,793 --> 00:21:38,232
+So that's what we're going to report. We're not worried about the chance. And there isn't a set benchmark for that.
+
+215
+00:21:38,233 --> 00:21:41,473
+But typically you know people will say 80 or 90% is good.
+
+216
+00:21:41,743 --> 00:21:49,483
+And so we kind of use that to appease the quantitative positivist dragons that exist out there in the academic publishing world.
+
+217
+00:21:49,693 --> 00:21:53,742
+But as qualitative researchers, maybe we just don't get hung up on the on the numbers too much.
+
+218
+00:21:53,743 --> 00:21:55,578
+And and maybe that's okay. So I, I hope my, um, my goal are.
+
+219
+00:21:55,609 --> 00:22:03,319
+So I hope the point is clear in that, um, you know, integrated reliability comes from that quant perspective and lives in the world.
+
+220
+00:22:03,559 --> 00:22:12,679
+If we dial that down just a little bit into inter coder agreement, it still has at least a foot in the quantitative side of things.
+
+221
+00:22:12,919 --> 00:22:18,949
+Um, and there are times where it might be appropriate, but there are also times when it's not appropriate and we might need to push back,
+
+222
+00:22:19,009 --> 00:22:25,399
+which might include educating your committee, your, your team members, um, or even the editors,
+
+223
+00:22:25,429 --> 00:22:29,389
+uh, to whom you've submitted your work, uh, after you've turned it into a manuscript.
+
+224
+00:22:29,779 --> 00:22:33,049
+Um, chance. Correct statistics like Kappa.
+
+225
+00:22:33,289 --> 00:22:40,549
+They might improve measurement accuracy, but that's only when the underlying assumptions of measurement are met.
+
+226
+00:22:40,789 --> 00:22:47,989
+Um, and that's not always the case in qualitative work, because the categories aren't fixed and there isn't always a true correct answer.
+
+227
+00:22:48,349 --> 00:22:57,078
+Um, so whether you use kappa percent agreement or no agreement metric at all, you really need to have that decision made.
+
+228
+00:22:57,079 --> 00:23:02,479
+Um, driven from the purpose of your work, uh, your purpose statement, your research questions.
+
+229
+00:23:02,659 --> 00:23:07,639
+Also recognizing the audience that you are speaking to within the academic community.
+
+230
+00:23:07,849 --> 00:23:11,658
+And you need to make all of those decisions transparent and clear, and then, of course,
+
+231
+00:23:11,659 --> 00:23:15,884
+back those decisions up through the literature and citations in a quantitative framework.
+
+232
+00:23:22,332 --> 00:23:27,912
+Um, disagreement can signal the need to refine definitions to clarify meaning.
+
+233
+00:23:28,152 --> 00:23:31,992
+Um, so disagreement becomes more of a diagnostic tool.
+
+234
+00:23:32,262 --> 00:23:38,982
+Um, it becomes something that indicates we can, um, go deeper and, and drive for more analytic depth.
+
+235
+00:23:39,402 --> 00:23:43,182
+Uh, because we're not asking ourselves, how do we make sure we all agree?
+
+236
+00:23:43,212 --> 00:23:49,781
+How do we get rid of all this in disagreement? We're actually, like, turning that coin over and we're looking at the other side asking, you know,
+
+237
+00:23:49,782 --> 00:23:54,117
+what is this disagreement telling us about the data and telling us about our assumptions?
+
+238
+00:24:03,556 --> 00:24:07,426
+then maybe on the far qualitative side, disagreement, um,
+
+239
+00:24:07,426 --> 00:24:15,196
+indicates interpretive opportunity and that um categories are created through that, you know, activity of construction.
+
+240
+00:24:15,526 --> 00:24:19,126
+Um, and that disagreement is legitimate, different perspectives.
+
+241
+00:24:19,486 --> 00:24:24,736
+Um, ultimately we ask ourselves as qualitative researchers, what are we trying to achieve?
+
+242
+00:24:24,982 --> 00:24:30,952
+Are we trying to simply classify things or are we trying to interpret things?
+
+243
+00:24:31,192 --> 00:24:37,282
+And if interpretation varies. Is it reasonable to expect agreement at all?
+
+244
+00:24:37,502 --> 00:24:44,362
+There are several scholars that would raise serious concerns about using inter-Korean agreement statistics.
+
+245
+00:24:44,812 --> 00:24:50,721
+Braun and Clarke argued that reflexive thematic analysis, um is an important aspect to their work.
+
+246
+00:24:50,722 --> 00:24:55,132
+But agreement is not a goal because coding is inherently interpretive.
+
+247
+00:24:55,462 --> 00:25:01,611
+Uh. Barber critiques the use of checklist style rigor measures, including the reliability metrics,
+
+248
+00:25:01,612 --> 00:25:08,332
+when they are applied kind of uncritically, you know, if you see it tossed in as a sentence without a full dialog around it.
+
+249
+00:25:08,782 --> 00:25:13,972
+Um, others emphasize that qualitative quality should be evaluated using broader criteria,
+
+250
+00:25:14,182 --> 00:25:18,112
+like those things that we would see in the trustworthy conversation credibility,
+
+251
+00:25:18,382 --> 00:25:24,952
+um, resonance with readers and not this narrow technical indicator like percent.
+
+252
+00:25:25,402 --> 00:25:32,632
+So agreement can create the illusion of rigor when, um, it's actually maybe potentially limiting a deeper interpretation.
+
+253
+00:25:33,322 --> 00:25:40,132
+And so rather than focusing on that numerical agreement, lots of qualitative approaches emphasize what's called interpretive convergence.
+
+254
+00:25:40,372 --> 00:25:48,742
+Uh, Sedona uses this term quite a bit to describe the alignment in meaning making, rather than a strict coding consistency.
+
+255
+00:25:48,922 --> 00:25:53,212
+So in his view, the goal is not for coders to produce identical coding.
+
+256
+00:25:53,212 --> 00:25:57,742
+Dissented uh decisions and have likely about one for one perfect score.
+
+257
+00:25:57,952 --> 00:26:05,092
+Rather, uh, the goal is to develop a shared understanding of what the data mean and how the codes are being applied across the data set.
+
+258
+00:26:05,422 --> 00:26:11,932
+And this shift in perspective is what helps us recognize that qualitative coding is not a technical task.
+
+259
+00:26:12,112 --> 00:26:20,362
+It's an interpretive act which is shaped by the researchers perspective, by the theoretical lens, by our engagement with the data.
+
+260
+00:26:20,632 --> 00:26:28,702
+And, um, those differences in coding are not errors that need to be eliminated, but opportunities to examine how meaning is is created,
+
+261
+00:26:28,972 --> 00:26:33,922
+um, and how meaning is being constructed, uh, especially in team based qualitative analysis.
+
+262
+00:26:34,012 --> 00:26:39,202
+Convergence is achieved through our interaction, our conversations.
+
+263
+00:26:39,382 --> 00:26:43,882
+We as a team discuss, um, you know, the discrepancies in our coding decisions.
+
+264
+00:26:43,882 --> 00:26:48,951
+We justify our decisions to one another not because we're feeling defensive, but what we're trying to explain.
+
+265
+00:26:48,952 --> 00:26:56,091
+How did we use our data? How do we use our theory? And then, um, as I've mentioned earlier, we refined the codes, the definitions, the boundaries,
+
+266
+00:26:56,092 --> 00:27:01,852
+the examples, and ultimately hope to arrive at a shared, negotiated understanding of the data.
+
+267
+00:27:01,972 --> 00:27:07,762
+And that process is iterative and ongoing. Um, it helps us to deepen our understanding.
+
+268
+00:27:08,242 --> 00:27:10,886
+And that is the process of interpretive convergence. Okay.
+
+269
+00:27:10,908 --> 00:27:14,928
+Because so much of that process takes place while talking with each other.
+
+270
+00:27:15,288 --> 00:27:20,028
+Um, it's sometimes referred to as dialogical inter subjectivity.
+
+271
+00:27:20,358 --> 00:27:22,308
+Um, and this is basically meaning,
+
+272
+00:27:22,308 --> 00:27:27,648
+like we are developing our understanding through the dialog amongst the researchers through that consensus building.
+
+273
+00:27:27,948 --> 00:27:33,588
+Uh, and that process emphasizes, you know, transparency, reflexivity and analytic rigor.
+
+274
+00:27:33,828 --> 00:27:36,048
+Um, as opposed to like the numerical one.
+
+275
+00:27:36,298 --> 00:27:45,048
+Uh, but I do see dialogical inter subjectivity more so in purely qualitative traditions, qualitative methods, journals.
+
+276
+00:27:45,378 --> 00:27:54,077
+Um, and maybe some of the more, um, critical or uh, social constructivist viewpoints of qualitative, uh,
+
+277
+00:27:54,078 --> 00:28:01,038
+paradigms as opposed to, uh, the like post positivist, you know, um, tiptoeing into the qualitative world.
+
+278
+00:28:01,158 --> 00:28:07,728
+We don't tend to see that word, that word, um, in, uh, in, in the edges of qualitative work.
+
+279
+00:28:17,121 --> 00:28:26,361
+If you are talking with the chat bot who is programed to be sycophantic, who is programed to take whatever you've said and,
+
+280
+00:28:26,391 --> 00:28:29,991
+um, you know, kind of make it right, even if they're adding new things in.
+
+281
+00:28:30,411 --> 00:28:39,651
+Can you truly build interpretive convergence with something that is trained on data and doesn't have, um, autonomy to think critically, independently?
+
+282
+00:28:40,071 --> 00:28:44,691
+Um, likewise, even, um, if you are doing all of this work electronically,
+
+283
+00:28:44,691 --> 00:28:49,821
+you're only using, say, like an electronic, uh, codebook or, um, uh, coding software.
+
+284
+00:28:50,061 --> 00:28:54,501
+And, uh, your coding team is geographically diverse, uh, dispersed.
+
+285
+00:28:54,741 --> 00:28:58,011
+And, um, you know, you're working kind of asynchronously.
+
+286
+00:28:58,131 --> 00:29:02,421
+When are you making space for those conversations? How are those conversations happening?
+
+287
+00:29:02,631 --> 00:29:05,631
+Uh, we know that there are ways to make it happen.
+
+288
+00:29:05,631 --> 00:29:13,491
+For instance, Voicethread is a great example. We can have asynchronous conversations that are approximate to real time conversations.
+
+289
+00:29:13,731 --> 00:29:19,101
+But I also think probably you will agree with me, at least to a certain extent, that while meaningful,
+
+290
+00:29:19,101 --> 00:29:26,660
+those start conversations don't necessarily carry the same energy that a real time conversation happens, uh, to carry.
+
+291
+00:29:26,661 --> 00:29:32,961
+And so, um, you know what gets lost in the translation when technology is mediating both the
+
+292
+00:29:32,961 --> 00:29:36,891
+conversations and the decisions we're making around our interpretive convergence.
+
+293
+00:29:37,250 --> 00:29:41,540
+Now, I already mentioned that most qualitative dissertations are coded by a single researcher.
+
+294
+00:29:41,720 --> 00:29:47,269
+And so where we gain rigor in those cases is not because we have agreement with other people,
+
+295
+00:29:47,270 --> 00:29:50,390
+it's because we've been consistent in how we have applied our codes.
+
+296
+00:29:50,600 --> 00:29:59,900
+We've been transparent and how we've analyzed our data, and we've been reflexive about, you know, kind of our personal role in the interpretation.
+
+297
+00:30:00,170 --> 00:30:05,000
+And, uh, that, you know, certainly aligns with many of the qualitative traditions that we've talked about.
+
+298
+00:30:13,424 --> 00:30:18,434
+These strategies align well with with trustworthiness and with single coder rigor.
+
+299
+00:30:18,464 --> 00:30:23,264
+You do not need a multiple coder in order to be rigor, um, or have rigor in your project.
+
+300
+00:30:23,594 --> 00:30:25,273
+If you have multiple coders,
+
+301
+00:30:25,274 --> 00:30:32,234
+it should be because there was a reason to have it from the beginning and you will have made those steps and decisions transparent,
+
+302
+00:30:32,444 --> 00:30:33,456
+uh, from the start. So we finish right where we started.
+
+303
+00:30:35,616 --> 00:30:44,406
+We're asking ourselves, what does it mean to agree? And, um, you know, our methodological choice should align with our research paradigm.
+
+304
+00:30:44,556 --> 00:30:48,456
+Our analytic approach and our research projects purpose.
+
+305
+00:30:48,726 --> 00:30:55,116
+Now, if your coding resembles classification like a content analysis or a checklist based coding scheme,
+
+306
+00:30:55,326 --> 00:31:00,786
+then integrated reliability or Cohen's kappa may very well be appropriate.
+
+307
+00:31:01,086 --> 00:31:07,506
+And if you're working with a team, obviously you're going to need to coordinate those interpretations so that your greater,
+
+308
+00:31:07,536 --> 00:31:12,426
+um, numeric score can be as high as it can be.
+
+309
+00:31:12,586 --> 00:31:18,846
+Uh, because consensus is, in those senses, a, um, uh, an indicator of reliability.
+
+310
+00:31:19,236 --> 00:31:27,966
+But if your work is interpretive, especially if you're doing something like a reflexive, um, thematic analysis, um, or if you're doing,
+
+311
+00:31:27,966 --> 00:31:36,036
+uh, work that's grounded or if you're working in an inductive coding approach, then agreement metrics may not be appropriate at all.
+
+312
+00:31:36,276 --> 00:31:42,366
+Um, and you have to challenge yourself as the researcher to have that conversation and surface that conversation for your readers.
+
+313
+00:31:42,996 --> 00:31:46,896
+So the key isn't, you know, one of these choices is correct.
+
+314
+00:31:47,076 --> 00:31:52,536
+It's whether or not you can make a choice and justify your choice clearly and coherently.
+
+315
+00:31:52,956 --> 00:31:56,256
+Agreement is treated sometimes as this shortcut for rigor.
+
+316
+00:31:56,466 --> 00:32:00,426
+Uh, but it's really only meaningful when certain assumptions are intact.
+
+317
+00:32:00,606 --> 00:32:06,886
+And in qualitative research, especially, again, those interpretive approaches, rigor is not about eliminating differences.
+
+318
+00:32:06,906 --> 00:32:12,606
+It's actually about making analytic decisions visible, defensible and theoretically aligned.
+
+319
+00:32:12,756 --> 00:32:17,376
+Our goal is to produce credible and well-supported interpretations of the data.
+
+320
+00:32:17,616 --> 00:32:22,036
+And so I hope our conversation about agreement in analysis, um,
+
+321
+00:32:22,086 --> 00:32:28,686
+helps you see both the quantitative and qualitative side of things and helps you formulate a plan for,
+
+322
+00:32:28,836 --> 00:32:33,759
+uh, whether or not you would choose a percent agreement, a calculated statistic, or something more aligned along the lines.
+

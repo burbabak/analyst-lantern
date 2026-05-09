@@ -1,0 +1,1185 @@
+1
+00:00:00,039 --> 00:00:04,749
+[Auto-generated transcript. Edits may have been applied for clarity.]
+Hello. Advanced research methods students. Let's take a look at how we do inductive coding.
+
+2
+00:00:05,289 --> 00:00:12,999
+In this lecture we will take a look at the differences between inductive and deductive, as well as talk about how we turn codes into patterns,
+
+3
+00:00:12,999 --> 00:00:18,339
+into themes, and talk a little bit about how to make it feel a little less overwhelming.
+
+4
+00:00:18,613 --> 00:00:23,413
+At this stage of your training, you already know what coding is and how it can be structured.
+
+5
+00:00:23,683 --> 00:00:27,583
+And what I want to show you now is that coding is not just a technical step.
+
+6
+00:00:27,883 --> 00:00:31,363
+It reflects how you approach meaning within the data.
+
+7
+00:00:31,573 --> 00:00:35,112
+So we're going to take a look at one short passage throughout this conversation.
+
+8
+00:00:35,113 --> 00:00:37,243
+And we're going to look at it in a few different ways.
+
+9
+00:00:37,483 --> 00:00:43,783
+There is not one right or wrong way, but I just want you to notice how the approach kind of changes what you see.
+
+10
+00:00:44,233 --> 00:00:47,533
+And this is where the distinction is between deductive and inductive.
+
+11
+00:00:48,193 --> 00:00:53,083
+The passage is on the screen. And I'll give you just a moment to read that as you do.
+
+12
+00:00:53,083 --> 00:00:57,193
+What I want you to notice is what stands out to you, what feels important.
+
+13
+00:00:57,463 --> 00:01:02,173
+What feels like it might be worth capturing in a qualitative analysis?
+
+14
+00:01:02,683 --> 00:01:09,523
+Now, again, there isn't a correct answer because different researchers will notice different things depending on their perspective.
+
+15
+00:01:09,733 --> 00:01:16,183
+And of course, in a real research setting, depending on the research question, the framework or theory that they're using, and so on.
+
+16
+00:01:16,453 --> 00:01:18,932
+And this is exactly what we're going to explore. Go.
+
+17
+00:01:20,443 --> 00:01:27,583
+At first I wasn't sure I belonged here. Everyone else seemed more prepared than me, but over time I started to realize that I could figure things out,
+
+18
+00:01:27,763 --> 00:01:30,793
+and now I feel more confident in what I'm doing.
+
+19
+00:01:31,243 --> 00:01:37,303
+In a deductive approach, you're using a filter, a theoretical or conceptual framework which shapes how you see the data.
+
+20
+00:01:37,483 --> 00:01:41,323
+You read the data and you ask, where does this fit within that framework?
+
+21
+00:01:41,697 --> 00:01:50,997
+So let's just imagine we're using Bender as self-efficacy theory, which proposes that individuals believe in their ability to perform specific tasks.
+
+22
+00:01:51,297 --> 00:01:57,837
+Um, and those beliefs are shaped by mastery experiences, observing others, social feedback and emotional states.
+
+23
+00:01:58,017 --> 00:02:02,337
+And all of that comes together to influence their actions and their persistence.
+
+24
+00:02:02,757 --> 00:02:10,167
+So, um, using Banderas self-efficacy theory, uh, we would maybe coat it something like, uh, you know,
+
+25
+00:02:10,557 --> 00:02:16,647
+related to confidence and then seeing what it is that's building to influence their actions and persistence around confidence,
+
+26
+00:02:16,647 --> 00:02:20,727
+like having mastery experiences. That comes directly from Banderas theory.
+
+27
+00:02:21,057 --> 00:02:26,456
+And what is the evidence of that? Um, this person states that they're figuring things out.
+
+28
+00:02:26,457 --> 00:02:32,077
+So there seem to be moving from novice to expert, and they're also having vicarious experiences.
+
+29
+00:02:32,097 --> 00:02:39,837
+Again, this is directly from the theory. Um, a vicarious experience is evidenced by the fact that they're comparing themselves to others.
+
+30
+00:02:40,317 --> 00:02:46,796
+And so this is what we might think about in terms of linking the quote and, uh, relating it to perceived competence,
+
+31
+00:02:46,797 --> 00:02:51,657
+comparison to others, um, and maybe even the development of confidence over time here.
+
+32
+00:02:51,657 --> 00:02:55,167
+The theory as a framework is doing very important work.
+
+33
+00:02:55,377 --> 00:02:59,067
+It gives us the structure and it helps us organize the data relatively quickly.
+
+34
+00:02:59,457 --> 00:03:03,687
+But you also recognize potentially that it constrains what we notice.
+
+35
+00:03:03,957 --> 00:03:06,867
+Uh, we see the data through that theoretical filter.
+
+36
+00:03:07,077 --> 00:03:12,245
+And then these buckets, they provide clarity, but they also keep us, you know, in the bucket they narrow our focus.
+
+37
+00:03:12,293 --> 00:03:20,953
+So in an inductive approach, instead of starting with that predefined filter, we ask what's happening here in the data kind of organically.
+
+38
+00:03:20,993 --> 00:03:23,753
+So not just where does this fit but what's happening.
+
+39
+00:03:24,683 --> 00:03:31,403
+Um, in this approach, what you might notice is the quote gives us a sense of uncertainty, you know, a feeling of that.
+
+40
+00:03:31,643 --> 00:03:39,293
+Um, certainly comparison is coming up. Um, there's a shift toward confidence if you look at this in a kind of temporal manner.
+
+41
+00:03:39,653 --> 00:03:42,892
+And these ideas are not coming from a framework per se.
+
+42
+00:03:42,893 --> 00:03:49,223
+They're getting recognized by me as the reader, maybe you as the reader and, uh, from the data themselves.
+
+43
+00:03:49,553 --> 00:03:53,003
+And this is the beginning of what inductive coding looks like.
+
+44
+00:03:53,303 --> 00:03:57,622
+Uh, Johnny Saldana explains that early coding captures actions, perceptions,
+
+45
+00:03:57,623 --> 00:04:02,603
+and processes grounded in the data, which can later be developed into patterns and themes.
+
+46
+00:04:02,963 --> 00:04:08,873
+And so this is important because it doesn't mean that you are neutral or that the data are neutral.
+
+47
+00:04:09,053 --> 00:04:18,293
+You are still bringing something into the analysis. So that's why Saldana reminds us that coding is always influenced by lenses, filters, and angles.
+
+48
+00:04:18,623 --> 00:04:22,973
+Your lens is how you see the world, your perspective as a researcher.
+
+49
+00:04:23,153 --> 00:04:30,442
+Your filter might be the theory or framework, or even your health, professions, education, discipline and deductive coding.
+
+50
+00:04:30,443 --> 00:04:35,873
+That filter is explicit and predefined, but in inductive coding, it's working in the background.
+
+51
+00:04:36,203 --> 00:04:38,843
+And your angle, of course, is where you're focusing.
+
+52
+00:04:38,843 --> 00:04:44,933
+Are you zooming in on one person's experience, or are you looking across many participants for a broader pattern?
+
+53
+00:04:45,153 --> 00:04:49,793
+Are you looking at it from a personal perspective or from a policy perspective?
+
+54
+00:04:50,153 --> 00:04:53,812
+So even in inductive coding, you're not just letting the data speak for itself.
+
+55
+00:04:53,813 --> 00:04:58,792
+Although a lot of people do use that phrase, you are still engaging with it from a particular lens,
+
+56
+00:04:58,793 --> 00:05:07,043
+with certain assumptions and from a particular angle. Now, depending on your lens or your angle, the same data can be understood in different ways.
+
+57
+00:05:07,225 --> 00:05:11,175
+So the key takeaway before we move on from here is that data are not neutral.
+
+58
+00:05:11,185 --> 00:05:15,294
+The data did not change. The quote did not change the meaning.
+
+59
+00:05:15,295 --> 00:05:20,815
+And how we constructed it did change. So in a deductive coding approach the filter is predefined.
+
+60
+00:05:20,995 --> 00:05:26,142
+And that gives us the structure which is useful. But it also potentially limits what we're looking at in inductive coding.
+
+61
+00:05:31,513 --> 00:05:37,663
+But it does still require you, as the researcher to actively make sense of the data.
+
+62
+00:05:38,023 --> 00:05:47,203
+As a result, inductive can often feel a little more challenging because it is you who's, you know, constructing that meaning and organizing it.
+
+63
+00:05:52,588 --> 00:06:00,988
+You're not just, um, organizing and, you know, um, you know, keeping the data structured, but you're also making sense out of it.
+
+64
+00:06:04,703 --> 00:06:05,003
+Um,
+
+65
+00:06:05,003 --> 00:06:13,103
+you would generally begin with an inductive coding and potentially even deductive coding just by laying out your data and becoming familiar with it.
+
+66
+00:06:13,313 --> 00:06:17,483
+You would read your transcripts, review any documents, examine any field notes,
+
+67
+00:06:17,693 --> 00:06:21,113
+and at this stage, you're not really trying to analyze everything at once.
+
+68
+00:06:21,113 --> 00:06:27,953
+You're really just getting a sense of what's there. But as you read, you'll start to engage in a dialog with the data.
+
+69
+00:06:27,983 --> 00:06:30,758
+You won't just necessarily label text. You'll ask yourself questions like, what's happening here?
+
+70
+00:06:30,796 --> 00:06:34,396
+You might ask yourself questions like how does this participant understand it?
+
+71
+00:06:34,396 --> 00:06:42,226
+Or why does this matter in what you're doing when you're dialoging with the data is you're making coding an active interpretive process,
+
+72
+00:06:42,376 --> 00:06:46,666
+not just a mechanical, perfunctory label making process.
+
+73
+00:06:47,116 --> 00:06:50,826
+Now, early on, some people split their codes.
+
+74
+00:06:50,836 --> 00:06:57,646
+So this means they create many, many detailed, specific codes because everything feels important and everything feels distinct.
+
+75
+00:06:58,096 --> 00:07:02,536
+I think splitting is probably a normal part of the process, but over time,
+
+76
+00:07:02,536 --> 00:07:09,016
+as you begin to recognize similarities across the data, you find a little bit more balance.
+
+77
+00:07:09,526 --> 00:07:18,016
+The opposite end of the spectrum is lumping. So this would be kind of combining large chunks of data into one label.
+
+78
+00:07:18,196 --> 00:07:23,266
+When potentially taking that approach means you're missing a little bit of the nuance.
+
+79
+00:07:23,596 --> 00:07:28,606
+And so we want to learn to fall somewhere in between of lumping and splitting.
+
+80
+00:07:28,966 --> 00:07:33,226
+Um, through the process of learning to fall in between lumping and splitting.
+
+81
+00:07:33,506 --> 00:07:37,485
+Uh, we want to track our early thoughts and our early decisions.
+
+82
+00:07:37,486 --> 00:07:41,146
+We want to make note of what stands out to us, what feels surprising.
+
+83
+00:07:41,446 --> 00:07:47,806
+And this is where our thinking starts to evolve. That becomes the foundation for our analysis later on.
+
+84
+00:07:48,266 --> 00:07:52,875
+Uh, so again, even at the beginning, inductive coding is not unstructured.
+
+85
+00:07:52,876 --> 00:07:57,646
+It's just a process of engaging, questioning, and gradually building meaning out of the data.
+
+86
+00:07:57,916 --> 00:08:05,896
+You are kind of building the plane as you're flying, you're building and creating the structure as you're going through your analysis process.
+
+87
+00:08:07,006 --> 00:08:10,606
+So at this point, you might be thinking, you know, okay, this makes sense,
+
+88
+00:08:10,606 --> 00:08:14,656
+but it also feels a little bit, you know, hippie dippy, a little bit open ended.
+
+89
+00:08:14,926 --> 00:08:16,876
+And that's, I think, a very common reaction.
+
+90
+00:08:17,086 --> 00:08:24,706
+Inductive coding often feels more difficult or overwhelming than deductive coding, especially when you are in the learning stages.
+
+91
+00:08:24,976 --> 00:08:28,486
+Now, that's not because it's less rigorous or less structured.
+
+92
+00:08:28,486 --> 00:08:32,266
+It's because you are doing double duty. You are being asked to do something different.
+
+93
+00:08:32,476 --> 00:08:35,596
+You're not just organizing data, you're also interpreting it.
+
+94
+00:08:35,926 --> 00:08:43,876
+So as we go forward, just kind of pause and understand, you know, and uh, like honor or observe this feeling of,
+
+95
+00:08:44,116 --> 00:08:49,546
+you know, frustration or overwhelm because it is an important component of learning to be an inductive coder.
+
+96
+00:08:49,906 --> 00:08:57,286
+When you first start coding inductively, everything feels important. Each phrase, each sentence, each idea can seem like it deserves its own code.
+
+97
+00:08:57,616 --> 00:09:03,646
+Now, you haven't yet developed a sense of what can be grouped together and what might should remain distinct.
+
+98
+00:09:04,086 --> 00:09:07,125
+Um, and this leads to that code proliferation.
+
+99
+00:09:07,126 --> 00:09:11,236
+As a result of splitting all of these codes, you've got dozens, sometimes hundreds of codes.
+
+100
+00:09:11,236 --> 00:09:21,046
+And this becomes a lot very quickly. Um, and, uh, on top of that, we also kind of may resist wanting to combine codes.
+
+101
+00:09:21,226 --> 00:09:28,516
+You know, maybe we have two excerpts that are slightly different and, uh, maybe they are the variations of the same idea,
+
+102
+00:09:28,516 --> 00:09:32,626
+but they might still have some distinction between them and they feel like separate things.
+
+103
+00:09:33,046 --> 00:09:39,316
+Um, so we kind of get stuck, you know, generating all of these codes because we aren't yet confident in the connections between them.
+
+104
+00:09:39,826 --> 00:09:44,986
+The challenge at the stage is not necessarily the coding. It's recognizing the conceptual similarity.
+
+105
+00:09:45,286 --> 00:09:48,495
+Um, and that is obviously a more advanced analytical skill.
+
+106
+00:09:48,496 --> 00:09:52,906
+It takes time and, uh, practice with qualitative data.
+
+107
+00:09:53,866 --> 00:09:58,666
+Um, and then of course, when it's time to move toward themes, things can feel even more uncertain.
+
+108
+00:09:58,966 --> 00:10:05,656
+If everything feels unique and nothing feels like it can be grouped, then themes can start to feel arbitrary.
+
+109
+00:10:05,896 --> 00:10:11,446
+Uh, like you're just pulling things out of a hat. You know, you are creating them without a real rationale.
+
+110
+00:10:11,716 --> 00:10:18,276
+And then ultimately that leads to a loss of confidence in our analysis because, uh, we're not sure it was real.
+
+111
+00:10:18,286 --> 00:10:26,565
+Like, did we just make all of this up? And so we want to those are the feelings that novices have when they're first doing inductive, uh, coding.
+
+112
+00:10:26,566 --> 00:10:30,975
+And so if you're having those trepidations, I guess I'm normalizing that for you.
+
+113
+00:10:30,976 --> 00:10:32,296
+Everybody starts there.
+
+114
+00:10:32,476 --> 00:10:43,876
+But in a program, uh, like a, uh, research based program, your goal is to move from those novice ways of thinking into expert ways of thinking.
+
+115
+00:10:44,080 --> 00:10:52,760
+So ultimately, what happens when you practice inductive coding, uh, iteratively is that you begin to see the data in a new way.
+
+116
+00:10:52,780 --> 00:11:01,330
+You learn what counts as a pattern. Uh, when two codes are actually capturing the same underlying idea and when a theme is beyond just a group.
+
+117
+00:11:01,750 --> 00:11:06,550
+Um, these aren't just procedural steps. These are analytic judgments.
+
+118
+00:11:06,820 --> 00:11:13,780
+And that's why this stage feels challenging, because you're moving through this process to develop an interpretive skill.
+
+119
+00:11:19,640 --> 00:11:26,990
+And your dissertation may very well be the first time you're ever experiencing any type of coding, much less an inductive approach.
+
+120
+00:11:27,200 --> 00:11:34,430
+To that end, you need to prepare yourself for these feelings and also allow yourself time to work through them because you can't ignore them.
+
+121
+00:11:34,430 --> 00:11:41,510
+And you certainly don't want to be swamped by them. Should you find yourself in the middle of the deepest, most difficult part of the process.
+
+122
+00:11:41,780 --> 00:11:48,680
+As you gain experience, the coding may become more intuitive, and that's where you can begin to see those connections more quickly.
+
+123
+00:11:48,848 --> 00:11:53,528
+So let's talk a little bit about those connections where codes become patterns.
+
+124
+00:11:53,858 --> 00:11:59,977
+Um, if inductive coding starts with a lot of codes and it feels super messy, what do we do next?
+
+125
+00:11:59,978 --> 00:12:01,819
+What do we do with that information? And this is where we.
+
+126
+00:12:01,887 --> 00:12:06,417
+And this is actually where analysis begin. Coding is kind of the first step.
+
+127
+00:12:06,567 --> 00:12:12,237
+But the real work of analysis is moving from individual codes into something more meaningful.
+
+128
+00:12:12,897 --> 00:12:17,327
+It's important to separate these two ideas. Coding is the process of labeling pieces of data.
+
+129
+00:12:17,337 --> 00:12:24,057
+It helps you organize and break the data apart. Analysis begins as you're starting to ask, how are these codes related?
+
+130
+00:12:24,237 --> 00:12:27,747
+What do they have in common? What larger idea do they point to?
+
+131
+00:12:28,077 --> 00:12:34,017
+And again, we sometimes do get stuck because we're at that coding level where we're just noticing what's there,
+
+132
+00:12:34,017 --> 00:12:36,807
+and we're not necessarily working to create meaning from it.
+
+133
+00:12:37,257 --> 00:12:44,277
+And the goal is not necessarily to get a bunch of codes together, but to really create connections between the codes that you've got.
+
+134
+00:12:44,787 --> 00:12:49,707
+Now, a pattern is not just something that shows up because it's frequent.
+
+135
+00:12:50,217 --> 00:12:54,327
+So just a number of codes does not necessarily suggest a pattern.
+
+136
+00:12:54,867 --> 00:13:02,127
+Patterns can take several forms. They can be repetition where we see the same thing across multiple participants.
+
+137
+00:13:02,337 --> 00:13:05,457
+It might be similarity that is different wording.
+
+138
+00:13:05,457 --> 00:13:10,820
+For us, the same underlying concept patterns can be patterns of difference, a different wording, um, and contrasts between kind of their meaning.
+
+139
+00:13:15,032 --> 00:13:19,562
+And then finally patterns can be processed. So these are would be like changes over time.
+
+140
+00:13:19,772 --> 00:13:21,830
+Um a development a progression. And this is again where you start to develop.
+
+141
+00:13:28,144 --> 00:13:34,564
+to seeing relationships and, uh, grouping codes into meaningful units is creating patterns.
+
+142
+00:13:34,804 --> 00:13:39,664
+So let's take a look of an example. Um, on its own, this is just one piece of data.
+
+143
+00:13:39,694 --> 00:13:45,064
+You know, coding gives us an initial idea, but analysis can begin when we connect to that data.
+
+144
+00:13:45,214 --> 00:13:49,984
+So let's just imagine that there's lots of data, um, across this quote okay.
+
+145
+00:13:49,984 --> 00:13:53,703
+So we've got many, many quotes that we're, uh, looking for. Imagine that.
+
+146
+00:13:53,704 --> 00:13:58,924
+I'm looking at those transcripts. And what I might see are evidence of repetition similarity difference in process.
+
+147
+00:13:59,224 --> 00:14:03,244
+Um, you know, in repetition they're slightly different, but repeating the same ideas.
+
+148
+00:14:03,244 --> 00:14:06,963
+There's early uncertainty about belonging in similarity.
+
+149
+00:14:06,964 --> 00:14:13,204
+It's not identical, but they are talking about social comparison or perceived inadequacy differences.
+
+150
+00:14:13,234 --> 00:14:18,694
+You know, they matter. They're not things that we want to ignore because it's inconvenient to deal with that tension.
+
+151
+00:14:18,994 --> 00:14:22,774
+And so, uh, those differences become analytically useful.
+
+152
+00:14:22,774 --> 00:14:26,134
+They're not distractions from our research project.
+
+153
+00:14:26,614 --> 00:14:31,534
+And then finally process, you know, other quotes like what you see in the text box,
+
+154
+00:14:31,744 --> 00:14:36,754
+just show that there's some uncertainty, there's, um, some adjustment that's happening over time.
+
+155
+00:14:43,260 --> 00:14:47,100
+what we want to make sure we're doing is developing a strong codebook.
+
+156
+00:14:47,370 --> 00:14:51,210
+It doesn't necessarily need to be fully formed when we first start.
+
+157
+00:14:51,330 --> 00:14:59,970
+It's actually something that should evolve over our analysis progress, because it helps us keep track of what we are doing with our data,
+
+158
+00:14:59,970 --> 00:15:04,680
+as we're making sense of what's present within the data, um, in a systematic way.
+
+159
+00:15:04,860 --> 00:15:12,390
+So a strong codebook includes, uh, of course, the code name, a working definition, and examples of what should and shouldn't count.
+
+160
+00:15:12,690 --> 00:15:19,919
+Now, this matters because your code will likely evolve over time and you may rename them, collapse them.
+
+161
+00:15:19,920 --> 00:15:24,720
+You may split them further, or you might decide that two codes are really capturing the same idea.
+
+162
+00:15:25,110 --> 00:15:30,000
+Um, maintaining a codebook helps you track your decisions and keep your analysis more coherent.
+
+163
+00:15:30,270 --> 00:15:34,140
+And this makes your reasoning more transparent to others.
+
+164
+00:15:40,406 --> 00:15:48,805
+So it's not necessarily super deep or detailed, but even just with this one piece of data, we can see that identifying distinct ideas as useful.
+
+165
+00:15:48,806 --> 00:15:52,496
+So we can see the uncertainty about belonging in comparison to others.
+
+166
+00:15:52,646 --> 00:15:57,986
+Realization about capability, um, and increased confidence is present within our code book.
+
+167
+00:15:58,196 --> 00:16:04,196
+Each code has that clear definition along with what does and doesn't count or what is or isn't included.
+
+168
+00:16:04,706 --> 00:16:08,756
+Um, and you can also see that there might be some overlap beginning.
+
+169
+00:16:08,756 --> 00:16:12,686
+So figuring out and growing confidence they seem to be a little related.
+
+170
+00:16:12,896 --> 00:16:21,026
+Now, as we analyze more data, we might recognize that these codes can shift and change, and we want to keep track of that as we move forward.
+
+171
+00:16:21,282 --> 00:16:29,142
+Early on in inductive coding, it's normal to have a lot of codes, but over time they begin to collapse into meaningful patterns.
+
+172
+00:16:29,592 --> 00:16:37,392
+That process is called codifying or codification, where we're making sense of our codebook, we're developing patterns, and we're making meaning,
+
+173
+00:16:37,782 --> 00:16:45,042
+um, that earlier challenge of, you know, recognizing what goes together is certainly present in the process of codification.
+
+174
+00:16:45,312 --> 00:16:49,752
+And it's not just that you don't know what you're doing at this stage,
+
+175
+00:16:49,752 --> 00:16:54,709
+it's just that you're at a natural point of tension when you begin to say, um, not what else can I code?
+
+176
+00:16:56,748 --> 00:16:59,428
+But which of these codes belong together? Now, just because we have groups or categories of codes doesn't mean we've reached the theme stage.
+
+177
+00:17:04,784 --> 00:17:08,924
+And I think this is a mistake that many novice inductive coders make.
+
+178
+00:17:09,224 --> 00:17:14,744
+Um, we need to actually go beyond just the groupings and find out what they mean.
+
+179
+00:17:15,044 --> 00:17:20,533
+Um, instead of just kind of saying what sticks together, we also want to ask, you know, what is this an example of?
+
+180
+00:17:20,534 --> 00:17:24,134
+Or, uh, what does this reflect in terms of a broader idea?
+
+181
+00:17:24,374 --> 00:17:28,604
+And that helps us move from description. We had to start it description.
+
+182
+00:17:28,604 --> 00:17:35,744
+But we need to move away from it. We need to start at description, but we need to move away from it into and toward interpretation.
+
+183
+00:17:36,164 --> 00:17:43,723
+So instead of just saying something feels unsure, you might begin to see this as like a part, uh, a broader, you know,
+
+184
+00:17:43,724 --> 00:17:50,954
+struggle with like making sense of, um, certainty as you are, you know, developing your learning identity or something.
+
+185
+00:17:51,434 --> 00:18:00,974
+Um, not every pattern becomes a theme. Uh, patterns really only become themes when they carry that meaning, that interpretive, analytic meaning.
+
+186
+00:18:01,454 --> 00:18:06,104
+Um, a strong theme does a few things. It captures something meaningful about the data.
+
+187
+00:18:06,104 --> 00:18:09,133
+It connects directly to our research question. After all,
+
+188
+00:18:09,134 --> 00:18:18,074
+that is and should be the guiding force behind all of the decisions we're making as we're doing our inductive coding and themes offer insight,
+
+189
+00:18:18,074 --> 00:18:24,674
+not just organization. Um, these aspects of themes are not just consistent with what Saldana says,
+
+190
+00:18:24,674 --> 00:18:32,894
+but also with what Brown and Clark say about their thematic analysis and how patterns, um, develop from shared meaning.
+
+191
+00:18:38,284 --> 00:18:44,434
+Um, okay, I've got the codes, I've got the patterns. But what takes me to themes and the answer is the analytic memo.
+
+192
+00:18:44,524 --> 00:18:48,214
+It is one of the most powerful tools in qualitative analysis.
+
+193
+00:18:48,574 --> 00:18:52,924
+A memo is where you write down your thinking as it develops.
+
+194
+00:18:52,954 --> 00:19:01,354
+It's not just a place to summarize the data. It's where you begin to interpret, connect ideas, and test possible explanations.
+
+195
+00:19:01,534 --> 00:19:04,954
+It's that record of your dialog with the data.
+
+196
+00:19:05,344 --> 00:19:10,864
+If coding helps breaks the data apart, Medaling helps put it back together in a meaningful way.
+
+197
+00:19:11,164 --> 00:19:17,434
+So this is where you start asking, you know what things might mean, but just capturing what you've asked.
+
+198
+00:19:17,884 --> 00:19:24,154
+A memo can include many kinds of things. You might write about what you notice in the data, what surprises you,
+
+199
+00:19:24,664 --> 00:19:31,143
+maybe what feels important to you, or what seems to connect and starts to make patterns out of um.
+
+200
+00:19:31,144 --> 00:19:33,844
+You also might reflect on your own choices.
+
+201
+00:19:33,844 --> 00:19:42,094
+You know why it feels like this code instead of that code, um, where you are not entirely sure if this code applies or if it's something else.
+
+202
+00:19:42,634 --> 00:19:50,824
+Uh, memos can help you notice your own assumptions, reactions, and connects your positionality to the way that you're working with the data.
+
+203
+00:19:51,224 --> 00:19:54,424
+Uh, so they're not just analytic, but they're also reflexive.
+
+204
+00:19:54,424 --> 00:20:01,594
+And some people will, uh, call it a reflexive memo, or some people will keep two separate memos and analytic one in a reflective one.
+
+205
+00:20:01,984 --> 00:20:05,734
+Uh, so you do have some, uh, leeway with how you memo.
+
+206
+00:20:05,734 --> 00:20:11,554
+But the point of the memo, regardless of what it's called or what form it takes, is to help you,
+
+207
+00:20:11,884 --> 00:20:17,614
+um, organize and bring together the meaning that you made after dialoging with the data.
+
+208
+00:20:17,884 --> 00:20:21,754
+It helps you move from those codes and patterns to the themes.
+
+209
+00:20:21,985 --> 00:20:27,895
+So let's take our quote again and apply it to this notion of patterns, themes and memos.
+
+210
+00:20:28,435 --> 00:20:34,855
+Now if we stay just at the grouping level, we might create categories like uncertainty, social comparison and confidence.
+
+211
+00:20:35,095 --> 00:20:38,334
+And those are useful. I mean this is organized.
+
+212
+00:20:38,335 --> 00:20:42,735
+It's true to the data, but they don't necessarily tell us anything new.
+
+213
+00:20:42,745 --> 00:20:49,345
+They're just describing what's there. Um, we don't necessarily say what does it mean?
+
+214
+00:20:49,735 --> 00:21:00,385
+And what we hope to do is move towards patterns like early uncertainty, comparison to others, and increasing confidence over time.
+
+215
+00:21:00,625 --> 00:21:06,115
+Now, as we move away from what is there into what does it mean?
+
+216
+00:21:06,325 --> 00:21:13,225
+We can then move into theming because we can see how these patterns are connected.
+
+217
+00:21:13,579 --> 00:21:16,909
+If categories grouped data, then themes explain it.
+
+218
+00:21:17,089 --> 00:21:25,039
+And you can see one theme that we might come up with from our, um, our our patterns of early uncertainty, comparison to others,
+
+219
+00:21:25,039 --> 00:21:31,039
+and increasing confidence over time is that developing confidence through navigating uncertainty in comparison,
+
+220
+00:21:31,309 --> 00:21:35,779
+um, is a theme that we're maybe seeing across these patterns, and that's really useful.
+
+221
+00:21:36,049 --> 00:21:43,499
+But we can actually push this one step further and connect it to our research question, imagining it was about, you know, student experiences.
+
+222
+00:21:43,519 --> 00:21:50,419
+We might say something like, students construct confidence over time by working through early uncertainty and social comparison.
+
+223
+00:21:50,749 --> 00:21:57,709
+Now those two things, both would be acceptable as kind of an endpoint for an inductive qualitative project.
+
+224
+00:21:58,009 --> 00:22:01,849
+Uh, but you can see that the second version is more of an analytical claim,
+
+225
+00:22:01,999 --> 00:22:13,579
+and that version moves us beyond description into making meaning in context of our purpose and research question, uh, in our research project.
+
+226
+00:22:13,939 --> 00:22:17,389
+So the strong theme captures the meaning. It answers the question.
+
+227
+00:22:17,389 --> 00:22:19,881
+It tells the reader something that they didn't already know. And you'll see this across analytic theme or theme.
+
+228
+00:22:25,523 --> 00:22:29,573
+not just Brown and Clark, not just to sell Narnia, but Creswell and many, many others.
+
+229
+00:22:29,813 --> 00:22:39,143
+So the shift here, when we're moving in through this quote is moving from categories which organize the data into themes, which interpret it.
+
+230
+00:22:48,197 --> 00:22:52,577
+But, um, discuss them, uh, within the larger, uh, broader context.
+
+231
+00:22:52,997 --> 00:22:56,807
+So here's a simple example of what a memo might have looked like.
+
+232
+00:22:56,807 --> 00:23:01,277
+Imagine I wrote many of these memos. I could see some patterns across them.
+
+233
+00:23:01,637 --> 00:23:08,746
+And as you'll notice in the, um, in the memo itself, uh, the author is asking questions.
+
+234
+00:23:08,747 --> 00:23:18,257
+They're noticing patterns. Uh, the value of memo being, um, is to give you space to, uh, capture that dialog, but then also,
+
+235
+00:23:19,067 --> 00:23:24,346
+uh, offload the cognitive taxation of having to remember everything because I guarantee you,
+
+236
+00:23:24,347 --> 00:23:31,337
+you cannot remember everything, particularly when you're doing an inductive project with, you know, more than a handful of interviewees.
+
+237
+00:23:31,577 --> 00:23:36,737
+Uh, so these memos can be short. They can be long, uh, they can be full of questions.
+
+238
+00:23:36,737 --> 00:23:43,247
+They can be full of things that you've noticed, regardless of how the memo is written or the form it takes,
+
+239
+00:23:43,427 --> 00:23:48,497
+it is meant to help you build stronger themes and more defendable interpretations.
+
+240
+00:23:48,760 --> 00:23:56,410
+Now, I mentioned earlier that it is often helpful if we can move from just a theme phrase into an analytical claim phrase,
+
+241
+00:23:56,710 --> 00:24:00,730
+and themes are often described as buckets that hold these related data.
+
+242
+00:24:00,730 --> 00:24:06,760
+And that can be that can be helpful, you know, as a heuristic for us to think about, you know, themes as containers of meaning.
+
+243
+00:24:06,940 --> 00:24:13,510
+But they're not just that, uh, this is where all of it comes together so that we can, uh, make our analytical claims.
+
+244
+00:24:13,836 --> 00:24:19,776
+Because imagine we've written multiple memos, and those memos capture our thinking about the case.
+
+245
+00:24:19,926 --> 00:24:22,926
+So now we need to make meaning across our memos.
+
+246
+00:24:22,926 --> 00:24:28,396
+We start asking ourselves, you know what? Ideas show up a few times over these memos.
+
+247
+00:24:28,416 --> 00:24:32,405
+You know what memos are saying similar things. Where do they differ?
+
+248
+00:24:32,406 --> 00:24:38,886
+So we're not just looking for patterns in the data, but we're also looking for patterns in where our thinking is captured.
+
+249
+00:24:39,516 --> 00:24:43,356
+We're not just looking at individual interviews and creating themes from them,
+
+250
+00:24:43,356 --> 00:24:49,266
+but we're building understanding, using the memo as the bridge to get us to these analytical claims.
+
+251
+00:24:49,656 --> 00:24:54,876
+Now a week theme is a descriptive theme, and you can see that on the screen, students feel uncertain.
+
+252
+00:24:55,056 --> 00:24:59,046
+I've read many qualitative reports that have themes that are phrased this way.
+
+253
+00:25:04,201 --> 00:25:07,530
+I already know that they feel uncertain because I read your findings.
+
+254
+00:25:07,531 --> 00:25:10,701
+Um, section. So I already know that they feel that way.
+
+255
+00:25:10,711 --> 00:25:14,131
+I don't need you to pull it together for me in that manner. Uh,
+
+256
+00:25:14,131 --> 00:25:18,870
+but a strong theme pulls it together for me as a reader in a way that I hadn't considered
+
+257
+00:25:18,871 --> 00:25:23,511
+it or didn't recognize because I hadn't spent as much time in the data as you had.
+
+258
+00:25:23,521 --> 00:25:29,431
+I only spent as much time in the data as what you provided, uh, through your thick, rich descriptions and your finding section.
+
+259
+00:25:29,731 --> 00:25:38,071
+Uh, so moving away from something descriptive, like students feel uncertain to something that is a little more meaningful, a little more analytic.
+
+260
+00:25:38,251 --> 00:25:46,421
+Uh, students navigate uncertainty as part of developing confidence that helps us move into that stronger, uh, second version of the theme.
+
+261
+00:25:46,441 --> 00:25:52,681
+It gives the reader insight. Um, it's not just labeling what's there, it's telling me what it means.
+
+262
+00:25:53,010 --> 00:25:58,760
+And as a novice researcher, you might think, well, these I mean, they are phrased differently, but they kind of mean the same thing.
+
+263
+00:25:58,770 --> 00:26:01,770
+And you're right. But this is the job of the researcher.
+
+264
+00:26:01,770 --> 00:26:10,650
+And this is where many, um, dissertations struggle in, uh, the writing of the final two chapters, the findings and, uh, the discussion chapters,
+
+265
+00:26:10,890 --> 00:26:17,700
+uh, because, uh, it's difficult to find the right words to move away from just what's there to what it actually means.
+
+266
+00:26:22,023 --> 00:26:27,332
+Because just like when you are writing, you know something and getting feedback on it.
+
+267
+00:26:27,333 --> 00:26:30,933
+You are improving it. The same thing is true for your thinking about your codes.
+
+268
+00:26:31,353 --> 00:26:36,213
+You are the one who's doing the work in the dissertation, not your chair or your committee members.
+
+269
+00:26:36,333 --> 00:26:43,323
+But talking about it with other people can really help you form your own and refine your own thinking.
+
+270
+00:26:43,533 --> 00:26:50,683
+And then through that, you can write yourself a little note to capture that thinking, and that can further inform your analytic process.
+
+271
+00:26:50,733 --> 00:26:57,033
+Um, as you're, you know, codifying your codebook, recognizing patterns and moving, uh, from patterns into,
+
+272
+00:26:57,033 --> 00:27:02,583
+uh, into creating themes across, uh, the data set across the memos, across the conversations.
+
+273
+00:27:02,973 --> 00:27:06,872
+Um, also, you know, finding the right phrasing, it takes some time.
+
+274
+00:27:06,873 --> 00:27:08,522
+You have to find a few drafts.
+
+275
+00:27:08,523 --> 00:27:13,863
+Just like when you're writing a research question, you might think the first research question is a good one, and maybe it's okay.
+
+276
+00:27:14,013 --> 00:27:19,232
+But as you refine your question, little tweaks here and there can make a big difference.
+
+277
+00:27:19,233 --> 00:27:24,123
+And the same is true with your, um, outcomes of your qualitative project.
+
+278
+00:27:24,383 --> 00:27:30,483
+Uh, so it takes many drafts to move through the discussion of a qualitative research project and, um, help,
+
+279
+00:27:30,733 --> 00:27:36,783
+uh, yourself and others move away from kind of the weak phrasings into the more stronger phrasings that are,
+
+280
+00:27:36,813 --> 00:27:46,023
+uh, around the idea of analytic claims as just to opposed, um, you know, like buckets, categories or, uh, descriptive, uh, um, themes of what's there.
+
+281
+00:27:48,878 --> 00:27:52,388
+You know, you've you've coded things. So you've broken the data apart.
+
+282
+00:27:52,598 --> 00:27:57,848
+You've thought about it. You've written memos. So you've captured your dialog with the data.
+
+283
+00:27:58,478 --> 00:28:04,688
+And then you work across those memos to identify patterns across to the participants and across your own thinking.
+
+284
+00:28:04,958 --> 00:28:14,318
+And then those patterns are where themes be come to life, um, and working to phrase those themes properly so that they're,
+
+285
+00:28:14,318 --> 00:28:18,068
+uh, less descriptive and more analytic, uh, takes a lot of work.
+
+286
+00:28:18,188 --> 00:28:24,218
+But that is the work of interpretation. That is the work of, um, inductive coding.
+
+287
+00:28:27,143 --> 00:28:30,213
+It's not even to produce as many categories as possible.
+
+288
+00:28:30,233 --> 00:28:38,633
+Our goal is to develop a clear, meaningful understanding of what is happening in the data, and that is what strong qualitative analysis does.
+
+289
+00:28:38,663 --> 00:28:41,933
+It helps us see something that we couldn't see before.
+
+290
+00:28:42,053 --> 00:28:45,083
+Not just saying what does it fit, but what's happening here.
+
+291
+00:28:45,213 --> 00:28:54,203
+My hope is that you understand inductive and deductive coding work together very well, and that they are not opposed or in um, hierarchy one another.
+
+292
+00:28:54,213 --> 00:29:01,353
+They are different ways of approaching the question. Uh, it's not asking what fits or how does this theory get proved.
+
+293
+00:29:01,443 --> 00:29:04,323
+It's asking what's happening in the data itself.
+
+294
+00:29:04,593 --> 00:29:12,693
+And so the inductive coding process is one that certainly feels overwhelming for novices and often can be, uh, but if your project demands it,
+
+295
+00:29:12,693 --> 00:29:17,852
+then you can go about it in a systematic way, recognizing that the struggle is likely to happen,
+
+296
+00:29:17,853 --> 00:29:21,183
+but then trusting yourself and your committee to work through it together.
+

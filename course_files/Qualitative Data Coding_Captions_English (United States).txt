@@ -1,0 +1,893 @@
+1
+00:00:00,212 --> 00:00:05,732
+[Auto-generated transcript. Edits may have been applied for clarity.]
+In this video I'm going to talk about qualitative data analysis.
+
+2
+00:00:06,032 --> 00:00:10,232
+And in particular I'm going to focus on deductive coding.
+
+3
+00:00:10,622 --> 00:00:16,772
+So what I'm going to do here is first I'm going to start out with a quick review of qualitative research.
+
+4
+00:00:17,132 --> 00:00:23,432
+Uh compared a little bit to quantitative research to kind of get you back into that qualitative,
+
+5
+00:00:23,432 --> 00:00:28,502
+um, mindset that you were able to use when you took the mixed methods course.
+
+6
+00:00:29,282 --> 00:00:36,002
+So then I'm also going to get into coding your data, uh, organizing your data, uh,
+
+7
+00:00:36,362 --> 00:00:43,262
+finding themes and doing all of this in relation to your theoretical or conceptual framework.
+
+8
+00:00:43,502 --> 00:00:49,548
+And also in by using kind of a form of thematic analysis.
+
+9
+00:00:53,362 --> 00:01:00,392
+And then finally we're going to do a little bit of a discussion of using a AI in qualitative research.
+
+10
+00:01:00,412 --> 00:01:11,642
+So let's get started here. So let's talk talk first about that refresher quantitative versus qualitative research.
+
+11
+00:01:11,912 --> 00:01:15,842
+So again quantitative research is about numbers.
+
+12
+00:01:15,842 --> 00:01:23,882
+It's quantifiable. It's generalizable. You're looking for a relationship between a dependent and an independent variable.
+
+13
+00:01:24,152 --> 00:01:28,892
+You're looking at maybe comparing groups in relation to those variables.
+
+14
+00:01:29,132 --> 00:01:35,552
+So it's more about how much how many how does how do these variables and numbers relate.
+
+15
+00:01:36,272 --> 00:01:41,722
+Qualitative research focuses on words themes, ideas, observations.
+
+16
+00:01:41,732 --> 00:01:50,282
+It's not generalizable. It's really about how individual participants interpret their in spirit experiences.
+
+17
+00:01:50,532 --> 00:01:56,352
+All right. So let's do a quick refresher on these qualitative research designs.
+
+18
+00:01:56,862 --> 00:02:03,312
+So if you recall from the beginning of the mixed methods course we talked about six qualitative research designs.
+
+19
+00:02:03,852 --> 00:02:12,582
+So descriptive or basic designs are commonly used in health professions education and in health care qualitative research.
+
+20
+00:02:12,822 --> 00:02:16,332
+So they explore how participants make sense of their experience.
+
+21
+00:02:16,542 --> 00:02:25,452
+So for example if you are trying out a new teaching intervention and you want to do a qualitative study about how the students experienced that,
+
+22
+00:02:25,782 --> 00:02:28,842
+you would most likely use a descriptive design.
+
+23
+00:02:29,712 --> 00:02:37,332
+Phenomenological designs are like descriptive designs, but they're more focused on the experience itself itself.
+
+24
+00:02:37,332 --> 00:02:45,342
+And those experiences are usually more emotional, um, and more transformational for the participants.
+
+25
+00:02:46,302 --> 00:02:52,482
+Grounded theory is truly inductive and focuses on building theory from the data.
+
+26
+00:02:52,482 --> 00:02:54,506
+So you wouldn't be using a framework here. So this is not something we're going to talk about in, um this particular um module.
+
+27
+00:03:05,263 --> 00:03:08,943
+And the narrative inquiry focuses on storytelling.
+
+28
+00:03:08,963 --> 00:03:17,383
+It's more biographical. So say you were doing an interview with someone using narrative inquiry.
+
+29
+00:03:17,383 --> 00:03:24,583
+I used air quotes because you're not really interviewing them. You're just saying, hey, tell me your story without any interview questions.
+
+30
+00:03:25,303 --> 00:03:34,571
+And then finally, case studies are an analysis of a bounded system and usually use multiple qualitative data sources.
+
+31
+00:03:34,753 --> 00:03:40,303
+So again, with qualitative research you are studying a phenomenon in context.
+
+32
+00:03:40,783 --> 00:03:49,543
+So because you're studying how experiences are interpreted in qualitative research, you're studying that phenomenon in a context.
+
+33
+00:03:49,543 --> 00:03:54,343
+For example medical students experiencing a new learning intervention.
+
+34
+00:03:54,553 --> 00:03:57,973
+The phenomena is the learning and from intervention.
+
+35
+00:03:58,663 --> 00:04:01,538
+And the context is medical school. So if you are new to qualitative research, which I think most of you are, um,
+
+36
+00:04:07,648 --> 00:04:14,038
+qualitative data analysis can be pretty confusing, especially compared to quantitative data analysis,
+
+37
+00:04:14,428 --> 00:04:26,128
+uh, where you kind of know, like if I'm comparing two groups and I have a continuous, um, DV, then I know I should use an Anova or a T test.
+
+38
+00:04:26,518 --> 00:04:30,838
+It's not always that kind of black and white with qualitative research.
+
+39
+00:04:31,498 --> 00:04:36,598
+So here's what I'm going to tell you. And this contradicts you are qualitative text here.
+
+40
+00:04:36,898 --> 00:04:40,378
+But my recommendation is for novice researchers.
+
+41
+00:04:40,408 --> 00:04:44,968
+Start with an analysis where you're using deductive coding.
+
+42
+00:04:45,388 --> 00:04:55,048
+Then you can use your um qualitative like a qualitative data analysis approach like Braun and Clark six Steps to thematic analysis.
+
+43
+00:04:55,408 --> 00:04:59,618
+And use your framework to kind of guide your analysis.
+
+44
+00:04:59,638 --> 00:05:05,338
+It gives you sort of some buckets or some barriers, um, with which to code.
+
+45
+00:05:06,358 --> 00:05:12,688
+So most frameworks provide constructs that you use as the buckets or categories for identifying the type of codes.
+
+46
+00:05:13,048 --> 00:05:16,828
+And as the text stated, you can quickly get overwhelmed with your data.
+
+47
+00:05:16,858 --> 00:05:24,238
+You can find so many things that could lead to like 4 or 5 other papers, then answering the research question you've written.
+
+48
+00:05:24,688 --> 00:05:28,707
+So coding deductively based on your framework gives you a place to start.
+
+49
+00:05:28,708 --> 00:05:32,398
+So let's keep that in mind as we continue through this video.
+
+50
+00:05:34,428 --> 00:05:39,198
+So let's talk about managing your data before you start coding.
+
+51
+00:05:39,228 --> 00:05:42,948
+You need to come up with a systematic way to manage your data.
+
+52
+00:05:43,158 --> 00:05:50,868
+So even qualitative. Even though qualitative research is about thoughts and ideas and it seems all hippie dippy and granola,
+
+53
+00:05:51,288 --> 00:05:56,238
+um, there really is a system and a process that you need to follow.
+
+54
+00:05:56,898 --> 00:06:00,058
+So first of all, you've got to determine how you're going to keep your data.
+
+55
+00:06:00,078 --> 00:06:03,908
+Are you going to keep it all electronically? Are you going to keep hard copies.
+
+56
+00:06:03,918 --> 00:06:12,258
+Are you going to keep both? Um, so I'm talking about like if you have interviewed transcripts, do you want to print them up and write on them,
+
+57
+00:06:12,258 --> 00:06:15,828
+or do you want to keep them electronic, encode them electronically.
+
+58
+00:06:16,548 --> 00:06:25,188
+Bottom line, though, whichever way you're going to save your data, make sure you keep you make a copy so you have a clean,
+
+59
+00:06:25,188 --> 00:06:35,508
+uncoated copy that you save electronically, and then you use the other copies, either electronic or hard copy, to do the data coding.
+
+60
+00:06:35,748 --> 00:06:40,758
+So keep those clean copies separate um, so that you have those.
+
+61
+00:06:41,055 --> 00:06:45,105
+Next you want to set up what what's called a data log.
+
+62
+00:06:45,285 --> 00:06:49,725
+And this is where I comes in. And I can help you create a data log.
+
+63
+00:06:50,205 --> 00:06:56,925
+Um, a kind of template that you can use and input your codes and things as you go.
+
+64
+00:06:57,375 --> 00:07:02,585
+So in your data log, though, you want to keep track of what did you collect and when.
+
+65
+00:07:02,595 --> 00:07:08,715
+So maybe, you know, if you're collecting interviews you're keeping track of every interview and the date.
+
+66
+00:07:09,045 --> 00:07:14,145
+Who conducted the interview? Was it in person or was it, um, online?
+
+67
+00:07:14,565 --> 00:07:26,115
+You keep that in the data log. If you are using, um, say, um, articles or not articles, uh, speeches and things and you're coding those,
+
+68
+00:07:27,075 --> 00:07:32,525
+keep a log of where you found the speeches, how you saved those those speeches.
+
+69
+00:07:32,535 --> 00:07:40,035
+So keep a log of all of that. You're also going to keep a coding log where you keep a history of all the codes you find.
+
+70
+00:07:40,335 --> 00:07:44,055
+You're going to keep what's called a codebook. So again.
+
+71
+00:07:45,145 --> 00:07:48,925
+AI is great for helping you create that code book. And that's going to.
+
+72
+00:07:48,955 --> 00:07:55,225
+You're going to talk about where and when you found the code, what the code relates to, what the code means.
+
+73
+00:07:55,435 --> 00:07:58,825
+You need to keep really detailed notes about all this.
+
+74
+00:07:59,172 --> 00:08:05,832
+In addition, you want to keep detailed notes throughout the process, not only about the data management logistics,
+
+75
+00:08:06,042 --> 00:08:14,502
+but also reflections like your initial thoughts after you collect the data, your initial thoughts after a focus group.
+
+76
+00:08:14,862 --> 00:08:22,122
+Um, or also you want to keep, um, keep notes about the participants.
+
+77
+00:08:22,542 --> 00:08:28,002
+Uh, how did how did they interact in the photo focus group who participated a lot, who didn't?
+
+78
+00:08:33,309 --> 00:08:39,759
+like things you noticed in the transcript that you didn't catch when you were actually conducting the focus group or the interview,
+
+79
+00:08:39,984 --> 00:08:43,673
+And then once you've got all that organized, you can clean your data.
+
+80
+00:08:43,674 --> 00:08:48,084
+So you're going to remove any content that will identify the participant.
+
+81
+00:08:48,384 --> 00:08:53,664
+And again any of that needs to be kept separate from any kind of transcripts.
+
+82
+00:08:54,084 --> 00:08:58,134
+Then you also remove any content that you don't want to code like you have.
+
+83
+00:08:58,164 --> 00:09:03,234
+You know, you already did, um, an interview um, focus group protocol call.
+
+84
+00:09:03,474 --> 00:09:08,664
+And you've got that long introduction and instructions. You can remove that from the transcript.
+
+85
+00:09:09,234 --> 00:09:14,363
+Um, the other thing I recommend you do is number the lines of the transcript document.
+
+86
+00:09:14,364 --> 00:09:17,124
+It just makes it easier for you to go back and forth and find things.
+
+87
+00:09:17,754 --> 00:09:23,574
+So again, it's really important that you keep a detailed log or audit trail of your process.
+
+88
+00:09:23,904 --> 00:09:28,434
+Um, you can include research and reflections in each step.
+
+89
+00:09:28,794 --> 00:09:37,434
+And then like I said, you can use AI tools to help you create a template for your data log in your data collection, um, templates.
+
+90
+00:09:37,614 --> 00:09:41,758
+Or you can just, you know, Google online and find some samples.
+
+91
+00:09:50,338 --> 00:09:53,398
+Detailed notes encoding, um, notes. Right.
+
+92
+00:09:53,818 --> 00:10:01,378
+So you're going to need to include details of your coding process in your dissertation proposal.
+
+93
+00:10:02,038 --> 00:10:05,367
+So you're not going to get too deep into your thoughts and feelings,
+
+94
+00:10:05,368 --> 00:10:13,378
+but you're going to need to include step by step, how are you coding the the data that you have.
+
+95
+00:10:13,708 --> 00:10:17,488
+And that information also will need to be in your IRB proposal.
+
+96
+00:10:17,848 --> 00:10:28,228
+So when you're looking at sample dissertations qualitative dissertations, look at the methods sections and how they talk about the coding process.
+
+97
+00:10:33,010 --> 00:10:38,170
+meaning using paper documents and little post-it notes and things like that?
+
+98
+00:10:38,440 --> 00:10:43,540
+Are you going to use Excel or coding tools like in vivo or deduce?
+
+99
+00:10:43,570 --> 00:10:46,571
+Are you going to use a a combination of both? So hand coding works well if you have a small data set.
+
+100
+00:10:50,933 --> 00:10:59,843
+And I find it particularly gratifying because I like, you know, that tactile feel and the use of colors to, to make connections between things.
+
+101
+00:11:00,323 --> 00:11:06,893
+Um, so that is definitely one option, but it can also feel kind of overwhelming.
+
+102
+00:11:07,283 --> 00:11:12,800
+Um, when your data set gets, you know, higher than 5 to 10 participants.
+
+103
+00:11:17,342 --> 00:11:21,092
+So online tools are better for managing larger data sets.
+
+104
+00:11:21,512 --> 00:11:27,362
+Um, you can use tools like in vivo and deduce to upload artifacts that you code in
+
+105
+00:11:27,362 --> 00:11:31,922
+much the same way you would by hand by adding notes and highlighting codes.
+
+106
+00:11:32,342 --> 00:11:38,612
+Um, but you also have the benefit of the tools ability to do word counts and create data displays.
+
+107
+00:11:38,972 --> 00:11:42,512
+That would be a little more cumbersome if you're hand coding.
+
+108
+00:11:43,322 --> 00:11:48,332
+So you can still have the fun of playing with data visualization like you do when you're hand coding,
+
+109
+00:11:48,452 --> 00:11:52,292
+but you have the added benefit of that computer brain.
+
+110
+00:11:52,440 --> 00:11:57,239
+So there's several qualitative data tools, data analysis tools, um,
+
+111
+00:11:57,240 --> 00:12:02,970
+that are available that can store and organize and categorize and help you analyze your data.
+
+112
+00:12:03,450 --> 00:12:08,760
+I don't recommend one tool over another. It tends to be just a matter of preference.
+
+113
+00:12:09,210 --> 00:12:19,620
+Um, you can access in vivo and Excel with your Odoo minus account, and some of the other tools like deduce offer free temporary access.
+
+114
+00:12:19,800 --> 00:12:22,940
+So those are things to consider as you're deciding on that.
+
+115
+00:12:22,950 --> 00:12:24,870
+Uh, the electronic tools.
+
+116
+00:12:25,339 --> 00:12:32,269
+So whichever tool you use, just make sure to document the tools that you use and how you will use them in your audit trail.
+
+117
+00:12:32,539 --> 00:12:35,629
+And in the methods section of your proposal.
+
+118
+00:12:40,646 --> 00:12:46,766
+So codes or words or short phrases that help you capture an attribute of your data.
+
+119
+00:12:47,516 --> 00:12:55,766
+So why should you code? Well, coding helps you connect the dots between each piece of information you've collected.
+
+120
+00:12:56,246 --> 00:13:04,616
+It's a systematic way of processing qualitative data to uncover patterns, meaning, and concepts within and across data sets.
+
+121
+00:13:04,946 --> 00:13:13,946
+So when you code deductively, you connect pieces of information to your research constructs using your theoretical or conceptual framework.
+
+122
+00:13:14,092 --> 00:13:17,992
+So what do you code? You code all the things.
+
+123
+00:13:18,352 --> 00:13:27,172
+Um, so any data you have collected, data can include transcripts of interviews, documents like news articles related to the construct.
+
+124
+00:13:27,532 --> 00:13:30,412
+You can code CVS of participants.
+
+125
+00:13:30,742 --> 00:13:40,642
+Um, you can also code your own field notes and add any visual representations, like pictures or artwork, that are related to your study.
+
+126
+00:13:48,019 --> 00:13:53,149
+It occurs while you're collecting data and can inform future data collection.
+
+127
+00:13:53,539 --> 00:13:59,899
+So this is really different than quantitative data where you collect all the data and then you analyze all the data.
+
+128
+00:14:00,439 --> 00:14:06,229
+So because you're analyzing your qualitative data as you collect it, coding allows you uh,
+
+129
+00:14:15,067 --> 00:14:18,067
+Therefore, coding is iterative and recursive.
+
+130
+00:14:18,277 --> 00:14:26,247
+So like I said, you would conduct an interview code that interview transcripts and then move on to the next interview,
+
+131
+00:14:26,257 --> 00:14:32,347
+because there are things you might find in that coding that impact how you conduct the next interview.
+
+132
+00:14:37,365 --> 00:14:40,484
+If you use semi-structured or unstructured interviews,
+
+133
+00:14:40,485 --> 00:14:48,855
+you can use what you learn from the coding or your first interview to add or remove or change questions in subsequent interviews.
+
+134
+00:14:49,185 --> 00:14:55,905
+This allows you to go deeper into a topic in ways that you may not have considered when you created the interview protocol.
+
+135
+00:14:56,102 --> 00:14:59,372
+Coding can be inductive or deductive.
+
+136
+00:14:59,852 --> 00:15:05,372
+So deductive coding can start with your theoretical framework and your research questions.
+
+137
+00:15:05,822 --> 00:15:12,362
+You use the framework in questions to identify codes, code buckets, or find excerpts to fit in buckets.
+
+138
+00:15:12,962 --> 00:15:15,352
+I'll provide an example on the next slide. Inductive coding starts with data and moves into codes and themes,
+
+139
+00:15:19,493 --> 00:15:24,833
+so this can be used in grounded theory where you don't have a framework but are building one from the data,
+
+140
+00:15:25,223 --> 00:15:31,943
+or in situations where you have a framework, but you want to be open to finding something unexpected in the data.
+
+141
+00:15:32,423 --> 00:15:37,523
+So you let the data talk to you rather than starting with any preconceived notions.
+
+142
+00:15:38,243 --> 00:15:43,013
+As I said before, I recommend that novice researchers start with deductive coding.
+
+143
+00:15:43,553 --> 00:15:51,353
+You can add a round of inductive coding after the deductive coding to explore for themes that are prevalent, but that may not fit in your framework.
+
+144
+00:15:51,923 --> 00:15:54,893
+You'll work with your dissertation chair as you create your data.
+
+145
+00:15:55,463 --> 00:16:02,003
+Code your data to determine whether you should code inductively, deductively or both.
+
+146
+00:16:02,291 --> 00:16:04,817
+Okay. So this is an example of one of our grids.
+
+147
+00:16:05,284 --> 00:16:08,494
+Oh it says eases framework and research questions.
+
+148
+00:16:09,124 --> 00:16:13,714
+Oh it was exploring sense of belonging among visible minority educators at a
+
+149
+00:16:13,714 --> 00:16:18,274
+community college using the sense of belonging framework depicted in this diagram.
+
+150
+00:16:18,814 --> 00:16:22,174
+So notice how Oasis tied his arcs to the framework.
+
+151
+00:16:23,164 --> 00:16:31,084
+Always was exploring how relationships with colleagues, supervisory support and value consonance impacted sense of belonging.
+
+152
+00:16:31,444 --> 00:16:38,404
+Using scholar, they can call this framework of belonging always initially started coding inductively,
+
+153
+00:16:38,404 --> 00:16:45,364
+and when he found over 165 codes in one of his first interviews, he knew he was in over his head.
+
+154
+00:16:46,144 --> 00:16:51,544
+He then coded deductively using the three elements of the framework and the research questions.
+
+155
+00:16:52,024 --> 00:17:00,394
+So he coded using buckets of value, continence, supervisory support, and relationships with colleagues as buckets for codes.
+
+156
+00:17:00,784 --> 00:17:08,464
+He identified codes within each of the three buckets, and was then able to move the codes into themes or categories.
+
+157
+00:17:08,575 --> 00:17:15,205
+Always used Braun and Clarke's six phases of thematic analysis to guide his data analysis process.
+
+158
+00:17:16,015 --> 00:17:22,945
+The Matic analysis is a method for identifying, analyzing, and reporting patterns or themes within your data,
+
+159
+00:17:24,055 --> 00:17:29,215
+so there are many published analysis steps similar to Braun and Clarke's that you can use.
+
+160
+00:17:29,665 --> 00:17:32,515
+Some are tied to specific research designs,
+
+161
+00:17:32,905 --> 00:17:39,932
+but Braun and Clarke steps are recommended for new qualitative researchers and can be used within different qualitative designs like descriptive,
+
+162
+00:17:50,945 --> 00:17:55,145
+This is one way you can use reflection in your analysis and your audit trail.
+
+163
+00:17:55,775 --> 00:17:59,705
+So remember what I talked about kind of planning out how you track everything.
+
+164
+00:17:59,705 --> 00:18:07,895
+You would track your reflections in your audit trail. So you'd move from codes to themes and then back to codes again,
+
+165
+00:18:08,135 --> 00:18:14,165
+reflecting on what you learned from each transcript and on what you learned as you become immersed in the data.
+
+166
+00:18:14,735 --> 00:18:19,775
+And you'll rely on your theoretical framework and research questions to keep you on track.
+
+167
+00:18:20,645 --> 00:18:25,085
+One tactic I recommend to keep you on track is to print a copy of your purpose,
+
+168
+00:18:25,265 --> 00:18:31,415
+research questions and framework, and hang it by your monitor as a reminder of the scope of your study.
+
+169
+00:18:32,077 --> 00:18:38,107
+In educational scholarship methods. You learned about code types like those in the table on this slide.
+
+170
+00:18:38,767 --> 00:18:42,787
+So you can choose to use specific code types in your data analysis.
+
+171
+00:18:43,507 --> 00:18:46,417
+Different code types can reveal different outcomes.
+
+172
+00:18:46,687 --> 00:18:52,687
+So you'll need to consider which code type to use based on your research purpose and your theoretical framework.
+
+173
+00:18:53,257 --> 00:19:01,297
+So for example, if I conduct interviews to learn about how Gen Z physician assistant students experience their first week of clinicals,
+
+174
+00:19:01,777 --> 00:19:08,647
+I might use in vivo coding to focus on their unique language and gerunds to capture the action.
+
+175
+00:19:09,397 --> 00:19:15,517
+Or, if I conduct focus groups to learn how working adults with children describe the dissertation experience,
+
+176
+00:19:15,517 --> 00:19:18,277
+I might use value and descriptive coding.
+
+177
+00:19:19,327 --> 00:19:28,357
+I recommend you reverb refer back to your Ed scholarship methods, text and your qualitative research text as you determine which type of codes to use.
+
+178
+00:19:28,754 --> 00:19:33,044
+So coding is how you assign a tag to various parts of your data.
+
+179
+00:19:33,344 --> 00:19:37,994
+So you can easily find it. Think of your coding as having a conversation with your data.
+
+180
+00:19:38,354 --> 00:19:45,824
+You're looking at the actual content, like words or images, but also you're looking for first impressions or categories that jump out at you.
+
+181
+00:19:46,544 --> 00:19:52,034
+When you code Deductively, you should be open to codes related to your framework and research questions.
+
+182
+00:19:52,574 --> 00:19:58,694
+For example, in the Faculty Belonging study, you might identify codes like giving advice,
+
+183
+00:19:58,814 --> 00:20:05,324
+celebrating success, sharing teaching tips that would fit in the relationship with colleagues bucket.
+
+184
+00:20:06,134 --> 00:20:14,261
+Or you could identify codes like and or abuse transparency and workload flexibility in the supervisory support bucket.
+
+185
+00:20:23,150 --> 00:20:27,710
+He was moving from the big picture of the framework to the details with the codes.
+
+186
+00:20:28,160 --> 00:20:33,680
+So as you identify a framework for your study, think about how you might use it to organize your codes.
+
+187
+00:20:33,764 --> 00:20:38,264
+So what's a code? Verses a theme, right? That can get kind of blurry.
+
+188
+00:20:38,894 --> 00:20:43,604
+Essentially, codes are much shorter bits of data and are used to build themes.
+
+189
+00:20:44,204 --> 00:20:53,264
+So then what's a theme? Well, a theme is an outcome of coding categories, categorization and analytic reflection.
+
+190
+00:20:53,654 --> 00:20:59,054
+It's not something to be coded itself. Themes are also sometimes called categories.
+
+191
+00:20:59,864 --> 00:21:02,444
+If your framework provides general buckets,
+
+192
+00:21:02,624 --> 00:21:09,794
+when you identify codes that you drop in the bucket and then make connections between the codes to make themes.
+
+193
+00:21:11,124 --> 00:21:12,888
+That then fit in the bucket. That makes sense anyway.
+
+194
+00:21:12,991 --> 00:21:15,301
+Hopefully one of these two images will help.
+
+195
+00:21:15,301 --> 00:21:23,491
+So in the image on the left, think of each individual chain link as a code and the combined links as a theme or on the right.
+
+196
+00:21:23,761 --> 00:21:28,681
+The dots blend together, the codes blend together to create a theme.
+
+197
+00:21:29,341 --> 00:21:37,951
+So going back to Oasis codes, the codes giving advice and sharing teaching tips might connect into a theme called
+
+198
+00:21:37,951 --> 00:21:45,121
+mentoring that would fit into then the relationship with colleagues bucket or the codes.
+
+199
+00:21:45,211 --> 00:21:53,521
+Transparency and workload flexibility could merge into the theme Open leadership, and that would be in the supervisory support bucket.
+
+200
+00:21:53,791 --> 00:21:55,111
+This is starting to make sense.
+
+201
+00:21:56,041 --> 00:22:04,591
+So one thing to keep in mind as you choose your qualitative design is that some qualitative designs have specific data analysis processes.
+
+202
+00:22:04,951 --> 00:22:08,581
+So be sure to do your homework when you're determining your analysis.
+
+203
+00:22:08,791 --> 00:22:14,131
+Design your analysis methods in relation to your qualitative design.
+
+204
+00:22:14,881 --> 00:22:20,940
+Because of this, you'll see different coding terms, including things like open and actual coding,
+
+205
+00:22:20,941 --> 00:22:25,081
+which you often see in phenomenology, and first and second order coding.
+
+206
+00:22:25,651 --> 00:22:30,121
+But like I said earlier, if this is your first time conducting qualitative research,
+
+207
+00:22:30,121 --> 00:22:38,299
+I recommend you use a process like Brown and Clark's thematic analysis, since it's pretty straightforward and suitable across qualitative designs.
+
+208
+00:22:42,104 --> 00:22:47,624
+We've talked about codes. We've talked about themes. And hopefully you kind of see how they all connect together.
+
+209
+00:22:48,104 --> 00:22:55,814
+Um, so finally I want to talk about AI coding. AI tools like ChatGPT can be used as an additional coder.
+
+210
+00:22:56,174 --> 00:23:01,964
+However, they must be used with caution and should only be used by experienced qualitative researchers.
+
+211
+00:23:02,654 --> 00:23:05,024
+In addition, hear me now!
+
+212
+00:23:05,294 --> 00:23:17,054
+Our dissertation guide does not allow use of AI for data analysis, so that means you won't be using AI as a coder in your dissertation.
+
+213
+00:23:17,774 --> 00:23:19,574
+But that doesn't mean you shouldn't learn about it.
+
+214
+00:23:20,594 --> 00:23:27,284
+So as a researcher, you'll need to review and critically evaluate the AI coding output for accuracy.
+
+215
+00:23:27,644 --> 00:23:32,234
+You'll also need to include an AI use statement whenever you use AI and your writing.
+
+216
+00:23:32,684 --> 00:23:40,004
+That includes an AI disclaimer in your appendices, and also a description of the process for using AI to code in your methods.
+
+217
+00:23:40,904 --> 00:23:49,694
+If you use AI to code, you'll need to obtain consent from all participants prior to coding because their data is being shared with the AI provider.
+
+218
+00:23:50,564 --> 00:24:01,274
+Finally, most journals and the map dissertation guide have AI policies, so check for AI requirements before you decide to use AI as a coder.
+
+219
+00:24:01,351 --> 00:24:07,051
+As you develop your qualitative data analysis design, you need to consider several things.
+
+220
+00:24:07,051 --> 00:24:15,811
+You need to consider your experience level. With qualitative research, you need to consider the qualitative design type.
+
+221
+00:24:16,051 --> 00:24:22,921
+You need to consider the types of data you have. Consider your framework and consider your research questions.
+
+222
+00:24:24,011 --> 00:24:28,091
+Think of all of these things as you design your own analysis plan.
+
+223
+00:24:28,151 --> 00:24:37,181
+And most importantly, when you reach the dissertation phase, work closely with your chair to identify the best design and methods for your study.
+
