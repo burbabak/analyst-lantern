@@ -575,11 +575,11 @@ if user_input:
     output_token_est = estimate_tokens(reply)
     st.session_state.total_tokens_est += input_token_est + output_token_est
     st.session_state.last_activity_time = now_ts()
-        append_turn_log(
-        user_text=user_input,
-        assistant_text=reply,
-        domain=domain,
-        thinking_type=thinking_type,
+    append_turn_log(
+    user_text=user_input,
+    assistant_text=reply,
+    domain=domain,
+    thinking_type=thinking_type,
     )
 
 with st.sidebar.expander("Instructor data export"):
