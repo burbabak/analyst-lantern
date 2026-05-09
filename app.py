@@ -582,12 +582,13 @@ if user_input:
     thinking_type=thinking_type,
     )
 
-with st.sidebar.expander("Instructor data export"):
-    export_password = st.text_input(
-        "Instructor password",
-        type="password",
-        key="export_password"
-    )
+if st.query_params.get("admin") == "true":
+    with st.sidebar.expander("Instructor data export"):
+        export_password = st.text_input(
+            "Instructor password",
+            type="password",
+            key="export_password"
+        )
 
     if export_password == st.secrets.get("EXPORT_PASSWORD", ""):
         if os.path.exists(SESSIONS_FILE):
