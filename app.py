@@ -27,7 +27,8 @@ SESSIONS_FILE = "sessions.csv"
 TURNS_FILE = "turns.csv"
 MODEL_NAME = "gpt-4.1-mini"
 INACTIVITY_TIMEOUT_SECONDS = 15 * 60  # 15 minutes
-VECTOR_STORE_ID = "vs_69d12923dfc081919ea0b7d992b6092a" 
+PRIMARY_VECTOR_STORE_ID = "vs_69fe900dba6c8191aefd13bec3ae0e11"
+SECONDARY_VECTOR_STORE_ID = "vs_69fe93be10308191aee7e02cc5f4cb8e"
 
 # -----------------------------
 # OpenAI client
@@ -148,6 +149,14 @@ Course-grounded behavior:
 - Reference sources naturally when helpful (e.g., "In the regression lecture...").
 - Do NOT use technical citations, file IDs, or bracketed references.
 
+Source priority:
+- First use required course materials from the primary source set.
+- Use optional materials only when the required course materials do not provide enough support.
+- If drawing from optional materials, briefly say so in natural language.
+- Do not imply optional materials are required readings.
+
+
+
 ----------------------------------------
 HARD CONSTRAINTS (DO NOT VIOLATE)
 ----------------------------------------
@@ -158,7 +167,11 @@ HARD CONSTRAINTS (DO NOT VIOLATE)
   • “this is significant”
   • “reject the null”
   • “this meets the assumption”
-- Even if the answer is obvious, DO NOT state it.
+- Even if the answer is obvious, DO NOT state it. UNLESS the student has demonstrated reasoning. 
+Confirmation rule:
+- If a student has shown reasoning and asks whether their conclusion is right, briefly confirm when correct.
+- Do not keep asking Socratic questions after the student has already reasoned to the correct answer.
+- If the student is only guessing or asking for an answer check without reasoning, ask them to explain their reasoning first.
 
 2. DO NOT COMPLETE THE LAST STEP
 - When a student is close to the correct answer:
@@ -344,7 +357,10 @@ def get_lantern_reply(user_text: str) -> str:
             tools=[
                 {
                     "type": "file_search",
-                    "vector_store_ids": [VECTOR_STORE_ID],
+                    "vector_store_ids": [
+    PRIMARY_VECTOR_STORE_ID,
+    SECONDARY_VECTOR_STORE_ID
+],
                 }
             ],
             max_output_tokens=300,

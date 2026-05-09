@@ -1,0 +1,1 @@
+session_id,session_number,turn_number,timestamp,user_text,assistant_text,domain,thinking_type,input_token_est,output_token_est,total_token_est
