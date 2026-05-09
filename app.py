@@ -575,10 +575,38 @@ if user_input:
     output_token_est = estimate_tokens(reply)
     st.session_state.total_tokens_est += input_token_est + output_token_est
     st.session_state.last_activity_time = now_ts()
-
-    append_turn_log(
+        append_turn_log(
         user_text=user_input,
         assistant_text=reply,
         domain=domain,
         thinking_type=thinking_type,
     )
+
+with st.sidebar.expander("Instructor data export"):
+    export_password = st.text_input(
+        "Instructor password",
+        type="password",
+        key="export_password"
+    )
+
+    if export_password == st.secrets.get("EXPORT_PASSWORD", ""):
+        if os.path.exists(SESSIONS_FILE):
+            with open(SESSIONS_FILE, "rb") as f:
+                st.download_button(
+                    "Download sessions.csv",
+                    f,
+                    file_name="sessions.csv",
+                    mime="text/csv"
+                )
+
+        if os.path.exists(TURNS_FILE):
+            with open(TURNS_FILE, "rb") as f:
+                st.download_button(
+                    "Download turns.csv",
+                    f,
+                    file_name="turns.csv",
+                    mime="text/csv"
+                )
+    elif export_password:
+        st.error("Incorrect password.")
+
