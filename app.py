@@ -25,7 +25,7 @@ APP_TITLE = "Analyst's Lantern"
 APP_SUBTITLE = "A bounded guide for thinking through analysis."
 SESSIONS_FILE = "sessions.csv"
 TURNS_FILE = "turns.csv"
-MODEL_NAME = "gpt-5.1"
+MODEL_NAME = "gpt-4.1-mini"
 INACTIVITY_TIMEOUT_SECONDS = 15 * 60  # 15 minutes
 PRIMARY_VECTOR_STORE_ID = "vs_69fe900dba6c8191aefd13bec3ae0e11"
 SECONDARY_VECTOR_STORE_ID = "vs_69fe93be10308191aee7e02cc5f4cb8e"
@@ -78,69 +78,58 @@ def estimate_tokens(text: str) -> int:
 
 
 def classify_user_message(user_text: str) -> tuple[str, str]:
-    prompt = f"""
-Classify the student's message in two ways.
+    text = user_text.lower()
 
-1. Domain:
-- quant
-- qual
-- other
+    quant_terms = [
+        "p value", "p-value", "significant", "alpha", "null", "hypothesis",
+        "anova", "mlr", "regression", "logistic", "coefficient", "beta",
+        "odds", "vif", "tolerance", "durbin", "watson", "residual",
+        "normality", "homoscedasticity", "assumption", "spss",
+        "mean", "standard deviation", "correlation", "ancova", "manova"
+    ]
 
-2. Thinking type:
-- procedural
-- interpretive
-- evaluative
-- other
+    qual_terms = [
+        "qualitative", "interview", "theme", "coding", "codebook",
+        "credibility", "dependability", "confirmability", "transferability",
+        "trustworthiness", "reflexivity", "positionality", "memo",
+        "thematic", "phenomenology", "grounded theory", "case study",
+        "data collection", "participant", "transcript"
+    ]
 
-Definitions:
-- procedural = asks about steps, mechanics, software, calculations, tests, coding, or how to do something
-- interpretive = asks what findings mean, how to explain results, or how to connect findings to a research question or argument
-- evaluative = asks whether something is appropriate, aligned, justified, rigorous, trustworthy, defensible, strong, weak, or suitable
-- other = anything else
+    procedural_terms = [
+        "how do i", "how to", "steps", "run", "do this", "calculate",
+        "check", "threshold", "assumptions", "what test", "which test"
+    ]
 
-Return ONLY:
-domain,thinking_type
+    interpretive_terms = [
+        "mean", "means", "interpret", "explain", "write up",
+        "what does", "so what", "results mean", "connect", "rq",
+        "research question"
+    ]
 
-Student message:
-{user_text}
-""".strip()
+    evaluative_terms = [
+        "right", "correct", "appropriate", "good", "bad", "strong",
+        "weak", "adequate", "aligned", "defensible", "justified",
+        "critique", "evaluate", "best", "should i"
+    ]
 
-    try:
-        response = client.responses.create(
-            model=MODEL_NAME,
-            input=prompt,
-            max_output_tokens=10,
-        )
+    if any(term in text for term in quant_terms):
+        domain = "quant"
+    elif any(term in text for term in qual_terms):
+        domain = "qual"
+    else:
+        domain = "other"
 
-        text = response.output_text.strip().lower()
+    if any(term in text for term in evaluative_terms):
+        thinking_type = "evaluative"
+    elif any(term in text for term in interpretive_terms):
+        thinking_type = "interpretive"
+    elif any(term in text for term in procedural_terms):
+        thinking_type = "procedural"
+    else:
+        thinking_type = "other"
 
-        # Normalize common variants
-        text = text.replace("evaluation", "evaluative")
-        text = text.replace("quantitative", "quant")
-        text = text.replace("qualitative", "qual")
-
-        parts = [p.strip() for p in text.split(",")]
-
-        if len(parts) == 2:
-            domain, thinking_type = parts
-
-            if domain not in {"quant", "qual", "other"}:
-                domain = "other"
-
-            if thinking_type not in {
-                "procedural",
-                "interpretive",
-                "evaluative",
-                "other",
-            }:
-                thinking_type = "other"
-
-            return domain, thinking_type
-
-    except Exception:
-        pass
-
-    return "other", "other"
+    return domain, thinking_type
 
 
 def build_system_prompt() -> str:
