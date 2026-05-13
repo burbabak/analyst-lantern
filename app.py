@@ -76,7 +76,62 @@ def estimate_tokens(text: str) -> int:
     # Rough estimate: ~4 characters per token
     return max(1, len(text) // 4)
 
+import base64
+import requests
 
+def persist_file_to_github(local_path: str, repo_path: str) -> None:
+    token = st.secrets.get("GITHUB_TOKEN", None)
+    owner = st.secrets.get("GITHUB_REPO_OWNER", "burbabak")
+    repo = st.secrets.get("GITHUB_REPO_NAME", "analyst-lantern")
+    branch = st.secrets.get("GITHUB_BRANCH", "main")
+
+    if not token:
+        return
+
+    if not os.path.exists(local_path):
+        return
+
+    with open(local_path, "rb") as f:
+        content = base64.b64encode(f.read()).decode("utf-8")
+
+    url = f"https://api.github.com/repos/{owner}/{repo}/contents/{repo_path}"
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+    }
+
+    # Get existing file SHA if it exists
+    get_resp = requests.get(
+        url,
+        headers=headers,
+        params={"ref": branch},
+        timeout=10,
+    )
+
+    sha = None
+    if get_resp.status_code == 200:
+        sha = get_resp.json().get("sha")
+
+    payload = {
+        "message": f"Update {repo_path}",
+        "content": content,
+        "branch": branch,
+    }
+
+    if sha:
+        payload["sha"] = sha
+
+    put_resp = requests.put(
+        url,
+        headers=headers,
+        json=payload,
+        timeout=10,
+    )
+
+    if put_resp.status_code not in (200, 201):
+        print("GitHub persistence failed:", put_resp.status_code, put_resp.text)
+        
 def classify_user_message(user_text: str) -> tuple[str, str]:
     text = user_text.lower()
 
@@ -324,6 +379,7 @@ def append_turn_log(
             ],
         )
         writer.writerow(row)
+        persist_file_to_github(TURNS_FILE, "research_logs/turns.csv")
 
 
 def compute_session_summary() -> dict:
@@ -364,6 +420,7 @@ def save_session_summary() -> None:
             ],
         )
         writer.writerow(row)
+        persist_file_to_github(SESSIONS_FILE, "research_logs/sessions.csv")
 
     st.session_state.session_saved = True
 
