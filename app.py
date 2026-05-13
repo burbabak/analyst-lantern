@@ -89,17 +89,17 @@ Classify the student's message in two ways.
 2. Thinking type:
 - procedural
 - interpretive
-- evaluation
+- evaluative
 - other
 
 Definitions:
-- procedural = asks about steps, tests, mechanics, what to run, how to do it
-- interpretive = asks what findings mean, how to explain results, how to connect results to a research question or argument
-- evaluation = asks whether something is appropriate, justified, adequate, strong, weak, aligned, or defensible
+- procedural = asks about steps, mechanics, software, calculations, tests, coding, or how to do something
+- interpretive = asks what findings mean, how to explain results, or how to connect findings to a research question or argument
+- evaluative = asks whether something is appropriate, aligned, justified, rigorous, trustworthy, defensible, strong, weak, or suitable
 - other = anything else
 
-Return ONLY this format:
-domain,type
+Return ONLY:
+domain,thinking_type
 
 Student message:
 {user_text}
@@ -111,15 +111,32 @@ Student message:
             input=prompt,
             max_output_tokens=10,
         )
+
         text = response.output_text.strip().lower()
+
+        # Normalize common variants
+        text = text.replace("evaluation", "evaluative")
+        text = text.replace("quantitative", "quant")
+        text = text.replace("qualitative", "qual")
+
         parts = [p.strip() for p in text.split(",")]
+
         if len(parts) == 2:
             domain, thinking_type = parts
+
             if domain not in {"quant", "qual", "other"}:
                 domain = "other"
-            if thinking_type not in {"procedural", "interpretive", "evaluation","other"}:
+
+            if thinking_type not in {
+                "procedural",
+                "interpretive",
+                "evaluative",
+                "other",
+            }:
                 thinking_type = "other"
+
             return domain, thinking_type
+
     except Exception:
         pass
 
