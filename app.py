@@ -6,7 +6,7 @@ from datetime import datetime
 
 import streamlit as st
 from openai import OpenAI
-
+from supabase import create_client
 
 # -----------------------------
 # Page setup
@@ -39,6 +39,13 @@ client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 # -----------------------------
 # Helpers
 # -----------------------------
+@st.cache_resource
+def get_supabase_client():
+    return create_client(
+        st.secrets["SUPABASE_URL"],
+        st.secrets["SUPABASE_SERVICE_KEY"]
+    )
+
 def now_ts() -> float:
     return time.time()
 
@@ -361,25 +368,8 @@ def append_turn_log(
 
     st.session_state.turn_logs.append(row)
 
-    with open(TURNS_FILE, "a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(
-            f,
-            fieldnames=[
-                "session_id",
-                "session_number",
-                "turn_number",
-                "timestamp",
-                "user_text",
-                "assistant_text",
-                "domain",
-                "thinking_type",
-                "input_token_est",
-                "output_token_est",
-                "total_token_est",
-            ],
-        )
-        writer.writerow(row)
-        persist_file_to_github(TURNS_FILE, "research_logs/turns.csv")
+    supabase = get_supabase_client()
+    supabase.table("turns").insert(row).execute()
 
 
 def compute_session_summary() -> dict:
@@ -405,22 +395,8 @@ def save_session_summary() -> None:
 
     row = compute_session_summary()
 
-    with open(SESSIONS_FILE, "a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(
-            f,
-            fieldnames=[
-                "session_id",
-                "session_number",
-                "start_timestamp",
-                "end_timestamp",
-                "duration_seconds",
-                "message_count",
-                "token_count_est",
-                "classified_turn_count",
-            ],
-        )
-        writer.writerow(row)
-        persist_file_to_github(SESSIONS_FILE, "research_logs/sessions.csv")
+    supabase = get_supabase_client()
+    supabase.table("sessions").insert(row).execute()
 
     st.session_state.session_saved = True
 
