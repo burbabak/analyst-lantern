@@ -370,6 +370,7 @@ def append_turn_log(
 
     supabase = get_supabase_client()
     supabase.table("turns").insert(row).execute()
+    save_session_summary(mark_saved=False)
 
 
 def compute_session_summary() -> dict:
@@ -389,16 +390,17 @@ def compute_session_summary() -> dict:
     }
 
 
-def save_session_summary() -> None:
-    if st.session_state.session_saved:
+def save_session_summary(mark_saved: bool = True) -> None:
+    if st.session_state.session_saved and mark_saved:
         return
 
     row = compute_session_summary()
 
     supabase = get_supabase_client()
-    supabase.table("sessions").insert(row).execute()
+    supabase.table("sessions").upsert(row, on_conflict="session_id").execute()
 
-    st.session_state.session_saved = True
+    if mark_saved:
+        st.session_state.session_saved = True
 
 def inactivity_expired() -> bool:
     return (now_ts() - st.session_state.last_activity_time) > INACTIVITY_TIMEOUT_SECONDS
